@@ -5,40 +5,106 @@
 body { 
   min-height: 100vh;
   font-family: Ubuntu, sans-serif;
-  margin: 2rem;
-  background-color: hsl(250,10%,55%);
+  background-color: gray;
+  margin: 0;
+  padding: 0;
 }
+
+.column {
+  float: left;
+  min-width: 33.33%;
+  min-height: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-left {
+  box-sizing: border-box;
+  flex-grow: 1;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.section-middle {
+  box-sizing: border-box;
+  width: 33.333%;
+  min-width: 200pt;
+  height: 100%;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px 1px 0px 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*background-image: url("pay_for_me.png");
+  background-repeat: repeat-x;
+  background-size: 40px;*/
+  filter:invert(100%);
+  background-color: black;
+}
+
+.section-middle img{
+  position: relative;
+  top: .3em;
+  height: 1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.section-middle p{
+
+  margin: 0px;
+  padding: 0px;
+  font-size: 22px;
+  color:#fff;
+}
+
+.section-right{
+  box-sizing: border-box;
+  flex-grow: 1;
+  
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.section{
+  /*display: inline-block;*/
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.content {
+  max-width: 842px;
+  min-width: 300px;
+  margin: auto;
+  box-sizing: border-box;
+}
+/*
+@media only screen and (max-width: 862px) {
+  .content {max-width: 400px;}
+}*/
+
 .flex-container {
-    /* We first create a flex layout context */
-    /*
-    display: flex;
-     
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    align-content: space-between;
-    list-style-type:none;
-    margin: 5px;
-    border: 5px solid #333;
-    background-color: #fff;
-    margin-bottom: 2rem;
-    max-width: 1200px;
-    overflow: auto;*/
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
-    margin: 5px;
-    border: 5px solid #333;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 0px 1px;
     background-color: #fff;
-    max-width: 1200px;
-    min-width: 300px;
+    width: 100%;
   }
 
 .flex {
   margin: 10px;
   max-width: 100%;
-  max-width: 300px;
-  max-height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,6 +113,8 @@ body {
   text-overflow: ellipsis;
   box-sizing: border-box;
   position: relative;
+  object-fit: contain;
+  flex-basis: 400px;
 }
 
 .flex p{
@@ -55,26 +123,32 @@ body {
 }
 
 .date {
-  position: absolute;
-  display: flex;
-  bottom: 0;
+  position: relative;
+  display: inline;
 }
 
 .date p{
-  
+  float: right;
   background-color: yellow;
 }
 
-.text {
-  display: flex;
-  flex-wrap: wrap;
-  /*flex-direction: row;*/
-  justify-content: flex-end; /* horizontal position */
-  align-items: flex-end; /* vertical position */
+.overlays {
   position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.text {
+  display: inline;
+  float: right;
+  /*flex-direction: row;*//* horizontal position */
+  /* vertical position */
   max-width: 100%;
+  position: relative;
   overflow: auto;
   width: 100%;
+  text-align: right;
 }
 
 .text br{
@@ -82,10 +156,27 @@ body {
   margin-bottom: -.4em;
 }
 
-.text h3{
+.text h1{
+  display: inline-block;
   background-color: red;
+  text-align: right;
   margin: 0px;
+  margin-right: 5px;
   padding: 0px;
+  font-size: 1.35em;
+}
+
+.preview {
+  display: inline;
+  position: relative;
+  max-width: 60%;
+}
+
+.preview p {
+  display: inline-block;
+  background-color: #fff;
+  text-align: right;
+  max-width: 60%;
 }
 
 .snippet {
@@ -102,10 +193,13 @@ body {
 }
 
 .text p{
+  display: inline-block;
   overflow: hidden;
   background-color: yellow;
   margin: 0px;
   padding: 0px;
+  width: 70%;
+  text-align: left;
 }
 
 .flex img{
@@ -119,26 +213,20 @@ body {
   display: block;
 }
 
-/* optional: alternately flips module layout 
-.flex:nth-child(odd) {
-  flex-direction: row-reverse;
+.bottom {
+  background-image: url("pay_for_me.png");
+  background-repeat: repeat-x;
+  margin-top: 0px;
+  width:100%;
+  height: 40px;
+  /*filter: invert(100%);*/
+  background-size: 40px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 0px 0px 0px;
+  box-sizing: border-box;
 }
 
-.flex div:first-child {
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-}
-.flex:first-of-type div:first-child {
-  background-image: url("white flag jasper johns.jpg");
-}
-.flex:last-of-type div:first-child {
-  background-image: url("black dragon.jpg");
-}
-.flex div:last-child {
-  margin: 2rem;
-  flex: 2;
-}*/
 .test-header{
   max-width: 300px;
   max-height: 300px;
@@ -148,64 +236,3 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/*
-.flex h3 {
-  font-size: 1.5rem;
-  margin-top: 0;
-  font-weight: 400;
-  max-width: 40%;
-  display: block;
-
-  max-width: 300px;
-  max-height: 300px;
-  display: block;
-  position: absolute;
-  top: 20%;
-  left: 66%;
-  transform: translate(20%, -50%);
-}*/
-/*
-.flex p {
-  background-color: #fff;
-  font-size: 1rem;
-  line-height: 1.4;
-  font-weight: 400;
-  max-width: 40%;
-
-}
-.flex p:last-of-type {
-  margin-bottom: 0;
-}
-.column {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 700px;
-}
-/*
-@media all and (max-width: 600px) {
-  body { margin: 0; }
-  /* .flex div { flex: 1 !important; } optional: equalizes the visual "weight" of the photo and description*/
-/*}
-@media all and (max-width: 450px) {
-  h2 {
-    margin: 1rem;
-  }
-  .flex {
-    border: 0;
-    margin: 0;
-    border-bottom: 2px solid #333;
-  }
-  .flex div:last-child {
-    margin: 1rem;
-  }
-  .column {
-    width: 100%;
-  }
-}
-@media all and (max-width: 400px) {
-  .flex { flex-direction: column; } 
-  .flex div:first-child {
-    min-height: 200px;
-  }
-}
-*/
