@@ -70,6 +70,7 @@ body {
   max-width: 1200px;
   min-width: 300px;
   margin: auto;
+  overflow: hidden;
 }
 /*
 @media only screen and (max-width: 862px) {
@@ -84,6 +85,7 @@ body {
   border-style: solid;
   border-color: black;
   border-width: 0px 1px 0px 0px;
+  overflow: hidden;
 }
 
 .featured {
@@ -102,22 +104,26 @@ body {
 }
 
 .featured-container {
-  display: block;
+  display: flex;
   background-image: url(mockup_images/featured_bg.png);
   margin: 5%;
   filter: invert();
   max-height: 100%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
 }
 
 .featured-post{
   display: flex;
   filter: invert();
-  margin: auto; 
-  max-width: 80%;
-  height: 80%;
+  max-width: 90%;
+  height: 90%;
+  margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
+  overflow: hidden;
 }
 
 .featured-post img{
@@ -148,31 +154,38 @@ body {
   height: 50%;
   background-color: red;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .flex-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #fff;
+  display: flex;
+  width: 100%;
+  height: 540px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  overflow-y:scroll;
 }
 
+/*at the end, put in a media query to remove max-height*/
+
 .flex {
+  position: relative;
   margin: 10px;
   max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
   overflow: hidden;
   text-overflow: ellipsis;
   box-sizing: border-box;
   position: relative;
+  align-content: flex-start;
   object-fit: contain;
   flex-basis: 250px;
+  flex-grow: 1;
   max-height: 250px;
 }
 
@@ -182,6 +195,7 @@ body {
 }
 
 .flex img{
+  margin: 0;
   max-height: 100%;
   min-width: 100%;
   object-fit: contain;
@@ -229,8 +243,10 @@ body {
 }
 
 .preview {
+  display: block;
   margin: 0;
   font-size: 11px;
+  padding: 0;
 }
 
 .preview p{
@@ -258,11 +274,20 @@ body {
   display: block;
 }
 
+.bottom-content{
+  max-width: 1200px;
+  min-width: 300px;
+  margin: auto;
+  filter: invert();
+}
+
 .bottom {
+  display: inline-block;
   background-image: url("pay_for_me.png");
   background-repeat: repeat-x;
+  margin: auto;
   margin-top: 0px;
-  width:100%;
+  width:1200px;
   height: 40px;
   /*filter: invert(100%);*/
   background-size: 40px;
