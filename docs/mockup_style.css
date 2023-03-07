@@ -169,7 +169,33 @@ body {
   overflow-y:scroll;
 }
 
-/*at the end, put in a media query to remove max-height*/
+/*at the end, put in a media query to remove aspect ratio constraint*/
+.regular-holder {
+  flex-basis: 250px;
+  aspect-ratio: 1/1;
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.regular-labeled-image {
+  display: flex;
+  aspect-ratio: 4/3;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.regular-labeled-image img{
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
 
 .flex {
   position: relative;
@@ -209,6 +235,13 @@ body {
 
 .date p{
   background-color: yellow;
+}
+
+.text-holder {
+  position: absolute;
+  height:75%;
+  width: calc(75% * 1.25);
+  margin: auto;
 }
 
 .text {
