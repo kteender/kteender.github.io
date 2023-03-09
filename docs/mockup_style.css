@@ -35,6 +35,24 @@ body {
   background-color: black;
 }
 
+.small-section-middle {
+  box-sizing: border-box;
+  width: 33.333%;
+  min-width: 100pt;
+  height: 100%;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px 1px 0px 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*background-image: url("pay_for_me.png");
+  background-repeat: repeat-x;
+  background-size: 40px;*/
+  filter:invert(100%);
+  background-color: black;
+}
+
 .section-middle img{
   position: relative;
   top: .3em;
@@ -44,7 +62,13 @@ body {
 }
 
 .section-middle p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 22px;
+  color:#fff;
+}
 
+.small-section-middle p{
   margin: 0px;
   padding: 0px;
   font-size: 22px;
@@ -66,6 +90,8 @@ body {
   display: flex;
 }
 
+/*formula to get max-width to use:
+1200*(1+2(technical-blog-margin-as-decimal))*/
 .page-section-1 {
   max-width: 1200px;
   min-width: 300px;
@@ -76,6 +102,16 @@ body {
 @media only screen and (max-width: 862px) {
   .content {max-width: 400px;}
 }*/
+
+.blog {
+  display: block;
+  width: 96%;
+  height: 100%;
+  margin: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-sizing: border-box;
+}
 
 .regular {
   display: block;
@@ -167,18 +203,22 @@ body {
   margin-bottom: 0px;
   background-color: #fff;
   overflow-y:scroll;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 /*at the end, put in a media query to remove aspect ratio constraint*/
+/*and add padding so same size as the featured post */
 .regular-holder {
-  flex-basis: 250px;
+  flex-basis: 200px;
   aspect-ratio: 1/1;
   position: relative;
   box-sizing: border-box;
   flex-grow: 1;
   max-width: 100%;
   max-height: 100%;
-  margin: 10px;
+  margin: 15px;
+  margin-top: 0px;
   overflow: hidden;
 }
 
@@ -256,15 +296,18 @@ body {
   width: 100%;
 }
 
-.text br{
-  display: block;
-  margin-bottom: -.4em;
-}
-
 .text h3{
   background-color: red;
   margin: 0px;
   padding: 0px;
+  font-size: 11pt;
+}
+
+.text h2{
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
+  font-size: 18pt;
 }
 
 .text p{
@@ -296,24 +339,27 @@ body {
 .page-section-2 {
   max-width: 1200px;
   min-width: 300px;
+  flex-wrap: wrap;
   margin: auto;
-  display: block;
-  overflow: hiden;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
 }
 
+/*add a media query to put in margin*/
 .animation {
-  max-width: 56%;
+  max-width: 100%;
+  flex-basis: 64%;
   min-width: 300px;
-  float: left;
   overflow: hidden;
   display: block;
-  margin-right: 10%;
+  margin-left: 2%;
+  flex-grow: 1;
 }
 
 .animation-container {
   display: flex;
   width: 100%;
-  height: 378px;
   flex-wrap: nowrap;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -323,57 +369,119 @@ body {
   overflow-y: hidden;
 }
 
-.animation-entry {
+.animation-holder {
+  /*flex-basis: 250px;*/
+  /*aspect-ratio: 1/1;*/
   position: relative;
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-overflow: ellipsis;
   box-sizing: border-box;
-  position: relative;
-  align-content: flex-start;
-  object-fit: contain;
   flex-grow: 1;
-  max-height: 378px;
+  min-width: 96%;
+  max-height: 100%;
+  margin: 2%;
+  overflow: hidden;
+  flex-grow: 1;
 }
 
-.animation-entry img{
+.animation-labeled-image {
+  display: flex;
+  aspect-ratio: 16/9;
+  max-width: 100%;
   margin: 0;
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: contain;
+  padding: 0;
 }
 
-.animation-title-dummy{
+.animation-labeled-image img{
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.dummy2{
   width: 100%;
-  height: 300px;
+  height: 320px;
 }
 
-.animation-title-test {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: contain;
-  position: absolute;
-}
-
-.animation-title {
-  margin: 10px;
-  display: block;
+.animation-text {
+  display: flex;
   flex-wrap: wrap;
-  /*flex-direction: row;*/
+  flex-direction: row-reverse;
   justify-content: center; /* horizontal position */
-  align-items: center; /* vertical position */
+  align-items: flex-end; /* vertical position */
   position: absolute;
   max-width: 100%;
   overflow: auto;
   width: 100%;
 }
 
-.animation-title h3{
-  margin: 0;
-  font-size: 24px;
+.animation-text h3{
   background-color: red;
+  margin: 0px;
+  padding: 0px;
+  font-size: 18pt;
+}
+
+.skills{
+  max-width: 34%;
+  min-width: 300px;
+  float: right;
+  overflow: hidden;
+  display: flex;
+}
+
+.drawing{
+  width: 49%;
+  margin: 0;
+}
+
+.drawing-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0;
+  background-color: #fff;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.drawing-holder {
+  /*flex-basis: 250px;*/
+  /*aspect-ratio: 1/1;*/
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 96%;
+  max-height: 100%;
+  margin: 2%;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.drawing-holder img{
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.reels{
+  width: 49%;
+  margin: 0;
+}
+
+.reels-holder {
+  min-width: 96%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.reels-holder img{
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
 .bottom-content{
