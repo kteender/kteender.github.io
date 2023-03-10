@@ -10,6 +10,13 @@ body {
   padding: 0;
 }
 
+/*formula to get max-width to use:
+1200/x = (100-2*page-section-margins-as-decimel)/100*/
+.page-content {
+  max-width: 1250px;
+  min-width: 300px;
+}
+
 .section-left {
   box-sizing: border-box;
   flex-grow: 1;
@@ -90,12 +97,10 @@ body {
   display: flex;
 }
 
-/*formula to get max-width to use:
-1200*(1+2(technical-blog-margin-as-decimal))*/
 .page-section-1 {
-  max-width: 1200px;
-  min-width: 300px;
-  margin: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  max-width: 96%;;
   overflow: hidden;
 }
 /*
@@ -336,9 +341,11 @@ body {
   height: 5px;
 }
 
+/* everything that could be on end in page-section-2
+needs a margin-right*/
 .page-section-2 {
-  max-width: 1200px;
-  min-width: 300px;
+  max-width: 100%;
+  padding-left: 2%;
   flex-wrap: wrap;
   margin: auto;
   display: flex;
@@ -348,12 +355,12 @@ body {
 
 /*add a media query to put in margin*/
 .animation {
+  margin-right:2%;
   max-width: 100%;
   flex-basis: 64%;
   min-width: 300px;
   overflow: hidden;
   display: block;
-  margin-left: 2%;
   flex-grow: 1;
 }
 
