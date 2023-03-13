@@ -15,6 +15,7 @@ body {
 .page-content {
   max-width: 1250px;
   min-width: 300px;
+  margin: auto;
 }
 
 .section-left {
@@ -429,16 +430,24 @@ needs a margin-right*/
 }
 
 .skills{
-  max-width: 34%;
+  max-width: 100%;
+  display: block;
+  flex-basis: 32%;
   min-width: 300px;
+  flex-grow: 1;
   float: right;
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
+  margin-right: 2%;
+  align-content: space-around;
 }
 
 .drawing{
   width: 49%;
   margin: 0;
+  margin-right: 2%;
+  flex-grow: 1;
 }
 
 .drawing-container {
@@ -449,9 +458,10 @@ needs a margin-right*/
   margin-bottom: 0px;
   margin: 0;
   background-color: #fff;
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
+/*add in s scroll bar instead*/
 
 .drawing-holder {
   /*flex-basis: 250px;*/
@@ -476,12 +486,30 @@ needs a margin-right*/
 .reels{
   width: 49%;
   margin: 0;
+  flex-grow: 1;
+}
+
+.reels-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .reels-holder {
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
   min-width: 96%;
   max-height: 100%;
+  margin: 2%;
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .reels-holder img{
@@ -490,6 +518,42 @@ needs a margin-right*/
   padding: 0;
   max-width: 100%;
 }
+
+.about {
+  width: 100%;
+  flex-grow: 2;
+}
+
+.about-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.about-holder{
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 23%;
+  max-height: 100%;
+  margin: 5%;
+  overflow: hidden;
+  flex-basis: 5%;
+}
+
+.about-holder img{
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
 
 .bottom-content{
   max-width: 1200px;
