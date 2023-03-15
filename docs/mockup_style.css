@@ -16,6 +16,7 @@ body {
   max-width: 1250px;
   min-width: 300px;
   margin: auto;
+  font-family: Devant Pro, Helvetica, sans-serif;
 }
 
 .section-left {
@@ -109,40 +110,39 @@ body {
   .content {max-width: 400px;}
 }*/
 
-.blog {
-  display: block;
-  width: 96%;
-  height: 100%;
-  margin: 0;
-  margin-left: 2%;
-  margin-right: 2%;
-  box-sizing: border-box;
-}
-
-.regular {
-  display: block;
-  float: right;
-  width: 50%;
+.blog-container  {
   box-sizing: border-box;
   border-style: solid;
   border-color: black;
-  border-width: 0px 1px 0px 0px;
+  border-width: 0px 1px 0px 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+}
+
+/*put a media query in for the min-width to accomodate iphone size*/
+
+.regular {
+  display: block;
+  flex-basis: 50%;
+  min-width: 400px;
+  flex-grow: 1;
+  max-width: 100%;
+  box-sizing: border-box;
   overflow: hidden;
 }
 
 .featured {
   display: block;
-  width: 50%;
+  flex-basis: 50%;
+  flex-grow: 1;
   height: 540px;
-  float: left;
+  min-width: 400px;
   background-image: url(mockup_images/featured_bg.png);
   padding: 0px;
   margin: 0;
   background-color: #fff;
   box-sizing: border-box;
-  border-style: solid;
-  border-color: black;
-  border-width: 0px 0px 0px 1px;
 }
 
 .featured-container {
@@ -407,10 +407,11 @@ needs a margin-right*/
 
 .dummy2{
   width: 100%;
-  height: 320px;
+  height: 50%;
 }
 
 .animation-text {
+  bottom: 10%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
@@ -448,6 +449,7 @@ needs a margin-right*/
   margin: 0;
   margin-right: 2%;
   flex-grow: 1;
+  overflow:hidden;
 }
 
 .drawing-container {
@@ -469,9 +471,9 @@ needs a margin-right*/
   position: relative;
   box-sizing: border-box;
   flex-grow: 1;
-  min-width: 96%;
+  min-width: 90%;
   max-height: 100%;
-  margin: 2%;
+  margin: 5%;
   overflow: hidden;
   flex-grow: 1;
 }
@@ -505,9 +507,9 @@ needs a margin-right*/
   position: relative;
   box-sizing: border-box;
   flex-grow: 1;
-  min-width: 96%;
+  min-width: 90%;
   max-height: 100%;
-  margin: 2%;
+  margin: 5%;
   overflow: hidden;
   flex-grow: 1;
 }
