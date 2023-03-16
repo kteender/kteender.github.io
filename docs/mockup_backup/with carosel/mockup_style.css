@@ -448,6 +448,10 @@ needs a margin-right*/
   align-content: space-around;
 }
 
+.skills-1{
+  max-width: 100%;
+}
+
 .drawing{
   width: 49%;
   margin: 0;
@@ -583,28 +587,17 @@ needs a margin-right*/
   border-width: 0px 0px 0px 0px;
   box-sizing: border-box;
 }
-
 /* slideshow stuff */
 .mySlides {
   display: none
 }
 img {
-  object-fit: contain;
   vertical-align: middle;
-  max-width: 100%;
 }
 .slideshow-container {
-  /*
   max-width: 1000px;
   position: relative;
-  margin: auto;*/
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin: 0;
-  background-color: #fff;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  margin: auto;
 }
 /* Next & previous buttons */
 .prev,
@@ -633,7 +626,7 @@ img {
   background-color: rgba(0, 0, 0, 0.8);
 }
 /* Caption text */
-.text-1 {
+.text {
   color: #ffffff;
   font-size: 15px;
   padding: 8px 12px;
@@ -696,3 +689,4 @@ img {
     font-size: 11px
   }
 }
+
