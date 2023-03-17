@@ -187,7 +187,7 @@
         <div class="section-right"></div>
       </div>
       <div class = "animation-container">
-        <div class = "animation-holder">
+        <div class = "animation-holder fade">
           <div class = "animation-labeled-image">
             <img src="mockup_images/hd1.png">
             <div class="animation-text">
@@ -195,7 +195,7 @@
             </div>
           </div>
         </div>
-        <div class = "animation-holder">
+        <div class = "animation-holder fade">
           <div class = "animation-labeled-image">
             <img src="mockup_images/hd2.png">
             <div class="animation-text">
@@ -203,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class = "animation-holder">
+        <div class = "animation-holder fade">
           <div class = "animation-labeled-image">
             <img src="mockup_images/hd3.png">
             <div class="animation-text">
@@ -211,6 +211,8 @@
             </div>
           </div>
         </div>
+        <a class="prev" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
+        <a class="next" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
       </div>
       <div class = "bottom-content">
         <div class="bottom"></div>
@@ -226,48 +228,19 @@
           <div class="section-right">
           </div>
         </div>
-        <div class="slideshow-container">
-          <div class="mySlides fade">
+        <div class="drawing-container">
+          <div class="drawing-holder fade">
             <img src="colors/270782.png">
           </div>
-          <div class="mySlides fade">
+          <div class="drawing-holder fade">
             <img src="colors/474452.png">
           </div>
-          <div class="mySlides fade">
+          <div class="drawing-holder fade">
             <img src="colors/B0A7C9.png">
           </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" onclick="plusSlides(-1, 'drawing-holder')">&triangleleft;</a>
+        <a class="next" onclick="plusSlides(1, 'drawing-holder')">&triangleright;</a>
         </div>
-        <script>
-          var slideIndex = 1;
-          showSlides(slideIndex);
-          function plusSlides(n) {
-            showSlides(slideIndex += n);
-          }
-          function currentSlide(n) {
-            showSlides(slideIndex = n);
-          }
-          function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            // var dots = document.getElementsByClassName("dot");
-            if(n > slides.length) {
-              slideIndex = 1
-            }
-            if(n < 1) {
-              slideIndex = slides.length
-            }
-            for(i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-            }
-            for(i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-          }
-        </script>
         <div class = "bottom-content">
           <div class="bottom"></div>
         </div>
@@ -319,16 +292,17 @@
 
   <script>
     var slideIndex = 1;
-    showSlides(slideIndex);
+    showSlides(slideIndex, 'drawing-holder');
+    showSlides(slideIndex, 'animation-holder')
     function plusSlides(n) {
-      showSlides(slideIndex += n);
+      showSlides(slideIndex += n, slideType);
     }
     function currentSlide(n) {
-      showSlides(slideIndex = n);
+      showSlides(slideIndex = n, slideType);
     }
-    function showSlides(n) {
+    function showSlides(n, slideType) {
       var i;
-      var slides = document.getElementsByClassName("mySlides");
+      var slides = document.getElementsByClassName(slideType);
       var dots = document.getElementsByClassName("dot");
       if(n > slides.length) {
         slideIndex = 1
