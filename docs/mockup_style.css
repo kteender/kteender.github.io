@@ -598,6 +598,7 @@ img {
   max-width: 1000px;
   position: relative;
   margin: auto;*/
+  position: relative;
   width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -605,16 +606,16 @@ img {
   background-color: #fff;
   overflow-x: hidden;
   overflow-y: hidden;
+  display: flex;
 }
 /* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 30%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding: 10%;
   color: white;
   font-weight: bold;
   font-size: 18px;
