@@ -211,8 +211,8 @@
             </div>
           </div>
         </div>
-        <a class="prev" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
-        <a class="next" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
+        <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
+        <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
       </div>
       <div class = "bottom-content">
         <div class="bottom"></div>
@@ -238,8 +238,8 @@
           <div class="drawing-holder fade">
             <img src="colors/B0A7C9.png">
           </div>
-        <a class="prev" onclick="plusSlides(-1, 'drawing-holder')">&triangleleft;</a>
-        <a class="next" onclick="plusSlides(1, 'drawing-holder')">&triangleright;</a>
+          <a class="prev" onclick="plusSlides(-1, 'drawing-holder')">&triangleleft;</a>
+          <a class="next" onclick="plusSlides(1, 'drawing-holder')">&triangleright;</a>
         </div>
         <div class = "bottom-content">
           <div class="bottom"></div>
@@ -292,18 +292,28 @@
 
   <script>
     var slideIndex = 1;
+    showSlides(slideIndex, 'animation-holder');
     showSlides(slideIndex, 'drawing-holder');
-    showSlides(slideIndex, 'animation-holder')
-    function plusSlides(n) {
+
+    function plusSlides(n, slideType) {
       showSlides(slideIndex += n, slideType);
     }
-    function currentSlide(n) {
+    function currentSlide(n, slideType) {
       showSlides(slideIndex = n, slideType);
     }
+    function initSlides() {
+      var animSlides = document.getElementsByClassName("animation-holder");
+      var drawSlides = document.getElementsByClassName("drawing-holder");
+
+      animSlides[0].style.display = "block";
+      drawSlides[0].style.display = "block";
+      animSlides[0].className += " active";
+      drawSlides[0].className += " active";
+    }
+
     function showSlides(n, slideType) {
       var i;
       var slides = document.getElementsByClassName(slideType);
-      var dots = document.getElementsByClassName("dot");
       if(n > slides.length) {
         slideIndex = 1
       }
@@ -313,11 +323,7 @@
       for(i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
-      for(i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
       slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
     }
   </script>
 
