@@ -1,10 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Oxanium');
+@import url('https://fonts.googleapis.com/css?family=Silkscreen');
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+@import url('https://fonts.googleapis.com/css?family=Anybody');
+@import url('https://fonts.googleapis.com/css?family=Hubballi');
+@import url('https://fonts.googleapis.com/css?family=Moulpali');
+@import url('https://fonts.googleapis.com/css?family=Tourney');
+@import url('https://fonts.googleapis.com/css?family=Sono');
+@import url('https://fonts.googleapis.com/css?family=Saira Extra Condensed');
+@import url('https://fonts.googleapis.com/css?family=Red Hat Text');
+@import url('https://fonts.googleapis.com/css?family=Darker Grotesque');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+@import url('https://fonts.googleapis.com/css?family=Anaheim');
+@import url('https://fonts.googleapis.com/css?family=Text Me One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro');
 /** {
   box-sizing: border-box;
 }*/
 body { 
   min-height: 100vh;
-  font-family: Ubuntu, sans-serif;
   background-color: gray;
   margin: 0;
   padding: 0;
@@ -16,7 +36,9 @@ body {
   max-width: 1250px;
   min-width: 300px;
   margin: auto;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  /*font-family: 'Open Sans', Helvetica, sans-serif;*/
+  /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;*/
 }
 
 .section-left {
@@ -26,7 +48,8 @@ body {
   border-width: 0px 0px 1px 0px;
 }
 
-.section-middle {
+.section-middle, .small-section-middle {
+  font-family: Tourney, Helvetica, monospace;
   box-sizing: border-box;
   width: 33.333%;
   min-width: 200pt;
@@ -45,20 +68,7 @@ body {
 }
 
 .small-section-middle {
-  box-sizing: border-box;
-  width: 33.333%;
   min-width: 100pt;
-  height: 100%;
-  border-style: solid;
-  border-color: #fff;
-  border-width: 1px 1px 0px 1px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /*background-image: url("pay_for_me.png");
-  background-repeat: repeat-x;
-  background-size: 40px;*/
-  filter:invert(100%);
   background-color: black;
 }
 
@@ -70,18 +80,15 @@ body {
   padding: 0px;
 }
 
-.section-middle p{
+.section-middle, .small-section-middle p{
   margin: 0px;
   padding: 0px;
-  font-size: 22px;
+  font-size: 26px;
   color:#fff;
 }
 
 .small-section-middle p{
-  margin: 0px;
-  padding: 0px;
   font-size: 22px;
-  color:#fff;
 }
 
 .section-right{
@@ -140,7 +147,7 @@ body {
   flex-grow: 1;
   height: 540px;
   min-width: 400px;
-  background-image: url(mockup_images/featured_bg.png);
+  /*background-image: url(mockup_images/featured_bg.png);*/
   padding: 0px;
   margin: 0;
   background-color: #fff;
@@ -149,9 +156,12 @@ body {
 
 .featured-container {
   display: flex;
-  background-image: url(mockup_images/featured_bg.png);
-  margin: 5%;
+  /*background-image: url(mockup_images/featured_bg.png);*/
+  background-image: url(bottom_images/bg_seamless_dither.png);
+  background-size: cover;
+  background-size: 40px;
   filter: invert();
+  margin: 5%;
   max-height: 100%;
   height: 90%;
   align-items: center;
@@ -168,14 +178,32 @@ body {
   flex-wrap: wrap;
   align-content: space-between;
   overflow: hidden;
+  background-color: #fff;
+  flex-basis: 200px;
+  aspect-ratio: 1/1;
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
+  /*
+  margin: 15px;
+  margin-top: 0px;
+  overflow: hidden;*/
 }
 
-.featured-post img{
+.featured-post-labeled-image{
+  aspect-ratio: 4/3;
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-post-labeled-image img{
   max-width: 100%;
   object-fit: contain;
 }
 
-.featured-post p {
+.featured-post-labeled-image p {
   display: block;
 }
 
@@ -304,18 +332,23 @@ body {
   width: 100%;
 }
 
-.text h3{
-  background-color: red;
-  margin: 0px;
-  padding: 0px;
-  font-size: 11pt;
-}
-
-.text h2{
+.text h2, h3{
+  font-family: 'Text Me One', Tahoma, sans-serif;
+  /*
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  */
+  font-weight: 300;
   background-color: red;
   margin: 0px;
   padding: 0px;
   font-size: 18pt;
+}
+
+
+.text h3{
+  font-size: 11pt;
 }
 
 .text p{
@@ -452,7 +485,7 @@ needs a margin-right*/
   font-size: 18pt;
 }
 
-.skills{
+.misc{
   max-width: 100%;
   display: block;
   flex-basis: 32%;
@@ -466,18 +499,25 @@ needs a margin-right*/
   align-content: space-around;
 }
 
+.skills{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .drawing{
-  width: 49%;
+  flex-basis: 49%;
+  max-width: 49%;
   margin: 0;
-  margin-right: 2%;
-  flex-grow: 1;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .reels{
-  width: 49%;
+  flex-basis: 49%;
+  max-width: 49%;
   margin: 0;
-  flex-grow: 1;
+  overflow: hidden;
 }
 
 .reels-container {
@@ -566,7 +606,7 @@ needs a margin-right*/
 
 .bottom {
   display: inline-block;
-  background-image: url("pay_for_me.png");
+  background-image: url("bottom_images/bottom_dither.png");
   background-repeat: repeat-x;
   margin: auto;
   margin-top: 0px;
