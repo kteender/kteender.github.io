@@ -190,7 +190,20 @@ body {
   overflow: hidden;*/
 }
 
+@media screen and (max-width: 850px) {
+  .featured-post {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .featured-post {
+    max-width: 90%;
+  }
+}
+
 .featured-post-labeled-image{
+  flex-basis: 100%;
   aspect-ratio: 4/3;
   display: flex;
   max-width: 100%;
