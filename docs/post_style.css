@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Text Me One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body { 
+    min-height: 100vh;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+  }
+
+.page-content {
+    max-width: 1250px;
+    min-width: 300px;
+    margin: auto;
+    /*font-family: 'Open Sans', Helvetica, sans-serif;*/
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;*/
+}
+
+.posts-container{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    /* margin-right: 5%; */
+}
+
+.links-container{
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.post{
+    margin: 5%; 
+}
+
+.post h3{
+    font-family: 'Text Me One', Tahoma, sans-serif;
+    background-color: red;
+    font-size: 26pt;
+}
+
+.post p{
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
