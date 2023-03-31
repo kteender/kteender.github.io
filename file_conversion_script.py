@@ -13,7 +13,8 @@ def fix_file_sizes(dir):
             name = file.split('.')[-2]+'.mp4'
             new_file = os.path.join(new_dir,name)
             #cmd = 'ffmpeg -i %s -vcodec libx264 -crf 18 %s' % (os.path.join(dir, file), new_file)
-            cmd = 'ffmpeg -i %s -pix_fmt yuv420p %s' % (os.path.join(dir, file), new_file)
+            #cmd = 'ffmpeg -i %s -pix_fmt yuv420p %s' % (os.path.join(dir, file), new_file)
+            cmd = 'ffmpeg -i frame_%05d.jpg -vcodec libx264 \ -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -r 24 \ -y -an video.mp4' 
             print(cmd)
             subprocess.call(cmd)
 
