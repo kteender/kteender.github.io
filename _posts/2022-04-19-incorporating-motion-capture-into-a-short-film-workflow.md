@@ -3,12 +3,34 @@ layout: post
 author: jill
 title: banana
 ---
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+</html>
 
 Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film [here](https://ktcg.art.blog/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline/), and watch the film itself [here](https://vimeo.com/412594397).
 
 **Purpose**: This post is designed for students or independent artists considering using motion capture for animated filmmaking, and would like an example of how I approached the process. For the sake of length, I will not be going into tutorial-level detail on the different MotionBuilder/Maya tools referred to, but I will post link to technical information as it comes up, and you can always leave questions in the comments section.
 
 ![](https://ktcgart.files.wordpress.com/2021/04/test.gif?w=1024)
+<div class="captioned-image">
+    <img src="/img/unnamed.png">
+    <p> My Test </p>
+</div>
+
+<div class="captioned-image">
+    <video controls autoplay loop muted preload="none">
+        <source src="/img/editing.mp4" type="video/mp4" />
+    </video>
+    <p> My Test </p>
+</div>
+
+<div class="captioned-image">
+    <iframe src="https://www.youtube.com/embed/qySpoy1n5ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p> My Test </p>
+</div>
+
 
 the steps in the mocap process.  
 top, left to right: reference, source data, retarget, character editing  
