@@ -1,7 +1,14 @@
 ---
+title: Using Motion Capture in an Animated Short Film
+date: 2021-04-19
+tags: 
+  - 3d-animation
+  - animation
+  - maya
+  - motion-capture
+  - motionbuilder
 layout: post
-author: jill
-title: banana
+author: katie
 ---
 
 Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film [here](https://ktcg.art.blog/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline/), and watch the film itself [here](https://vimeo.com/412594397).

@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Tourney');
+@import url('https://fonts.googleapis.com/css?family=Text Me One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.header-bg{
+    /*background-image: url('style_img/bg_seamless_dither.png');
+    background-size: cover;
+    background-size: 40px;
+    filter: invert();*/
+    display: flex;
+    align-items: center;
+    filter:invert()
+}
+
+.header {
+    color: purple;
+    font-size: 24pt;
+    margin: auto;
+    padding: 2%;
+    background-color: white;
+}
+
+.header h1{
+    text-align: center;
+    font-family: Text Me One, Helvetica, monospace;
+}
+
+.content{
+    filter: invert();
+    max-width: 1250px;
+    padding: 5%;
+    margin: auto;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    background-color: white;
+}
+
+.post-bg{
+    filter: invert();
+    background-image: url('style_img/bg_seamless_dither.png');
+    background-size: cover;
+    background-size: 40px;  
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .current {
     color: green;
 }

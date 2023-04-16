@@ -1,7 +1,14 @@
 ---
+title: Using Motion Capture in an Animated Short Film
+date: 2021-04-19
+tags: 
+  - 3d-animation
+  - animation
+  - maya
+  - motion-capture
+  - motionbuilder
 layout: post
-author: jill
-title: banana
+author: katie
 ---
 <html>
     <head>
