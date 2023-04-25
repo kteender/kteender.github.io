@@ -1,4 +1,243 @@
 ---
-title: Home
+title: KTCG
+type: index
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+{% include header.html %}
+<div class="page-content">
+
+  <div class="page-section-1">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+        <p>TECHNICAL BLOG</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="blog-container">
+        <div class = "featured">
+          <div class = "featured-container">
+              {% for post in site.posts %}
+                {% if post.featured == "T" %}
+                  <div class="featured-post">
+                    <div class="featured-post-labeled-image">
+                      <img src="{{ post.cover-image }}" />
+                      <div class="text">
+                        <div class = "dummy"></div>
+                        <div class = "dummy"></div>
+                        <div class = "dummy"></div>  
+                        <h2>{{ post.shortname}}</h2>
+                        <div class = "dummy"></div>
+                        <p>{{ post.date | date: "%B %-d %Y" }}</p>
+                      </div>
+                    </div>
+                    <div class="featured-preview">
+                      <p>{{ post.excerpt|lstrip }}</p>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
+        </div>
+        <div class="regular">
+        <div class = "flex-container">
+          {% for post in site.posts %}
+            {% if post.featured == "F" %}
+              <div class="regular-holder">
+                <div class='regular-labeled-image'>
+                  <img src="{{ post.cover-image }}" />
+                    <div class = "text">  
+                      <div class = "dummy"></div>
+                      <div class = "dummy"></div>
+                      <div class = "dummy"></div>  
+                      <h3 >{{ post.shortname }}</h3>
+                      <div class = "dummy"></div>
+                      <h1>{{ post.date | date: "%B %-d %Y" }}</h1>
+                    </div>
+                </div>
+                <div class="preview">
+                  <p>{{ post.excerpt }}</p> 
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        </div>
+    </div>
+
+    <div class = "bottom-content">
+      <div class="bottom"></div>
+    </div>
+  </div>
+
+  <div class="page-section-2">
+    <div class="animation">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle">
+          <p>ANIMATIONS</p>
+        </div>
+        <div class="section-right"></div>
+      </div>
+      <div class = "animation-container">
+        {% for post in site.posts %}
+          {% if post.type == "animation" %}
+            <div class = "animation-holder fade">
+              <div class = "animation-labeled-image">
+                <img src="{{ post.cover-image }}">
+                <div class="animation-text">
+                  <h3>{{ post.title }}</h3>
+                </div>
+              </div>
+            </div>
+            <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
+            <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div>
+    </div>
+    <div class="misc">
+      <div class="skills">
+        <div class="drawing">
+          <div class="section">
+            <div class="section-left"></div>
+            <div class="small-section-middle">
+              <p>DRAWING</p>
+            </div>
+            <div class="section-right">
+            </div>
+          </div>
+          <div class="drawing-container">
+            {% for drawing in site.drawings %}
+            <div class="drawing-holder fade">
+              <img src="{{ drawing.cover-image }} ">
+            </div>
+            {% endfor %}
+            <a class="prev" onclick="plusSlides(-1, 'drawing-holder')">&triangleleft;</a>
+            <a class="next" onclick="plusSlides(1, 'drawing-holder')">&triangleright;</a>
+          </div>
+          <div class = "bottom-content">
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="reels">
+          <div class="section">
+            <div class="section-left"></div>
+            <div class="small-section-middle">
+              <p>REELS</p>
+            </div>
+            <div class="section-right">
+            </div>
+          </div>
+          <div class="reels-container">
+            <div class="reels-holder">
+              <img src="/img/reel-cover.png">
+            </div>
+          </div>
+          <div class = "bottom-content">
+            <div class="bottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="section">
+          <div class="label-left"></div>
+          <div class="label-middle">
+            <p>ABOUT</p>
+          </div>
+          <div class="label-right">
+          </div>
+        </div>
+        <!-- <div class="about-container">
+          <div class="about-holder">
+            <img src="/img/insta-logo.png">
+          </div>
+          <div class="about-holder">
+            <img src="mockup_images/pale_purple_square.png">
+          </div>
+          <div class="about-holder">
+            <img src="mockup_images/deep_purple_square.png">
+          </div>
+        </div> -->
+        <!-- <div class = "bottom-content">
+          <div class="bottom"></div>
+        </div> -->
+      </div>
+      <div class="about">
+        <div class="section">
+          <div class="label-left"></div>
+          <div class="label-middle">
+            <p>LOVE LIST</p>
+          </div>
+          <div class="label-right">
+          </div>
+        </div>
+        <!-- <div class="about-container">
+          <div class="about-holder">
+            <img src="/img/insta-logo.png">
+          </div>
+          <div class="about-holder">
+            <img src="mockup_images/pale_purple_square.png">
+          </div>
+          <div class="about-holder">
+            <img src="mockup_images/deep_purple_square.png">
+          </div>
+        </div> -->
+        <!-- <div class = "bottom-content">
+          <div class="bottom"></div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex, 'animation-holder');
+    showSlides(slideIndex, 'drawing-holder');
+
+    function plusSlides(n, slideType) {
+      showSlides(slideIndex += n, slideType);
+    }
+    function currentSlide(n, slideType) {
+      showSlides(slideIndex = n, slideType);
+    }
+    function initSlides() {
+      var animSlides = document.getElementsByClassName("animation-holder");
+      var drawSlides = document.getElementsByClassName("drawing-holder");
+
+      animSlides[0].style.display = "block";
+      drawSlides[0].style.display = "block";
+      animSlides[0].className += " active";
+      drawSlides[0].className += " active";
+    }
+
+    function showSlides(n, slideType) {
+      var i;
+      var slides = document.getElementsByClassName(slideType);
+      if(n > slides.length) {
+        slideIndex = 1
+      }
+      if(n < 1) {
+        slideIndex = slides.length
+      }
+      for(i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+  </script>
+</div>
+{% include footer.html %}

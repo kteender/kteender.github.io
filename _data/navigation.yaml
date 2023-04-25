@@ -4,5 +4,11 @@
   link: /about.html
 - name: Blog
   link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Drawings
+  link: /drawings.html
+- name: Animation
+  link: /animations.html
+- name: Reels
+  link: /reels.html
+- name: Love List
+  link: love-list.html

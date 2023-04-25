@@ -1,5 +1,6 @@
 ---
-title: Using Motion Capture in an Animated Short Film
+title: "Using Motion Capture in an Animated Short Film"
+shortname: "Using Motion Capture in an Animated Short Film"
 date: 2021-04-19
 tags: 
   - 3d-animation
@@ -9,13 +10,16 @@ tags:
   - motionbuilder
 layout: post
 author: katie
+show-date: T
+type: blog
+cover-image: img/2022-04-19-mocap/cover_image.jpg
+featured: F
 ---
 <html>
     <head>
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
 </html>
-
 Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film [here](https://ktcg.art.blog/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline/), and watch the film itself [here](https://vimeo.com/412594397).
 
 **Purpose**: This post is designed for students or independent artists considering using motion capture for animated filmmaking, and would like an example of how I approached the process. For the sake of length, I will not be going into tutorial-level detail on the different MotionBuilder/Maya tools referred to, but I will post link to technical information as it comes up, and you can always leave questions in the comments section.
@@ -238,5 +242,3 @@ Then, plot the body animation from Animation > Plot
 I really love using motion capture. I think it's the best of both worlds, because you get to work with actors on physicality, but you also get to have the creative freedom and technical fun that CGI provides. Additionally, if you're okay with somewhat non-stylized movement and humanoid characters, it can help you get lots of animation data onto characters pretty fast (there's tons of cleanup involved, but it still takes less time than keyframing). If you can get into a mocap lab, I recommend it!
 
 Anyway, after everything is successfully baked, I exported the characters to Maya, and then Unity! There was a lot else that went into the project -- this post only covered the motion capture and retargeting and animation process. If you're curious about the rest of the workflow, you can read my [other post on the project](https://ktcg.art.blog/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline/). And, of course, watch the film!
-
-https://vimeo.com/412594397

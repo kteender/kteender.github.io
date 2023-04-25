@@ -1,5 +1,6 @@
 ---
-title: "Setting Up an Eye Controller in Motionbuilder + Avoiding Lazy Eye"
+title: "Setting Up an Eye Controller in MotionBuilder + Avoiding Lazy Eye"
+shortname: "MotionBuilder Eye Controller"
 date: "2019-07-09"
 tags: 
   - "aim"
@@ -12,7 +13,10 @@ tags:
   - "lazy-eye-motionbuilder"
   - "motionbuilder"
   - "motionbuilder-eye-controller"
-coverImage: "capture14.png"
+cover-image: "img/2019-07-09-mobu-eye-rig/cover_image.jpg"
+show-date: T
+type: blog
+featured: F
 ---
 
 An eye controller that allows you to manipulate the character's look-at point is a bog-standard feature of any rig:

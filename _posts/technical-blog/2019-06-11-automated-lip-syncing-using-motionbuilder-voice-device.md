@@ -1,5 +1,6 @@
 ---
 title: "Automated Lip Syncing using MotionBuilder Voice Device"
+shortname: "Using MotionBuilder Voice Device"
 date: "2019-06-11"
 tags: 
   - "device"
@@ -10,7 +11,11 @@ tags:
   - "tutorial"
   - "voice"
   - "voice-device"
-coverImage: "featured_photo.png"
+cover-image: "img/2019-06-11-voice-device/cover_image.jpg"
+show-date: T
+type: blog
+featured: F
+
 ---
 
 UPDATE: In section 1 of this post, we paint the blendshape weights for the character. I've noticed a bug where sometimes, all your morph targets don't appear in the "Target" section of the Paint Blend Shape Weights Tool. You can get around thing by right-clicking on your base mesh, and while holding down the right mouse button, move down to Paint > Blend Shape > your desired shape.  

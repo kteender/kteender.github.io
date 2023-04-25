@@ -1,14 +1,13 @@
 ---
 title: "Making a Short Film in Unity using the Unity Timeline"
+shortname: "Making a Short Film in Unity"
 date: "2020-05-10"
-coverImage: "23-coverphoto.png"
+show-date: T
+type: blog
+cover-image: img/2020-05-10-unity-short/cover_image.jpg
+featured: T
 ---
-
-Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity.
-
-\[vimeo 412594397 w=640 h=360\]
-
-In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow.
+Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow. There's also a link to the completed film and the Unity packages I used at various points in the pipeline.
 
 1. Pre-Unity work
 2. Importing Assets
@@ -20,6 +19,8 @@ In this post, I'll be breaking down my workflow, from character modeling to fina
 8. Editing
 9. Troubleshooting Visual Artifacts
 10. Evaluation
+
+[vimeo 412594397 w=640 h=360\]
 
 Packages Used: Unity Recorder, Unity Timeline, Post-Processing v2, Cinemachine, [Toon Standard](https://github.com/Flafla2/Toon-Standard), [Post-Processing Utilities](https://github.com/keijiro/PostProcessingUtilities)
 
