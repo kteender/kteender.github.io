@@ -6,9 +6,21 @@
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
     <body style="margin:0;">
+        
         <div class = "post-bg">
+        <div class="navi">
+            <div class="navi-buttons-holder">
+                <!-- {% for item in site.data.navigation %}
+                <a href="{{ item.link }}"class="navi-buttons">{{ item.name }}</a>
+                {% endfor %} -->
+                {% include navigation.html %}
+        </div>
+        </div>
+        <!-- <div class = "bottom-content">
+            <div class="bottom"></div>
+          </div> -->
             <div class="header-bg">
-                <div class="header">
-                    <h1>KTCG</h1>
+                <div class="header-container">
+                    <div class="clip-text clip-text_one">KTCG</div>
                 </div>
             </div>
