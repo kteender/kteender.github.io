@@ -1,12 +1,14 @@
 {% include header.html %}
 
-<h1>{{ page.shortname }}</h1>
-{% if page.show-date == "T" %}
-    <p>{{ page.date | date_to_string }}</p>
-{% endif %}
+
 
 <div class="content-holder">
     <div class="content">
+
+        <h1>{{ page.shortname }}</h1>
+        {% if page.show-date == "T" %}
+            <h4>{{ page.date | date_to_string }}</h4>
+        {% endif %}
         {{ content }}
     </div>
 </div>
