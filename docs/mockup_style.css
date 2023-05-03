@@ -178,7 +178,7 @@ body {
 .regular {
   display: block;
   flex-basis: 50%;
-  min-width: 400px;
+  min-width: 300px;
   flex-grow: 1;
   max-width: 100%;
   box-sizing: border-box;
@@ -190,7 +190,7 @@ body {
   flex-basis: 50%;
   flex-grow: 1;
   height: 540px;
-  min-width: 400px;
+  min-width: 300px;
   /*background-image: url(mockup_images/featured_bg.png);*/
   padding: 0px;
   margin: 0;
