@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Tourney');
+/* @import url('https://fonts.googleapis.com/css?family=Tourney');
 @import url('https://fonts.googleapis.com/css?family=Text Me One');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Unbounded');
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 @import url('https://fonts.googleapis.com/css?family=Russo One');
-@import url('https://fonts.googleapis.com/css?family=Archivo Black');
+@import url('https://fonts.googleapis.com/css?family=Archivo Black'); */
 
 /* Clip text element */
 .clip-text {
@@ -203,6 +203,10 @@
 
 .captioned-image iframe{
     width: 100%;
+}
+
+.captioned-image a{
+  color: #3d3de3;
 }
 
 /*Things for the landing page*/
