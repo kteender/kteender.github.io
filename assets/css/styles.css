@@ -898,14 +898,19 @@ needs a margin-right*/
 @media screen and (max-device-width: 600px) and (orientation: portrait){
   .regular{
     flex-basis: 100%;
+    height: 100%;
   }
   .featured{
     flex-basis: 100%;
+    height: 100%;
   }
   .animation{
     flex-basis: 100%;
   }
   .misc{
+    flex-basis: 100%;
+  }
+  .regular-holder{
     flex-basis: 100%;
   }
 }
