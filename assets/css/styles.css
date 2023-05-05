@@ -174,12 +174,6 @@
     background-color: #D2D2E3;
 }
 
-@media screen and (max-device-width: 600px) and (orientation: portrait){
-  .post-bg{
-    max-width: 600px;
-  }
-}
-
 .captioned-image{
     margin: auto;
     text-align: center;
@@ -899,6 +893,24 @@ needs a margin-right*/
   border-width: 0px 0px 0px 0px;
   box-sizing: border-box;
 }
+
+/* mobile stuff */
+@media screen and (max-device-width: 600px) and (orientation: portrait){
+  .regular{
+    flex-basis: 100%;
+  }
+  .featured{
+    flex-basis: 100%;
+  }
+  .animation{
+    flex-basis: 100%;
+  }
+  .misc{
+    flex-basis: 100%;
+  }
+}
+
+
 
 /* slideshow stuff */
 .drawing-holder {
