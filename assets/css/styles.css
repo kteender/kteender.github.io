@@ -174,13 +174,10 @@
     background-color: #D2D2E3;
 }
 
-.current {
-    color: green;
-}
-
-.colored-text{
-    font-size: 24pt;
-    color: red;
+@media screen and (max-device-width: 600px) and (orientation: portrait){
+  .post-bg{
+    max-width: 600px;
+  }
 }
 
 .captioned-image{
