@@ -7,11 +7,7 @@ type: blog
 cover-image: img/2020-05-10-unity-short/cover_image.jpg
 featured: T
 ---
-Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. 
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/412594397?h=cd22fa78ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Youth Group 4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow. There's also a link to the completed film and the Unity packages I used at various points in the pipeline.
+Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow. There's also a link to the completed film and the Unity packages I used at various points in the pipeline.
 
 1. Pre-Unity work
 2. Importing Assets
@@ -27,6 +23,8 @@ In this post, I'll be breaking down my workflow, from character modeling to fina
 Packages Used: Unity Recorder, Unity Timeline, Post-Processing v2, Cinemachine, [Toon Standard](https://github.com/Flafla2/Toon-Standard), [Post-Processing Utilities](https://github.com/keijiro/PostProcessingUtilities)
 
 Software Used (visuals): Maya, Motionbuilder, Photoshop, After Effects, Premiere Pro, Unity
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/412594397?h=cd22fa78ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Youth Group 4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 **Pre-Unity**: This should be review for anybody who has imported a custom character for Unity before. Each character asset that I imported contained the following:
 
