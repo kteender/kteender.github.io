@@ -68,11 +68,11 @@
 .navi-buttons, .navi-buttons-current {
   box-sizing: border-box;
   font-family: Tourney, Helvetica, monospace;
-  font-size: 20px;
+  font-size: 1.25em;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.0625em;
   border-color: white;
-  flex-basis: 150px;
+  flex-basis: 9.375em;
   text-align: center;
   margin: 1%;
   padding-top: .5%;
@@ -635,7 +635,7 @@
 .preview {
   display: block;
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875em;
   padding: 0;
 }
 
@@ -648,7 +648,7 @@
 
 .dummy{
   width: 100%;
-  height: 5px;
+  height: .3125em;
 }
 
 /* everything that could be on end in page-section-2
@@ -894,8 +894,11 @@ needs a margin-right*/
   box-sizing: border-box;
 }
 
-/* mobile stuff */
-@media screen and (max-device-width: 600px) and (orientation: portrait){
+/* mobile stuff - special style for high-pixel density devices*/
+@media screen and (max-device-width: 600px) and (orientation: portrait) and (min-width: 600px){
+  .clip-text{
+    font-size: 10em;
+  }
   .featured{
     flex-basis: 100%;
     height: auto;
@@ -906,6 +909,50 @@ needs a margin-right*/
   .misc{
     flex-basis: 100%;
   }
+  .regular-holder{
+    flex-basis: 25em;
+  }
+  .section-middle, .label-middle{
+    font-size: 3em;
+    width: 66%;
+  }
+  .small-section-middle{
+    font-size: 3em;
+    width: 66%;
+  } 
+  .navi-buttons, .navi-buttons-current{
+    flex-basis: 12em;
+  }
+
+  .text h2{
+    font-size: 26pt;
+  }
+
+  .text h3{
+    font-size: 22pt;
+  }
+
+  .text p{
+    font-size: 16pt;
+  }
+
+  .preview{
+    font-size: 1.2em;
+  }
+
+  .featured-preview{
+    font-size: 1.2em;
+  }
+  
+  .animation-text h3{
+    font-size: 26pt;
+  }
+
+  .bottom{
+    background-size: 3em;
+    height: 3em;
+  }
+
 }
 
 
