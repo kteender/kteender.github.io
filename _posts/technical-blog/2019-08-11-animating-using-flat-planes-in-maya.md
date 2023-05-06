@@ -147,11 +147,7 @@ There were two different types of characters in the animation -- golf balls and 
 I changed the face on the model to reflect more personality. The eyes, ears, horns, and mouth are all separate pieces of geometry, which I'll discuss more in the rigging section. Additionally, the back legs are a darker material, to give a stronger perspective. For the last shot, I made a front view of the giraffe as well:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/giraffe-front-model-1.png' style='max-width:max-content;'>
-</div>
-    
-<div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-33-render-01_1.0077.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/giraffe front.png' style='max-width:max-content%;'>
 </div>
     
 Sculpting and retopologizing a giraffe would have been waaaay out of scope, but drawing and matching the geometry of these planes only took a few hours. I also experimented with duplicating all the geometry and making it black so that it'd look like outlines, but I ultimately decided against it.
@@ -164,7 +160,7 @@ Sculpting and retopologizing a giraffe would have been waaaay out of scope, but 
 For the golf balls, I created four separate rigs for 0, 45, 90, and -90 rotations. I got this idea from looking at how 2d cutout animation is created, with a model sheet of different views of the character. I created the 45 degree rig first, and from there, it was pretty easy to scale the pieces of geometry for the other views. You can see some of the different views I created for each golf ball below. For every character, I modeled as if the "Front" orthographic camera was the render camera, which I'll discuss more in the rendering section.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballscan001.png' style='max-width:50%;'>
+    <img src='/img/2019-08-11-flat-planes/golfballscan001.png' style='max-width:30%;'>
     <p>My concept art</p>
 </div>
 
@@ -237,11 +233,11 @@ Tail: FK joints, pretty standard. If I were to make the rig more robust, the fir
 Neck: IK spline with a 9 -joint bind chain. There are two controllers at the top and bottom of the neck that control each end.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/body.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/body.png' style='max-width:60%;'>
 </div>
     
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/torso.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/torso.png' style='max-width:60%;'>
 </div>
     
 Body: Most of the body was bound to a central joint. The character's movement was benefited by using smooth bind because it allowed influence from tailBase, upperLeg, and neck joints, leading to better deformations and a less "cut-out" look.
@@ -260,60 +256,60 @@ Head: All the head geometry was simply constrained to the head joint. I did this
 Face: I created different phonemes for lip syncing using blend shapes. I used the following phonemes: A/I, E, O/U, F/V, C, L, M/B, and W/Q. I also misspelled "phonemes" in the Channel Box. Embarrassing.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/a-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/a-1.png' style='max-width:60%;'>
     <p>A</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/e-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/e-1.png' style='max-width:60%;'>
     <p>E</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/o-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/o-1.png' style='max-width:60%;'>
     <p>O/U</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/f-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/f-1.png' style='max-width:60%;'>
     <p>F/V</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/c-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/c-1.png' style='max-width:60%;'>
     <p>C</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/m-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/m-1.png' style='max-width:60%;'>
     <p>M/B</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/w-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/w-1.png' style='max-width:60%;'>
     <p>W/Q</p>
 </div>
 
 I used the same process to create the phonemes for the front view giraffe rig (which did not have any skinning). I also used blend shapes to create some different eye poses.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/eyebottomup.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/eyebottomup.png' style='max-width:60%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/eyelookright.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/eyelookright.png' style='max-width:60%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/eyewide.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/eyewide.png' style='max-width:60%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/eyeclosed-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/eyeclosed-1.png' style='max-width:60%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/eyelookright-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/eyelookright-1.png' style='max-width:60%;'>
 </div>
 
 The golf ball rigs were really flexible. Below, I'll go through the rig features and setup. I prioritized making the various parts of the character independently transform-able (is that a word?), so I opted for constraints or straight - up just putting the geometry under a controller in the hierarchy. I wanted independent transformations because I knew this would be important for overlapping action and subtle perspective changes.
@@ -348,11 +344,11 @@ Feet: The feet setup was identical to the arms, minus the Pole Vector constraint
 Eye: Since all the pieces of the eye were separate geometry, to control the character's gaze, I just moved the pupil and iris around. I also created blendshapes for some different eye poses, which you can see below:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballeyewide.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/golfballeyewide.png' style='max-width:60%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballeyeclosed.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/golfballeyeclosed.png' style='max-width:60%;'>
 </div>
 
 **Animation**
@@ -409,36 +405,36 @@ I also favored lights with high intensity and bright colors. I took inspiration 
 In the shot below, I used a bright blue spotlight on the water, and a purplish one on the elephant and on the rocks.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-29-render-01.0001.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/shot-29-render-01.0001.png' style='max-width:70%;'>
 </div>
 
 In this shot, I used a green spotlight on the grass and a high-intensity purple spotlight on the rocks. The darker portions of grass in the front where achieved with a separate piece of geometry.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-2-and-3-render-01.0005.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/shot-2-and-3-render-01.0005.png' style='max-width:70%;'>
 </div>
 
 In this shot, I put a red spotlight on the volcano
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-17-render-03.0001.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/shot-17-render-03.0001.png' style='max-width:70%;'>
 </div>
 
 For the sky, I would put a bright blue spotlight below the geometry and angle it up, and play with the falloff until i got a gradient that I was happy with:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/skyspotlights.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/skyspotlights.png' style='max-width:70%;'>
     <p>Sky spotlights (selected)</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-30-render-01.0178.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/shot-30-render-01.0178.png' style='max-width:70%;'>
 </div>
 
 By contrast, in the shots of the houses under the course, I used more neutral colored lighting:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-10-render-01.0038.png' style='max-width:max-content;'>
+    <img src='/img/2019-08-11-flat-planes/shot-10-render-01.0038.png' style='max-width:70%;'>
 </div>
 
 Since my geometry was not complex, there were no shadows, and I used only Lambert materials, the frames rendered super fast (45 to 120 seconds per frame).
