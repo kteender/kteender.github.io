@@ -4,6 +4,7 @@ date: 2018-12-12
 show-date: F
 type: animation
 cover-image: img/2018-12-12-midland-safari-putt-putt/cover_image.png
+uri: "/2018/12/12/midland-safari-putt-putt.html"
 ---
 
 A small-town insurance salesman has a secret.

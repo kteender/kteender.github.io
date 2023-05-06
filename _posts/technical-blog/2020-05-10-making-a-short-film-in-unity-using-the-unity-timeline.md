@@ -6,6 +6,7 @@ show-date: T
 type: blog
 cover-image: img/2020-05-10-unity-short/cover_image.jpg
 featured: T
+uri: "/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline.html"
 ---
 Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow. There's also a link to the completed film and the Unity packages I used at various points in the pipeline.
 

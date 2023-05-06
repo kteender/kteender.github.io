@@ -4,6 +4,7 @@ date: 2021-04-19
 show-date: F
 type: animation
 cover-image: img/2020-05-80-youth-group-4/cover_image.png
+uri: "/2021/04/19/youth-group-4.html"
 ---
 
 A youth group meeting goes off the rails

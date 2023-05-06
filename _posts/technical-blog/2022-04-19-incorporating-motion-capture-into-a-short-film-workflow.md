@@ -14,6 +14,7 @@ show-date: T
 type: blog
 cover-image: img/2022-04-19-mocap/cover_image.jpg
 featured: F
+uri: "/2021/04/19/incorporating-motion-capture-into-a-short-film-workflow.html"
 ---
 <html>
     <head>
