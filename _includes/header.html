@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title> {{ page.title }}</title>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body style="margin:0;">
         
@@ -14,8 +16,34 @@
                 <a href="{{ item.link }}"class="navi-buttons">{{ item.name }}</a>
                 {% endfor %} -->
                 {% include navigation.html %}
+            </div>
         </div>
-        </div>
+        <div class="topnav">
+            <a href="" class="active"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Technical Blog</a>
+                <a href="animations.html">Animations</a>
+                <a href="drawing.html">Drawing</a>
+                <a href="reels.html">Reels</a>
+                <a href="about.html">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <!-- <i class="fa fa-bars"></i> -->
+            </a>
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              } 
+            </script>
+          </div>
         <!-- <div class = "bottom-content">
             <div class="bottom"></div>
           </div> -->

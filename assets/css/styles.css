@@ -29,7 +29,7 @@
 
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_one {
-  background-image: url('style_img/text_dither.png');;
+  background-image: url('style_img/text_dither.png');
   background-size: 40px;
   background-repeat: repeat-x;
 }
@@ -222,8 +222,9 @@
   /* Style the navigation menu */
   .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: relative;
+  font-family: Tourney, Helvetica, monospace;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -236,17 +237,21 @@
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 26pt;
   display: block;
+  background-color: black;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
   display: block;
   position: absolute;
-  right: 0;
+  width: 12%;
+  left:44%;
   top: 0;
+  background-image: url('style_img/white-bars.png');
+  background-size: 20px;
+  background-repeat: repeat-x;
 }
 
 /* Add a grey background color on mouse-over */
@@ -390,7 +395,7 @@
 .featured-container {
   display: flex;
   /*background-image: url(mockup_images/featured_bg.png);*/
-  background-image: url('style_img/bg_seamless_dither.png');;
+  background-image: url('style_img/bg_seamless_dither.png');
   background-size: cover;
   background-size: 2.5em;
   filter: invert();
@@ -882,7 +887,7 @@ needs a margin-right*/
 }
 
 /* mobile stuff - special style for high-pixel density devices*/
-@media screen and (max-device-width: 600px) and (orientation: portrait) and (min-width: 600px){
+/* @media screen and (max-device-width: 600px) and (orientation: portrait) and (min-width: 600px){
   .clip-text{
     font-size: 10em;
   }
@@ -940,7 +945,7 @@ needs a margin-right*/
     height: 3em;
   }
 
-}
+} */
 
 
 
