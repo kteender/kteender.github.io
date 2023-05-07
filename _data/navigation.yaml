@@ -3,7 +3,7 @@
 # - name: About
 #   link: /about.html
 - name: DRAWING
-  link: /drawings.html
+  link: /drawing.html
 - name: BLOG
   link: /blog.html
 - name: ANIMATIONS
