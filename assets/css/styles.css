@@ -913,6 +913,16 @@ needs a margin-right*/
 }
 
 /* mobile stuff - special style for high-pixel density devices*/
+@media (pointer:coarse), screen and (max-width: 642) {
+    .flex-container{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      flex-flow: column;
+      flex-wrap: wrap;
+      height: 320px;
+      margin-right: 5%;
+    }
+}
 /* @media screen and (max-device-width: 600px) and (orientation: portrait) and (min-width: 600px){
   .clip-text{
     font-size: 10em;
