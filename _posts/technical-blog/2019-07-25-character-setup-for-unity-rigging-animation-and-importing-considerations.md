@@ -9,6 +9,7 @@ tags:
   - "rigging"
   - "unity"
 cover-image: "img/2019-07-25-unity-rigging/cover_image.jpg"
+cover-big: "img/2019-07-25-unity-rigging/cover_big.png"
 show-date: T
 type: blog
 featured: F
@@ -18,6 +19,8 @@ uri: "/2019/07/25/character-setup-for-unity-rigging-animation-and-importing-cons
 This post isn't going to a tutorial in the way that my previous posts have been. Rather, it's going to be some advice on how to approach bringing custom animations and characters into Unity, based on my past couple of years experience working on projects that utilize the (Motionbuilder) - Maya - Unity pipeline, and I'll try to update this post with new considerations that I discover!
 
 To utilize the Unity animation system with as few hiccups as possible, it's important to understand the necessities of your project before you start the rigging process. The Unity animation system (a.k.a "Mecanim") has many features that you may or may not need, and it's important to know which ones you'll need to utilize ahead of time so that you can plan ahead with your rigs and animation methods. This will become important when we discuss the Unity Avatar further down this post. Additionally, there are many common rigging tactics that are not suitable for use in Unity, and it's important to be aware of the engine's limitations so you can strategize the best rig possible. It's better to build things right the first time, with lots of testing along the way, then to tell yourself "I'm sure it'll work" and waste your time. I'll get off the soapbox now.
+
+<!--break-->
 
 Additionally, it should be noted that while I reference Maya, much of this information should carry over the Blender, 3ds Max, etc.
 

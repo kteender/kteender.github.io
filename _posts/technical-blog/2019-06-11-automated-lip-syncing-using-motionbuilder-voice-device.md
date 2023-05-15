@@ -12,6 +12,7 @@ tags:
   - "voice"
   - "voice-device"
 cover-image: "img/2019-06-11-voice-device/cover_image.jpg"
+cover-big: "img/2019-06-11-voice-device/cover_big.png"
 show-date: T
 type: blog
 featured: F
@@ -20,6 +21,8 @@ uri: "/2019/06/11/automated-lip-syncing-using-motionbuilder-voice-device.html"
 
 UPDATE: In section 1 of this post, we paint the blendshape weights for the character. I've noticed a bug where sometimes, all your morph targets don't appear in the "Target" section of the Paint Blend Shape Weights Tool. You can get around thing by right-clicking on your base mesh, and while holding down the right mouse button, move down to Paint > Blend Shape > your desired shape.  
 UPDATE, THE SEQUEL: I recently discovered that Maya's fbx exporter doesn't export shape masks (also know as blend shape weighting). If you made multiple shapes on one model and masked some of them out, this isn't going to work in MoBu -- the entire mesh is going to be effected. If you make this mistake and don't want to make new targets, you can turn up the original shape (with the mask on the target) up to 1.00, all of the others down, select the base mesh, and in the Shape Editor, do Create > Target from Selection. Then, you'll have a target with only the desired deformation. See me discover this [here](https://forums.autodesk.com/t5/motionbuilder-forum/blendshape-weights/td-p/9183586).
+
+<!--break-->
 
 Hey everybody! For my first post, I wanted to share one of my absolute favorite things, which is doing automated lip syncing using Autodesk Maya and Autodesk Motionbuilder (both of which are available for free through Autodesk if you're a student). This is a super powerful method to quickly get lots of talking animation if you are a little familiar with MoBu and pretty familiar with Maya. I'll do my best to describe what a particular tool or asset does, but sometimes I'm going to refer to Maya/MoBu documentation for more in-depth information. The point of this tutorial is to give an explanation of how the different assets and tools come together, not to parrot the manual by giving exhaustive detail about a particular technique
 
@@ -37,26 +40,21 @@ Create a copy of your head geometry for each phoneme. Use the sculpting tools to
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture-1.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 **Step 2:** Once you have phoneme morph targets, select all of the morph targets, then select the character head geometry, and click Deform > Blend Shape.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture1.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>Checking Local will make it such that the head does not move towards the morph target when the weight is increased. You can delete the targets later since the information is now on the head, but I like to keep them around in case I need to redo something.</p>
 </div>
-
-Checking Local will make it such that the head does not move towards the morph target when the weight is increased. You can delete the targets later since the information is now on the head, but I like to keep them around in case I need to redo something.
 
 Check your targets by into Window > Animation Editors > Shape Editor, which I believe is new in Maya 2017, or by looking clicking on the blendshape node in the "inputs" section of the Channel Box.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture3.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>You want all the morph targets for a particular model to be under one blendshape so that you can paint the weights. Check that all your deformers are working properly by dragging the sliders</p>
 </div>
-
-You want all the morph targets for a particular model to be under one blendshape so that you can paint the weights. Check that all your deformers are working properly by dragging the sliders
 
 You'll notice that I also have blend shapes for the eyes to close. For any piece of geometry, you want to only have one actual _blend shape_, with multiple _morph targets_. This is kind of confusing, because often "blend shape" gets used as a stand in for "morph target." If you need to add targets, instead of making a new blend shape, select the new morph target, then click on the blend shape in the Shape Editor, and click Create > Add Selection as Target.
 
@@ -66,7 +64,6 @@ Next, we're going to paint the blendshape weight so that multiple blend shapes w
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture4.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 If you've ever painted skin weights, this tool is very similar. You can select the different morph targets and paint in areas of influence. This allows you to have multiple targets affecting a piece of geometry at the same time (for example, you can hit the AO phoneme and a blink at the same time). If you don't paint weights, a single target will control the whole geometry, and you'd need an exponentially increasing number of targets for each possible facial position! Further documentation of this tool can be found in the [Maya Manual](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-950716A4-19CF-4C14-96F1-FD6B4D48663C-htm.html).
@@ -85,10 +82,8 @@ Once you're ready to start your facial animation, go to the Asset Browser and se
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture5.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>Our newborn voice device</p>
 </div>
-
-Our newborn voice device
 
 A Voice Device essentially identifies phonemes in pre-recorded or audio coming into the mic. and allows you to map them to the phoneme shapes you just created by way of the Character Face (which I'll talk about later). It _really helps_ if you have a nice recording -- no peaking, no background noise, no music, etc. because MoBu can't tell inherently what is a phoneme and will try to map background noise to a phoneme. I'll talk about strategies to mitigate this problem later, but set yourself up for success with a good recording. I'm not going to go into exhaustive details of the buttons because the [MoBu documentation](https://help.autodesk.com/view/MOBPRO/2018/ENU/?guid=GUID-CAACC176-46C9-408C-A36B-30F0E198C63B) has a better description than I could provide.
 
@@ -96,19 +91,15 @@ Anyway, you should click the "Add" button, which will pull up a list of phonemes
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture6.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>phoneme identification</p>
 </div>
-
-phoneme identification
 
 If you see the phonemes but don't hear the audio, check you computer's audio settings and MoBu's audio preferences. If you still can't hear it, select your clip in the navigator and make sure that it's directing to the right speakers, has the proper offset to match your timeline, and is set to the current Take.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture7.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>Troubleshooting no sound.</p>
 </div>
-
-Troubleshooting no sound.
 
 **Step 4:** Now that our Voice Device is set up, it's time to set up our character, which means mapping the morph targets on our facial blendshape to MoBu's phoneme blend shapes. (As you do more motion capture and game animation, you'll begin to see just how much mapping goes on).
 
@@ -116,10 +107,8 @@ Shift+select every piece of geometry involved in facial animation (so if your te
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture8.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>The Character Face Definition pane</p>
 </div>
-
-The Character Face Definition pane
 
 The Character Face is a very important asset for facial animation in Motionbuilder -- it's what allows you to transfer input data, whether that's facial mocap or phonemes from a Voice Device, onto a model. If you've never used it, I recommend you read about it on the [Motionbuilder documentation](https://help.autodesk.com/view/MOBPRO/2018/ENU/?guid=GUID-454B71D2-C20D-4730-9D9E-C24D666D5EB5).
 
@@ -129,7 +118,9 @@ If you've set up your Voice Device, you should see every phoneme that you added 
 
 Click on each phoneme in the Custom expressions tab, then dial the morph target up to 100% to define that expression. The model should go into that particular phoneme. It's easier to watch me do this than to explain it:
 
-[https://vimeo.com/319511292](https://vimeo.com/319511292)
+<div class="captioned-image">
+    <iframe src="https://player.vimeo.com/video/319511292?h=a22f74e9ae" width="640" height="340" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Once you're done, click through your Custom Expressions to make sure that everything is mapped properly. If you have other blendshapes, such as blinking, you can map them in the "Generic" tab, or define a custom expression for them. If your tongue and teeth are separate geometry, select those in the "Model with Shapes" drop down and repeat the definition. Consult the Character Face documentation if this is confusing.
 
@@ -138,22 +129,19 @@ You should also attach an Actor Face from the Characters section of the Asset Br
 **Step 5**: We're almost ready to see our model move! The last step is to use the Relations pane to connect the phonemes identified by the Voice Device to the phoneme Expressions in the Character Face. Undock and fullscreen your Navigator pane (the Motionbuilder Relations Pane is a poor man's Maya Node Editor, so you want as much real estate as possible.) Connect each phonemes from the Voice Device node to the empty connection in the shape Multiply node, as shown below:
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture9.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <img src='/img/2019-06-11-voice-device/capture9.png' style='max-width:80%;'>
 </div>
 
 Your final result should look like this:
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture10.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <img src='/img/2019-06-11-voice-device/capture10.png' style='max-width:80%;'>
 </div>
 
 Hit play on the Transport Controls. You should see your model lip sync to the narration. If you don't see anything, make sure the "Active" box on your Character Face is ticked, and the "Online" box in your Voice Device is yellow.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture14.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <img src='/img/2019-06-11-voice-device/capture14.png' style='max-width:30%;'>
 </div>
 
 **Step 6:** Now it's time to do some tweaking.
@@ -168,33 +156,27 @@ Let's start with filtering. Adjusting the sliders underneath each phoneme parame
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture15.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 Next, we'll adjust our phoneme weighting. To do this, we enter a value between 0 and 10 in the field below the filtering slider. The higher the value, the more emphasis on a particular phoneme. In the image below, there will be lots of emphasis on AO, and so little emphasis on AX that the model doesn't even pronounce it.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture16.png?w=90' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <img src='/img/2019-06-11-voice-device/capture16.png' style='max-width:max-content;'>
 </div>
 
 If you want to **dampen** or **accentuate** every phoneme, you can do that in the Relations pane. Add an integer node, and then right click on the left arrow and select "Set Value." Type your factor into the field (somewhere between 1 and 25 is usually good)
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture17.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>An integer node. Side note: if you need to zoom in in the Relations pane, left click+drag on the magnifying glass in the upper right corner. Again: poor man's Node Editor.</p>
 </div>
-
-An integer node. Side note: if you need to zoom in in the Relations pane, left click+drag on the magnifying glass in the upper right corner. Again: poor man's Node Editor.
 
 If you're adjusting the dampening (below left), click on the dampening factor in every phoneme dampening node, then repeatedly single-click on the Result field in the Integer node. If you're adjusting the multiply (below right), do the same with the multiply node instead of the dampening node.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture20.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>If the clicks are confusing, you can watch me do it here: [https://vimeo.com/319511325](https://vimeo.com/319511325)</p>
 </div>
-
-If the clicks are confusing, you can watch me do it here: [https://vimeo.com/319511325](https://vimeo.com/319511325)
 
 **Step 7:** You probably want to add other facial animation aside from just the lip sync. For Keith, I wanted to add blinking. To add animation on top of the lip sync, we use the Actor Face asset that we added to our model back in Step 4. The Actor Face is an animation source that drives the Character Face -- you can have many Actor Faces in a scene, and choose which one drives your Character Face. So, you do any keyframe facial animation on the Actor Face, and that drives the expressions defined in the Character Face. The Actor Face is also the tool use to retarget facial mocap. We aren't really using that many features of the Actor Face, but if you have never used it before, check out (you guessed it) the [MoBu documentation](https://help.autodesk.com/view/MOBPRO/2018/ENU/?guid=GUID-73BDA6EF-F3CB-4901-B943-6F0C55633CBF).
 
@@ -202,17 +184,14 @@ Make a new animation layer by clicking the plus button in the upper right
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture21.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 Open the Actor Face and locate the channel you wish to edit. Enable animation on the channel by clicking on the A button right of the channel (it should flip from grey to white). Create keyframes by clicking the K button left of the channel (it should turn red).
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture24.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <p>I'm closing Keith's left eye</p>
 </div>
-
-I'm closing Keith's left eye
 
 One annoying thing about animating with the Actor Face is that the keys do not appear on the timeline. If you wish to see all your keys laid out, use the FCurves window.
 
@@ -222,42 +201,36 @@ What we need to do is record the facial animation and mocap into a new Take. The
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture25.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 Select Yes when MoBu asks you if you want to copy data into the new Take. This is so that your body mocap will carry over into the new Take.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture26.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 Rename your new Take in the hierarchy.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture27.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 Tick the "Recording" box in the Voice Device and the record button on the Transport Controls. This allows you to record the data from the Voice Device into the Take.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture34-1.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
+    <img src='/img/2019-06-11-voice-device/capture34-1.png' style='max-width:30%;'>
 </div>
 
 Hit Play. Once the Take has played all the way through (this is how you record the Voice Device animation to the Character Face), untick "Live" in the Voice Device. Next, create a new layer on which to plot the face animation.
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture30-1.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 In the Character Face, select "Plot Animation...". The following pop-up menu will appear. Selecting Plot on Frame makes sure that there aren't keyframes plotted on fractions of frames. You can pick whatever frame rate you want (I use 24 if the final product is an animation and 60 if the final product is a game). Hit Plot. If you have body mocap, make sure that you plot that too. Read more about plotting [here](https://knowledge.autodesk.com/support/motionbuilder/learn-explore/caas/CloudHelp/cloudhelp/2017/ENU/MotionBuilder/files/GUID-D6C6C2DD-14E8-477E-9A7F-DB1094217F59-htm.html).
 
 <div class='captioned-image'>
     <img src='/img/2019-06-11-voice-device/capture32.png' style='max-width:max-content;'>
-    <p>AN IMAGE CAPTION</p>
 </div>
 
 Now, you should be able to untick "Active" in your Character Face and still see the facial animation on your character in the Viewport. You should also see red keyframes in the on the shape channels in your Character Face. Finally, select your model, skeleton, and props in the Scene section of your Hierarchy (if you want to select all of the underlying elements, right click > Select Branches). Select File > Send to Maya, or save it as an FBX and import it into Maya.

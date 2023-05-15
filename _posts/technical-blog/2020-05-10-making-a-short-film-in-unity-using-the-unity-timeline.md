@@ -5,6 +5,7 @@ date: "2020-05-10"
 show-date: T
 type: blog
 cover-image: img/2020-05-10-unity-short/cover_image.jpg
+cover-big: img/2020-05-10-unity-short/cover_big.png
 featured: T
 uri: "/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline.html"
 ---
@@ -25,12 +26,10 @@ Packages Used: Unity Recorder, Unity Timeline, Post-Processing v2, Cinemachine, 
 
 Software Used (visuals): Maya, Motionbuilder, Photoshop, After Effects, Premiere Pro, Unity
 
+<!--break-->
+
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/412594397?h=cd22fa78ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Youth Group 4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 **Pre-Unity**: This should be review for anybody who has imported a custom character for Unity before. Each character asset that I imported contained the following:
 
 - character mesh that was modeled/UV'd/textured/rigged in Maya. For details on how to rig a character that will work in Unity, please read [my post on the subject.](https://ktcg.art.blog/2019/07/25/character-setup-for-unity-rigging-animation-and-importing-considerations/) Please note that Unity does NOT support smooth mesh preview, so if you want smooth meshes, you need to perform a smoothing operation before you export the FBX.

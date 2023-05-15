@@ -127,11 +127,12 @@
   display: block;
   position: absolute;
   top:.3em;
-  left: 0; 
+  /* left: 0; 
   right: 0;
   margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  margin-right: auto; */
+  right: .2em;
+  width: 2.1em;
   background-image: url('style_img/white-bars-spaced.png');
   background-size: 1.25em;
   background-repeat: repeat-x;
@@ -226,6 +227,11 @@
   background-color: white;
   font-family: Tourney, Helvetica, monospace;
   font-weight: normal;
+}
+
+.content h2{
+  font-family: 'Text Me One', Tahoma, sans-serif;
+  text-align: center;
 }
 
 .content h4{
@@ -912,7 +918,26 @@ needs a margin-right*/
   box-sizing: border-box;
 }
 
-/* mobile stuff - special style for high-pixel density devices*/
+.image-tiles-container{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-tile-holder{
+  flex-basis: auto;
+  margin: 0.1875em;
+}
+
+.image-tile-holder img{
+  max-height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* touchscreen stuff */
 @media (pointer:coarse), screen and (max-width: 642) {
     .flex-container{
       overflow-x: scroll;
@@ -996,9 +1021,8 @@ needs a margin-right*/
   max-height: 100%;
   margin: 5%;
   overflow: hidden;
-  flex-grow: 1;
-
 }
+
 .drawing-holder img {
   object-fit: contain;
   vertical-align: middle;

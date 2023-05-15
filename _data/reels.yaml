@@ -1,0 +1,9 @@
+- name: Character Animation Reel
+  id: "character-animation"
+  embed: embed-reel-char-anim.html
+- name: Rigging Reel
+  id: "rigging"
+  embed: embed-reel-rigging.html
+- name: Generalist Reel
+  id: "generalist"
+  embed: embed-reel-generalist.html

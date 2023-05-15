@@ -87,21 +87,19 @@ type: index
         <div class="section-right"></div>
       </div>
       <div class = "animation-container">
-        {% for post in site.posts %}
-          {% if post.type == "animation" %}
-            <div class = "animation-holder fade">
-              <a href="{{ post.uri }}">
-              <div class = "animation-labeled-image">
-                <img src="{{ post.cover-image }}">
-                <div class="animation-text">
-                  <h3>{{ post.title }}</h3>
-                </div>
+        {% for item in site.data.animations %}
+          <div class = "animation-holder fade">
+            <a href="/animations.html/#{{ item.id }}">
+            <div class = "animation-labeled-image">
+              <img src="{{ item.cover-image }}">
+              <div class="animation-text">
+                <h3>{{ item.name }}</h3>
               </div>
-              </a>
             </div>
-            <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
-            <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
-          {% endif %}
+            </a>
+          </div>
+          <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
+          <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
         {% endfor %}
       </div>
       <div class = "bottom-content">

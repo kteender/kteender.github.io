@@ -6,7 +6,38 @@ title: drawing
 <div class="content-holder">
     <div class="content">
 
-        <h1>this will be drawings</h1>
+        <h1>DRAWING</h1>
+        <h2>STUDIES</h2>
+        <div class="image-tiles-container">
+            {% for item in site.data.studies %}
+                <div class="image-tile-holder">
+                    <img src="{{ item.link }}">
+                </div>
+            {% endfor %}
+        </div>
+        <h2>CHARACTERS</h2>
+        <div class="image-tiles-container">
+            {% for item in site.data.characters %}
+                <div class="image-tile-holder">
+                    <img src="{{ item.link }}" style="max-height: 250px;">
+                </div>
+            {% endfor %}
+        </div>    
+        <h2>ILLUSTRATION</h2>
+        <div class="image-tiles-container">
+            {% for item in site.data.brochures %}
+                <div class="image-tile-holder">
+                    <img src="{{ item.link }}" style="max-height: 400px;">
+                </div>
+            {% endfor %}
+        </div> 
+        <div class="image-tiles-container">
+            {% for item in site.data.illustration02 %}
+                <div class="image-tile-holder">
+                    <img src="{{ item.link }}" style="max-height: 400px;">
+                </div>
+            {% endfor %}
+        </div>             
     </div>
 </div>
 

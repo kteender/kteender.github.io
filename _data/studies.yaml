@@ -1,0 +1,21 @@
+- name: 01
+  link: /img/drawings/01.png
+- name: 02
+  link: /img/drawings/berniniDavid.png
+- name: 03
+  link: /img/drawings/horse.png
+- name: 04
+  link: /img/drawings/manOnStool.png
+- name: 05
+  link: /img/drawings/manSeated.png
+- name: 06
+  link: /img/drawings/manWithPole.png
+- name: 07
+  link: /img/drawings/womanOnStool.png
+- name: 08
+  link: /img/drawings/womanReclined.png
+- name: 09
+  link: /img/drawings/womanWithKneeUp.png
+- name: 10
+  link: /img/drawings/womanWithPonytail.png
+  

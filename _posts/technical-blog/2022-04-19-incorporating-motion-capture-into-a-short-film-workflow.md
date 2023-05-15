@@ -13,6 +13,7 @@ author: katie
 show-date: T
 type: blog
 cover-image: img/2022-04-19-mocap/cover_image.jpg
+cover-big: img/2022-04-19-mocap/cover_big.png
 featured: F
 uri: "/2021/04/19/incorporating-motion-capture-into-a-short-film-workflow.html"
 ---
@@ -21,9 +22,11 @@ uri: "/2021/04/19/incorporating-motion-capture-into-a-short-film-workflow.html"
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
 </html>
-Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">here</a>, and watch the film itself <a href="{% link _posts/animations/2020-05-80-youth-group-4.md %}">here</a>.
+Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">here</a>, and watch the film itself <a href="/animations.html/#youth-group-4">here</a>.
 
 **Purpose**: This post is designed for students or independent artists considering using motion capture for animated filmmaking, and would like an example of how I approached the process. For the sake of length, I will not be going into tutorial-level detail on the different MotionBuilder/Maya tools referred to, but I will post link to technical information as it comes up, and you can always leave questions in the comments section.
+
+<!--break-->
 
 <div class="captioned-image">
     <video controls autoplay loop muted preload="none">
@@ -236,7 +239,7 @@ You may have noticed that the characters inhabit a room larger than 10'x20' in t
 
 <div class="captioned-image">
     <video controls autoplay loop muted preload="none">
-        <source src="/img/2022-04-19-mocap/editing-2.mp4" type="video/mp4" />
+        <source src="/img/2022-04-19-mocap/editing02.mp4" type="video/mp4" />
     </video>
     <p>left: pre-editing  
     <br>

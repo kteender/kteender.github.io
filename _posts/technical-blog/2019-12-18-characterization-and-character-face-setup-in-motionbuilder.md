@@ -17,12 +17,15 @@ coverImage: "capture11_cluster05.png"
 show-date: T
 type: blog
 cover-image: img/2019-12-18-char-setup-mobu/cover_image.jpg
+cover-big: img/2019-12-18-char-setup-mobu/cover_big.png
 featured: F
 uri: "/2019/12/18/characterization-and-character-face-setup-in-motionbuilder.html"
 ---
 I wanted to share my process for setting up a character for mocap retargeting and facial animation in MotionBuilder. I prefer to make a clean character file to retarget onto, with all the possible assets that I would need for a given project. Having all assets on a character from the beginning of the retargeting process minimizes the risk of realizing I need another feature (character face, voice device, etc.) later on, when I've already created several motions, and might need to set up the same asset on multiple files. In fact, I think of character setup as the final step in the rigging process, rather than the first step in the animation process. It's just better pipeline management.
 
 To begin, I'll think about all the types of animation I need to do for a given project, and create a checklist of all the assets and features I need to set up. I do this before opening the software, to keep me from getting bogged down in little details and forgetting something important. For this project, I'll be using a character called Youth Pastor Rick (shortened to YPR), who is a character in my thesis film at the Carnegie Mellon School of Art. The film isn't out yet, but if you'd like to follow its development, you can stalk me on [Instagram](https://www.instagram.com/kteender/) (@kteender).
+
+<!--break-->
 
 The checklist for YPR (and all the characters in my thesis film) is as follows:
 

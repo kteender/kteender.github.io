@@ -5,8 +5,19 @@ title: animations
 
 <div class="content-holder">
     <div class="content">
-
-        <h1>this will be animations</h1>
+        <h1>ANIMATIONS</h1>
+            {% for item in site.data.animations %}
+                {% if forloop.index == 1 %}
+                    <div style="margin-top: 1%; margin-bottom: 5%;">
+                {% elsif forloop.index == forloop.length %}
+                    <div style="margin-top: 5%;">
+                {% else %}
+                    <div style="margin-top: 5%; margin-bottom: 5%;">
+                {% endif %}
+                    {% include {{ item.embed }} %}
+                <p style="font-size: 15pt;">{{ item.description }}</p>
+            </div>
+            {% endfor %}
     </div>
 </div>
 
