@@ -63,7 +63,7 @@ You can use the Skeleton > Mirror Joints tool to mirror the joints that you made
 Unfortunately, there's not an easy way to make nice controllers like this in Motionbuilder -- there just isn't as robust a NURBs modeling toolset as there is in Maya. So, we'll just use cubes. Not as beautiful, but it'll do. Open the Asset browser, and go to the Primitives tab.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/asset-browser.png' style='max-width:max-content;'>
+    <img src='/img/2019-07-09-mobu-eye-rig/asset-browser.PNG' style='max-width:max-content;'>
 </div>
 
 Drag a cube into the scene. Rename it something like "l\_eye\_CTRL". Right click on it, and click "Zero > All". This will zero out the transforms on the cube. Motionbuilder doesn't have the option to Freeze Transformations, so we'll have to manually move the pivot point in order to get our controller in place without affecting the local transforms.
@@ -176,7 +176,7 @@ Hit CTRL + A to display your model in X-Ray view, and expand the hierarchy in th
 Unfortunately, there's not an easy way to make nice controllers like this in Motionbuilder -- there just isn't as robust a NURBs modeling toolset as there is in Maya. So, we'll just use cubes. Not as beautiful, but it'll do. Open the Asset browser, and go to the Primitives tab.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/asset-browser.png' style='max-width:max-content;'>
+    <img src='/img/2019-07-09-mobu-eye-rig/asset-browser.PNG' style='max-width:max-content;'>
 </div>
 
 Drag a cube into the scene. Rename it something like "l\_eye\_CTRL". Right click on it, and click "Zero > All". This will zero out the transforms on the cube. Motionbuilder doesn't have the option to Freeze Transformations, so we'll have to manually move the pivot point in order to get our controller in place without affecting the local transforms.

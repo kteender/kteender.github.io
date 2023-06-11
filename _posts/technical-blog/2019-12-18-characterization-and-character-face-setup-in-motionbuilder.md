@@ -363,7 +363,7 @@ Reposition the cubes so that they fit the shape of the model's feet:
 Finally, create a Control Rig. [The Control Rig](https://knowledge.autodesk.com/support/motionbuilder/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/MotionBuilder/files/GUID-0CC7458E-1F10-4714-BFD3-4465D4565A68-htm.html?st=control%20rig) is just a set of controls that MoBu creates on a characterized skeleton to allow you to edit it. In the top of the Character Controls window, from the "Source" dropdown, select "Control Rig".
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/Capture30_definition.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture30_definition.PNG' style='max-width:max-content;'>
 </div>
 
 MotionBuilder will ask you what type of Control Rig you'd like to create. I always pick FKIK. After you create the Control Rig, it will appear on your character's skeleton and in your Character Controls window:
@@ -379,7 +379,7 @@ By now, you might have spotted the issue of joints that do not correspond to any
 YPR has a chair that he interacts with all the time, so I'm going to add that to the Character Extension. I'm also going to add all the facial joints -- eyelids, jaw, tongue, and eyebrow -- and the eye controller objects. To begin, right click on the Character in the Hierarchy, and click "Create Character Extension" A Character Extension will appear in the Hierarchy below the Character.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/Capture35_extension.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture35_extension.PNG' style='max-width:max-content;'>
 </div>
 
 Next, select all the objects you'd want in the Character Extension, and click+drag them onto the Character Extension. Click on "Add to Character Extension" when it pops up. Now, when you click on the Character Extension in the Navigator, all your objects should be listed.
