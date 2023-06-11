@@ -38,7 +38,7 @@ For the tutorial, I'll be using Chad, which is a character from a game I worked 
     <p>Go Muskrats</p>
 </div>
 
-##Method 1: Aim Constraints##
+## Method 1: Aim Constraints
 
 If you want to get to my preferred method, skip to Method 2. However, I thought I'd include the process here anyway. Aim constraints are the usual way to do an eye controller in Maya -- if you Google "Maya eye controller tutorial" you'll find lots of people recommending this method. Let's see what happens when we do it in Motionbuilder!
 
@@ -123,7 +123,7 @@ Rename the constraints in the hierarchy so that you can tell them apart. Double 
 
 Finally, drag a Parent/Child constraint from the Asset Browser onto the ref\_eye\_CTRL null. This time, select "Constrain Object" from the pop-up menu, and drag the character's head joint into the "Aim at Object 1" field in the Parent Constraint Settings. Snap. Now, when you rotate the head, the eye controls should follow.
 
-The Problem
+## The Problem
 
 This setup works fine if your character isn't doing any extreme movements (walking, sitting and talking, etc.) However, an issue emerges when the character's head is looking up or down at a large angle. See what happens when I make Chad gaze at the stars:
 
@@ -146,7 +146,7 @@ To understand this problem, we need to know a little bit about how aim constrain
 
 The source of the problem is that the eye's aim constraint has an up vector that changes. You can avoid this problem by animating the aim constraint's up vector in the Properties window -- however, that's a little hacky and doesn't yield perfect results. The better way to do it is to make sure that the up vector never changes, which we can accomplish with a chain IK and pole vector object.
 
-##Method 3: Chain IK##
+## Method 3: Chain IK
 
 **Step 1:** First thing to do is rig our eyes in Maya. Hide the head geometry (CTRL + h). Create a two-joint joint chain, with the base joint right in the center of the eye and the end joint out in front of the character this time, not in the center of the eye. This seems weird, but we do this because the IK effector can't have an offset from the end of the chain IK in Motionbuilder, so if we want the controller to be in front of the face instead of directly on the eye, we have to move the joint forward.
 
