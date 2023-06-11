@@ -63,7 +63,7 @@ This section is just a plug. I used Adrian Biagioli's [Toon Standard Shader](htt
 Also, he's working on making it run on the Scriptable Render Pipeline, so that there can be physically based attributes (e.g. reflections) that work with the cel shading. Super cool -- definitely keep it in mind if you need a toon shader in the future.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/04-toonshader.png' style='max-width:80%;'>
+    <img src='/img/2020-05-10-unity-short/04-toonShader.png' style='max-width:80%;'>
     <p>Here, you can see how I could manipulate the toon ramp to get different effects (I ultimately went with the one on the right). The red on her ears is actually red specularity.</p>
 </div>
 
@@ -79,17 +79,17 @@ One of the coolest things about Unity is its out-of-the-box look development too
 To get started, create an empty GameObject, then add the Post-Processing Volume component. After that, add a Post-Processing Layer to the Main Camera.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/05-postpro.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/05-postPro.png' style='max-width:max-content;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/05a-postpro.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/05a-postPro.png' style='max-width:max-content;'>
 </div>
 
 The post-processing effects I used in this short are: Ambient Occlusion, Bloom, and Color Grading. Below is a screenshot of each of my settings for each effect.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/07-ao.png' style='max-width:50%;'>
+    <img src='/img/2020-05-10-unity-short/07-AO.png' style='max-width:50%;'>
 </div>
 
 <div class='captioned-image'>
@@ -97,17 +97,17 @@ The post-processing effects I used in this short are: Ambient Occlusion, Bloom, 
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/06-colorgrading.png' style='max-width:50%;'>
+    <img src='/img/2020-05-10-unity-short/06-colorGrading.png' style='max-width:50%;'>
 </div>
 
 Unity lets you [use a custom LUT](https://docs.unity3d.com/2018.1/Documentation/Manual/PostProcessing-UserLut.html), so you can do your color grading in Photoshop and have it apply to your scene.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/09-beforelut.png' style='max-width:80%;'>
+    <img src='/img/2020-05-10-unity-short/09-beforeLUT.png' style='max-width:80%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/09a-afterlut.png' style='max-width:80%;'>
+    <img src='/img/2020-05-10-unity-short/09a-afterLUT.png' style='max-width:80%;'>
     <p>with the LUT turned off and on</p>
 </div>
 
@@ -128,13 +128,13 @@ This will create a .playable file where you can decide the frame rate and whethe
 The important thing to understand is that Timeline is the god of what happens in your scene. The next step is to begin adding various elements of your film to the Timeline so they will playback. You do this by creating Tracks (clicking on the little "+" in the left corner of the Timeline window and selecting the type of track you want).
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/11-addtracks.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/11-addTracks.png' style='max-width:max-content;'>
 </div>
 
 I used Animation, Audio, and Cinemachine tracks in this project.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/12-wholetimeline.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/12-wholeTimeline.png' style='max-width:max-content;'>
     <p>You can see my whole Timeline here. At the top, in green, is the Recorder tracks. Next, light blue, the Animation Tracks controlling my characters. Next, yellow, the audio. Next, red, Cinemachine camera tracks. At the bottom, all the Animation Tracks in grey are the camera animations.</p>
 </div>
 
@@ -146,7 +146,7 @@ The input for an animation track is an Animator Controller, so any element that 
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/13a-animatorsetup.png' style='max-width:80%;'>
+    <img src='/img/2020-05-10-unity-short/13a-animatorSetup.png' style='max-width:80%;'>
     <p>Setting up the Animator Controllers</p>
 </div>
 
@@ -174,27 +174,27 @@ Anyway, let's break down the process for creating one of these shots. I'll do on
 First, I'd create a Virtual Camera, and then rename it:
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/14-createvcam.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/14-createVcam.png' style='max-width:max-content;'>
     <p>Make sure to install the Cinemachine package, or you won't see this menu</p>
 </div>
 
 Then, because you need an Animator Controller to animate something, I'll create an Animator Controller for that camera. I ended up storing all my camera Animator Controllers in one folder:
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/15-cameraanim.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/15-cameraAnim.png' style='max-width:max-content;'>
     <p>All my Camera animators (and a few animation clips, because I have bad assets management)</p>
 </div>
 
 Next, I'd drag the Camera into the Cinemachine Track in the Timeline, to create a Camera clip.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/15a-cameraanim.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/15a-cameraAnim.png' style='max-width:max-content;'>
 </div>
 
 Next, I'd create an Animation Track, and select the Camera as the source (obviously, if the Camera won't be animated, you don't need to do this). If you don't see your camera, double check that you assigned it an Animator Controller.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/16-camerasetup.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/16-cameraSetup.png' style='max-width:max-content;'>
     <p>The colored highlights denote the same asset</p>
 </div>
 
@@ -205,7 +205,7 @@ Next, I'd create an Animation Track, and select the Camera as the source (obviou
 Next, I'd hit the Record button on the track, and start setting the Camera movement. You can also right-click on the Clip and Hit "Edit in Animation Window," which I found useful
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/17-recordbuttom.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/17-recordButtom.png' style='max-width:max-content;'>
 </div>
 
 Once I was happy with the movement, I'd click the Record button again to stop Recording.
@@ -213,13 +213,13 @@ Once I was happy with the movement, I'd click the Record button again to stop Re
 Now, for Depth of Field. If you used the Depth of Field Post-Processing effect, the focus on the shot is probably messed up. To set a custom Depth of Field for the shot, click on the Camera, and where it says "Extension", select "Cinemachine Post-Process Script." Select "New" to create a Post-Processing profile for the Camera, and tick the Depth of Field effect. If you don't know how Depth of Field works in a regular camera, it's [time to learn](https://photographylife.com/what-is-depth-of-field).
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/18-postprocesslayer.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/18-postProcessLayer.png' style='max-width:max-content;'>
 </div>
 
 Adjust the Depth of Field attributes in the following order: Focal Length, Aperture, Max Blur Size, Focus Distance. Now, you're shot should have proper DoF...unless, of course, the Camera moves. In real life, there's a position on a film set called a "focus puller" whose job it is to adjust the focus of the camera. In Unity, we'll just animate the focus. There's a Focus Offset attribute of the Cinemachine Virtual Cameras, but that only works if your Cinemachine cameras have a target, which mine did not. So, I used Keijiro Takahashi's Focus Puller in his [Post-Processing Utilities package](https://github.com/keijiro/PostProcessingUtilities), which works in the Editor. Then I animated the "Offset" Value.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/19-focuspulling.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/19-focusPulling.png' style='max-width:max-content;'>
 </div>
 
 **Recording**
@@ -237,7 +237,7 @@ You might be noticing that my output resolution is REALLY high. This is because,
 The last thing to do is make sure that your Game View resolution matches the Output resolution. Having a very high resolution Game View will make Unity run slow, so usually changing that Game View resolution was my last step.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/21-gameview.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/21-gameView.png' style='max-width:max-content;'>
 </div>
 
 After that, hit the Play button, and wait for your recording to be created. At 4800x2700, the 7ish minutes of animation took about 45 minutes to render out, with no light-baking or AO-baking. If I was doing a quick 1920x1080 recording, just for a rough cut, it would be a little slower than real-time.
@@ -251,7 +251,7 @@ After you export your .mp4, you can edit it however you want. Please note that t
 Additionally, if you'll be making additional edits to the visuals in your NLE (cutting, fading, etc.), I have one VERY IMPORTANT tip. Do not do those edits directly to the footage. Create a composition/timeline/sequence with the entire .mp4 from Unity in it, and do your edits _to that composition._ So, for example, in Premiere Pro, I made a Nested Sequence that contained my recording from Unity, then in my main Sequence, I edited the Nested Sequence. That way, I could drop a new recording into the Nested Sequence, and my edits would carry over:
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/22-timelines.png' style='max-width:max-content;'>
+    <img src='/img/2020-05-10-unity-short/22-timeLines.png' style='max-width:max-content;'>
     <p>On the left is my master composition. The light green on the top is the nested composition, inside of which is the uncut videos exports from Unity, in the blue, on the right.</p>
 </div>
 

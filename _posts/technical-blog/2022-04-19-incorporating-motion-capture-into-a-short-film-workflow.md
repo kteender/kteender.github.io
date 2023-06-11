@@ -95,7 +95,7 @@ There were several technical limitations of the space that I made a plan for:
 You need to come to a mocap shoot [prepared](https://mocappys.com/how-to-plan-a-motion-capture-shoot-mocap-shot-list/) with a shot list and a plan for how you'll tackle "impossible" shots (i.e. shots that are physically impossible for a real human, or where multiple motions will need to be stitched together due to capture limitations). For example, if your character climbs stairs, you might bring a stepladder to the shoot and have them climb it, then create a loop out of their motion so you can animate them climbing an entire flight.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/14_multipleshots.png" style="max-width:max-content;">
+    <img src="/img/2022-04-19-mocap/14_multipleShots.png" style="max-width:max-content;">
     <p>Here is several crossfaded animation clips (this processes discussed in more detail in the “Combination” section below) that represent a similar situation to the one described above. I had a character that needed to walk across the virtual room, which was wider than my capture space. I had the actor do the performance in multiple takes, then blended between them, as you see above.</p>
 </div>
 
@@ -115,7 +115,7 @@ I had one of the markered-up actors clap so we could sync the audio with the moc
 **Audio**: I used a boom mic and and wireless mics the capture the audio at the shoot. I ended up re-recording the dialogue in a sound booth because the acoustics in the capture room were not great, but I'm really glad I had the decent recording from the shoot to use for rough cuts.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/14_rerecord.jpg" style="max-width:70%;">
+    <img src="/img/2022-04-19-mocap/14_reRecord.jpg" style="max-width:70%;">
     <p>Two of the actors listen to their line delivery from the shoot through headphones and re-record them in a sound booth.</p>
 </div>
 
@@ -124,7 +124,7 @@ I had one of the markered-up actors clap so we could sync the audio with the moc
 **Folder Structure:** Ahhh, file management. So boring yet so crucial. Much like the pancreas. I pretty much followed the Maya Project folder structure, but I created another sub-folder in "scenes" corresponding to each major step in the motion capture animation process. "Major" is kind of up to interpretation, but in general, each time I plotted motion or changed the number of characters in a MoBu scene, that was considered a new step. The following sections, with the exception of "Set Cameras" correspond to each major step.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/folderstructure.png" style="max-width:max-content;">
+    <img src="/img/2022-04-19-mocap/folderStructure.png" style="max-width:max-content;">
     <p>Folders with preface "mcp" will be discussed below. The other folders contain modeling and rigging files.</p>
 </div>
 
@@ -173,28 +173,28 @@ You can also just have your actor start the take in a t-pose, and characterize f
 Then, fiddle with the retarget settings to get the results you want:
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/05_characterretargetwindow.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/05_characterRetargetWindow.png' style='max-width:max-content;'>
     <p>If you select the character in the Navigator, the retarget settings are displayed in the Properties window. I suggest expanding the pullout menu of each section and seeing if any of the sliders help your retarget.</p>
 </div>
 
 **Plot:** This is just plotting the motion onto the character's control rig, so it's no longer dependent on the source skeleton. I then fixed _only the major_ issues, such as the character's hips being way too low. After that, I plotted the motion onto the character's skeleton.
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/06_characterplotting.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/06_characterPlotting.png' style='max-width:max-content;'>
     <p>Plot button circled in red. This character had the tendency to clip through her chair. That was the only issue I fixed before the initial plot.</p>
 </div>
 
 **Combine** **Performances**: Next, I created a new scene, and merged in a copy of each of the four characters. I then used the Story window to import the plotted animation files for each character and add in the audio.
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/07_storytool.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/07_storyTool.png' style='max-width:max-content;'>
     <p>I used my reference video to line up the motion with the audio. You can also see above that I used the captured rough audio from the shoot to help lining up as well.</p>
 </div>
 
 The Story tool works pretty much like a NLE video program like Premiere. You can cut and crossfade between the clips. Right click on one of the clips to see the menu options for the clip. Particularly important are "Change Take" and "Change Character", which allow you to select the correct character and take from the source file. For more information on the Story tool, you can look at this [Mocappy's tutorial](https://mocappys.com/using-motionbuilder-story-tool/). It's a bit long, scroll down to the middle of the post to get to the information about the Story tool. You should also look at the [MotionBuilder documentation Story Window section](https://help.autodesk.com/view/MOBPRO/2019/ENU/?guid=GUID-02786D29-7615-4C0D-AFFF-431D25156592).
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/08_storytool03.jpg' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/08_storyTool03.jpg' style='max-width:max-content;'>
     <p>top: Story window at beginning of combination 
     <br> 
     bottom: Story window with performance combination completed</p>
@@ -208,7 +208,7 @@ You may have noticed that the characters inhabit a room larger than 10'x20' in t
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/13_ghoststb.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/13_ghoststB.png' style='max-width:max-content;'>
     <p>To enable a character's ghosts, click the eye icon circled in red</p>
 </div>
 
@@ -231,7 +231,7 @@ You may have noticed that the characters inhabit a room larger than 10'x20' in t
 **Separate Characters:** Once I had a firm grasp on when the characters would be in-frame, I baked the animation from the Story window to the characters in the scene, and exported each character to it's own file for editing.
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/09_seperatefolders.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/09_seperateFolders.png' style='max-width:max-content;'>
     <p>You can see in my folder structure that I have separated out the characters</p>
 </div>
 
@@ -251,7 +251,7 @@ For body mechanics correction and enhancement, I just keyed the control rig. For
 For the facial animation, I first used the Voice Device to get a base level of lip sync. I have another post on how to use the Voice Device, located <a href="{% link _posts/technical-blog/2019-06-11-automated-lip-syncing-using-motionbuilder-voice-device.md %}">here</a>. After that, I used the Actor Face to edit the other facial features and fine-tune the lip sync. I recommend making a new layer for each facial feature. For more information on facial animation, I recommend this section of the [MotionBuilder documentation](https://help.autodesk.com/view/MOBPRO/2019/ENU/?guid=GUID-BD8667AD-635F-45AE-B189-9F703A950B0B).
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/00_actorface.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/00_actorFace.png' style='max-width:max-content;'>
 </div>
 
 For finger animation, I used the control rig. I made a new layer for head hand's fingers. You can access the finger controls by expanding the triangle menu near the hand in the control rig window:
@@ -267,22 +267,22 @@ I did several passes of editing, baking the animation (next step) and importing 
 **Baking**: The last step is to bake all of the animation to the character's joints and blend shapes, and export it. You'd think it would be a single click to bake, but not so! You first have to record the lip sync to the character face, then plot the actor face and character face, then plot the body animation. This is not very well documented, so I've just put the process below.
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/11_recordanim.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/11_recordAnim.png' style='max-width:max-content;'>
     <p>First hit the record button, and hit "Overwrite" in the pop-up. You have to play through the timeline afterwards. This records the voice device phoneme information to the Take.</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/11_actorfaceb.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/11_actorFaceB.png' style='max-width:max-content;'>
     <p>Then, plot facial animation on the actor face</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/11_charfacec.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/11_charFaceC.png' style='max-width:max-content;'>
     <p>Then, plot the character animation on the character face</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/11_charfaced.png' style='max-width:max-content;'>
+    <img src='/img/2022-04-19-mocap/11_charFaceD.png' style='max-width:max-content;'>
     <p>Then, plot the body animation from Animation > Plot</p>
 </div>
 

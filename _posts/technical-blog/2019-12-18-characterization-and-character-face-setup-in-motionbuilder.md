@@ -39,12 +39,12 @@ In Maya:
 6. **Send to MotionBuilder**. If your Maya and your MoBu are the same version, you can use File > Send to MotionBuilder. Otherwise, export your rig as an FBX, and open it in MoBu.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture01.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture01.PNG' style='max-width:max-content;'>
     <p>All joints must be connected, with the root at the hip, for proper characterization in Mobu. I created joints for the eyelids, jaw, and eyebrows as well.</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture02_uv.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture02_uv.PNG' style='max-width:max-content;'>
     <p>Quick tip: to check if all the UV shells are in a single UV tile, select all your geometry, and click the "Display image" and "Checker Map" buttons to the top right of the UV editor view window.</p>
 </div>
 
@@ -75,7 +75,7 @@ Before you start doing anything, make sure your rig is gonna work. To check your
 To check your blend shapes, drag a Character Face onto your model with shapes from the Resource Browser.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture03_resourcebrowser.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture03_resourceBrowser.PNG' style='max-width:max-content;'>
 </div>
 
 When you drag it onto the model, you should have the option to "Create" or "Attach to Model." Pick "Attach to Model."
@@ -83,7 +83,7 @@ When you drag it onto the model, you should have the option to "Create" or "Atta
 Next, go into a shape, and enter a value for a random shape. You should see the shape reflected on the model.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture04_checkbs.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture04_checkBS.PNG' style='max-width:max-content;'>
     <p>Here, I've picked a random MotionBuilder shape and a random shape I made for YPR, just to check that the shapes imported correctly.</p>
 </div>
 
@@ -100,7 +100,7 @@ You should also rotate your character to be facing the positive Z-axis. If you d
 I like to create my groups right away, so I can show, hide, make unselectable, and make untransformable different parts of the rig as I'm working. To do this, I'll select whatever objects I want, then in the Groups tab of the Resources panel, I hit "Create"
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture05_groups.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture05_groups.PNG' style='max-width:max-content;'>
     <p>I've created four groups here</p>
 </div>
 
@@ -113,13 +113,13 @@ Skip this step if your model's face is only controlled by blend shapes. Cluster 
 Anyway, to begin, start by clicking on the Character Face and, in the "Target Models" pane, clicking on the "Cluster Shapes Creation" tab. Select the joints you need to create a cluster for, and, holding down x or alt (depending on your hotkey setup), drag them onto the "Cluster Groups" dropdown, where it says "<Drop Cluster(s) Here>".
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture06_clusters01.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture06_clusters01.PNG' style='max-width:max-content;'>
 </div>
 
 "<Drop Cluster(s) Here>" will switch to "Cluster Groups." Rename your group.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture07_clusters02.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture07_clusters02.PNG' style='max-width:max-content;'>
 </div>
 
 I've created my "mouth" Cluster Group. You'll notice that I've added the tongue -- which is a child of jaw joint -- as well. Although it might make sense to you to make separate Cluster Groups for the jaw and the tongue, since the tongue is a child of the jaw, you want them to be together. If they're separate, when the jaw is in a certain Cluster Shape, such as wide open, the tongue won't follow, and will instead, hang in the center of the mouth. Instead, you should create both your tongue and your jaw poses in within the mouth Cluster Group.
@@ -127,27 +127,27 @@ I've created my "mouth" Cluster Group. You'll notice that I've added the tongue 
 Next, I'll add all the mouth poses that I want by clicking "Add" to add a new pose and then renaming it:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture08_clusters03.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture08_clusters03.PNG' style='max-width:max-content;'>
     <p>the tongue poses will be useful for lip sync -- instead of hand-animating the tongue, I can, for example, map a bit of jaw open and tongue curled to make the L phoneme.</p>
 </div>
 
 After that, I simply transform the joints into the position that I want them to be for each shape, then press "Snap" next to the corresponding pose. Repeat this process for each mouth Cluster Shape.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture09_clusters04.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture09_clusters04.PNG' style='max-width:max-content;'>
     <p>Here, I create the jaw open Cluster Shape</p>
 </div>
 
 If your model is unsmoothed, but it will be smoothed in the final render, I recommend getting the rotation/translation values from the smoothed model in Maya. Switch to local transformation mode (F5) or click the Reference Mode icon in the toolbar to the right of the viewer and select "Lcl":
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/Capture10_transform mode.PNG' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture10_transform' mode.PNG' style='max-width:max-content;'>
 </div>
 
 Once you're finished with all the mouth Cluster Shapes, you should be able to click on the shape and the model will snap into that pose:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture11_cluster05.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture11_cluster05.PNG' style='max-width:max-content;'>
     <p>Here, I clicked on "jaw open right" to have YPR snap into that shape</p>
 </div>
 
@@ -166,7 +166,7 @@ For eyelids and eyebrows, if you want the poses to be symmetrical, you can pose 
 In the Asset Browser of the Resources Window, click and drag an Actor Face onto your model. Click "Set as Source." We don't need to do anything else with the Actor Face -- it's used for facial motion capture retargeting and keyframe facial animation -- but it's useful to have one in the scene from the start. For more information on the Actor Face, refer to the [MotionBuilder documentation](https://knowledge.autodesk.com/support/motionbuilder/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/MotionBuilder/files/GUID-73BDA6EF-F3CB-4901-B943-6F0C55633CBF-htm.html).
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture12_actorface.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture12_actorFace.PNG' style='max-width:max-content;'>
 </div>
 
 **5\. Set up the Voice Device**
@@ -178,31 +178,31 @@ Anyway, assuming you're going to use the Voice Device and have read that tutoria
 In the Asset Browser of the Resources Window, click and drag a Voice Device onto your model.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture13_voicedevice.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture13_voiceDevice.PNG' style='max-width:max-content;'>
 </div>
 
 Click on the Voice Device in the Hierarchy, and in the lower right corner, click the "Add" button:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture13_voicedevice02.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture13_voiceDevice02.PNG' style='max-width:max-content;'>
 </div>
 
 Up pops this cute little window, the Voice Parameter Selection window, where you select all the phonemes that you want to define in the Character Face. Ctrl + Click all the ones you want, then click Ok. For this project, I'm using AE, AO, AX, Breath, FV, IY, KG, L, M, N, OW, PB, S, Silence, SZH, TD, UH, UW. Humans aren't amazing at telling the different phonemes, so you can get away with relatively few and still have an appealing speaking animation, especially if your character is stylized.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture13_parameterselection.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture13_parameterSelection.PNG' style='max-width:max-content;'>
 </div>
 
 Your Voice Device window in the Navigator should now look like this:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture13_voicedevice03.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture13_voiceDevice03.PNG' style='max-width:max-content;'>
 </div>
 
 Click on the Character Face in the Hierarchy, and navigate to the "Custom" tab in the Expressions window. You should see that an expression has been created for each phoneme. You should also see that a Relations Constraint has been created in the Hierarchy, under the Character Face
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture14_voicedevice04.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture14_voiceDevice04.PNG' style='max-width:max-content;'>
 </div>
 
 Click on the Relations Constraint. Connect each phoneme from the Voice Device node to the empty connection in the shape Multiply node, as shown below:
@@ -228,7 +228,7 @@ There are two types of Expressions in the MotionBuilder Character Face: **Generi
 Let's start with the Generic Shapes. Click on the Character Face in the Hierarchy. In the "Expressions" pane, click on the "Generic" tab, and in the "Target Models" pane, click on the "Shapes Mapping" tab. If you click on the "Models with shapes" dropdown, you should see all your models with blend shapes, as well as all the Cluster Groups you created in Step 3.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture15_shapesmapping.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture15_shapesMapping.PNG' style='max-width:max-content;'>
 </div>
 
 Expand the Mouth (Close) Generic Expressions Group, then click on one of the Expressions (I'll do Open). When you click on an expression, the Shapes are no longer greyed out.
@@ -236,19 +236,19 @@ Expand the Mouth (Close) Generic Expressions Group, then click on one of the Exp
 I'll select my "mouth" Cluster Group from the "Model with shapes" dropdown, then, with the Mouth Open Generic shape selected, dial my jaw open Cluster Shape up to 100%. See below:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture16_shapesmapping.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture16_shapesMapping.PNG' style='max-width:max-content;'>
 </div>
 
 For some shapes, you'll need to combine model blend shapes with a Cluster Shape. I'll demonstrate how to do this on the Mouth Square Generic Shape. I'll dial the jaw open Cluster Shape up to 70%:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture17_shapesmapping.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture17_shapesMapping.PNG' style='max-width:max-content;'>
 </div>
 
 Next, I'll select my ypr\_body\_geo from the "Model with shapes" dropdown. This deselects the Mouth Square Expression. I reselect it, and the mouth pops back into the mapping I've already set (jaw open 70%). Then, I'll navigate to the cornerUpL and cornerUpR blend shapes in the "Target Models" pane, and turn them both up to 50%:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture18_shapesmapping.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture18_shapesMapping.PNG' style='max-width:max-content;'>
 </div>
 
 Go through the Generic Expressions, mapping your blend shapes and cluster shapes.
@@ -256,13 +256,13 @@ Go through the Generic Expressions, mapping your blend shapes and cluster shapes
 Next, we'll do the Custom Shapes. Switch to the "Custom" tab in the "Expressions" pane. It should be blank, or, if you're using a Voice Device, populated with the phoneme Expressions.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture19_shapesmapping.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture19_shapesMapping.PNG' style='max-width:max-content;'>
 </div>
 
 Click the "Add" button on the lower left. Add however many Expressions would help you with your project. It could be useful to add Expressions for additional blend shapes or full-face expressions. I'm going to add some for YPR's Adams Apple.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture20_shapesmapping.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture20_shapesMapping.PNG' style='max-width:max-content;'>
 </div>
 
 Map these Custom Expressions in the same manner that you did with the Generic ones.
@@ -276,7 +276,7 @@ I'm not going to go into detail on this step, because I wrote another tutorial o
 When retargeting, it's very useful to have have a floor defined so that your character's feet don't go through the floor. We'll create the floor plane now. From the "Elements" section of the Asset Browser in the Resources Window, select a plane, and drag it into the scene. Right click on the plane and select Zero > Translation/Rotation from the pop-up menu.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture21_floor.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture21_floor.PNG' style='max-width:max-content;'>
 </div>
 
 **9\. Define Skeleton and Characterize**
@@ -286,38 +286,38 @@ Now that the facial mapping is done, we can map the rest of the body. This step 
 I liked to do this step with the geometry hidden or unselectable. The first step is to, in the Character Controls window, under "Define", click "Skeleton".
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture22_define.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture22_Define.PNG' style='max-width:max-content;'>
 </div>
 
 MotionBuilder will double check that you want to actually define a skeleton. Click "Define." The Character Controls window will now display this mapping tool:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture23_define.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture23_Define.PNG' style='max-width:max-content;'>
 </div>
 
 The concept is to define certain bones in your character's skeleton as this standard set of bones. If you used a naming template (like HIK), you can automatically map it by clicking this button:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture24_define.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture24_Define.PNG' style='max-width:max-content;'>
 </div>
 
 I'm an imbecile, so I did not do that. Looks like I'm defining by hand! To define a bone, select it in the Viewer or the Hierarchy, then right click it's corresponding bone in the Character Controls window and click "Assign Selected Bone."
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture25_define.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture25_Define.PNG' style='max-width:max-content;'>
 </div>
 
 If it's a happy definition, MoBu will display the bone as green in the Character Controls window. If it's sad, MoBu will tell you the problem in the "Status" bar.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture26_define.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture26_Define.PNG' style='max-width:max-content;'>
     <p>no kidding</p>
 </div>
 
 The downward facing arrows indicate an area that can be expanded to define more bones. You can define extra spine bones, finger and toe phalanges, collarbones, and extra neck bones. You can also define roll bones on the upper and lower arms and legs.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture27_define.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture27_Define.PNG' style='max-width:max-content;'>
 </div>
 
 When you have all the required bones, the "Status" bar will display the message "Characterization is valid."
@@ -325,13 +325,13 @@ When you have all the required bones, the "Status" bar will display the message 
 The next step is to define the floor plane as the floor. In the Hierarchy, under Characters, you should now see the Character that you just created. Click on it, and open the "Character Definition". It should look like this:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture28_floor.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture28_floor.PNG' style='max-width:max-content;'>
 </div>
 
 Click on the floor in the Hierarchy, and, holding x, drag it into the "Left Foot Floor" and "Right Foot Floor" slots:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture29_floor.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture29_floor.PNG' style='max-width:max-content;'>
 </div>
 
 If your character's hands will be on the floor at any point, it's a good idea to drag it into the "Left Hand Floor" and "Right Hand Floor" slots as well.
@@ -339,37 +339,37 @@ If your character's hands will be on the floor at any point, it's a good idea to
 Next, tick the "Characterize" Box. MoBu will ask you to select biped or quadruped. Select the relevant option. Now, your mapping will be in-editable. If you need to edit it, you much untick the "Characterize" box.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture29_characterize.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture29_characterize.PNG' style='max-width:max-content;'>
 </div>
 
 Next, reposition the floor contact to line up with the feet of the model. If you zoom in on the feet, you should see six blue and six green cubes arranged around the feet:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture32_feetcontacts.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture32_feetContacts.PNG' style='max-width:max-content;'>
 </div>
 
 If you don't see them, click on the blue box in the top left of the Character Controls window, and select Show/Hide > Floor contacts.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture33_feetcontacts.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture33_feetContacts.PNG' style='max-width:max-content;'>
 </div>
 
 Reposition the cubes so that they fit the shape of the model's feet:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture34_feetcontacts.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture34_feetContacts.PNG' style='max-width:max-content;'>
 </div>
 
 Finally, create a Control Rig. [The Control Rig](https://knowledge.autodesk.com/support/motionbuilder/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/MotionBuilder/files/GUID-0CC7458E-1F10-4714-BFD3-4465D4565A68-htm.html?st=control%20rig) is just a set of controls that MoBu creates on a characterized skeleton to allow you to edit it. In the top of the Character Controls window, from the "Source" dropdown, select "Control Rig".
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture30_definition-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture30_definition.png' style='max-width:max-content;'>
 </div>
 
 MotionBuilder will ask you what type of Control Rig you'd like to create. I always pick FKIK. After you create the Control Rig, it will appear on your character's skeleton and in your Character Controls window:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture31_controlrig.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture31_controlRig.PNG' style='max-width:max-content;'>
 </div>
 
 **10\. Create Character Extension**
@@ -379,13 +379,13 @@ By now, you might have spotted the issue of joints that do not correspond to any
 YPR has a chair that he interacts with all the time, so I'm going to add that to the Character Extension. I'm also going to add all the facial joints -- eyelids, jaw, tongue, and eyebrow -- and the eye controller objects. To begin, right click on the Character in the Hierarchy, and click "Create Character Extension" A Character Extension will appear in the Hierarchy below the Character.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture35_extension-1.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture35_extension.png' style='max-width:max-content;'>
 </div>
 
 Next, select all the objects you'd want in the Character Extension, and click+drag them onto the Character Extension. Click on "Add to Character Extension" when it pops up. Now, when you click on the Character Extension in the Navigator, all your objects should be listed.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture36_extension.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture36_extension.PNG' style='max-width:max-content;'>
 </div>
 
 **11\. Create Poses**
@@ -395,25 +395,25 @@ This step is quite optional, but will save you time animating, because you can p
 First, in the Character Controls window, I switch the Source to the Control Rig so I can manipulate the rig:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture37_pose.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture37_pose.PNG' style='max-width:max-content;'>
 </div>
 
 Next, I'll move the fingers into the pose:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture38_pose.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture38_pose.PNG' style='max-width:max-content;'>
 </div>
 
 I position the camera in a way that clearly shows what the pose is. Then, I click the green plus sign:
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture39_pose.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture39_pose.PNG' style='max-width:max-content;'>
 </div>
 
 This creates a new pose, which you can rename to your liking.
 
 <div class='captioned-image'>
-    <img src='/img/2019-12-18-char-setup-mobu/capture40_pose.png' style='max-width:max-content;'>
+    <img src='/img/2019-12-18-char-setup-mobu/Capture40_pose.PNG' style='max-width:max-content;'>
 </div>
 
 Repeat this process however many times you'd like. You don't need to do the same poses on the other side, because you can mirror a pose. For a thorough guide to using pose, visit this [Mocappys post.](https://mocappys.com/complete-guide-to-poses-in-motionbuilder/) The section on using poses is near the end.
