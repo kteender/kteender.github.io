@@ -16,7 +16,7 @@ for i in range(0, len(lines)):
             s1 = line.split("/")
             name = s1[-1].split(")")[0]
             html_str =   """<div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/%s' style='max-width:max-content;'>
+    <img src='/img/2019-07-09-mobu-eye-rig/%s' style='max-width:max-content;'>
     <p>AN IMAGE CAPTION</p>
 </div>""" % name
             new_lines.append(html_str)
@@ -25,7 +25,7 @@ for i in range(0, len(lines)):
             name = s1[-1].split("?")[0].split(".")[0]+".mp4"
             html_str = """<div class="captioned-image">
     <video controls autoplay loop muted preload="none">
-        <source src="/img/2019-06-11-voice-device/%s" type="video/mp4" />
+        <source src="/img/2019-07-09-mobu-eye-rig/%s" type="video/mp4" />
     </video>
     <p>A VIDEO CAPTION</p>
 </div>""" % name
@@ -43,7 +43,7 @@ for i in range(0, len(lines)):
 
 save_str = "\n".join(new_lines)
 print("saving")
-new_file = 'D:\\kteender.github.io\\_posts\\technical-blog\\2019-06-11-automated-lip-syncing-using-motionbuilder-voice-device.md'
+new_file = 'D:\\kteender.github.io\\_posts\\technical-blog\\2019-07-09-setting-up-an-eye-controller-in-motionbuilder-avoiding-lazy-eye.md'
 f2 = open(new_file, 'w', encoding="utf-8")
 f2.write(save_str)
 f2.close()
