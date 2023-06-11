@@ -31,6 +31,7 @@ Hello! This is the second workflow breakdown for my thesis film. It will concern
 <div class="captioned-image">
     <video controls autoplay loop muted preload="none">
         <source src="/img/2022-04-19-mocap/allComponents.mp4" type="video/mp4" />
+        <source src="/img/2022-04-19-mocap/allComponents.webm" type="video/webm" />
     </video>
     <p> the steps in the mocap process.
     <br>
@@ -163,6 +164,7 @@ You can also just have your actor start the take in a t-pose, and characterize f
 
 <div class="captioned-image">
     <video controls autoplay loop muted preload="none">
+        <source src="/img/2022-04-19-mocap/retarget.webm" type="video/webm" />
         <source src="/img/2022-04-19-mocap/retarget.mp4" type="video/mp4" />
     </video>
     <p>left: source motion 
@@ -240,6 +242,7 @@ You may have noticed that the characters inhabit a room larger than 10'x20' in t
 <div class="captioned-image">
     <video controls autoplay loop muted preload="none">
         <source src="/img/2022-04-19-mocap/editing02.mp4" type="video/mp4" />
+        <source src="/img/2022-04-19-mocap/editing02.webm" type="video/webm" />
     </video>
     <p>left: pre-editing  
     <br>
