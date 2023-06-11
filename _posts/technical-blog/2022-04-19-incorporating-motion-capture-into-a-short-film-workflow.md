@@ -102,7 +102,7 @@ You need to come to a mocap shoot [prepared](https://mocappys.com/how-to-plan-a-
 **Shoot**: My actors and I had several rehearsals. On the days of the shoot, I took reference video to use in the animation process. The actors also wore wireless mics to capture audio (see Audio section).
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/03_referencevideo.png" style="max-width:70%;">
+    <img src="/img/2022-04-19-mocap/03_referenceVideo.png" style="max-width:70%;">
     <p>Screenshot from the reference video taken during the shoot</p>
 </div>
 

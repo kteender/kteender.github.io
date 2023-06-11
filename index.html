@@ -66,6 +66,13 @@ type: index
                 </div>
             {% endif %}
           {% endfor %}
+          {% if {site.posts.size | module: 2} != 0 %}
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
+          </div>
+          {% endif %}
         </div>
         </div>
     </div>

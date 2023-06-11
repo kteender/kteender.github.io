@@ -1,14 +1,14 @@
 - name: HOME
   link: /
 - name: DRAWING
-  link: drawing.html
+  link: /drawing.html
 - name: BLOG
-  link: blog.html
+  link: /blog.html
 - name: ANIMATIONS
-  link: animations.html
+  link: /animations.html
 - name: REELS
-  link: reels.html
+  link: /reels.html
 - name: ABOUT
   link: /about.html
 - name: LOVED LIST
-  link: loved-list.html
+  link: /loved-list.html

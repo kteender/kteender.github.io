@@ -27,7 +27,6 @@
   }
 } 
 
-/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_one {
   background-image: url('style_img/text_dither.png');
   background-size: 40px;
@@ -528,7 +527,7 @@
 
 /*at the end, put in a media query to remove aspect ratio constraint*/
 /*and add padding so same size as the featured post */
-.regular-holder {
+.regular-holder, .regular-holder-dummy {
   flex-basis: 12.5em;
   aspect-ratio: 1/1;
   position: relative;
@@ -540,6 +539,14 @@
   margin-top: 0px;
   overflow: hidden;
   text-decoration: none !important;
+}
+
+/*prevents the last post from being big*/
+.regular-holder-dummy{
+    /*background-image: url(mockup_images/featured_bg.png);*/
+    background-image: url('style_img/bg_seamless_dither.png');
+    background-size: 2.5em;
+    filter: invert();
 }
 
 .regular-labeled-image {
