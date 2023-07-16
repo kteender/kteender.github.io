@@ -1,18 +1,23 @@
+- name: ISGS Carbon Capture Project
+  id: "ccus"
+  cover-image: /img/2023-07-08-ccus/cover-image.jpg
+  description: ISGS Carbon Capture Project
+  embed: embed-ccus.html
 - name: Youth Group 4
   id: "youth-group-4"
   uri: "/2021/04/19/youth-group-4.html"
   cover-image: /img/2020-05-80-youth-group-4/cover_image.png
-  description: A youth group meeting goes off the rails.
+  description: Youth Group 4
   embed: embed-youth-group-4.html
 - name: Keith's Ballad
   id: "keiths-ballad"
   uri: "/2019/02/25/keiths-ballad.html"
   cover-image: /img/2019-02-25-keiths-ballad/cover_image.png
-  description: A man reflects on his insecurities.
+  description: Keith's Ballad
   embed: embed-keiths-balled.html
 - name: Midland Safari Putt-Putt
   id: "midland-safari-putt-putt"
   uri: "/2018/12/12/midland-safari-putt-putt.html"
   cover-image:  /img/2018-12-12-midland-safari-putt-putt/cover_image.png
-  description: A small-town insurance salesman has a secret.
+  description: Midland Safari Putt-Putt
   embed: embed-midland-safari-putt-putt.html
