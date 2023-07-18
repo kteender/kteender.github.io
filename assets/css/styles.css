@@ -275,6 +275,11 @@
   color: #3d3de3;
 }
 
+.code-block{
+  background-color: lightblue;
+  white-space: pre;
+}
+
 /*Things for the landing page*/
 
 .bg { 
