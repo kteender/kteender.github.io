@@ -1,10 +1,10 @@
 - name: 01
-  link: /img/drawings/inkDrawing.png
+  link: /img/drawings/converted_files/inkDrawing_converted.jpeg
 - name: 02
-  link: /img/drawings/IMG_0739.png
+  link: /img/drawings/converted_files/IMG_0739_converted.jpeg
 - name: 03
-  link: /img/drawings/IMG_1180.png
+  link: /img/drawings/converted_files/IMG_1180_converted.jpeg
 - name: 04
-  link: /img/drawings/IMG_8494.png
+  link: /img/drawings/converted_files/IMG_8494_converted.jpeg
 # - name: 02
 #   link: /img/drawings/edited01.jpg
