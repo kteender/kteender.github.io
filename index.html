@@ -4,6 +4,157 @@ type: index
 ---
 {% include header.html %}
 <div class="page-content">
+  <div class="page-section-2">
+    <div class="animation">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle">
+          <a href="animations.html">
+            <p>CG PROJECTS</p>
+          </a>
+        </div>
+        <div class="section-right"></div>
+      </div>
+      <div class = "animation-container">
+        {% for item in site.data.animations %}
+          <div class = "animation-holder fade">
+            <a href="/animations.html#{{ item.id }}">
+            <div class = "animation-labeled-image">
+              <img src="{{ item.cover-image }}">
+              <div class="animation-text">
+                <h3>{{ item.name }}</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
+          <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
+        {% endfor %}
+      </div>
+      <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div>
+    </div>
+    <div class="misc">
+      <div class="skills">
+        <!-- <div class="drawing">
+          <div class="section">
+            <div class="section-left"></div>
+            <div class="small-section-middle">
+              <a href="drawing.html">
+                <p>DRAWING</p>
+              </a>
+            </div>
+            <div class="section-right">
+            </div>
+          </div> -->
+          <div class="section">
+            <div class="section-left"></div>
+            <div class="small-section-middle">
+              <a href="drawing.html">
+                <p>DRAWING</p>
+              </a>
+            </div>
+            <div class="section-right"></div>
+            </div>
+          <div class="d">
+
+            <div class="d-holder">
+              <img src="/img/drawings/converted_files/drawing_cover.jpg">
+            </div>
+          </div>
+          <div class = "bottom-content">
+            <div class="bottom"></div>
+          </div>
+        
+        </div>
+        <!-- <div class="reels">
+          <div class="section">
+            <div class="section-left"></div>
+            <div class="small-section-middle">
+              <a href="reels.html">
+                <p>REELS</p>
+              </a>
+            </div>
+            <div class="section-right">
+            </div>
+          </div>
+          <div class="reels-container">
+            <div class="reels-holder">
+              <img src="/img/reel-cover.png">
+            </div>
+          </div>
+          <div class = "bottom-content">
+            <div class="bottom"></div>
+          </div>
+        </div> -->
+        <div class="buttons">
+        <div class="about">
+          <div class="button">
+          <!-- <div class="section">
+            <div class="label-left"></div>
+            <div class="label-middle">
+              <a href="about.html">
+                <p>ABOUT</p>
+              </a>  
+            </div>
+            <div class="label-right">
+            </div>
+          </div> -->
+            <p>ABOUT</p>
+          </div>
+        </div>
+        <div class="about">
+          <div class="button">
+          <!-- <div class="section">
+            <div class="label-left"></div>
+            <div class="label-middle">
+              <a href="loved-list.html"> -->
+                <p>LOVED LIST</p>
+              <!-- </a>
+            </div>
+            <div class="label-right">
+            </div>
+          </div> -->
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- <div class="page-section-1">
+    <div class="animation">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle">
+          <a href="animations.html">
+            <p>CG Projects</p>
+          </a>
+        </div>
+        <div class="section-right"></div>
+      </div>
+      <div class = "animation-container">
+        {% for item in site.data.animations %}
+          <div class = "animation-holder fade">
+            <a href="/animations.html#{{ item.id }}">
+            <div class = "animation-labeled-image">
+              <img src="{{ item.cover-image }}">
+              <div class="animation-text">
+                <h3>{{ item.name }}</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
+          <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
+        {% endfor %}
+      </div>
+      </div>
+      <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div>
+      </div> -->
 
   <div class="page-section-1">
     <div class="section">
@@ -82,138 +233,7 @@ type: index
     </div>
   </div>
 
-  <div class="page-section-2">
-    <div class="animation">
-      <div class="section">
-        <div class="section-left"></div>
-        <div class="section-middle">
-          <a href="animations.html">
-            <p>ANIMATIONS</p>
-          </a>
-        </div>
-        <div class="section-right"></div>
-      </div>
-      <div class = "animation-container">
-        {% for item in site.data.animations %}
-          <div class = "animation-holder fade">
-            <a href="/animations.html#{{ item.id }}">
-            <div class = "animation-labeled-image">
-              <img src="{{ item.cover-image }}">
-              <div class="animation-text">
-                <h3>{{ item.name }}</h3>
-              </div>
-            </div>
-            </a>
-          </div>
-          <a class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&triangleleft;</a>
-          <a class="next-big" onclick="plusSlides(1, 'animation-holder')">&triangleright;</a>
-        {% endfor %}
-      </div>
-      <div class = "bottom-content">
-        <div class="bottom"></div>
-      </div>
-    </div>
-    <div class="misc">
-      <div class="skills">
-        <div class="drawing">
-          <div class="section">
-            <div class="section-left"></div>
-            <div class="small-section-middle">
-              <a href="drawing.html">
-                <p>DRAWING</p>
-              </a>
-            </div>
-            <div class="section-right">
-            </div>
-          </div>
-          <div class="drawing-container">
-            {% for drawing in site.drawings %}
-            <div class="drawing-holder fade">
-              <img src="{{ drawing.cover-image }} ">
-            </div>
-            {% endfor %}
-            <a class="prev" onclick="plusSlides(-1, 'drawing-holder')">&triangleleft;</a>
-            <a class="next" onclick="plusSlides(1, 'drawing-holder')">&triangleright;</a>
-          </div>
-          <div class = "bottom-content">
-            <div class="bottom"></div>
-          </div>
-        </div>
-        <div class="reels">
-          <div class="section">
-            <div class="section-left"></div>
-            <div class="small-section-middle">
-              <a href="reels.html">
-                <p>REELS</p>
-              </a>
-            </div>
-            <div class="section-right">
-            </div>
-          </div>
-          <div class="reels-container">
-            <div class="reels-holder">
-              <img src="/img/reel-cover.png">
-            </div>
-          </div>
-          <div class = "bottom-content">
-            <div class="bottom"></div>
-          </div>
-        </div>
-      </div>
-      <div class="about">
-        <div class="section">
-          <div class="label-left"></div>
-          <div class="label-middle">
-            <a href="about.html">
-              <p>ABOUT</p>
-            </a>  
-          </div>
-          <div class="label-right">
-          </div>
-        </div>
-        <!-- <div class="about-container">
-          <div class="about-holder">
-            <img src="/img/insta-logo.png">
-          </div>
-          <div class="about-holder">
-            <img src="mockup_images/pale_purple_square.png">
-          </div>
-          <div class="about-holder">
-            <img src="mockup_images/deep_purple_square.png">
-          </div>
-        </div> -->
-        <!-- <div class = "bottom-content">
-          <div class="bottom"></div>
-        </div> -->
-      </div>
-      <div class="about">
-        <div class="section">
-          <div class="label-left"></div>
-          <div class="label-middle">
-            <a href="loved-list.html">
-              <p>LOVED LIST</p>
-            </a>
-          </div>
-          <div class="label-right">
-          </div>
-        </div>
-        <!-- <div class="about-container">
-          <div class="about-holder">
-            <img src="/img/insta-logo.png">
-          </div>
-          <div class="about-holder">
-            <img src="mockup_images/pale_purple_square.png">
-          </div>
-          <div class="about-holder">
-            <img src="mockup_images/deep_purple_square.png">
-          </div>
-        </div> -->
-        <!-- <div class = "bottom-content">
-          <div class="bottom"></div>
-        </div> -->
-      </div>
-    </div>
-  </div>
+
 
   <script>
     var slideIndex = 1;

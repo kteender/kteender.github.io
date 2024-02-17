@@ -27,6 +27,30 @@
   }
 } 
 
+@media screen and (max-width: 415px) {
+  .skills{
+    /* width: 50px !important;
+    flex-grow: 0;
+    max-width: 50px;
+    min-width: 10px;
+    flex: 0; */
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-top: 5% !important;
+  }
+
+  /* .d{
+    width: 10px;
+  }
+
+  .small-section-middle {
+    
+    width: 40pt !important;
+    font-size: 1em !important;
+    background-color: #04AA6D;
+  } */
+}
+
 .clip-text_one {
   background-image: url('style_img/text_dither.png');
   background-size: 40px;
@@ -694,16 +718,17 @@ needs a margin-right*/
   margin: auto;
   display: flex;
   overflow: hidden;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 1%;
   margin-top: 1%;
+
 }
 
 /*add a media query to put in margin*/
 .animation {
   margin-right:2%;
   max-width: 100%;
-  flex-basis: 64%;
+  flex-basis: 74%;
   min-width: 300px;
   overflow: hidden;
   display: block;
@@ -795,32 +820,93 @@ needs a margin-right*/
 }
 
 .misc{
-  max-width: 100%;
-  display: block;
-  flex-basis: 32%;
-  min-width: 300px;
-  flex-grow: 1;
+  flex-basis: 22%;
+  min-width: 200px;
   float: right;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
-  flex-wrap: wrap;
   margin-right: 2%;
-  align-content: space-around;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.buttons{
+  max-width: 100%;
+  flex: 1;
+  flex-grow: 0;
+  padding: 2%;
+}
+
+.button {
+  font-family: Tourney, Helvetica, monospace;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 1px 1px 1px;
+  background-color: white;
+  min-width: 150pt;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.625em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about {
+  /* flex-grow: 1; */
+  margin-top: 1%;
+  flex-grow: 1;
 }
 
 .skills{
   max-width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  margin-right: 1%;
   margin-top: 1%;
+  flex: 1;
+  flex-grow: 3;
+  overflow: hidden;
+  min-width: 100pt;
+  margin: 6%;
 }
 
 .drawing{
-  flex-basis: 49%;
-  max-width: 49%;
-  margin: 0;
+  /* flex-basis: 49%; */
+  /* max-width: 49%; */
+  /* margin: 0;
   overflow: hidden;
+  object-fit: contain; */
+  flex: 1;
+  align-self: center;
+  background-color: #fff;
+}
+
+.d {
+  flex: 1;
+  align-self: center;
+  overflow: hidden;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 1px 1px;
+}
+
+.d-holder{
+  margin: 5%;
+  min-width: 90%;
+  max-height: 100%;
+  background-color: #fff;
+}
+
+.d-holder img {
+  object-fit: contain;
+  max-width: 100%;
 }
 
 .reels{
@@ -863,12 +949,6 @@ needs a margin-right*/
   padding: 0;
   max-width: 100%;
   vertical-align: middle;
-}
-
-.about {
-  width: 100%;
-  flex-grow: 2;
-  margin-top: 1%;
 }
 
 .about-container {
@@ -1028,7 +1108,7 @@ needs a margin-right*/
   margin: 5%;
   position: relative;
   box-sizing: border-box;
-  flex-grow: 1;
+  flex-grow: 0;
   min-width: 90%;
   max-height: 100%;
   margin: 5%;
