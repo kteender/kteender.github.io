@@ -3,6 +3,12 @@
   cover-image: /img/2023-07-08-ccus/cover-image.jpg
   description: ISGS Carbon Capture Project
   embed: embed-ccus.html
+- name: Midland Safari Putt-Putt
+  id: "midland-safari-putt-putt"
+  uri: "/2018/12/12/midland-safari-putt-putt.html"
+  cover-image:  /img/2018-12-12-midland-safari-putt-putt/cover_image.png
+  description: Midland Safari Putt-Putt
+  embed: embed-midland-safari-putt-putt.html
 - name: Youth Group 4
   id: "youth-group-4"
   uri: "/2021/04/19/youth-group-4.html"
@@ -15,9 +21,9 @@
   cover-image: /img/2019-02-25-keiths-ballad/cover_image.png
   description: Keith's Ballad
   embed: embed-keiths-balled.html
-- name: Midland Safari Putt-Putt
-  id: "midland-safari-putt-putt"
-  uri: "/2018/12/12/midland-safari-putt-putt.html"
-  cover-image:  /img/2018-12-12-midland-safari-putt-putt/cover_image.png
-  description: Midland Safari Putt-Putt
-  embed: embed-midland-safari-putt-putt.html
+- name: Reels
+  id: "reels"
+  uri: "/2024/02/18/reels.html"
+  cover-image: /img/2024-02-18-reels/cover_image.jpg
+  description: Reels
+  embed: embed-reels.html

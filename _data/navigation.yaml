@@ -1,13 +1,13 @@
 - name: HOME
   link: /
-- name: DRAWING
-  link: /drawing.html
+- name: CG PROJECTS
+  link: /animations.html
 - name: BLOG
   link: /blog.html
-- name: ANIMATIONS
-  link: /animations.html
-- name: REELS
-  link: /reels.html
+# - name: REELS
+#   link: /reels.html
+- name: DRAWING
+  link: /drawing.html
 - name: ABOUT
   link: /about.html
 - name: LOVED LIST

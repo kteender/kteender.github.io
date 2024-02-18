@@ -36,7 +36,8 @@
     flex: 0; */
     margin-left: 20% !important;
     margin-right: 20% !important;
-    margin-top: 5% !important;
+    margin-top: 4% !important;
+    margin-bottom: 0 !important;
   }
 
   /* .d{
@@ -856,7 +857,18 @@ needs a margin-right*/
   font-size: 1.625em;
   margin-top: 5%;
   margin-bottom: 5%;
+  text-decoration: none !important;
+  color:black;
 }
+
+/* .button:link {color: black; text-decoration: none !important;}
+.button:visited {color: black; text-decoration: none !important;}
+.btton:hover {color: black; text-decoration: none !important;}
+
+.button:link {color: black; text-decoration: none !important;}
+.button:visited {color: black; text-decoration: none !important;}
+.button:hover {color: black; text-decoration: none !important;} */
+
 
 .about {
   /* flex-grow: 1; */

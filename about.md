@@ -2,9 +2,9 @@
 layout: post
 title: About
 ---
-# About page
+# ABOUT
 
-Hi, I'm Katie. I'm a CG technical artist in Los Angeles. For work, I do tools development and CG generalist work on the Avatar sequels. I recently received my first credit for working on Avatar: The Way of Water. Outside of work, I write code for use on my personal and freelance animation projects. 
+Hi, I'm Katie. I'm a CG technical director in Los Angeles. For work, I do tools development and CG generalist work on the Avatar sequels. I recently received my first film credit for working on Avatar: The Way of Water. Outside of work, I write code for use on my personal and freelance animation projects. 
 
 I have scripting and content-creation experience in a variety of DCCs including Maya, Motionbuilder, the Adobe Suite, and Blender. I have worked in virtual production and game engine workflows. I also have traditional art training. I can code in Python, HTML, and CSS. I am comfortable working with git. 
 
