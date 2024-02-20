@@ -6,19 +6,19 @@
 - name: Midland Safari Putt-Putt
   id: "midland-safari-putt-putt"
   uri: "/2018/12/12/midland-safari-putt-putt.html"
-  cover-image:  /img/2018-12-12-midland-safari-putt-putt/cover_image.png
+  cover-image:  /img/2018-12-12-midland-safari-putt-putt/converted_files/cover_image_converted.jpeg
   description: Midland Safari Putt-Putt
   embed: embed-midland-safari-putt-putt.html
 - name: Youth Group 4
   id: "youth-group-4"
   uri: "/2021/04/19/youth-group-4.html"
-  cover-image: /img/2020-05-80-youth-group-4/cover_image.png
+  cover-image: /img/2020-05-80-youth-group-4/converted_files/cover_image_converted.jpeg
   description: Youth Group 4
   embed: embed-youth-group-4.html
 - name: Keith's Ballad
   id: "keiths-ballad"
   uri: "/2019/02/25/keiths-ballad.html"
-  cover-image: /img/2019-02-25-keiths-ballad/cover_image.png
+  cover-image: /img/2019-02-25-keiths-ballad/converted_files/cover_image_converted.jpeg
   description: Keith's Ballad
   embed: embed-keiths-balled.html
 - name: Reels

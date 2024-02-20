@@ -18,11 +18,14 @@ def fix_file_sizes(dir):
             print(cmd)
             subprocess.call(cmd)
 
-def convert_png_to_jpg(dir):
+def convert_png_to_jpg(dir, png_only=False):
     new_dir = os.path.join(dir, 'converted_files')
     if not os.path.isdir(new_dir):
         os.mkdir(new_dir)
-    fix_list = [item for item in os.listdir(dir) if item.split(".")[-1].lower() == 'png']
+    if png_only:
+        fix_list = [item for item in os.listdir(dir) if item.split(".")[-1].lower() == 'png']
+    else:
+        fix_list = [item for item in os.listdir(dir) if item.split(".")[-1].lower() in ['png','jpg','jpeg','tiff','tif']]
     for file in fix_list:
         name = file.split('.')[0]
         old_file = os.path.join(dir, file)
@@ -34,7 +37,7 @@ def convert_png_to_jpg(dir):
         print(cmd)
         subprocess.call(cmd)
 
-d = 'D://kteender.github.io//img//drawings//'
+d = 'D://kteender.github.io//img//2019-08-11-flat-planes//'
 convert_png_to_jpg(d)
 
 #fix_file_sizes('D:\\kteender.github.io\\img\\01')
