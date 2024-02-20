@@ -3,9 +3,11 @@ code {
 }
 pre > code {
     padding: 0; 
-    white-space: pre-wrap;}
+    /* white-space: pre-wrap;} */
+}
 /* .highlight, code  { background: #ffffff; border: 1px solid #a9a9a9; border-radius: 5px;} */
 .highlight, code  { 
+    overflow-x: scroll;
     background: #f0eab03b; 
     border: 1px solid #a9a9a9; 
     border-radius: 5px;}
