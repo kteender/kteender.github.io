@@ -8,14 +8,20 @@ title: Blog
     {% for post in site.posts %}
       {% if post.type == "blog" %}
         <div style="margin-top: .4em;">
-          <div style="display:flex; justify-content: flex-start; margin: 0px;">
-            <h2 style="margin: 0px; text-align: left; background-color: #F0EAB0;">{{ post.title }}</h2>
+          <div style="display:flex; justify-content: flex-start; margin: 0px">
+            <a href="{{ post.url }}" style="text-decoration: none; color:black">
+              <h2 style="text-decoration: none !important; margin: 0px; text-align: left; background-color: #F0EAB0;">
+                {{ post.title }}
+              </h2>
+            </a>
           </div>
           <div style="display:flex; justify-content: flex-start; margin: 0px;">
             <p style="background-color: #D2D2E3; margin: 0px; margin-bottom: .5em;">{{ post.date | date: "%B %-d %Y" }}</p>
           </div>
           <div style="width: 100%; display: inline-block;">
-            <img src="{{ post.cover-big }}" style="max-width: 100%; max-height: 30em; float: right;">
+            <a href="{{ post.url }}">
+              <img src="{{ post.cover-big }}" style="max-width: 100%; max-height: 30em; float: right;">
+            </a>
             <p style="vertical-align: center;">
               {{ post.content | split:'<!--break-->' | first }}
               <a href="{{ post.url }}">&raquo; read more</a>
