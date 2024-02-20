@@ -1,10 +1,20 @@
-code {padding: 1px 4px;}
-pre > code {padding: 0;}
+code {
+    padding: 1px 4px;
+}
+pre > code {
+    padding: 0; 
+    white-space: pre-wrap;}
 /* .highlight, code  { background: #ffffff; border: 1px solid #a9a9a9; border-radius: 5px;} */
-.highlight, code  { background: #f0eab03b; border: 1px solid #a9a9a9; border-radius: 5px;}
+.highlight, code  { 
+    background: #f0eab03b; 
+    border: 1px solid #a9a9a9; 
+    border-radius: 5px;}
 /* .highlight {padding: 5px; margin-bottom: 1em; max-height: 35.7em; overflow: scroll;} */
 .highlight {padding: 5px; margin-bottom: 1em; max-height: 35.7em;}
-.highlight code {border: 0 !important; background: clear !important; border-radius: 0 !important;}
+.highlight code {
+    border: 0 !important; 
+    background: clear !important; 
+    border-radius: 0 !important;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -66,4 +76,7 @@ pre > code {padding: 0;}
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 .highlight td, .highlight table, .highlight tr {border: none;}
 .lineno { padding-left: 2px; padding-right: 4px; color: #888; }
-.code {padding-left: 4px;}
+.code {
+    padding-left: 4px;
+    white-space: pre-wrap;
+}
