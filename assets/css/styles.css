@@ -256,6 +256,7 @@
 .content h2{
   font-family: 'Text Me One', Tahoma, sans-serif;
   text-align: center;
+  text-decoration: none !important;
 }
 
 .content h4{
