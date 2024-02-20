@@ -12,8 +12,8 @@ layout: post
 author: katie
 show-date: T
 type: blog
-cover-image: img/2022-04-19-mocap/cover_image.jpg
-cover-big: img/2022-04-19-mocap/cover_big.png
+cover-image: img/2022-04-19-mocap/converted_files/cover_image_converted.jpeg
+cover-big: img/2022-04-19-mocap/converted_files/cover_big_converted.jpeg
 featured: F
 uri: "/2021/04/19/incorporating-motion-capture-into-a-short-film-workflow.html"
 ---
@@ -40,24 +40,6 @@ Hello! This is the second workflow breakdown for my thesis film. It will concern
     bottom, left to right: combined scene, final cut, character editing </p>
 </div>
 
-<!-- ![](https://ktcgart.files.wordpress.com/2021/04/test.gif?w=1024)
-<div class="captioned-image">
-    <img src="/img/unnamed.png">
-    <p> My Test </p>
-</div>
-
-<div class="captioned-image">
-    <video controls autoplay loop muted preload="none">
-        <source src="/img/editing.mp4" type="video/mp4" />
-    </video>
-    <p> My Test </p>
-</div>
-
-<div class="captioned-image">
-    <iframe src="https://www.youtube.com/embed/qySpoy1n5ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p> My Test </p>
-</div> -->
-
 **Differences with Keyframe Animation Workflow**: For those coming from a keyframe character animation background, adjusting to motion capture may be a little weird, because even though mocap is classified as a type of animation, the actual motion capture and editing process is much more akin to working with video. I've listed some key differences below (if you've worked with video before, these are going to be familiar).
 
 - You have more animation than you'll need to use. It's best to do multiple takes of each scene, so you can get the best performance out of the actors each time.
@@ -72,7 +54,7 @@ Please note that motion capture is not necessarily easier than keyframe. It's im
 **Software**: For the animation workflow in this film, I used Autodesk MotionBuilder. Maya and Blender both have little mocap windows that are okay for retargeting a bit of motion, but once you get much beyond that, they're insufficient.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/01_software.jpg" style="width:max-content; max-width:max-content;">
+    <img src='\img\2022-04-19-mocap\\converted_files\01_software_converted.jpeg' style="width:max-content; max-width:max-content;">
     <p> MotionBuilder has many assets designed specially for editing mocap. Maya, by contrast, has only one mocap tool, the HIK window (outlined in red). </p>
 </div>
 
@@ -81,7 +63,7 @@ Please note that motion capture is not necessarily easier than keyframe. It's im
 **Space:** I used the motion capture space in my university's computer graphics lab, which was running a rather old version of Blade. It used RFID markers and had a 10'x20' capture space. Additionally, there was a full time lab engineer to assist with the shoot and clean the data!
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/bts01.jpg" style="max-width:40%;">
+    <img src='\img\2022-04-19-mocap\\converted_files\bts01_converted.jpeg' style="max-width:40%;">
     <p> the lab engineer and I preparing for the shoot </p>
 </div>
 
@@ -103,20 +85,20 @@ You need to come to a mocap shoot [prepared](https://mocappys.com/how-to-plan-a-
 **Shoot**: My actors and I had several rehearsals. On the days of the shoot, I took reference video to use in the animation process. The actors also wore wireless mics to capture audio (see Audio section).
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/03_referenceVideo.png" style="max-width:70%;">
+    <img src='\img\2022-04-19-mocap\\converted_files\03_referenceVideo_converted.jpeg' style="max-width:70%;">
     <p>Screenshot from the reference video taken during the shoot</p>
 </div>
 
 I had one of the markered-up actors clap so we could sync the audio with the mocap. Big brain. It was very similar to directing live-action actors. I made notes of which Takes I liked the best, and gave them pointers on their performances. The only notable thing was that I didn't worry about facial motion, as that wasn't being recorded.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/bts02.jpg" style="max-width:70%;">
+    <img src='\img\2022-04-19-mocap\\converted_files\bts02_converted.jpeg' style="max-width:70%;">
 </div>
 
 **Audio**: I used a boom mic and and wireless mics the capture the audio at the shoot. I ended up re-recording the dialogue in a sound booth because the acoustics in the capture room were not great, but I'm really glad I had the decent recording from the shoot to use for rough cuts.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/14_reRecord.jpg" style="max-width:70%;">
+    <img src='\img\2022-04-19-mocap\\converted_files\14_reRecord_converted.jpeg' style="max-width:70%;">
     <p>Two of the actors listen to their line delivery from the shoot through headphones and re-record them in a sound booth.</p>
 </div>
 
@@ -140,12 +122,12 @@ I had one of the markered-up actors clap so we could sync the audio with the moc
 You can also just have your actor start the take in a t-pose, and characterize from there, but I prefer to create the t-pose myself, because a human body can't do a perfect t-pose.
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/12_motions03.jpg" style="max-width:max-content;">
+    <img src='\img\2022-04-19-mocap\\converted_files\12_motions03_converted.jpeg' style="max-width:max-content;">
     <p>The above two images are the same source motion file. Top is the actors' performance, bottom is the Take that I created with the t-poses for characterization</p>
 </div>
 
 <div class="captioned-image">
-    <img src="/img/2022-04-19-mocap/12_motions03.jpg" style="max-width:max-content;">
+    <img src='\img\2022-04-19-mocap\\converted_files\12_motions03_converted.jpeg' style="max-width:max-content;">
     <p>The above two images are the same source motion file. Top is the actors' performance, bottom is the Take that I created with the t-poses for characterization</p>
 </div>
 
@@ -155,7 +137,7 @@ You can also just have your actor start the take in a t-pose, and characterize f
 - [MotionBuilder manual section on Character Setup](https://help.autodesk.com/view/MOBPRO/2019/ENU/?guid=GUID-12F7FCD3-004E-45E9-85B3-E42C7C51B2F7)
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/04.jpg' style='max-width:max-content;'>
+    <img src='\img\2022-04-19-mocap\\converted_files\04_converted.jpeg' style='max-width:max-content;'>
     <p>left: rig in Maya. Note the single hierarchy of all the bones and roll bones in legs and arms  
     right: characterized character in MoBu. Notice the assets in the Navigato</p>
 </div>
@@ -189,14 +171,14 @@ Then, fiddle with the retarget settings to get the results you want:
 **Combine** **Performances**: Next, I created a new scene, and merged in a copy of each of the four characters. I then used the Story window to import the plotted animation files for each character and add in the audio.
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/07_storyTool.png' style='max-width:max-content;'>
+    <img src='\img\2022-04-19-mocap\\converted_files\07_storyTool_converted.jpeg' style='max-width:max-content;'>
     <p>I used my reference video to line up the motion with the audio. You can also see above that I used the captured rough audio from the shoot to help lining up as well.</p>
 </div>
 
 The Story tool works pretty much like a NLE video program like Premiere. You can cut and crossfade between the clips. Right click on one of the clips to see the menu options for the clip. Particularly important are "Change Take" and "Change Character", which allow you to select the correct character and take from the source file. For more information on the Story tool, you can look at this [Mocappy's tutorial](https://mocappys.com/using-motionbuilder-story-tool/). It's a bit long, scroll down to the middle of the post to get to the information about the Story tool. You should also look at the [MotionBuilder documentation Story Window section](https://help.autodesk.com/view/MOBPRO/2019/ENU/?guid=GUID-02786D29-7615-4C0D-AFFF-431D25156592).
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/08_storyTool03.jpg' style='max-width:max-content;'>
+    <img src='\img\2022-04-19-mocap\\converted_files\08_storyTool03_converted.jpeg' style='max-width:max-content;'>
     <p>top: Story window at beginning of combination 
     <br> 
     bottom: Story window with performance combination completed</p>
@@ -205,7 +187,7 @@ The Story tool works pretty much like a NLE video program like Premiere. You can
 You may have noticed that the characters inhabit a room larger than 10'x20' in the short, and are sitting further away from each other than they did in the capture. Additionally, in some shots, they walk further than a single take could have accommodated. To stitch the takes together, I made liberal use of the Story window's [Ghosts feature](https://knowledge.autodesk.com/support/motionbuilder/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/MotionBuilder/files/GUID-0C5440E6-2776-4D76-BC80-23C367654754-htm.html), which allows you to visualize and translate the global location of an animation clip. Combined with crossfading the clips, you can get quite seamless transitions between motions by moving a Story window's clips Ghosts. If a transition between clips still looked lerp-y, I would fix it using the control rig in the Editing phase (see Edit Characters section).
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/13_ghosts.png' style='max-width:max-content;'>
+    <img src='\img\2022-04-19-mocap\\converted_files\13_ghosts_converted.jpeg' style='max-width:max-content;'>
     <p>Here, Youth Pastor Rick's Ghosts are enabled. There are two ghosts for each clip -- the start pose, and the end post -- and the ghost color corresponds to the clip color (below)</p>
 </div>
 
@@ -260,7 +242,7 @@ For the facial animation, I first used the Voice Device to get a base level of l
 For finger animation, I used the control rig. I made a new layer for head hand's fingers. You can access the finger controls by expanding the triangle menu near the hand in the control rig window:
 
 <div class='captioned-image'>
-    <img src='/img/2022-04-19-mocap/10_fingers.png' style='max-width:max-content;'>
+    <img src='\img\2022-04-19-mocap\\converted_files\10_fingers_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 When I created the characters, I also created a set of poses for common finger positions (flat, relaxed, fist, etc.). It's much easier to just use the Pose Editor to achieve these different positions than hand-keying them every time. You can find out how to use the pose editor in the [MotionBuilder documentation](https://help.autodesk.com/view/MOBPRO/2019/ENU/?guid=GUID-61DFF5F6-653E-4EE7-B933-6F12B3B62760). To apply a pose to only certain body parts, make sure you're in body part selection mode, select the body parts, paste the pose, and hit "S" to keyframe.

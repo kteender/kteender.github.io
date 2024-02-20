@@ -4,8 +4,8 @@ shortname: "Making a Short Film in Unity"
 date: "2020-05-10"
 show-date: T
 type: blog
-cover-image: img/2020-05-10-unity-short/cover_image.jpg
-cover-big: img/2020-05-10-unity-short/cover_big.png
+cover-image: img/2020-05-10-unity-short/converted_files/cover_image_converted.jpeg
+cover-big: img/2020-05-10-unity-short/converted_files/cover_big_converted.jpeg
 featured: F
 uri: "/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline.html"
 ---
@@ -41,19 +41,19 @@ Software Used (visuals): Maya, Motionbuilder, Photoshop, After Effects, Premiere
 If you want the character to have a Smooth appearance, in the Model tab, you need to change the Normals to Calculate, the Blend Shape Normals to Calculate, the Normals mode to Calculate, the Smoothness Source to From Angle, and the Smoothing Angle to 180. I also might turn off Mesh Compression Off, but it's not a big deal.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/01-modeling window.png' style='max-width:50%;'>
+    <img src='/img/2020-05-10-unity-short/01-modeling_window.png' style='max-width:50%;'>
 </div>
 
 In the Animation tab, you should rename Take 01 to something more recognizable, and untick "Animation Compression."
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/02-animation window.png' style='max-width:50%;'>
+    <img src='/img/2020-05-10-unity-short/02-animation_window.png' style='max-width:50%;'>
 </div>
 
 In the Materials tab, you should Extract Materials.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/03-materials window.png' style='max-width:50%;'>
+    <img src='/img/2020-05-10-unity-short/03-materials_window.png' style='max-width:50%;'>
 </div>
 
 **Cel Shading:**
@@ -63,7 +63,7 @@ This section is just a plug. I used Adrian Biagioli's [Toon Standard Shader](htt
 Also, he's working on making it run on the Scriptable Render Pipeline, so that there can be physically based attributes (e.g. reflections) that work with the cel shading. Super cool -- definitely keep it in mind if you need a toon shader in the future.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/04-toonShader.png' style='max-width:80%;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\04-toonShader_converted.jpeg' style='max-width:80%;'>
     <p>Here, you can see how I could manipulate the toon ramp to get different effects (I ultimately went with the one on the right). The red on her ears is actually red specularity.</p>
 </div>
 
@@ -72,7 +72,7 @@ Also, he's working on making it run on the Scriptable Render Pipeline, so that t
 One of the coolest things about Unity is its out-of-the-box look development tools, which allows you to do your color grading before you render. This is probably a little weird for people who are used to the Maya workflow of rendering AOVs and doing color grading in After Effects. The latter method is definitely more versatile, but I found [Unity's Post-Processing Stack](https://docs.unity3d.com/2018.3/Documentation/Manual/PostProcessing-Stack.html) to be perfectly sufficient.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/seniorreview02.png' style='max-width:80%;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\seniorreview02_converted.jpeg' style='max-width:80%;'>
     <p>This is what it looked like with no Post-Processing...</p>
 </div>
 
@@ -103,11 +103,11 @@ The post-processing effects I used in this short are: Ambient Occlusion, Bloom, 
 Unity lets you [use a custom LUT](https://docs.unity3d.com/2018.1/Documentation/Manual/PostProcessing-UserLut.html), so you can do your color grading in Photoshop and have it apply to your scene.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/09-beforeLUT.png' style='max-width:80%;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\09-beforeLUT_converted.jpeg' style='max-width:80%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/09a-afterLUT.png' style='max-width:80%;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\09a-afterLUT_converted.jpeg' style='max-width:80%;'>
     <p>with the LUT turned off and on</p>
 </div>
 
@@ -134,7 +134,7 @@ The important thing to understand is that Timeline is the god of what happens in
 I used Animation, Audio, and Cinemachine tracks in this project.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/12-wholeTimeline.png' style='max-width:max-content;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\12-wholeTimeline_converted.jpeg' style='max-width:max-content;'>
     <p>You can see my whole Timeline here. At the top, in green, is the Recorder tracks. Next, light blue, the Animation Tracks controlling my characters. Next, yellow, the audio. Next, red, Cinemachine camera tracks. At the bottom, all the Animation Tracks in grey are the camera animations.</p>
 </div>
 
@@ -151,7 +151,7 @@ The input for an animation track is an Animator Controller, so any element that 
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/13b-assign animators.png' style='max-width:80%;'>
+    <img src='/img/2020-05-10-unity-short/13b-assign_animators.png' style='max-width:80%;'>
     <p>Once you drag a character into the scene, you assign the corresponding Animator Controller to the Animator component. Then, you add that character to the Animation track on the Timeline, and drag in the clip with their Animation.</p>
 </div>
 
@@ -188,7 +188,7 @@ Then, because you need an Animator Controller to animate something, I'll create 
 Next, I'd drag the Camera into the Cinemachine Track in the Timeline, to create a Camera clip.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/15a-cameraAnim.png' style='max-width:max-content;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\15a-cameraAnim_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Next, I'd create an Animation Track, and select the Camera as the source (obviously, if the Camera won't be animated, you don't need to do this). If you don't see your camera, double check that you assigned it an Animator Controller.
@@ -199,7 +199,7 @@ Next, I'd create an Animation Track, and select the Camera as the source (obviou
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/16-cameraAnim.png' style='max-width:max-content;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\16-cameraAnim_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Next, I'd hit the Record button on the track, and start setting the Camera movement. You can also right-click on the Clip and Hit "Edit in Animation Window," which I found useful
@@ -237,7 +237,7 @@ You might be noticing that my output resolution is REALLY high. This is because,
 The last thing to do is make sure that your Game View resolution matches the Output resolution. Having a very high resolution Game View will make Unity run slow, so usually changing that Game View resolution was my last step.
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/21-gameView.png' style='max-width:max-content;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\21-gameView_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 After that, hit the Play button, and wait for your recording to be created. At 4800x2700, the 7ish minutes of animation took about 45 minutes to render out, with no light-baking or AO-baking. If I was doing a quick 1920x1080 recording, just for a rough cut, it would be a little slower than real-time.
@@ -251,7 +251,7 @@ After you export your .mp4, you can edit it however you want. Please note that t
 Additionally, if you'll be making additional edits to the visuals in your NLE (cutting, fading, etc.), I have one VERY IMPORTANT tip. Do not do those edits directly to the footage. Create a composition/timeline/sequence with the entire .mp4 from Unity in it, and do your edits _to that composition._ So, for example, in Premiere Pro, I made a Nested Sequence that contained my recording from Unity, then in my main Sequence, I edited the Nested Sequence. That way, I could drop a new recording into the Nested Sequence, and my edits would carry over:
 
 <div class='captioned-image'>
-    <img src='/img/2020-05-10-unity-short/22-timeLines.png' style='max-width:max-content;'>
+    <img src='\img\2020-05-10-unity-short\\converted_files\22-timeLines_converted.jpeg' style='max-width:max-content;'>
     <p>On the left is my master composition. The light green on the top is the nested composition, inside of which is the uncut videos exports from Unity, in the blue, on the right.</p>
 </div>
 

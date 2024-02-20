@@ -29,58 +29,58 @@ I storyboarded this animation keeping in mind that camera angle would have to be
 
 <div class="drawing-container" style="border-width: 0px; max-width: 70%; margin: auto;">
     <div class="drawing-holder fade" style="display:block;" >
-        <img src="/img/2019-08-11-flat-planes/pngs_page_01.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_01_converted.jpeg' >
     </div>
     <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_02.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_02_converted.jpeg' >
     </div>
     <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_03.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_03_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_04.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_04_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_05.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_05_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_06.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_06_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_07.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_07_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_08.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_08_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_09.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_09_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_10.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_10_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_11.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_11_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_12.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_12_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_13.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_13_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_14.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_14_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_15.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_15_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_16.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_16_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_17.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_17_converted.jpeg' >
     </div>
         <div class="drawing-holder fade" style="display:none;">
-        <img src="/img/2019-08-11-flat-planes/pngs_page_18.png">
+        <img src='\img\2019-08-11-flat-planes\\converted_files\pngs_page_18_converted.jpeg' >
     </div>
 <a class="prev" onclick="plusSlides(-1, 'drawing-holder')">&triangleleft;</a>
 <a class="next" onclick="plusSlides(1, 'drawing-holder')">&triangleright;</a>
@@ -127,7 +127,7 @@ I storyboarded this animation keeping in mind that camera angle would have to be
 Here are some of the storyboards next to the final render for that shot
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/storyboard01.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\storyboard01_converted.jpeg' style='max-width:max-content;'>
     <p>Left column: Storyboard 
     <br> 
     Right column: Final animation 
@@ -140,7 +140,7 @@ Here are some of the storyboards next to the final render for that shot
 There were two different types of characters in the animation -- golf balls and the giraffe. For both of these, I drew the characters on paper and modeled them using planes. You can see the drawing below and how it compares to the model:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/giraffesidebysides.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\giraffesidebysides_converted.jpeg' style='max-width:max-content;'>
     <p>Left: Drawing  
     <br>
     Middle: Wireframe  
@@ -151,7 +151,7 @@ There were two different types of characters in the animation -- golf balls and 
 I changed the face on the model to reflect more personality. The eyes, ears, horns, and mouth are all separate pieces of geometry, which I'll discuss more in the rigging section. Additionally, the back legs are a darker material, to give a stronger perspective. For the last shot, I made a front view of the giraffe as well:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/giraffe front.png' style='max-width:max-content%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\giraffe_front_converted.jpeg' style='max-width:max-content%;'>
 </div>
     
 Sculpting and retopologizing a giraffe would have been waaaay out of scope, but drawing and matching the geometry of these planes only took a few hours. I also experimented with duplicating all the geometry and making it black so that it'd look like outlines, but I ultimately decided against it.
@@ -164,19 +164,19 @@ Sculpting and retopologizing a giraffe would have been waaaay out of scope, but 
 For the golf balls, I created four separate rigs for 0, 45, 90, and -90 rotations. I got this idea from looking at how 2d cutout animation is created, with a model sheet of different views of the character. I created the 45 degree rig first, and from there, it was pretty easy to scale the pieces of geometry for the other views. You can see some of the different views I created for each golf ball below. For every character, I modeled as if the "Front" orthographic camera was the render camera, which I'll discuss more in the rendering section.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballscan001.png' style='max-width:30%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballscan001_converted.jpeg' style='max-width:30%;'>
     <p>My concept art</p>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballsheet.jpg' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballsheet_converted.jpeg' style='max-width:max-content;'>
     <p>These are all separate models, not one model from different angles.</p>
 </div>
 
 Here is the rig I created for the -45 degree view. You can see that, unlike the giraffe, the golf balls actually used a sphere, which led to a different aesthetic on the ball. I knew that overlapping action would be very important for making the golf balls appealing, so I made three finger and toe segments, as well as separate hand geometry. The eyelid, pupil, iris, and eyelashes are all separate pieces of geometry as well.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golf-ball-rig-perspective.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golf-ball-rig-perspective_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 For some shots in the animation, I used images of actual objects that I found online. This is because I'm lazy and didn't want to model all these props (do you sense a trend). My workflow for those was as follows:
@@ -189,7 +189,7 @@ For some shots in the animation, I used images of actual objects that I found on
 - Step 6: Apply an aiStandard surface to a plane (with Opaque box uncheck in the Arnold Tab of the shape node), and load the image PNG into the Diffuse channel and the alpha into the Opacity channel.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/images01.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\images01_converted.jpeg' style='max-width:max-content;'>
     <p>Left: Cake texture and alpha 
     <br> 
     Middle: Cake appearance in viewport  
@@ -200,7 +200,7 @@ For some shots in the animation, I used images of actual objects that I found on
 However, as you can see from the image above, when an object has transparency via an Arnold Shader, the transparency doesn't show up in the Viewport. Using a Lambert with a PNG texture shows the transparency in the Viewport, but when Arnold renders it, the transparency shows up as black. A catch - 22! As such, in shots with a lot of these objects, it was hard to tell what objects were where:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/pile02.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\pile02_converted.jpeg' style='max-width:max-content;'>
     <p>left: viewport  
     <br>
     right: render</p>
@@ -213,7 +213,7 @@ The rigging process was fairly similar to how one would rig a regular, 3d charac
 With the giraffe rig, I primarily used skinning to attach the geometry to the bones. I'll go through the features of the rig below.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/giraffeoverview.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\giraffeoverview_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Overview: The giraffe rig has a global positioning/scale control, and a root controller if I wanted to move the body while leaving the feet in place. All of the geometry was skinned to the joints, except for the head, which was parented under the head controller.
@@ -321,13 +321,13 @@ The golf ball rigs were really flexible. Below, I'll go through the rig features
 The first rig I set up was the 45 - degree one. I'll go through the features of that one below, and note when I was able export pieces and use them in rigs for the other views.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/hierarchy.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\hierarchy_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Overview: There was a global positioning/scale control (selected in the image above). If I wanted to move the body but leave the hands and feet in place, I would click on the golf ball and simply move it around, since the shoulder and hip controllers, as well as the extra pieces of geometry (eyes, bowtie), were parented to the golf ball. This setup would normally be very bad form -- production rigs tend not to have things constrained to geometry -- but it was perfectly serviceable for this workflow.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballarms.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballarms_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Arms: IK (the geometry was skinned the the joints). I used an RP solver so that I could flip the angle of the elbow, and added a Pole Vector constraint. I also added a shoulder controller, which was parented to the golf ball but I could move anywhere, and I found was very useful for conveying the weight of a movement. To move the hands, I simply manipulated the geometry.
@@ -335,24 +335,24 @@ Arms: IK (the geometry was skinned the the joints). I used an RP solver so that 
 I exported the rigged arms and was able to include them in the rigs for other views.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballfeet.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballfeet_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Feet: The feet setup was identical to the arms, minus the Pole Vector constraint, because I didn't want the knees to ever bend backwards. I also controlled the feet by manipulating individual pieces of geometry. A nice thing about not skinning the hands or feet was that it allowed me to scale them -- so if I wanted a hand or foot to flip, I simply hand to scale it to -1.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballeye.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballeye_converted.jpeg' style='max-width:max-content;'>
     <p>A closer look at the geometry in the eye</p>
 </div>
 
 Eye: Since all the pieces of the eye were separate geometry, to control the character's gaze, I just moved the pupil and iris around. I also created blendshapes for some different eye poses, which you can see below:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballeyewide.png' style='max-width:60%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballeyewide_converted.jpeg' style='max-width:60%;'>
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/golfballeyeclosed.png' style='max-width:60%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\golfballeyeclosed_converted.jpeg' style='max-width:60%;'>
 </div>
 
 **Animation**
@@ -364,13 +364,13 @@ The 2D workflow didn't really affect my animation process. I would Referenced my
 I alluded to how I did the environments in the storyboarding section, but I'll expand on it here. I would draw them out and then import the drawing as a free image plane and "trace" it with geometry. Obviously, this was not very flexible, so I had to pick my angles carefully and draw at the proper aspect ratio.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/environments01.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\environments01_converted.jpeg' style='max-width:max-content;'>
     <p>I started by drawing out a scene</p>
 </div>
 Next I would trace it
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/environments02.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\environments02_converted.jpeg' style='max-width:max-content;'>
     <p>Left: all geometry  
     <br>
     Middle: with render gate  
@@ -400,7 +400,7 @@ Lighting was tricky, and was probably the most difficult and least intuitive par
 I also favored lights with high intensity and bright colors. I took inspiration from neon golf courses. Since I used lambert materials, I used the lights to make the aesthetic more interesting. Ususally, I would use a blue aiSkydome light, and an spotlights to add variation. For example, I often used a pink spotlight on the giraffe's face:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/spotlights.png' style='max-width:max-content;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\spotlights_converted.jpeg' style='max-width:max-content;'>
     <p>Right: With pink spotlights  
     <br>
     Left: Without pink spotlights</p>
@@ -409,19 +409,19 @@ I also favored lights with high intensity and bright colors. I took inspiration 
 In the shot below, I used a bright blue spotlight on the water, and a purplish one on the elephant and on the rocks.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-29-render-01.0001.png' style='max-width:70%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\shot-29-render-01_0001_converted.jpeg' style='max-width:70%;'>
 </div>
 
 In this shot, I used a green spotlight on the grass and a high-intensity purple spotlight on the rocks. The darker portions of grass in the front where achieved with a separate piece of geometry.
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-2-and-3-render-01.0005.png' style='max-width:70%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\shot-2-and-3-render-01_0005_converted.jpeg' style='max-width:70%;'>
 </div>
 
 In this shot, I put a red spotlight on the volcano
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-17-render-03.0001.png' style='max-width:70%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\shot-17-render-03_0001_converted.jpeg' style='max-width:70%;'>
 </div>
 
 For the sky, I would put a bright blue spotlight below the geometry and angle it up, and play with the falloff until i got a gradient that I was happy with:
@@ -432,13 +432,13 @@ For the sky, I would put a bright blue spotlight below the geometry and angle it
 </div>
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-30-render-01.0178.png' style='max-width:70%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\shot-30-render-01_0178_converted.jpeg' style='max-width:70%;'>
 </div>
 
 By contrast, in the shots of the houses under the course, I used more neutral colored lighting:
 
 <div class='captioned-image'>
-    <img src='/img/2019-08-11-flat-planes/shot-10-render-01.0038.png' style='max-width:70%;'>
+    <img src='\img\2019-08-11-flat-planes\\converted_files\shot-10-render-01_0038_converted.jpeg' style='max-width:70%;'>
 </div>
 
 Since my geometry was not complex, there were no shadows, and I used only Lambert materials, the frames rendered super fast (45 to 120 seconds per frame).

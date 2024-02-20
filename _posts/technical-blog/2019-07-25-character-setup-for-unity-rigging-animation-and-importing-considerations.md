@@ -8,8 +8,8 @@ tags:
   - "maya-to-unity"
   - "rigging"
   - "unity"
-cover-image: "img/2019-07-25-unity-rigging/cover_image.jpg"
-cover-big: "img/2019-07-25-unity-rigging/cover_big.png"
+cover-image: "img/2019-07-25-unity-rigging/converted_files/cover_image_converted.jpeg"
+cover-big: "img/2019-07-25-unity-rigging/converted_files/cover_big_converted.jpeg"
 show-date: T
 type: blog
 featured: F
@@ -121,7 +121,7 @@ No matter whether or not you're importing single animations and retargeting them
 It's also a good idea to consider your transitions while creating your animation. Unity can blend animations when it transitions between [states](https://docs.unity3d.com/Manual/class-State.html) and, within states, between motions, but if an animation needs to be loopable, it's always better to loop it in the animation software. If you're hand keying it, you can make sure the beginning and end of the cycle are exactly the same, but if you can't do that, cut some frames off from the end and crossfade them with the beginning:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-25-unity-rigging/Capture12.png' style='max-width:50%;'>
+    <img src='\img\2019-07-25-unity-rigging\\converted_files\Capture12_converted.jpeg' style='max-width:50%;'>
     <p>Creating a loop</p>
 </div>
 
@@ -152,7 +152,7 @@ The following are a collection of tips on solving problems with your animation i
 **Extra joints don't have animation on them**: If you have a joint that's not included in the Avatar definition (a prop joint, eyelids, a tail), you can add its animation by performing the following: in the Animation Tab, expand the "Mask" section. Select "Create from this Model" from the Definition drop down. Then, under the Section, tick the box next to your extra joints.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-25-unity-rigging/Capture8.PNG' style='max-width:40%;'>
+    <img src='\img\2019-07-25-unity-rigging\\converted_files\Capture8_converted.jpeg' style='max-width:40%;'>
 </div>
 
 **Animation doesn't "look the same"**: When you import animation with a high number of keys (like mocap, which usually has a key every frame), Unity automatically applies some Animation Compression. You can read about it in more detail on [Nicholas Frechette's Blog](http://nfrechette.github.io/2017/01/30/anim_compression_unity5/). Anyway, you can turn it off, but that's not recommended. I recommend you reduce the Rotation Error and Position Error until you get something satisfactory.
@@ -179,7 +179,7 @@ Additionally, you should know that when you define the Avatar, Unity by default 
 If you skinned your model with 4 Max influences, the skinning should not look different than it did in your animation software, but Unity's default settings might be jacked up. Go to Edit > Project Settings > Quality and make sure that "Blend Weights" is set to your desire number of joints-per-vertex influence. If you were on the "Very Low", "Low", "Medium", or "High" preset, it automatically sets them to 2.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-25-unity-rigging/Capture6.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-25-unity-rigging\\converted_files\Capture6_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 That's all for now! Once you're import settings are squared away, the next step is to set up the [Animation State Machine](https://docs.unity3d.com/Manual/AnimationStateMachines.html). Even if that's your programmer's job, it's useful to read that documentation so you can understand how all the animation clips you make will work together. I hope this helped you avoid issues and troubleshoot your own characters and rigs!

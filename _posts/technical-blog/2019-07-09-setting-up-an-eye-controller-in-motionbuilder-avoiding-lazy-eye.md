@@ -14,7 +14,7 @@ tags:
   - "motionbuilder"
   - "motionbuilder-eye-controller"
 cover-image: "img/2019-07-09-mobu-eye-rig/cover_image.jpg"
-cover-big: "img/2019-07-09-mobu-eye-rig/cover_big.png"
+cover-big: "img/2019-07-09-mobu-eye-rig/converted_files/cover_big_converted.jpeg"
 show-date: T
 type: blog
 featured: F
@@ -34,7 +34,7 @@ In this post, I'm going to go through two different methods for making an eye co
 For the tutorial, I'll be using Chad, which is a character from a game I worked on with [Peter Sheehan](http://perebite.com/) and [Sophia Videva](https://www.sophiavideva.com/reel).
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture1.PNG' style='max-width:40%;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture1_converted.jpeg' style='max-width:40%;'>
     <p>Go Muskrats</p>
 </div>
 
@@ -45,7 +45,7 @@ If you want to get to my preferred method, skip to Method 2. However, I thought 
 **Step 1:** First thing to do is rig our eyes in Maya. Hide the head geometry (CTRL + h). Create a two-joint joint chain, with the base joint right in the center of the eye and the end joint on the surface of the eye. Skin the eyeball mesh to the center joint _only_:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture2.PNG' style='max-width:40%;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture2_converted.jpeg' style='max-width:40%;'>
     <p>hold down "v" to point-snap the joints. The base joint needs to be directly in the center of the eye -- you can also parent it to the eye with Maintain Offset turned "off". I named my joints l\_eye\_bind and l\_eye\_aim.</p>
 </div>
 
@@ -56,7 +56,7 @@ You can use the Skeleton > Mirror Joints tool to mirror the joints that you made
 **Step 2:** Now, we'll set up our eye controller in Motionbuilder. Hit CTRL + A to display your model in X-Ray view, and expand the hierarchy in the Navigator to see your eye joints. We'll first make our controls. If you've ever used a character rig, you'll probably be used to NURBS curve eye controllers, like the one shown on my Eleven rig below:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/eyeNurbs.PNG' style='max-width:40%;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\eyeNurbs_converted.jpeg' style='max-width:40%;'>
     <p>NURBS eye controller</p>
 </div>
 
@@ -71,7 +71,7 @@ Drag a cube into the scene. Rename it something like "l\_eye\_CTRL". Right click
 Click on the l\_eye\_aim joint. Hit W to switch to the Transformation Tool, and change the mode to Global in the toolbar. Take note of the global transformation values.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture3.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture3_converted.jpeg' style='max-width:max-content;'>
     <p>A. Change transformation mode to global.<br>B. Global transformation values.</p>
 </div>
 
@@ -84,19 +84,19 @@ Next, click on the l\_eye\_CTRL (the cube) and in the Properties panel, select A
 Use the Scale Tool to resize the control.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture5.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture5_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Back in the Properties Panel, adjust the Z offset so that the l\_eye\_CTRL is a reasonable distance from the eye:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture6.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture6_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Now, we'll duplicate the controller twice. We'll rename one of them r\_eye\_CTRL and one of them eye\_parent\_CTRL. In the Manual Offset of the r\_eye\_CTRL, we'll negate the X value so that the controller is in front of the right eye. In the Manual Offset of the eye\_grp\_CTRL, we'll zero out the X value so that the controller is in the middle of the two controllers:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture7.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture7_converted.jpeg' style='max-width:max-content;'>
     <p>I resized the eye\_grp\_CTRL.</p>
 </div>
 
@@ -105,7 +105,7 @@ Now, in the hierarchy, ctrl + click on the r\_eye\_CTRL and l\_eye\_CTRL and dra
 The last thing is to set up a reference controller so that we can have the eye controls follow the head without changing the local transformation of the eye\_grp\_CTRL. Drag a Null from the Elements section of the Asset Browser on top of the eye\_grp\_CTRL. Rename it to ref\_eye\_CTRL and parent the eye\_grp\_CTRL underneath. My final setup looks like this:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture10.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture10_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 **Step 3:** Finally, we'll set up our constraints. In the Asset Browser, under Constraints, click and drag an Aim Constraint onto the l\_eye\_CTRL. Select "Set as Source Object" on the pop-up menu. Do the same on the r\_eye\_CTRL.
@@ -117,7 +117,7 @@ The last thing is to set up a reference controller so that we can have the eye c
 Rename the constraints in the hierarchy so that you can tell them apart. Double click on the constraint for the left eye in the hierarchy to view the constraint settings. Now, drag the l\_eye\_bind joint into the "Constrained Object" field in the Constraint Settings. Click "Snap" to maintain the offset and activate the constraint. Now, if you move the l\_eye\_CTRL, the left eye should stay pointed at it.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture8.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture8_converted.jpeg' style='max-width:max-content;'>
     <p>To drag the l\_eye\_bind joint into the Constrained Object field, select it in either the Viewport or the hierarchy and hold alt and drag, or x and drag, depending on your hotkey setup.</p>
 </div>
 
@@ -128,13 +128,13 @@ Finally, drag a Parent/Child constraint from the Asset Browser onto the ref\_eye
 This setup works fine if your character isn't doing any extreme movements (walking, sitting and talking, etc.) However, an issue emerges when the character's head is looking up or down at a large angle. See what happens when I make Chad gaze at the stars:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture14.png' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture14_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 It's subtle -- due to the size of Chad's irises and the fact that the pupil is positioned at the eye\_aim joint, it's almost impossible to see in the Models-only view -- but if you look at the joints, you can see that, despite not having moving the eye controllers, Chad's left eye has rotated and is, technically, no longer tracking. Ack!
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture15.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture15_converted.jpeg' style='max-width:max-content;'>
     <p>When we show the joints, it's easier to see that the left eye has rotated a bit.</p>
 </div>
 
@@ -161,7 +161,7 @@ When you rotate the center joint, the eye should rotate with it. The end joint g
 You can use the Skeleton > Mirror Joints tool to mirror the joints that you made for the left eye to the right eye. Just make sure everything is aligned properly. Make sure you include your eye joints in your skeleton hierarchy, then select the mesh, the entire skeleton hierarchy and click File > Send to Motionbuilder. You can also export it as an FBX and open it in Motionbuilder.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture16.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture16_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 **Step 2:** Now, we'll set up our eye controller in Motionbuilder. This is almost exactly the same as the controller we set up in the aim constraint section.
@@ -169,7 +169,7 @@ You can use the Skeleton > Mirror Joints tool to mirror the joints that you made
 Hit CTRL + A to display your model in X-Ray view, and expand the hierarchy in the Navigator to see your eye joints. We'll first make our controls. If you've ever used a character rig, you'll probably be used to NURBS curve eye controllers, like the one shown on my Eleven rig below:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/eyeNurbs.PNG' style='max-width:40%;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\eyeNurbs_converted.jpeg' style='max-width:40%;'>
     <p>NURBS eye controller</p>
 </div>
 
@@ -184,7 +184,7 @@ Drag a cube into the scene. Rename it something like "l\_eye\_CTRL". Right click
 Click on the l\_eye\_aim joint. Hit W to switch to the Transformation Tool, and change the mode to Global in the toolbar. Take note of the global transformation values.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture18.PNG' style='max-width:50%;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture18_converted.jpeg' style='max-width:50%;'>
     <p>A. Change transformation mode to global.<br>B. Global transformation values.</p>
 </div>
 
@@ -193,13 +193,13 @@ Next, click on the l\_eye\_CTRL (the cube) and in the Properties panel, select A
 In the aim constraint section, we moved our eye\_CTRL out in front of the face, but we're not going to do that here, since the joint is already in front of the face. Resize the controller using the Scale Tool.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture19.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture19_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Now, we'll duplicate the controller twice. We'll rename one of them r\_eye\_CTRL and one of them eye\_parent\_CTRL. In the Manual Offset of the r\_eye\_CTRL, we'll negate the X value so that the controller is aligned with the r\_eye\_aim. In the Manual Offset of the eye\_grp\_CTRL, we'll zero out the X value so that the controller is in the middle of the two controllers:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture20.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture20_converted.jpeg' style='max-width:max-content;'>
     <p>I resized the eye\_grp\_CTRL.</p>
 </div>
 
@@ -208,13 +208,13 @@ Now, in the hierarchy, ctrl + click on the r\_eye\_CTRL and l\_eye\_CTRL and dra
 Next, we'll set up reference controller so that we can have the eye controls follow the head without changing the local transformation of the eye\_grp\_CTRL. Drag a Null from the Elements section of the Asset Browser on top of the eye\_grp\_CTRL. Rename it to ref\_eye\_CTRL and parent the eye\_grp\_CTRL underneath.
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture21.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture21_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Finally, we'll create two Nulls to serve as the pole vector objects for each eye. Drag and drop a Null on top of the l\_eye\_bind joint (the joint will turn green when the Null is on top of it). Rename the null "l\_eye\_PV\_loc". Repeat for the right eye. Translate both Nulls up so that they're above the head. My final setup looks like this:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture22.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture22_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 **Step 3:** Finally, we'll set up our constraints. In the "Constraints" Section of the Asset Browser, drag a Chain IK into anywhere in the Viewport (you don't have to drop it on an object):
@@ -233,13 +233,13 @@ A Chain IK will appear in the "Constraints" section of your hierarchy. Rename it
 Click "Snap". Now, when you move your l\_eye\_CTRL, your character should look at it:
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture25.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture25_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Repeat this process for the right eye. Voila! You have eye tracking!
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture26.PNG' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture26_converted.jpeg' style='max-width:max-content;'>
     <p>I can constrain the eye\_grp\_CTRL to something -- a marker, another character, etc. -- to make a Chad's gaze follow it.</p>
 </div>
 
@@ -248,7 +248,7 @@ Finally, we'll put in some parent constraints. Drag a Parent/Child constraint fr
 You'll also notice that there's no lazy eye when we look straight up or down, due to the fact that the pole vector of the IK handle doesn't change, preventing rotation. Mission accomplished!
 
 <div class='captioned-image'>
-    <img src='/img/2019-07-09-mobu-eye-rig/Capture30.png' style='max-width:max-content;'>
+    <img src='\img\2019-07-09-mobu-eye-rig\\converted_files\Capture30_converted.jpeg' style='max-width:max-content;'>
 </div>
 
 Thanks for reading! I hope this was helpful. I definitely spent a lot of time banging my head against the wall with the aim constraint before I figured out the IK thing, so hopefully this saves you some time.

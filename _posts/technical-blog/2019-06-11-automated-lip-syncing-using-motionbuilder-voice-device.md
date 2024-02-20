@@ -39,7 +39,6 @@ AE (as in "fat"), AO (as in "bought), AX (as in "skate"), FV, G, IY (as in "meet
 Create a copy of your head geometry for each phoneme. Use the sculpting tools to sculpt the mouths into each individual phoneme.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture-1.png' style='max-width:max-content;'>
 </div>
 
 **Step 2:** Once you have phoneme morph targets, select all of the morph targets, then select the character head geometry, and click Deform > Blend Shape.
@@ -52,7 +51,6 @@ Create a copy of your head geometry for each phoneme. Use the sculpting tools to
 Check your targets by into Window > Animation Editors > Shape Editor, which I believe is new in Maya 2017, or by looking clicking on the blendshape node in the "inputs" section of the Channel Box.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture3.png' style='max-width:max-content;'>
     <p>You want all the morph targets for a particular model to be under one blendshape so that you can paint the weights. Check that all your deformers are working properly by dragging the sliders</p>
 </div>
 
@@ -106,7 +104,7 @@ If you see the phonemes but don't hear the audio, check you computer's audio set
 Shift+select every piece of geometry involved in facial animation (so if your teeth, tongue, eyelashes are separate pieces of geometry, select then along with the head geometry), then go to the Asset Browser and under Characters, drag a Character Face onto your model. On the pop-up menu, select "Attach to Model." In the Navigator, double click on the Character Face to view the Character Face Definition pane. You should see something like this:
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture8.png' style='max-width:max-content;'>
+    <img src='\img\2019-06-11-voice-device\\converted_files\capture8_converted.jpeg' style='max-width:max-content;'>
     <p>The Character Face Definition pane</p>
 </div>
 
@@ -141,7 +139,7 @@ Your final result should look like this:
 Hit play on the Transport Controls. You should see your model lip sync to the narration. If you don't see anything, make sure the "Active" box on your Character Face is ticked, and the "Online" box in your Voice Device is yellow.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture14.png' style='max-width:30%;'>
+    <img src='\img\2019-06-11-voice-device\\converted_files\capture14_converted.jpeg' style='max-width:30%;'>
 </div>
 
 **Step 6:** Now it's time to do some tweaking.
@@ -174,7 +172,7 @@ If you want to **dampen** or **accentuate** every phoneme, you can do that in th
 If you're adjusting the dampening (below left), click on the dampening factor in every phoneme dampening node, then repeatedly single-click on the Result field in the Integer node. If you're adjusting the multiply (below right), do the same with the multiply node instead of the dampening node.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture20.png' style='max-width:max-content;'>
+    <img src='\img\2019-06-11-voice-device\\converted_files\capture20_converted.jpeg' style='max-width:max-content;'>
     <p>If the clicks are confusing, you can watch me do it here: [https://vimeo.com/319511325](https://vimeo.com/319511325)</p>
 </div>
 
@@ -189,7 +187,7 @@ Make a new animation layer by clicking the plus button in the upper right
 Open the Actor Face and locate the channel you wish to edit. Enable animation on the channel by clicking on the A button right of the channel (it should flip from grey to white). Create keyframes by clicking the K button left of the channel (it should turn red).
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture24.png' style='max-width:max-content;'>
+    <img src='\img\2019-06-11-voice-device\\converted_files\capture24_converted.jpeg' style='max-width:max-content;'>
     <p>I'm closing Keith's left eye</p>
 </div>
 
@@ -218,7 +216,7 @@ Rename your new Take in the hierarchy.
 Tick the "Recording" box in the Voice Device and the record button on the Transport Controls. This allows you to record the data from the Voice Device into the Take.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture34-1.png' style='max-width:30%;'>
+    <img src='\img\2019-06-11-voice-device\\converted_files\capture34-1_converted.jpeg' style='max-width:30%;'>
 </div>
 
 Hit Play. Once the Take has played all the way through (this is how you record the Voice Device animation to the Character Face), untick "Live" in the Voice Device. Next, create a new layer on which to plot the face animation.

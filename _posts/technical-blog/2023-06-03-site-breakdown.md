@@ -11,8 +11,8 @@ tags:
   - "tutorial"
   - "voice"
   - "voice-device"
-cover-image: "img/2023-06-03-site-breakdown/cover_image.png"
-cover-big: "img/2023-06-03-site-breakdown/cover_big.jpg"
+cover-image: "img/2023-06-03-site-breakdown/converted_files/cover_image_converted.jpeg"
+cover-big: "img/2023-06-03-site-breakdown/converted_files/cover_big_converted.jpeg"
 show-date: T
 type: blog
 featured: F
@@ -33,7 +33,7 @@ I won't go into tutorial-level detail about how to do everything. The idea of th
 - I was sick of paying Wordpress to keep 'Doctors Swear By This One Weird Trick' ads off my blog. 
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/old-sites.jpg" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\old-sites_converted.jpeg' style="max-width:100%;">
     <p>My old sites side-by-side. As you can see, it's clunky.</p>
 </div>
 
@@ -44,7 +44,7 @@ I already knew it, which you need for this process. So, keep in mind that if you
 **Domain Registry**: You get your domain name through a domain registrar. Examples include GoDaddy, NameCheap, etc. I used Gandi, because it was recommended to me. A lot of domain registrars will also host your site and have a drag-and-drop site-builder. You decide on your domain name and if it's available, you buy it. Different top-level domains (.com, .net, .org, .edu, .ru, etc) have different connotations, so explore around. Keep in mind that some TLDs are <a href="https://symantec-enterprise-blogs.security.com/blogs/feature-stories/top-20-shady-top-level-domains">common with spam sites</a>, which can contribute to your site being deprioritised in rankings.
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/repo.JPG" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\repo_converted.jpeg' style="max-width:100%;">
     <p>I know </p>
 </div>
 
@@ -53,7 +53,7 @@ One you have your domain name, forget about it until the end of the post. You ca
 **Set Up GitHub Pages and Jekyll**: Jekyll is a <a href="https://en.wikipedia.org/wiki/Static_site_generator">static site generator</a>. <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">As the GitHub Pages docs explain</a>, Jekyll has built-in support for GitHub pages, which means that if you host your Jekyll site from GitHub Pages, it's really easy to build the site out of your markdown, html, and css files. Your site is going to be a special git repository that holds all your content. GitHub Pages will automatically use Jekyll to build the site from that content, and then host it. 
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/repo.JPG" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\repo_converted.jpeg' style="max-width:100%;">
     <p>Screenshots of my repository's code, which has the site content, and Actions, where you can see how GitHub automatically built the site after each push</p>
 </div>
 
@@ -72,7 +72,7 @@ After that, you can pretty much ignore the Jekyll/GitHub Pages aspect of the pro
 </div>
 
 <div class="captioned-image" style='flex-basis:200px; '>
-    <img src="/img/2023-06-03-site-breakdown/sketch02.jpg" 
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\sketch02_converted.jpeg' 
     style="min-width:50px;">
 </div>
 
@@ -93,12 +93,12 @@ HTML and CSS are grind-y to learn, so try not to get discouraged. The concepts a
 Here's what my mockup looked like at various stages: 
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/mockup01.JPG" style="max-width:60%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\mockup01_converted.jpeg' style="max-width:60%;">
     <p> Figuring out how to display posts and learning CSS</p>
 </div>
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/mockup02.JPG" style="max-width:60%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\mockup02_converted.jpeg' style="max-width:60%;">
     <p> Finishing the blog section </p>
 </div>
 
@@ -114,22 +114,22 @@ Here's what my mockup looked like at various stages:
 Below, I'll give some scattershot examples of how I use different features of Jekyll for my site. If it took you a long time to make your mockup, I recommend you review the <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">Jekyll step-by-step tutorial</a> to jog your memory about the various features
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/front-matter.jpg" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\front-matter_converted.jpeg' style="max-width:100%;">
     <p> Front Matter: Here's an example of how I used the front matter in each post. The white text in my index.html page is Liquid code. The <b>post.[x]</b> expression is accessing the front matter of the posts -- specifically in this example, <b>post.featured</b> is acessing the <b>featured</b> property of the markdown post on the left. </p>
 </div>
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/includes.jpg" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\includes_converted.jpeg' style="max-width:100%;">
     <p> Includes: You can put html files in your <b>_includes</b> folder and then include them in other html files (including your layouts). When Jekyll builds the site, it will replace that Liquid <b>include</b> statement with whatever is in the included file to generate the html for the actual page. This is how I put in the navigation and copyright for each page, as well as declared the Doctype and put in the head hml.</p>
 </div>
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/data.jpg" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\data_converted.jpeg' style="max-width:100%;">
     <p> Data: You can put whatever site-wide data you want into a .yaml file and toss it into the <b>_data</b> folder. This is how I created my drawings page -- I put links to the images in my /img folder in various .yaml files seperated by drawing "type", then used Liquid to loop through those files within the actual drawings.html page. When Jekyll actually builds the page, it'll build an html page where each of those drawings has its own div.</p>
 </div>
 
 <div class="captioned-image">
-    <img src="/img/2023-06-03-site-breakdown/assets.jpg" style="max-width:100%;">
+    <img src='\img\2023-06-03-site-breakdown\\converted_files\assets_converted.jpeg' style="max-width:100%;">
     <p> Assets: This is more niche, but I just wanted to point out where to put your css assets so that Jekyll can find them. I didn't use the SASS stuff that the Jekyll step-by-step walkthrough talks about.</p>
 </div>
 
