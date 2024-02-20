@@ -39,7 +39,7 @@ I won't go into tutorial-level detail about how to do everything. The idea of th
 
 **Time-Frame**: The project took me five months, from buying the domain name to having a site that I felt comfortable showing off. During these 5 months, I worked on it for ~10 hours a week. I had barely touched HTML and CSS before starting this project, which definately contributed to the time commitment. 
 
-I already knew it, which you need for this process. So, keep in mind that if you've never used it, it'll slow you down initially. That said, the way to learn Git is to just go use it on a project. I think this would've be a great project to learn Git on.
+I already knew Git, which you need for this process. So, keep in mind that if you've never used it, it'll slow you down initially. That said, the way to learn Git is to just go use it on a project. I think this would've be a great project to learn Git on.
 
 **Domain Registry**: You get your domain name through a domain registrar. Examples include GoDaddy, NameCheap, etc. I used Gandi, because it was recommended to me. A lot of domain registrars will also host your site and have a drag-and-drop site-builder. You decide on your domain name and if it's available, you buy it. Different top-level domains (.com, .net, .org, .edu, .ru, etc) have different connotations, so explore around. Keep in mind that some TLDs are <a href="https://symantec-enterprise-blogs.security.com/blogs/feature-stories/top-20-shady-top-level-domains">common with spam sites</a>, which can contribute to your site being deprioritised in rankings.
 
@@ -107,6 +107,8 @@ Here's what my mockup looked like at various stages:
     <p> Figuring out how I was going to represent other types of content. This was the final state of the mockup </p>
 </div>
 
+*Update Feb 2024*: I've since reorganized my home page, as you may have noticed. I mainly switched the two main sections and got rid of the reels section. It was pretty painless
+
 **Port Wordpress Blog Over**: You don't need to do this unless you have an exisiting Wordpress blog you're trying to move over. There's a number of tools out there that take your Wordpress site and attempts to convert them into the Jekyll folder structure. I used <a href="https://github.com/benbalter/wordpress-to-jekyll-exporter">this one</a>. There also appears to be an extension you can install on your Wordpress site itself. Keep in mind that you may still have to fix some image links. I wrote a few Python scripts to deal with this. 
 
 **Set Up Your Content So Jekyll Can Build It**: This step also takes a while. Once you have your mockup done, and all your site content gathered, it's time to start getting it set up  into Jekyll. Remember, Jekyll relies on your content (images, css, html, markdown, etc.) being in particular directories, front matter on markdown or html file to give information about how to build them, and .yaml files to give site-wide information that you can access with <a href="https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language">Liquid</a> expressions. 
@@ -142,7 +144,6 @@ As you know, when you commit as push changes, GitHub will try to use Jekyll to b
 DNS changes can take up to a day to propograte. 
 
 **Wrap-Up**: That's it! There's always improvements I could make to the site. At the time of this post, I still need to get Google Analytics set up, some of my images take a long time to load, I'm not in love with how the text gets cut off on the post previews, etc. But I'm calling it shippable! 
-
 
  
 
