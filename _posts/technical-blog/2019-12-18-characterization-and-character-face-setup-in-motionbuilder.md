@@ -20,6 +20,7 @@ cover-image: img/2019-12-18-char-setup-mobu/cover_image.jpg
 cover-big: img/2019-12-18-char-setup-mobu/cover_big.png
 featured: F
 uri: "/2019/12/18/characterization-and-character-face-setup-in-motionbuilder.html"
+description: My checklist for setting up a character in MoBu to accept motion capture and voice device audio
 ---
 I wanted to share my process for setting up a character for mocap retargeting and facial animation in MotionBuilder. I prefer to make a clean character file to retarget onto, with all the possible assets that I would need for a given project. Having all assets on a character from the beginning of the retargeting process minimizes the risk of realizing I need another feature (character face, voice device, etc.) later on, when I've already created several motions, and might need to set up the same asset on multiple files. In fact, I think of character setup as the final step in the rigging process, rather than the first step in the animation process. It's just better pipeline management.
 

@@ -15,6 +15,7 @@ show-date: T
 type: blog
 featured: F
 uri: "/2019/08/11/animating-using-flat-planes-in-maya.html"
+description: An overview of a method I developed to do faster animation in Maya by using flat planes.
 ---
 
 Last year, I worked on a short called <a href="/animations.html/#midland-safari-putt-putt">Midland Safari Putt-Putt</a>, which I animated in Maya using flat planes. I picked this method because I was the most well versed in Maya (as opposed to another animation software like Harmony or After Effects), but I didn't have time to go through the entire 3D pipeline. However, I really wanted to tell this story ([which is true](https://www.nytimes.com/1994/12/25/us/friendliness-may-have-been-ruse-for-burglaries-in-small-town.html), by, the way). So, I had the option of scoping my project by a) using the workflows I was familiar with (i.e. modeling, texturing, rigging, animating, figuring out shots, rendering) to make something really short and small, or b) figure out a new way to make what I wanted. This project taught me that Maya (and any other software package) should be treated as a tool, and the way it is "supposed" to be used or is "usually" used shouldn't necessarily determine what kind of project you can make.

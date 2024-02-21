@@ -17,6 +17,7 @@ show-date: T
 type: blog
 featured: F
 uri: "/2023/06/03/site-breakdown.html"
+description: An overview of using Jekyll and Github pages to build a website
 ---
 
 This is the first post I've made since I moved my portfolio and blog over to ktcg.art, so I thought it would be fun to make a post about that entire process. It's a litte outside the tech art scope of my site. But, I can imagine other artist-developers being curious about how they can make a site like this themselves. This site is hosted on GitHub pages and built by Jekyll.

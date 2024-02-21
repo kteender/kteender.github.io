@@ -16,6 +16,7 @@ cover-image: img/2022-04-19-mocap/converted_files/cover_image_converted.jpeg
 cover-big: img/2022-04-19-mocap/converted_files/cover_big_converted.jpeg
 featured: F
 uri: "/2021/04/19/incorporating-motion-capture-into-a-short-film-workflow.html"
+description: An overview of the motion capture animation pipeline I used on a short film
 ---
 <html>
     <head>
