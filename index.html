@@ -2,7 +2,7 @@
 title: KTCG
 type: index
 description: CG portfolio and technical blog
-permalink: index
+permalink: 
 ---
 {% include header.html %}
 <div class="page-content">
@@ -20,7 +20,7 @@ permalink: index
       <div class = "animation-container">
         {% for item in site.data.animations %}
           <div class = "animation-holder fade">
-            <a href="/animations.html#{{ item.id }}">
+            <a href="/cg-projects#{{ item.id }}">
             <div class = "animation-labeled-image">
               <img src="{{ item.cover-image }}">
               <div class="animation-text">
@@ -90,7 +90,7 @@ permalink: index
               {% for post in site.posts %}
                 {% if post.featured == "T" %}
                   <div class="featured-post">
-                    <a href="{{ post.uri }}">
+                    <a href="{{ post.permalink }}">
                       <div class="featured-post-labeled-image">
                         <img src="{{ post.cover-image }}" />
                         <div class="text">
@@ -117,7 +117,7 @@ permalink: index
             {% if post.featured == "F" %}
               {% if post.type == "blog" %}
                 <div class="regular-holder">
-                  <a href="{{ post.uri }}">
+                  <a href="{{ post.permalink }}">
                     <div class='regular-labeled-image'>
                       <img src="{{ post.cover-image }}" />
                         <div class = "text">  

@@ -1,14 +1,20 @@
 - name: HOME
   link: /
+  permalink: /
 - name: CG PROJECTS
   link: /animations.html
+  permalink: /cg-projects
 - name: BLOG
   link: /blog.html
+  permalink: /technical-blog
 # - name: REELS
 #   link: /reels.html
 - name: DRAWING
   link: /drawing.html
+  permalink: drawing
 - name: ABOUT
   link: /about.html
+  permalink: about
 - name: LOVED LIST
   link: /loved-list.html
+  permalink: loved-list
