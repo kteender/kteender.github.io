@@ -10,6 +10,7 @@ type: loved-list
 featured: F
 uri: "/2024/02/28/roberta-breitmore.html"
 description: Roberta Breitmore was a performance/simulation that Lynn Hershman Leeson ran between 1973 and 1978 in San Francisco. It was a precursor to our modern identity-compartmentalizing behaviors.
+permalink: roberta-breitmore
 ---
 *Roberta Breitmore* was a performance/simulation that Lynn Hershman Leeson ran between 1973 and 1978 in San Francisco. However, the project continues to this day in a variety of documentary strategies. In the perfomance, Hershman inhabited a character named Roberta Breitmore who lived in San Francisco.
 

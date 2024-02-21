@@ -18,6 +18,7 @@ type: blog
 featured: F
 uri: "/2019/06/11/automated-lip-syncing-using-motionbuilder-voice-device.html"
 description:  MoBu's voice device is a powerful tool to quickly get lots of lip-sync animation if you are a little familiar with MoBu and pretty familiar with Maya.
+permalink: automated-lip-sync-using-mobu-voice-device
 ---
 
 UPDATE: In section 1 of this post, we paint the blendshape weights for the character. I've noticed a bug where sometimes, all your morph targets don't appear in the "Target" section of the Paint Blend Shape Weights Tool. You can get around thing by right-clicking on your base mesh, and while holding down the right mouse button, move down to Paint > Blend Shape > your desired shape.  

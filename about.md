@@ -1,7 +1,8 @@
 ---
 layout: post
 title: About
-description: 
+description: Hi, I'm Katie. I'm a CG technical director and artist in Los Angeles. 
+permalink: about
 ---
 # ABOUT
 
