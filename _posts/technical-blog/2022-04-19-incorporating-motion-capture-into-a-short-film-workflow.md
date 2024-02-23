@@ -24,7 +24,7 @@ permalink: using-mocap-in-a-short-film-pipeline
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
 </html>
-Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">here</a>, and watch the film itself <a href="/animations.html/#youth-group-4">here</a>.
+Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">here</a>, and watch the film itself <a href="/animations.html/#youth-group-4">on my animations page</a>.
 
 **Purpose**: This post is designed for students or independent artists considering using motion capture for animated filmmaking, and would like an example of how I approached the process. For the sake of length, I will not be going into tutorial-level detail on the different MotionBuilder/Maya tools referred to, but I will post link to technical information as it comes up, and you can always leave questions in the comments section.
 
@@ -198,7 +198,7 @@ You may have noticed that the characters inhabit a room larger than 10'x20' in t
     <p>To enable a character's ghosts, click the eye icon circled in red</p>
 </div>
 
-**Set Cameras:** At this point, I exported the scene to Unity, and set the Cameras. I set the cameras at this point because I didn't want to clean up and edit animation that was not going to be visible in frame! I'm not going to go into too much detail because I talk about setting the cameras in my <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">other post</a> about this workflow. If you're using Maya or 3DS Max, at this point I would decide which parts of the characters performances are going to be in the shot. Below are Vimeo embeds with with my final cameras next to the first round of setting cameras (I reevaluated them several times over the course of the production).
+**Set Cameras:** At this point, I exported the scene to Unity, and set the Cameras. I set the cameras at this point because I didn't want to clean up and edit animation that was not going to be visible in frame! I'm not going to go into too much detail because I talk about setting the cameras in my <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">other post about the Unity side of this workflow</a>. If you're using Maya or 3DS Max, at this point I would decide which parts of the characters performances are going to be in the shot. Below are Vimeo embeds with with my final cameras next to the first round of setting cameras (I reevaluated them several times over the course of the production).
 
 <div class="captioned-image">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/AaflV-gyl0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
