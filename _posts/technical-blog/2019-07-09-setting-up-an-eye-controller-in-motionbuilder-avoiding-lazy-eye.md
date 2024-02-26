@@ -20,7 +20,7 @@ type: blog
 featured: F
 uri: "/2019/07/09/setting-up-an-eye-controller-in-motionbuilder-avoiding-lazy-eye.html"
 description: MoBu' aim constraint can pose some problems for eye controllers. I show an alternate way using IK handles.
-permalink: mobu-eye-controller
+permalink: /2019/07/08/setting-up-an-eye-controller-in-motionbuilder-avoiding-lazy-eye/
 ---
 
 An eye controller that allows you to manipulate the character's look-at point is a bog-standard feature of any rig:
