@@ -3,6 +3,12 @@
   cover-image: /img/2023-07-08-ccus/cover-image.jpg
   description: ISGS Carbon Capture Project
   embed: embed-ccus.html
+- name: Happy Birthday Fruitbowl
+  id: "birthday-fruitbowl"
+  cover-image: /img/2024-02-07-birthday-fruits/converted_files/cover_image_converted.jpeg
+  uri: "/2024/02/07/birthday-fruitbowl.jpeg"
+  description: Happy Birthday Fruitbowl
+  embed: embed-birthday-song-fruitbowl.html
 - name: Midland Safari Putt-Putt
   id: "midland-safari-putt-putt"
   uri: "/2018/12/12/midland-safari-putt-putt.html"
