@@ -11,10 +11,10 @@
 #   link: /reels.html
 - name: DRAWING
   link: /drawing.html
-  permalink: drawing
+  permalink: /drawing
 - name: ABOUT
   link: /about.html
-  permalink: about
+  permalink: /about
 - name: LOVED LIST
   link: /loved-list.html
-  permalink: loved-list
+  permalink: /loved-list
