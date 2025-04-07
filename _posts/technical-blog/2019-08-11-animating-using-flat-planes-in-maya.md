@@ -1,5 +1,5 @@
 ---
-title: "Animating using Flat Planes in Maya"
+title: "KTCG.ART | Animating using Flat Planes in Maya"
 shortname: "Animating using Flat Planes in Maya"
 date: "2019-08-11"
 tags: 

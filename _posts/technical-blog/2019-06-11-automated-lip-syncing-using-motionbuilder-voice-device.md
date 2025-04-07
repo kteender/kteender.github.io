@@ -1,5 +1,5 @@
 ---
-title: "Automated Lip Syncing using MotionBuilder Voice Device"
+title: "KTCG.ART | Automated Lip Syncing using MotionBuilder Voice Device"
 shortname: "Using MotionBuilder Voice Device"
 date: "2019-06-11"
 tags: 

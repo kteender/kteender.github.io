@@ -1,5 +1,5 @@
 ---
-title: "Character Setup in Motionbuilder: Characterization and Character Face Mapping"
+title: "KTCG.ART | Character Setup in Motionbuilder: Characterization and Character Face Mapping"
 shortname: "MotionBuilder Character Setup"
 date: "2019-12-18"
 tags: 

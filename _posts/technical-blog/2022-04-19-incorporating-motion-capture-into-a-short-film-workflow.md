@@ -1,5 +1,5 @@
 ---
-title: "Using Motion Capture in an Animated Short Film"
+title: "KTCG.ART | Using Motion Capture in an Animated Short Film"
 shortname: "Using Motion Capture in an Animated Short Film"
 date: 2021-04-19
 tags: 

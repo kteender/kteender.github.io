@@ -1,5 +1,5 @@
 ---
-title: "Roberta Breitmore -- pre-social media identity simulation"
+title: "KTCG.ART | Roberta Breitmore -- pre-social media identity simulation"
 shortname: "Roberta Breitmore by Lynn Hershman Leeson"
 date: "2024-02-18"
 tags: 

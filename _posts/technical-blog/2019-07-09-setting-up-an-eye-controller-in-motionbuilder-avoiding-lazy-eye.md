@@ -1,5 +1,5 @@
 ---
-title: "Setting Up an Eye Controller in MotionBuilder + Avoiding Lazy Eye"
+title: "KTCG.ART | Setting Up an Eye Controller in MotionBuilder + Avoiding Lazy Eye"
 shortname: "MotionBuilder Eye Controller"
 date: "2019-07-09"
 tags: 

@@ -1,5 +1,5 @@
 ---
-title: "Making a Short Film in Unity using the Unity Timeline"
+title: "KTCG.ART | Making a Short Film in Unity using the Unity Timeline"
 shortname: "Making a Short Film in Unity"
 date: "2020-05-10"
 show-date: T

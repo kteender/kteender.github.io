@@ -1,5 +1,5 @@
 ---
-title: "Using Jekyll and GitHub Pages to create a Custom Website"
+title: "KTCG.ART | Using Jekyll and GitHub Pages to create a Custom Website"
 shortname: "How I Made this Site"
 date: "2023-06-03"
 tags: 

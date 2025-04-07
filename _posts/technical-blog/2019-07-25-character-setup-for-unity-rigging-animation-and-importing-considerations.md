@@ -1,5 +1,5 @@
 ---
-title: "Character Setup for Unity -- Rigging, Animation, and Importing Considerations"
+title: "KTCG.ART | Character Setup for Unity -- Rigging, Animation, and Importing Considerations"
 shortname: "Character Setup for Unity"
 date: "2019-07-25"
 tags: 
