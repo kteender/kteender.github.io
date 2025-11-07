@@ -8,7 +8,7 @@ permalink: about
 
 Hi, I'm Katie. I'm a CG technical director and animator in Los Angeles. 
 
-From May 2021 to June 2025, I was employed doing tools development and previs/layout work on the Avatar sequels. I recently received my first film credit for working on Avatar: The Way of Water. Outside of work, I write code for use on my personal and freelance animation projects.
+From May 2021 to June 2025, I was employed doing tools development and previs/layout work on the Avatar sequels. Prior to that, I was a CG artist for the Carnegie Mellon University Robotics Institute. I recently received my first film credit for working on Avatar: The Way of Water. Outside of work, I write code for use on my personal and freelance animation projects.
 
 I have experience working with variety of DCCs including Maya, Motionbuilder, the Adobe Suite, and Blender. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions. I can code in Python, HTML, and CSS. I am comfortable working with git. I have traditional art training.
 

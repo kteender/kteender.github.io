@@ -1,8 +1,13 @@
 <p style="font-size: 12pt;">
-    bugmuthur's SEWER ISSUE is an animated short that I created as part of my ongoing art project, bugmuthur. She is my alter id. I use my computer graphics expertise to bring her to life.
-    If you would like to keep up with bugmuthur, you can follow her on YouTube, Instagram, or TikTok. She is @bugmuthur on all platforms.
+Bugmuthur is my alter-id and ongoing computer-generated art project. 
+<br>
+<br>
+The current centerpiece of the project is an animated short called <em>bugmuthur's SEWER ISSUE</em>.
+<br>
+<br>
+Bugmuthur was born when I needed a test case for my custom animation pipeline. Over time, however, she has captured my attention. I created her so I could write code, but now I write code so I can create her.
+If you would like to keep up with bugmuthur, you can follow her on <a href="https://www.tiktok.com/@bugmuthur">TikTok</a>, <a href="https://www.youtube.com/@bugmuthur">YouTube</a>, and/or <a href="https://www.instagram.com/bugmuthur/">Instagram</a>.
 </p>
-
 <div style="padding:56.25% 0 0 0;position:relative;">
     <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" 
     src = "https://www.youtube.com/embed/q0pBVFMJydw?si=W-epqBRL5O21eq_5"  
@@ -10,4 +15,11 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen>
     </iframe>
+</div>
+<div class="image-tiles-container">
+    {% for item in site.data.bugmuthur_stills %}
+        <div class="image-tile-holder">
+            <img alt="bugmuthur still" src="{{ item.link }}">
+        </div>
+    {% endfor %}
 </div>
