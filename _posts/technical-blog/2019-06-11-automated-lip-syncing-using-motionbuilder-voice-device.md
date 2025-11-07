@@ -41,18 +41,20 @@ AE (as in "fat"), AO (as in "bought), AX (as in "skate"), FV, G, IY (as in "meet
 Create a copy of your head geometry for each phoneme. Use the sculpting tools to sculpt the mouths into each individual phoneme.
 
 <div class='captioned-image'>
+    <img alt="using maya sculpting tools" src='/img/2019-06-11-voice-device/capture-1.png' style='max-width:max-content;'>
 </div>
 
 **Step 2:** Once you have phoneme morph targets, select all of the morph targets, then select the character head geometry, and click Deform > Blend Shape.
 
 <div class='captioned-image'>
-    <img src='/img/2019-06-11-voice-device/capture1.png' style='max-width:max-content;'>
+    <img alt="maya blendshape window" src='/img/2019-06-11-voice-device/capture1.png' style='max-width:max-content;'>
     <p>Checking Local will make it such that the head does not move towards the morph target when the weight is increased. You can delete the targets later since the information is now on the head, but I like to keep them around in case I need to redo something.</p>
 </div>
 
 Check your targets by into Window > Animation Editors > Shape Editor, which I believe is new in Maya 2017, or by looking clicking on the blendshape node in the "inputs" section of the Channel Box.
 
 <div class='captioned-image'>
+    <img src='/img/2019-06-11-voice-device/capture3.png' style='max-width:max-content;'>
     <p>You want all the morph targets for a particular model to be under one blendshape so that you can paint the weights. Check that all your deformers are working properly by dragging the sliders</p>
 </div>
 
