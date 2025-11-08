@@ -53,9 +53,9 @@
 }
 
 .clip-text_one {
-  background-image: url('style_img/text_dither.png');
-  background-size: 40px;
-  background-repeat: repeat;
+  background-image: url('style_img/text_dither02.png');
+  background-size: 35px;
+  background-repeat: repeat-x;
 }
 
 .header-bg{
@@ -74,7 +74,9 @@
     background-color: #99cc99; */
     background-color: #cccccc;
     max-width: 100%;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .navi {
