@@ -8,17 +8,27 @@ layout: null
 
 <div class="content-holder">
     <div class="content">
-
-        <h1>DRAWING</h1>
-        <h2>STUDIES</h2>
+        <h1>DRAWN</h1>
+        <div style="display:flex; justify-content: flex-start; margin: 0px">
+              <h2 style="text-decoration: none !important; margin: 0px; text-align: left; background-color: #ccffcc;">
+                Film assets
+              </h2>
+        </div>
+        <p>I create static images extensively for animation projects. Here is a sample of hand-painted backgrounds, props, character sheets, and posters.</p>
         <div class="image-tiles-container">
-            {% for item in site.data.studies %}
+            {% for item in site.data.backgrounds %}
                 <div class="image-tile-holder">
-                    <img alt="charcoal study of human" src="{{ item.link }}">
+                    <img alt="hand-drawn background for a short film" src="{{ item.link }}" style="max-height: 250px;">
                 </div>
             {% endfor %}
-        </div>
-        <h2>FILM ASSETS</h2>
+        </div>    
+        <div class="image-tiles-container">
+            {% for item in site.data.props %}
+                <div class="image-tile-holder">
+                    <img alt="hand-drawn prop for a short film" src="{{ item.link }}" style="max-height: 250px;">
+                </div>
+            {% endfor %}
+        </div>  
         <div class="image-tiles-container">
             {% for item in site.data.characters %}
                 <div class="image-tile-holder">
@@ -33,7 +43,20 @@ layout: null
                 </div>
             {% endfor %}
         </div>   
-        <h2>ILLUSTRATION</h2>
+        <div style="display:flex; justify-content: flex-start; margin: 0px">
+              <h2 style="text-decoration: none !important; margin: 0px; text-align: left; background-color: #ccffcc;">
+                Studies
+              </h2>
+        </div>
+        <p>Drawing from life is the core maintenance exercise for all my creative output, including computer-generated animation and code.</p>
+        <div class="image-tiles-container">
+            {% for item in site.data.studies %}
+                <div class="image-tile-holder">
+                    <img alt="charcoal study of human" src="{{ item.link }}">
+                </div>
+            {% endfor %}
+        </div>
+        <!-- <h2>ILLUSTRATION</h2>
         <div class="image-tiles-container">
             {% for item in site.data.brochures %}
                 <div class="image-tile-holder">
@@ -47,7 +70,7 @@ layout: null
                     <img alt="digital illustration" src="{{ item.link }}" style="max-height: 400px;">
                 </div>
             {% endfor %}
-        </div>             
+        </div>              -->
     </div>
 </div>
 

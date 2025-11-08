@@ -1,7 +1,7 @@
 - name: HOME
   link: /
   permalink: /
-- name: CG PROJECTS
+- name: CG
   link: /animations.html
   permalink: /cg-projects
 - name: BLOG
@@ -9,7 +9,7 @@
   permalink: /technical-blog
 # - name: REELS
 #   link: /reels.html
-- name: DRAWING
+- name: DRAWN
   link: /drawing.html
   permalink: /drawing
 - name: ABOUT
