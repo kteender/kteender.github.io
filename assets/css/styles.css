@@ -55,7 +55,7 @@
 .clip-text_one {
   background-image: url('style_img/text_dither.png');
   background-size: 40px;
-  background-repeat: repeat-x;
+  background-repeat: repeat;
 }
 
 .header-bg{
@@ -70,6 +70,9 @@
     background-size: 40px;
     filter: invert();*/
     background-color:#D2D2E3;
+    /* background-color: #c8f2b6;
+    background-color: #99cc99; */
+    background-color: #cccccc;
     max-width: 100%;
     display: block;
 }
@@ -272,6 +275,9 @@
 .post-bg{
     /*background-image: url('style_img/bg_seamless_dither.png');*/
     background-color: #D2D2E3;
+    background-color: #cccccc;
+    /* background-color: #c8f2b6;
+    background-color: #99cc99; */
 }
 
 .captioned-image{
@@ -309,7 +315,11 @@
 
 .bg { 
     min-height: 100vh;
-    background-color: #B0A7C9;
+    /* background-color: #B0A7C9; */
+    background-color: #c8f2b6;
+    background-color: #99cc99;
+    background-color: #D2D2E3;
+    background-color: #cccccc;
     margin: 0;
     padding: 0;
   }
@@ -665,6 +675,7 @@
   */
   font-weight: 300;
   background-color: #F0EAB0;
+  background-color: #ccffcc; 
   margin: 0px;
   padding: 3px;
   font-size: 18pt;
@@ -678,6 +689,8 @@
 .text p, h1{
   overflow: hidden;
   background-color: #D2D2E3;
+  background-color: #99cc99;
+
   margin: 0px;
   padding: 2px;
   padding-right: 0px;
@@ -817,6 +830,7 @@ needs a margin-right*/
 .animation-text h3{
   padding: 2px;
   background-color: #F0EAB0;
+  background-color: #ccffcc;
   font-size: 18pt;
 }
 
@@ -1036,9 +1050,10 @@ needs a margin-right*/
 }
 
 .image-tile-holder img{
+  flex-basis: auto;
   max-height: 300px;
-  width: 100%;
-  object-fit: contain;
+  max-width: 100%;
+  object-fit: scale-down;
 }
 
 /* touchscreen stuff */
