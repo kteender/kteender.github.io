@@ -1,7 +1,7 @@
-- name: bugmuthur
+- name: Bugmuthur's Story Box
   id: "bugmuthur"
   cover-image: /img/2025-11-07-bugmuthur/cover-image.jpg
-  description: bugmuthur
+  description: Bugmuthur's Story Box
   embed: embed-bsi.html
 - name: ISGS Carbon Capture Project
   id: "ccus"
