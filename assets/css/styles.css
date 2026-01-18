@@ -443,7 +443,7 @@
   text-decoration-color: black;
   text-decoration-style: double;
   margin: auto;
-  padding: 1%;
+  padding: 1.5%;
   margin-bottom: 5%;
   border-color: black;
 }
@@ -453,8 +453,8 @@
   /* border-width: 8px;
   border-style: double;
   border-color: black; */
-  outline-offset: -8px;
-  outline-width: 8px;
+  outline-offset: -6px;
+  outline-width: 6px;
   outline-style: double;
   text-decoration: underline;
   text-decoration-style: double;
