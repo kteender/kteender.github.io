@@ -1,13 +1,13 @@
-- name: Bugmuthur's Story Box
-  id: "bugmuthur"
-  cover-image: /img/2025-11-07-bugmuthur/cover-image.jpg
-  description: Bugmuthur's Story Box
-  embed: embed-bsi.html
 - name: ISGS Carbon Capture Project
   id: "ccus"
   cover-image: /img/2023-07-08-ccus/cover-image.jpg
   description: ISGS Carbon Capture Project
   embed: embed-ccus.html
+- name: Bugmuthur's Story Box
+  id: "bugmuthur"
+  cover-image: /img/2025-11-07-bugmuthur/cover-image.jpg
+  description: Bugmuthur's Story Box
+  embed: embed-bsi.html
 - name: Happy Birthday Fruitbowl
   id: "birthday-fruitbowl"
   cover-image: /img/2024-02-07-birthday-fruits/converted_files/cover_image_converted.jpeg
