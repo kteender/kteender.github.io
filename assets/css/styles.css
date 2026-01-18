@@ -5,6 +5,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Rajdhani'); */
 /* @import url('https://fonts.googleapis.com/css?family=Russo One'); */
 @import url('https://fonts.googleapis.com/css?family=Archivo Black');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono');
 
 /* Clip text element */
 .clip-text {
@@ -418,6 +419,45 @@
 .section a{
   text-decoration: none !important;
   color: black;
+}
+
+.bm {
+  font-family:Share Tech Mono, Helvetica, monospace;
+  box-sizing: border-box;
+  width: 40%;
+  height: 100%;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*background-image: url("pay_for_me.png");
+  background-repeat: repeat-x;
+  background-size: 40px;*/
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 1.5em;
+  color:black;
+  text-decoration-color: black;
+  text-decoration-style: double;
+  margin: auto;
+  padding: 1%;
+  margin-bottom: 5%;
+  border-color: black;
+}
+
+.bm:hover {
+  background-color: #99cc99;
+  /* border-width: 8px;
+  border-style: double;
+  border-color: black; */
+  outline-offset: -8px;
+  outline-width: 8px;
+  outline-style: double;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
 
 .page-section-1 {
