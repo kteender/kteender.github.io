@@ -471,7 +471,7 @@
   background-image: url('style_img/bg_seamless_dither.png');
   background-size: cover;
   background-size: 2.5em;
-  filter: invert();
+  /* filter: invert(); */
   margin: 5%;
   max-height: 100%;
   height: 90%;
@@ -481,7 +481,7 @@
 
 .featured-post{
   display: flex;
-  filter: invert();
+  /* filter: invert(); */
   max-width: 90%;
   height: 90%;
   margin: auto;
