@@ -678,6 +678,7 @@
   font-weight: 300;
   background-color: #F0EAB0;
   background-color: #ccffcc; 
+  background-color: whitesmoke;
   margin: 0px;
   padding: 3px;
   font-size: 18pt;
@@ -692,6 +693,7 @@
   overflow: hidden;
   background-color: #D2D2E3;
   background-color: #99cc99;
+  background-color: lightgray;
 
   margin: 0px;
   padding: 2px;
@@ -833,6 +835,7 @@ needs a margin-right*/
   padding: 2px;
   background-color: #F0EAB0;
   background-color: #ccffcc;
+  background-color: whitesmoke;
   font-size: 18pt;
 }
 

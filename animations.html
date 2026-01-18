@@ -11,7 +11,7 @@ layout: null
         <h1>COMPUTER-GENERATED</h1>
             {% for item in site.data.animations %}
                 <div id={{ item.id }}>
-                <p style="display:inline; font-size: 15pt;background-color: #ccffcc;">{{ item.description }}</p>
+                <p style="display:inline; font-size: 15pt;background-color: lightgray;">{{ item.description }}</p>
                 {% if forloop.index == 1 %}
                     <div style="margin-top: 1%; margin-bottom: 5%;">
                 {% elsif forloop.index == forloop.length %}
