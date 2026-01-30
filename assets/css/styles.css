@@ -530,6 +530,7 @@
   align-content: space-between;
   overflow: hidden;
   background-color: #fff;
+  background-color: #111111;
   flex-basis: 200px;
   aspect-ratio: 1/1;
   position: relative;
@@ -615,7 +616,7 @@
   position: relative;
   box-sizing: border-box;
   flex-grow: 1;
-  max-width: 100%;
+  /* max-width: 50%; */
   max-height: 100%;
   margin: 0.9375em;
   margin-top: 0px;
