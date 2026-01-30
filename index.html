@@ -142,13 +142,14 @@ layout: null
               {% endif %} 
             {% endif %}
           {% endfor %}
-          <!--  if  site.posts.size | module: 2  != 0 
+          {% assign remainder = site.posts.size | modulo: 2 %}
+          {% if remainder != 0 %}
           <div class="regular-holder-dummy">
               <div class='regular-labeled-image'>
                 <img src="/img/dummy.png" />
               </div>
           </div>
-           endif  -->
+          {% endif %}
         </div>
         </div>
     </div>
