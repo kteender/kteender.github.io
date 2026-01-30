@@ -1,7 +1,7 @@
 ---
 title: "KTCG.ART | Modifying standard Maya dependency graph node programming syntax to use getattr and setattr Builtins"
 shortname: "getattr, settattr, and compound attributes in  Maya dependency graph nodes"
-date: "2025-01-28"
+date: "2026-01-28"
 tags: 
   - "maya"
   - "python"
