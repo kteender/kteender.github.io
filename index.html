@@ -17,14 +17,14 @@ layout: null
         <div class="section-left"></div>
         <div class="section-middle">
           <a href="cg-projects">
-            <p>CG</p>
+            <p>ANIMATED</p>
           </a>
         </div>
         <div class="section-right"></div>
       </div>
       <div class = "animation-container">
         {% for item in site.data.animations %}
-          <div class = "animation-holder fade">
+          <div class = "animation-holder">
             <a href="/cg-projects#{{ item.id }}">
             <div class = "animation-labeled-image">
               <img alt="the cover images for an animation project" src="{{ item.cover-image }}">
@@ -34,9 +34,15 @@ layout: null
             </div>
             </a>
           </div>
-          <div class="prev-big" onclick="plusSlides(-1, 'animation-holder')">&#8701;</div>
-          <div class="next-big" onclick="plusSlides(1, 'animation-holder')">&#8702;</div>
         {% endfor %}
+        {% assign remainder = site.data.animations.size | modulo: 2 %}
+        {% if remainder != 0 %}
+        <div class="animation-holder">
+            <div class='animation-labeled-image'  style="background-image: url('/assets/css/style_img/bg_seamless_dither.png'); background-size: 2.5em; filter: invert();">
+              <img src="/img/dummy_hd.png" />
+            </div>
+        </div>
+        {% endif %}
       </div>
       <div class = "bottom-content">
         <div class="bottom"></div>
@@ -161,7 +167,7 @@ layout: null
 </div>
 
 
-  <script>
+  <!-- <script>
     var slideIndex = 1;
     showSlides(slideIndex, 'animation-holder');
     showSlides(slideIndex, 'drawing-holder');
@@ -206,6 +212,6 @@ function myFunction() {
     x.style.display = "block";
   }
 } 
-  </script>
+  </script> -->
 </div>
 {% include footer.html %}

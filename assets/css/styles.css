@@ -581,6 +581,7 @@
   text-overflow: ellipsis;
   background-color: #fff;
   margin: 0;
+  padding: 0.25em;
   text-align: justify;
   text-justify: auto;
 }
@@ -751,12 +752,14 @@
 .preview {
   display: block;
   margin: 0;
+  padding: 0.1em;
   font-size: 0.875em;
   padding: 0;
   color: black;
 }
 
 .preview p{
+  padding: 0.25em;
   background-color: #fff;
   margin: 0;
   text-align: justify;
@@ -794,18 +797,7 @@ needs a margin-right*/
   flex-grow: 1;
 }
 
-.animation-container {
-  /*
-  display: flex;
-  width: 100%;
-  flex-wrap: nowrap;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin: 0;
-  background-color: #fff;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  */
+/* .animation-container {
   position: relative;
   width: 100%;
   margin-top: 0px;
@@ -821,20 +813,55 @@ needs a margin-right*/
   border-style: solid;
   border-color: black;
   border-width: 0px 1px 0px 1px;
+} */
+
+.animation-container  {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 0px 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: space-around;
+  height: 540px;
+  overflow: scroll;
+  background-color: white;
 }
 
 .animation-holder {
   /*flex-basis: 250px;*/
   /*aspect-ratio: 1/1;*/
-  display: none;
+  /* display: none;
   position: relative;
   box-sizing: border-box;
   flex-grow: 1;
-  min-width: 96%;
+  min-width: 50%;
   max-height: 100%;
   margin: 2%;
   overflow: hidden;
+  flex-grow: 1; */
+  flex-basis: 46%;
+  /* aspect-ratio: 1/1; */
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 0;
+  /* max-width: 50%; */
+  max-height: 100%;
+  margin: 0.9375em;
+  /* margin-top: 0px; */
+  text-decoration: none !important;
   flex-grow: 1;
+}
+
+.animation-holder-dummy{
+    /*background-image: url(mockup_images/featured_bg.png);*/
+    background-image: url('style_img/bg_seamless_dither.png');
+    background-size: 2.5em;
+    flex-basis: 46%;
+    filter: invert();
+    margin: 0.9375em;
+    flex-grow: 1;
 }
 
 .animation-labeled-image {
@@ -1111,6 +1138,28 @@ needs a margin-right*/
       flex-wrap: wrap;
       height: 320px;
       margin-right: 5%;
+    }
+
+    .animation-container{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      flex-flow: column;
+      flex-wrap: wrap;
+      height: 200px;
+      /* align-items: start;
+      justify-content: start; */
+    }
+
+    .animation-holder{
+      max-width: 80%;
+    }
+
+    .animation-text h3{
+      font-size: 14pt;
+    }
+
+    .text h2{
+      font-size: 14pt;
     }
 }
 /* @media screen and (max-device-width: 600px) and (orientation: portrait) and (min-width: 600px){

@@ -3,23 +3,39 @@
   cover-image: /img/2023-07-08-ccus/cover-image.jpg
   description: ISGS Carbon Capture Project
   embed: embed-ccus.html
-- name: Bugmuthur's Story Box
-  id: "bugmuthur"
-  cover-image: /img/2025-11-07-bugmuthur/cover-image.jpg
-  description: Bugmuthur's Story Box
-  embed: embed-bsi.html
-- name: Happy Birthday Fruitbowl
-  id: "birthday-fruitbowl"
-  cover-image: /img/2024-02-07-birthday-fruits/converted_files/cover_image_converted.jpeg
-  uri: "/2024/02/07/birthday-fruitbowl.jpeg"
-  description: Happy Birthday Fruitbowl
-  embed: embed-birthday-song-fruitbowl.html
+- name: SEWER ISSUE
+  id: "sewer-issue"
+  cover-image: /img/2026-01-30-sewer-issue/cover_image.jpg
+  description: SEWER ISSUE
+  embed: embed-sewer-issue.html
+- name: Reel
+  id: "reels"
+  uri: "/2024/02/18/reels.html"
+  cover-image: /img/2024-02-18-reels/cover_image.jpg
+  description: Reel
+  embed: embed-reels.html
 - name: Midland Safari Putt-Putt
   id: "midland-safari-putt-putt"
   uri: "/2018/12/12/midland-safari-putt-putt.html"
   cover-image:  /img/2018-12-12-midland-safari-putt-putt/converted_files/cover_image_converted.jpeg
   description: Midland Safari Putt-Putt
   embed: embed-midland-safari-putt-putt.html
+- name: Bugmuthur's Story Box
+  id: "bugmuthur"
+  cover-image: /img/2025-11-07-bugmuthur/cover-image.jpg
+  description: Bugmuthur's Story Box
+  embed: embed-bugmuthur.html
+- name: Christmas Rose
+  id: "christmas-rose"
+  cover-image: /img/2026-01-30-christmas-rose/cover_image.jpg
+  description: Christmas Rose
+  embed: embed-christmas-rose.html
+- name: Happy Birthday Fruitbowl
+  id: "birthday-fruitbowl"
+  cover-image: /img/2024-02-07-birthday-fruits/converted_files/cover_image_converted.jpeg
+  uri: "/2024/02/07/birthday-fruitbowl.jpeg"
+  description: Happy Birthday Fruitbowl
+  embed: embed-birthday-song-fruitbowl.html
 - name: Youth Group 4
   id: "youth-group-4"
   uri: "/2021/04/19/youth-group-4.html"
@@ -32,9 +48,3 @@
   cover-image: /img/2019-02-25-keiths-ballad/converted_files/cover_image_converted.jpeg
   description: Keith's Ballad
   embed: embed-keiths-balled.html
-- name: Reels
-  id: "reels"
-  uri: "/2024/02/18/reels.html"
-  cover-image: /img/2024-02-18-reels/cover_image.jpg
-  description: Reels
-  embed: embed-reels.html
