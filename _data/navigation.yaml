@@ -4,14 +4,14 @@
 - name: ANIMATED
   link: /animations.html
   permalink: /cg-projects
-- name: BLOG
+- name: STILL
+  link: /drawing.html
+  permalink: /drawing
+- name: TECH
   link: /blog.html
   permalink: /technical-blog
 # - name: REELS
 #   link: /reels.html
-- name: DRAWN
-  link: /drawing.html
-  permalink: /drawing
 - name: ABOUT
   link: /about.html
   permalink: /about
