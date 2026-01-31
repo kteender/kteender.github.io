@@ -14,7 +14,7 @@ I am the lady behind-the-curtain for <a href="https://bugmuthur.net">Bugmuthur</
 
 I have experience working with variety of DCCs including Maya, Motionbuilder, the Adobe Suite, and Blender. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions. I can code in Python, HTML, and CSS. I am comfortable working with git. I have traditional art training and comedy writing experience.
 
-I specialize in the following techical areas:
+I specialize in the following technical areas:
 - keyframe and motion capture character animation
 - digital avatar creation
 - animation tool development
