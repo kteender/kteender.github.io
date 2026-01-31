@@ -6,7 +6,7 @@ permalink: about
 ---
 # ABOUT
 
-I'm Katie Tender. I'm a CG technical director, coder, and animator in Los Angeles. 
+I'm Katie. I'm a CG technical director, coder, and animator in Los Angeles. 
 
 I did previs and tool dev/scripting on <a href="https://www.imdb.com/name/nm18028499/">*Avatar: The Way of Water* (render quality control) and *Avatar: Fire and Ash* (sequence artist and technical director)</a>. I've also been employed as a CG artist for the Carnegie Mellon University Robotics Institute.
 
