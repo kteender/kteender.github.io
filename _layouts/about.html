@@ -1,0 +1,23 @@
+{% include header.html %}
+{% include title-bar.html %}
+
+<div class="content-holder" style="margin-top: 0px;" id="land">
+    <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
+        <div class="post-header" style="justify-content: center; width: 100%;">
+            <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
+                <div class="banner">
+                    <p>Pay no attention to the about page.<br>LOOK AT MY SIDESHOW!!</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="content">
+                <h1>{{ page.shortname }}</h1>
+                {% if page.show-date == "T" %}
+                    <h4>{{ page.date | date_to_string }}</h4>
+                {% endif %}
+    {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
