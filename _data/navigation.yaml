@@ -1,20 +1,26 @@
 - name: HOME
   link: /
   permalink: /
-- name: ANIMATED
+- name: ANIMATION
   link: /animations.html
   permalink: /cg-projects
-- name: STATIC
-  link: /drawing.html
-  permalink: /drawing
-- name: TECH
+# - name: STATIC
+#   link: /drawing.html
+#   permalink: /drawing
+- name: SHOP
+  link: /shop
+  permalink: /shop
+- name: BLOG
   link: /blog.html
   permalink: /technical-blog
+- name: SIDESHOW
+  link: /bugmuthurs_repository.html
+  permalink: /sideshow
+# - name: RATES
+#   link: /pricing.html
+#   permalink: /pricing
 # - name: REELS
 #   link: /reels.html
-- name: ABOUT
-  link: /about.html
-  permalink: /about
 # - name: LOVED LIST
 #   link: /loved-list.html
 #   permalink: /loved-list
