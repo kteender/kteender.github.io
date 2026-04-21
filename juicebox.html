@@ -1,0 +1,49 @@
+---
+title: JUICE DROP
+description: new juice
+permalink: juicebox
+layout: null
+---
+{% include header.html %}
+{% include title-bar.html %}
+<div class="content-holder" style="margin-top: 0px;" id="land">
+    <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
+        <div class="post-header">
+            <div class="post-title">
+            </div>
+            <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
+                <div class="banner">
+                    <p>Quenched? Click here to go back to my sideshow!!</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="content" style="background-color: black;">
+<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/38e17ae115e47ecc540888bc0cf8684d?embedded=1"></div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    src = "https://www.youtube.com/embed/I84ZaiMRCi0?si=3v2EW5ulF6nfNE6n"  
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+    </iframe>
+    </div>
+</div>
+</div>
+{% include footer.html %}

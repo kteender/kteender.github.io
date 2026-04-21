@@ -1,0 +1,44 @@
+---
+title: Win a prize!
+description: riddle
+permalink: riddle
+layout: null
+---
+{% include header.html %}
+{% include title-bar.html %}
+<div class="content-holder" style="margin-top: 0px;" id="land">
+    <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
+        <div class="post-header">
+            <div class="post-title">
+            </div>
+            <a href="/" style="text-decoration-color: black; text-decoration-style: double;">
+                <div class="banner">
+                    <p>Stumped? Look around!!</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="content" style="background-color: black;">
+    <!-- <div class="bm-title" id="land">
+      <img alt="riddle banner" src="/assets/riddle/riddle_banner.jpg" />
+    </div> -->
+<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/4eb4eb45c2769d4aae876bb80d662ef0?embedded=1"></div>
+</div>
+</div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
+{% include footer.html %}
