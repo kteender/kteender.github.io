@@ -23,7 +23,7 @@ The purpose of this post is to give Maya Python developers an example of using `
 - A node development test loop
 - Start-to-finish walkthrough of setting up and testing a node, with completed code
 
-I use this technique in several nodes that are part of my custom animation pipeline. You can see my pipeline in-action by checking out <a href="cg-projects#bugmuthur">Bugmuthur</a>. In my pipeline, the node attribute names are defined by an external configuration. Taking advantage of the builtins allows easier implementation of object-oriented programming patterns. For instance, you could pass node classes to a builder method. Finally, using the builtins with a compound attribute allows a low-impact solution to creating attributes with unknown names. 
+I use this technique in several nodes that are part of my custom animation pipeline. In my pipeline, the node attribute names are defined by an external configuration. Taking advantage of the builtins allows easier implementation of object-oriented programming patterns. For instance, you could pass node classes to a builder method. Finally, using the builtins with a compound attribute allows a low-impact solution to creating attributes with unknown names. 
 <!--break-->
 
 **GOAL**: I will replicate my animation pipeline's use case with a simple example node that
