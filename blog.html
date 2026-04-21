@@ -5,14 +5,15 @@ permalink: technical-blog
 layout: null
 ---
 {% include header.html %}
+{% include title-bar.html %}
 <div class="content-holder">
-  <div class="content" style="display: block;">
+  <div class="content" style="display: block;" id="land">
     <h1>TECHNICAL BLOG</h1>
     {% for post in site.posts %}
       {% if post.type == "blog" %}
         <div style="margin-top: .4em;">
           <div style="display:flex; justify-content: flex-start; margin: 0px">
-            <a href="{{ post.url }}" style="text-decoration: none; color:black">
+            <a href="{{ post.url }}#land" style="text-decoration: none; color:black">
               <h2 style="text-decoration: none !important; margin: 0px; text-align: left; background-color: whitesmoke;">
                 {{ post.title }}
               </h2>
@@ -27,7 +28,7 @@ layout: null
             </a>
             <p style="vertical-align: center;">
               {{ post.content | split:'<!--break-->' | first }}
-              <a href="{{ post.url }}">&raquo; read more</a>
+              <a href="{{ post.url }}#land">&raquo; read more</a>
             </p>
           </div>
         </div>

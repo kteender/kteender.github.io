@@ -5,92 +5,59 @@ permalink:
 layout: null
 ---
 {% include header.html %}
+{% include title-bar.html %}
 <div class="page-content">
   <br>
-  <a href="/bugmuthurs_repository/" style="text-decoration-color: black; text-decoration-style: double;">
+  <!-- <a href="/bugmuthurs_repository/" style="text-decoration-color: black; text-decoration-style: double;">
   <div class="bm">
     THIS WAY TO BUGMUTHUR'S REPOSITORY
   </div>
-  </a>
+  </a> -->
   <div class="page-section-2">
-    <div class="animation">
+    <div class="vertical-container">
+    {% include embed-sideshow-button.html %}
+      </div>
+    <div class="reel">
       <div class="section">
         <div class="section-left"></div>
-        <div class="section-middle">
-          <a href="cg-projects">
-            <p>ANIMATED</p>
+        <div class="section-middle" style="min-width:100pt">
+          <a href="cg-projects#reels">
+            <p>REEL</p>
           </a>
         </div>
-        <div class="section-right"></div>
-      </div>
-      <div class = "animation-container">
-        {% for item in site.data.animations %}
-          <div class = "animation-holder">
-            <a href="/cg-projects#{{ item.id }}">
-            <div class = "animation-labeled-image">
-              <img alt="the cover images for an animation project" src="{{ item.cover-image }}">
-              <div class="animation-text">
-                <h3>{{ item.name }}</h3>
-              </div>
+        <div class="dither-section-right">
+            <div class="section-right-caption">
+                        <a href="cg-projects#reel-breakdown">
+              <p>BREAKDOWN</p>
+                        </a>
             </div>
-            </a>
-          </div>
-        {% endfor %}
-        {% assign remainder = site.data.animations.size | modulo: 2 %}
-        {% if remainder != 0 %}
-        <div class="animation-holder">
-            <div class='animation-labeled-image'  style="background-image: url('/assets/css/style_img/bg_seamless_dither.png'); background-size: 2.5em; filter: invert();">
-              <img src="/img/dummy_hd.png" />
-            </div>
+          </a>
         </div>
-        {% endif %}
       </div>
+      <div class = "reel-container">
+        <iframe src="https://www.youtube.com/embed/rF_eax3a1fs?si=9l4P1vtYr5e3msZl" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+      </iframe>
+      <!-- <div class="reel-caption">
+        <a href="cg-projects#reel">
+        <p style="text-align: center; padding: 0%; margin: 0%; text">breakdown</p>
+        </a>
+      </div> -->
+      </div>
+      
       <div class = "bottom-content">
         <div class="bottom"></div>
       </div>
     </div>
-    <div class="misc">
-      <div class="skills">
-        <div class="section">
-          <div class="section-left"></div>
-          <div class="small-section-middle">
-            <a href="drawing.html">
-              <p>STATIC</p>
-            </a>
-          </div>
-          <div class="section-right"></div>
-        </div>
-        <div class="d">
-          <a href="drawing.html">
-            <div class="d-holder">
-              <img alt="a drawing of a statue" src="/img/drawings/converted_files/drawing_cover02.jpg">
-            </div>
-          </a>
-        </div>
-        <div class = "bottom-content">
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="buttons">
-        <div class="about">
-          <a class="button" href="about.html">
-            <p>ABOUT</p>
-          </a> 
-        </div>
-        <!-- <div class="about">
-          <a class="button" href="loved-list.html">
-            <p>LOVED LIST</p>
-          </a>
-        </div> -->
-      </div>
-    </div>
+
   </div>
 
-  <div class="page-section-1">
+  <div class="projects-container">
+
+  <div class="technical-blog">
     <div class="section">
       <div class="section-left"></div>
       <div class="section-middle">
-        <a href="technical-blog.html">
+        <a href="technical-blog.html#land">
           <p>TECHNICAL BLOG</p>
         </a>
       </div>
@@ -102,7 +69,7 @@ layout: null
               {% for post in site.posts %}
                 {% if post.featured == "T" %}
                   <div class="featured-post">
-                    <a href="{{ post.permalink }}">
+                    <a href="{{ post.permalink }}#land">
                       <div class="featured-post-labeled-image">
                         <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                         <div class="text">
@@ -129,7 +96,7 @@ layout: null
             {% if post.featured == "F" %}
               {% if post.type == "blog" %}
                 <div class="regular-holder">
-                  <a href="{{ post.permalink }}">
+                  <a href="{{ post.permalink }}#land">
                     <div class='regular-labeled-image'>
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                         <div class = "text">  
@@ -161,58 +128,76 @@ layout: null
         </div>
     </div>
 
+
     <div class = "bottom-content">
       <div class="bottom"></div>
     </div>
   </div>
+
+    <div class="animation">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle">
+          <a href="cg-projects#land">
+            <p>ANIMATION</p>
+          </a>
+        </div>
+        <div class="section-right"></div>
+      </div>
+      <div class = "animation-container">
+        {% for item in site.data.animations %}
+          {% if item.id != "reels" %}
+          <div class = "animation-holder">
+            <a href="/cg-projects#{{ item.id }}">
+            <div class = "animation-labeled-image">
+              <img alt="the cover images for an animation project" src="{{ item.cover-image }}">
+              <div class="animation-text">
+                <h3>{{ item.name }}</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+        {% assign remainder = site.data.animations.size | modulo: 2 %}
+        {% if remainder != 1 %}
+        <div class="animation-holder">
+            <div class='animation-labeled-image'  style="background-image: url('/assets/css/style_img/bg_seamless_dither.png'); background-size: 2.5em; filter: invert();">
+              <img src="/img/dummy_hd.png" />
+            </div>
+        </div>
+        {% endif %}
+      </div>
+      <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div>
+    </div>
 </div>
-
-
-  <!-- <script>
-    var slideIndex = 1;
-    showSlides(slideIndex, 'animation-holder');
-    showSlides(slideIndex, 'drawing-holder');
-
-    function plusSlides(n, slideType) {
-      showSlides(slideIndex += n, slideType);
-    }
-    function currentSlide(n, slideType) {
-      showSlides(slideIndex = n, slideType);
-    }
-    function initSlides() {
-      var animSlides = document.getElementsByClassName("animation-holder");
-      var drawSlides = document.getElementsByClassName("drawing-holder");
-
-      animSlides[0].style.display = "block";
-      drawSlides[0].style.display = "block";
-      animSlides[0].className += " active";
-      drawSlides[0].className += " active";
-    }
-
-    function showSlides(n, slideType) {
-      var i;
-      var slides = document.getElementsByClassName(slideType);
-      if(n > slides.length) {
-        slideIndex = 1
-      }
-      if(n < 1) {
-        slideIndex = slides.length
-      }
-      for(i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slides[slideIndex - 1].style.display = "block";
-    }
-
-  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-} 
-  </script> -->
+  <div class="page-section-2">
+        <div class="misc">
+      <div class="buttons">
+        <div class="about">
+          <a class="button" href="shop.html#art">
+            <p>SHOP</p>
+          </a> 
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="about">
+          <a class="button" href="rates.html#land">
+            <p>RATES</p>
+          </a> 
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="about">
+          <a class="button" href="about.html#land">
+            <p>ABOUT</p>
+          </a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 {% include footer.html %}

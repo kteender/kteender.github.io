@@ -1,14 +1,25 @@
 ---
-title: KTCG.ART | ANIMATED
+title: KTCG.ART | ANIMATION
 description: Freelance, artistic, and personal projects that use CG technology
 permalink: cg-projects
 layout: null
 ---
 {% include header.html %}
-
+{% include title-bar.html %}
+  <div class="page-section-2">
+        <div class="misc">
+      <div class="buttons" id="land">
+        <div class="about">
+          <a class="button" href="rates.html#animation">
+            <p>GET A QUOTE</p>
+          </a> 
+        </div>
+      </div>
+    </div>
+  </div>
 <div class="content-holder">
     <div class="content">
-        <h1>ANIMATED</h1>
+        <h1>ANIMATION</h1>
             {% for item in site.data.animations %}
                 <div id={{ item.id }}>
                 <p style="display:inline; font-size: 15pt;background-color: lightgray;">{{ item.description }}</p>
@@ -23,7 +34,7 @@ layout: null
                     </div>
                 </div>
             {% endfor %}
-    </div>
-</div>
+            </div>
+        </div>
 
 {% include footer.html %}
