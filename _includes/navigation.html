@@ -1,6 +1,6 @@
 {% for item in site.data.navigation %}
   <a href="{{ item.permalink }}" 
-  {% if page.url == item.link %}
+  {% if page.url == item.permalink %}
     class="navi-buttons-current"
   {% else %}
     class="navi-buttons"
