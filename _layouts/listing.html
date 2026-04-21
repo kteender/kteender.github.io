@@ -1,0 +1,79 @@
+{% include header.html %}
+{% include title-bar.html %}
+
+<div class="content-holder" style="margin-top: 0px;">
+    <div class="content" style="background-color: transparent; padding: 1%; margin: auto; border: 0px; padding-bottom: 0px;" id="land">
+        {% if page.show-message == "T" %}
+        <div class="post-header">
+            <div class="post-title">
+            </div>
+            {% if page.message-r == "T" %}
+                <a href="/riddle#land" style="text-decoration-color: black; text-decoration-style: double;">
+                    <div class="banner">
+                        <p>{{ page.message }}</p>
+                    </div>
+                </a>
+            {% else %}
+                <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
+                    <div class="banner">
+                        <p>{{ page.message }}</p>
+                    </div>
+                </a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+
+        <div class="content">
+            <!-- <div class="content"> -->
+                <h1>{{ page.shortname }}</h1>
+                {% if page.sold-out == "False" %}
+                    <h2 style="text-align: left;">${{ page.price }}0</h2>
+                {% else %}
+                    <h2 style="text-align: left;">{{ page.status }}</h2>
+                {% endif %}
+                <h3>{{ page.media }}</h3>
+                <h3>{{ page.dimensions }}</h3>
+                <p>{{ page.description }}</p>
+                <p>On mobile, scroll right for images.</p>
+                <div class="listing-image-container">
+                    {% assign images = page.listing-images | split:"," %}
+                    {% for member in images %}
+                        {% assign filename = page.listing-dir  | append: member %}
+                        <div class="listing-image-holder">
+                        <img alt="square screenshot for blog post" src="{{ filename }}"/>
+                        </div>
+
+                    {% endfor %}
+                </div>
+                <p>{{ page.content }}</p>
+                 {% if page.sold-out != "True" %}
+                <div style="font-size: 1em; display: flex; justify-content: space-around;">
+                  <button class="snipcart-add-item add-button" style="font-size: 1.2em;"
+                  data-item-id="{{ page.id }}"
+                  data-item-url="{{ page.shoplink}}"
+                  data-item-price="{{ page.price }}"
+                  data-item-description= "{{ page.description }}"
+                  data-item-image="{{ page.cover-image }}"
+                  data-item-name="{{ page.shortname }}"
+                  data-item-max-quantity="{{ page.max-quantity }}">
+                  Add to cart
+                </button>
+                </div>
+                <p>Stickers and drawings ship via USPS for $7</p> 
+                <p>At this time, shipping only available to addresses located within the states and territories of the USA. If you are located outside the USA and would like to place an order, email <a href="mailto:contact@ktcg.art?subject=International order">contact@ktcg.art</a>.</p>
+                <div style="font-size: 1em; display: flex; justify-content: space-around;">
+                    <button class="snipcart-checkout view-cart-button" style="font-size: 1.2em;">
+                        Cart & Check Out</button>
+                </div>
+                {% if page.type == "background" or page.type == "prop" %}
+                <p>Backgrounds and props are hand-drawn as part of an animation production pipeline. Any usage marks that the artwork incurred during production are clearly shown in listing images.</p>
+                {% endif %}
+                <p>All sales final. If you are unsatisfied with your purchase or if it arrives damaged, email <a href="mailto:contact@ktcg.art?subject=Order issue">contact@ktcg.art</a>.</p>
+                {% endif %}
+            <!-- </div> -->
+
+        </div>
+</div>
+
+{% include footer.html %}
