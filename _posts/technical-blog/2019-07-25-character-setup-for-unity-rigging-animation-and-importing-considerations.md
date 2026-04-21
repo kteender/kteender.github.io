@@ -16,6 +16,8 @@ featured: F
 uri: "/2019/07/25/character-setup-for-unity-rigging-animation-and-importing-considerations.html"
 description: A guide, and list of considerations, for getting a CG character from Maya to Unity
 permalink: /2019/07/25/character-setup-for-unity-rigging-animation-and-importing-considerations/
+show-message: F
+message: Hey! Hey! Get out from behind the curtain!
 ---
 
 This post isn't going to a tutorial in the way that my previous posts have been. Rather, it's going to be some advice on how to approach bringing custom animations and characters into Unity, based on my past couple of years experience working on projects that utilize the (Motionbuilder) - Maya - Unity pipeline, and I'll try to update this post with new considerations that I discover!
