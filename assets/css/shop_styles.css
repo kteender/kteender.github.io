@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono');
+
+#snipcart {
+  --bgColor-buttonPrimary: hsl(132, 89%, 14%);
+  --bgColor-buttonPrimary-hover:hsl(133, 78%, 27%);
+  --color-buttonSecondary: hsl(0,0%,0%);
+  --bgColor-buttonSecondary: hsla(133, 78%, 84%, 0.584);
+  --bgColor-buttonSecondary-hover: hsl(0, 0%, 75%);
+}
+
+.shop-container  {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  border-width: 0px 1px 1px 1px;
+  display: block;
+  flex-wrap: wrap;
+  align-items: space-around;
+  margin:auto;
+  text-align: center;
+  font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.view-cart-button {
+  background-color: rgb(225, 225, 225);
+  font-size: 1em;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  text-align: center;
+  color:black;
+  padding: 2%;
+  width: 50%;
+  /* margin: 1%;
+  padding: 1%; */
+}
+
+.add-button {
+  background-color: rgb(225, 225, 225);
+  font-family: 'Ubuntu', Arial, sans-serif;
+  width: 50%;
+  font-size: 0.8em;
+  padding: 2%;
+  color: black;
+}
+
+.add-button:hover, .view-cart-button:hover {
+  background-color: white ; /* Color when hovered over */
+}
+
+.services-box {
+  background-color: white;
+  width: 100%;
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  border-width: 2px 2px 2px 2px;
+  border-style: double;
+}
+
+.shop-regular {
+  display: block;
+  flex-basis: 50%;
+  min-width: 300px;
+  flex-grow: 1;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.shop-regular-holder, .shop-regular-holder-dummy {
+  flex-basis: 16em;
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 0;
+  margin: 0.9375em;
+  margin-top: 0px;
+  text-decoration: none !important;
+}
+
+.shop-flex-container {
+  display: flex;
+  width: 100%;
+  height: 340px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow-y:scroll;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.shop-regular-labeled-image {
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+.shop-regular-labeled-image img{
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.shop-section-right-caption {
+  background-color: white;
+  margin: 2% 0% 2% 2%;
+  padding: 1% 5% 1% 5%;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Share Tech Mono', Arial, sans-serif;
+  color: black;
+  /* background-image: url("style_img/section_right_dither.png");
+  background-size: 2.5em; */
+}
+
+.shop-section-right-caption p{
+  font-size: .8em;
+  padding: 0;
+  margin: .2em;
+}
+
+.shop-section-right-caption:hover {
+  background-color: lime;
+  /* border-width: 8px;
+  border-style: double;
+  border-color: black; */
+  outline-offset: 3px;
+  outline-width: 6px;
+  outline-style: double;
+  font-family: 'Share Tech Mono', Arial, sans-serif;
+  color: black;
+}
+
+.shop-section-right-caption p:hover {
+    color:black
+}
+
+.product-page-content {
+  background-image: url('style_img/desk_bg.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  max-width: 1200px;
+  min-width: 300px;
+  /* margin: auto; */
+  font-family: 'Share Tech Mono', Arial, sans-serif;
+  margin: auto;
+}
+
+.listing-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+}
+
+.listing-image-holder {
+  flex-basis: 300px;
+  flex-shrink: 1;
+  padding: 2%;
+}
+
+.listing-image-holder img {
+  object-fit: contain;
+  height: 400px;
+}
