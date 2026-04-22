@@ -16,7 +16,7 @@ Below are the rates for artwork:
 - Greyscale artwork (digital or ink): starts at $195
 - Colored artwork (digital or ink): starts at $240
 
-I sell <a href="/shop#art">production artwork</a>. Clients receive first refusal to purchase production artwork created on their projects. 
+I sell <a href="/shop#art">production artwork</a>.
 
 <div id="animation"></div>
 ## Animation Services
