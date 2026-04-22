@@ -19,7 +19,9 @@ I have fine art training and specialize in the following technical areas:
 - digital avatar creation
 - animation tool development
 
-I'm in L.A. I come from somewhere around Champaign, Illinois.
+I'm in L.A. I come from somewhere around Champaign, Illinois. 
+
+On the side, I do tech-augmented fortune-telling. Fortune-telling has a rich history as interactive entertainment and fits well with visual effects and animation.
 
 Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
 <!-- 
