@@ -59,7 +59,7 @@ In this post, I will provide a general overview of my animation pipeline. This p
 
 I organize my Premiere Pro timeline such that there is a unique track for each character's motion dailies clips, then export <a href="https://en.wikipedia.org/wiki/Edit_decision_list">EDLs</a> for each character.
 
-**Background and Prop Drawing**: One of the most frequent comments I hear about my animation is appreciation for the hand-drawn props and backgrounds. It really makes me happy that viewers value the visibility of the human hand. I sell all my production drawings, so if you like them, head over to the <a href="bugmuthurs_repository#art">Story Box Store</a>! Purchases come with an early-access link to *Juice Drop*.
+**Background and Prop Drawing**: One of the most frequent comments I hear about my animation is appreciation for the hand-drawn props and backgrounds. It really makes me happy that viewers value the visibility of the human hand. I sell all my production drawings, so if you like them, head over to the <a href="/shop#art">Story Box Store</a>!
 
 <div class='captioned-image'>
     <img alt="drawing" src='img/2026-04-11-juice-drop-breakdown/drawing.jpg' style='max-width:800px'>
