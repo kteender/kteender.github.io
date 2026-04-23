@@ -21,7 +21,7 @@ I have fine art training and specialize in the following technical areas:
 
 I'm in L.A. I come from somewhere around Champaign, Illinois. 
 
-On the side, I develop CGI-augmented fortune-telling techniques. Fortune-telling has a rich history as interactive entertainment. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
+On the side, I develop CGI-augmented fortune-telling acts. Fortune-telling has a rich history as interactive entertainment. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
 Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
 <!-- 
