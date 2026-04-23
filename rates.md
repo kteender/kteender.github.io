@@ -45,4 +45,4 @@ Indigo's rate for <a href="/sideshow#readings">high-tech palm readings</a> at pr
 
 At public events, Indigo charges $25 for a full reading and $6 for a speed reading. A full reading is ~15 minutes and a speed reading is ~3 minutes.
 
-To book/schedule email <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">readings@ktcg.art</a>
+To book/schedule email <a href="mailto:kt@ktcg.art?subject=book Indigo">readings@ktcg.art</a>
