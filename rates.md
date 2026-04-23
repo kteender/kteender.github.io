@@ -44,3 +44,5 @@ An idea has multiple routes by which it can be visually communicated.  I am happ
 Indigo's rate for <a href="/sideshow#readings">high-tech palm readings</a> at private events is $80/hr. There is no charge for travel if the location is within 10 miles of 90045.
 
 At public events, Indigo charges $25 for a full reading and $6 for a speed reading. A full reading is ~15 minutes and a speed reading is ~3 minutes.
+
+To book/schedule email <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">readings@ktcg.art</a>
