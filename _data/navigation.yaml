@@ -1,21 +1,21 @@
 - name: HOME
   link: /
   permalink: /
-- name: ANIMATION
+- name: REEL
   link: /animations.html
-  permalink: /cg-projects
+  permalink: /cg-projects#land
 # - name: STATIC
 #   link: /drawing.html
 #   permalink: /drawing
 - name: SHOP
   link: /shop
   permalink: /shop
+- name: SIDESHOW
+  link: /sideshow.html
+  permalink: /sideshow
 - name: BLOG
   link: /blog.html
   permalink: /technical-blog
-- name: SIDESHOW
-  link: /bugmuthurs_repository.html
-  permalink: /sideshow
 # - name: RATES
 #   link: /pricing.html
 #   permalink: /pricing
