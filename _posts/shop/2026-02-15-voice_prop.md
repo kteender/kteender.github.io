@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Voice Prop"
+title: "KTCG Art | Voice Prop"
 shortname: "Voice Drawing"
 layout: listing
 id: "voice-prop"

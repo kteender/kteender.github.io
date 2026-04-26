@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Town Square"
+title: "KTCG Art | Town Square"
 shortname: "Town Square Background"
 layout: listing
 id: "town-square-background"

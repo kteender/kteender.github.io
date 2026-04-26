@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | The Great Library"
+title: "KTCG Art | The Great Library"
 layout: listing
 shortname: "The Great Library Background"
 id: "great-library-background"

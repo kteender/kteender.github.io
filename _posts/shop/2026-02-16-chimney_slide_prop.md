@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Chimney Slide Prop"
+title: "KTCG Art | Chimney Slide Prop"
 shortname: "Chimney Slide Drawing"
 layout: listing
 id: "chimney-slide-prop"

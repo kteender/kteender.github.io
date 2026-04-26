@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Desk Angel"
+title: "KTCG Art | Desk Angel"
 shortname: "Desk Angel Drawing"
 layout: listing
 id: "deskangel-prop"

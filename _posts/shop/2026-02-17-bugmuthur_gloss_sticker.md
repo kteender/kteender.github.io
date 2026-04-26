@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Bugmuthur Gloss Sticker"
+title: "KTCG Art | Bugmuthur Gloss Sticker"
 shortname: "Bugmuthur Gloss Sticker"
 layout: listing
 id: "bugmuthur-gloss-sticker"

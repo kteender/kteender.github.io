@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Cupid Clear Sticker"
+title: "KTCG Art | Cupid Clear Sticker"
 shortname: "Cupid Clear Sticker"
 layout: listing
 id: "cupid-clear-sticker"

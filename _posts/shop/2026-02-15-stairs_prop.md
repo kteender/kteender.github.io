@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Stairs Prop"
+title: "KTCG Art | Stairs Prop"
 shortname: "Stairs Drawing"
 layout: listing
 id: "stairs-prop"

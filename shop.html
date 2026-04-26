@@ -19,23 +19,23 @@ layout: null
       {% assign available = "False" %}
       {% for post in site.posts %}
           {% if post.type == "background" or post.type == "prop" %}
-           {% if post.sold-out != "True" %}
+           {% if post.sold-out == "False" %}
             {% assign available = "True" %}
             {% endif %}
           {% endif %}
       {% endfor %}
       <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Purchase original drawings used in animation production.</p>
+      <p>Purchase original animation production artwork.</p>
       {% if available == "False" %}
-        <p>Currently sold out. Reopens week of 4/27/26. Check out the <a href="/catalogue.html#art">back catalogue</a>.</p>
+        <p>Currently sold out. Reopens week of 4/27/26. Check out the <a href="/catalog.html#preview">catalog</a>.</p>
       {% endif %}
       </div>
       {% if available == "True" %}
         <div class="shop-regular">
         <div class = "shop-flex-container">
           {% for post in site.posts %}
-          {% if post.type == "background" or post.type == "prop" %}
-          {% if post.sold-out != "True" %}
+          {% if post.type == "background" or post.type == "prop" or post.type == "concept" %}
+          {% if post.sold-out == "False" %}
                 <div class="shop-regular-holder">
                   <a href="{{ post.permalink }}#land">
                     <div class='shop-regular-labeled-image'>
@@ -160,8 +160,8 @@ layout: null
       </div>
       <div class="buttons">
         <div class="about">
-          <a class="button" href="/catalogue.html#art">
-            <p>CATALOGUE</p>
+          <a class="button" href="/catalog.html#preview">
+            <p>CATALOG</p>
           </a> 
         </div>
       </div>

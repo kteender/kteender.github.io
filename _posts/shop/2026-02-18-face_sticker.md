@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Face Sticker"
+title: "KTCG Art | Face Sticker"
 shortname: "Bugmuthur Face Sticker"
 layout: listing
 id: "bugmuthur-face-sticker"

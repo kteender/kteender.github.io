@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Buried Rose Prop"
+title: "KTCG Art | Buried Rose Prop"
 shortname: "Buried Rose Drawing"
 layout: listing
 id: "buried-rose-prop"

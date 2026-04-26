@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Next Little Death"
+title: "KTCG Art | Next Little Death"
 layout: listing
 shortname: "Next Little Death Drawing"
 id: "next-little-death-prop"

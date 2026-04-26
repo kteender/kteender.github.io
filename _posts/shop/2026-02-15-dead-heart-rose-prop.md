@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Dead Heart Rose Prop"
+title: "KTCG Art | Dead Heart Rose Prop"
 shortname: "Dead Heart Rose Drawing"
 layout: listing
 id: "dead-heart-rose-prop"

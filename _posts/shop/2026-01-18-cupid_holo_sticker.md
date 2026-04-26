@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Cupid Holographic Sticker"
+title: "KTCG Art | Cupid Holographic Sticker"
 shortname: "Cupid Holographic Sticker"
 layout: listing
 id: "cupid-holo-sticker"

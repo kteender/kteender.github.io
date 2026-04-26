@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Icon Tiny Sticker"
+title: "KTCG Art | Icon Tiny Sticker"
 shortname: "Icon Tiny Sticker"
 layout: listing
 id: "icon-tiny-sticker"

@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Heart Rose Prop"
+title: "KTCG Art | Heart Rose Prop"
 shortname: "Heart Rose Drawing"
 layout: listing
 id: "heart-rose-prop"

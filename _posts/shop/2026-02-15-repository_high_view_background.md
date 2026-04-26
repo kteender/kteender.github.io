@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Repository High View"
+title: "KTCG Art | Repository High View"
 shortname: "Repository High View Background"
 id: "repository-high-view-background"
 layout: listing

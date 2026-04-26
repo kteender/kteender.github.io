@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Deskchair"
+title: "KTCG Art | Deskchair"
 shortname: "Deskchair Drawing"
 layout: listing
 id: "deskchair-prop"

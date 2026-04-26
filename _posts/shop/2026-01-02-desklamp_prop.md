@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Desklamp"
+title: "KTCG Art | Desklamp"
 shortname: "Desklamp Drawing"
 layout: listing
 id: "desklamp-prop"

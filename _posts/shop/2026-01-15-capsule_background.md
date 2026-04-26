@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Capsule"
+title: "KTCG Art | Capsule"
 shortname: "Capsule Background"
 id: "capsule-background"
 layout: listing

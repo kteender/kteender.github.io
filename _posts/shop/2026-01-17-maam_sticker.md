@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Ma'am Sticker"
+title: "KTCG Art | Ma'am Sticker"
 shortname: "MA'AM Sticker"
 layout: listing
 id: "maam-sticker"

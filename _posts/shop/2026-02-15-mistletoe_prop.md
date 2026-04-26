@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Mistletoe Prop"
+title: "KTCG Art | Mistletoe Prop"
 shortname: "Mistletoe Drawing"
 layout: listing
 id: "mistletoe-prop"

@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Icon Clear Sticker"
+title: "KTCG Art | Icon Clear Sticker"
 shortname: "Icon Clear Sticker"
 layout: listing
 id: "icon-clear-sticker"

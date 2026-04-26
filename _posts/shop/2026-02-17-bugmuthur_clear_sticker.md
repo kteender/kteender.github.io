@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Bugmuthur Clear Sticker"
+title: "KTCG Art | Bugmuthur Clear Sticker"
 shortname: "Bugmuthur Clear Sticker"
 layout: listing
 id: "bugmuthur-clear-sticker"

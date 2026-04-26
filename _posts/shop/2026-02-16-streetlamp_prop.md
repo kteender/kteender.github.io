@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Streetlamp Prop"
+title: "KTCG Art | Streetlamp Prop"
 shortname: "Streetlamp Drawing"
 layout: listing
 id: "streetlamp-prop"

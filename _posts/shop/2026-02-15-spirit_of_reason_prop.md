@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Spirit of Reason Prop"
+title: "KTCG Art | Spirit of Reason Prop"
 shortname: "Spirit of Reason Drawing"
 id: "spirit-of-reason-prop"
 layout: listing

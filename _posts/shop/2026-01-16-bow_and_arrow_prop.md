@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Bow and Arrow Prop"
+title: "KTCG Art | Bow and Arrow Prop"
 shortname: "Bow and Arrow Drawing"
 layout: listing
 id: "bow-and-arrow-prop"

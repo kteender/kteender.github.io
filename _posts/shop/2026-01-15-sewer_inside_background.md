@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Sewer Inside"
+title: "KTCG Art | Sewer Inside"
 layout: listing
 shortname: "Sewer from Inside Background"
 id: "sewer-inside-background"

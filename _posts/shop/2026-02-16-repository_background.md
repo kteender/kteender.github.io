@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Repository"
+title: "KTCG Art | Repository"
 shortname: "Repository Background"
 layout: listing
 id: "repository-background"

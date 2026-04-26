@@ -1,5 +1,5 @@
 ---
-title: "BUGMUTHUR | Rose Sprouting Prop"
+title: "KTCG Art | Rose Sprouting Prop"
 shortname: "Rose Sprouting Drawing"
 layout: listing
 id: "rose-sprouting-prop"
