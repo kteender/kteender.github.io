@@ -8,6 +8,16 @@
   --bgColor-buttonSecondary-hover: hsl(0, 0%, 75%);
 }
 
+.shop-page-section-1 {
+  margin-left: 6%;
+  margin-right: 6%;
+  max-width: 86%;;
+  overflow: hidden;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+}
+
 .shop-container  {
   box-sizing: border-box;
   border-style: solid;
