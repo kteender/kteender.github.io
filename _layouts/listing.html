@@ -27,7 +27,7 @@
         <div class="content">
             <!-- <div class="content"> -->
                 <h1>{{ page.shortname }}</h1>
-                {% if page.sold-out == "False" %}
+                {% if page.sold-out != "True" %}
                     <h2 style="text-align: left;">${{ page.price }}0</h2>
                 {% else %}
                     <h2 style="text-align: left;">{{ page.status }}</h2>
@@ -47,7 +47,10 @@
                     {% endfor %}
                 </div>
                 <p>{{ page.content }}</p>
-                 {% if page.sold-out != "True" %}
+                {% if page.type == "background" or page.type == "prop"%}
+                <p>Backgrounds and props are hand-drawn as part of an animation production pipeline.</p>
+                {% endif %}
+                 {% if page.sold-out == "False" %}
                 <div style="font-size: 1em; display: flex; justify-content: space-around;">
                   <button class="snipcart-add-item add-button" style="font-size: 1.2em;"
                   data-item-id="{{ page.id }}"
@@ -66,11 +69,18 @@
                     <button class="snipcart-checkout view-cart-button" style="font-size: 1.2em;">
                         Cart & Check Out</button>
                 </div>
-                {% if page.type == "background" or page.type == "prop" %}
-                <p>Backgrounds and props are hand-drawn as part of an animation production pipeline. Any usage marks that the artwork incurred during production are clearly shown in listing images.</p>
-                {% endif %}
                 <p>All sales final. If you are unsatisfied with your purchase or if it arrives damaged, email <a href="mailto:contact@ktcg.art?subject=Order issue">contact@ktcg.art</a>.</p>
                 {% endif %}
+                <div class="listing-image-container">
+                    {% assign frames = page.frame-images | split:"," %}
+                    {% for member in frames %}
+                        {% assign filename = page.listing-dir  | append: member %}
+                        <div class="listing-image-holder">
+                        <img alt="square screenshot for blog post" src="{{ filename }}" style="height: auto;"/>
+                        </div>
+
+                    {% endfor %}
+                </div>
             <!-- </div> -->
 
         </div>
