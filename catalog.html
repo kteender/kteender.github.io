@@ -6,8 +6,8 @@ layout: null
 ---
 {% include header.html %}
 {% include title-bar.html %}
-<div class="page-content">
-    <div class="shop-page-section-1" id="preview">
+<div class="page-content" id="land">
+    <!-- <div class="shop-page-section-1" id="preview">
     <div class="section">
       <div class="section-left"></div>
       <div class="section-middle">
@@ -35,49 +35,36 @@ layout: null
                     </div>
                   </a>
                   <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">${{post.price}}0</div>
                           </div>
                 {% endif %}
           {% endif %}
           {% endfor %}
-          <!--  if  site.posts.size | module: 2  != 0 
-          <div class="regular-holder-dummy">
-              <div class='regular-labeled-image'>
-                <img src="/img/dummy.png" />
-              </div>
-          </div>
-           endif  -->
 
         </div>
     </div>
     </div>
-    </div>
+    </div> -->
 
-    <div class="shop-page-section-1" id="art">
+    <div class="shop-page-section-1" id="juice-drop">
     <div class="section">
       <div class="section-left"></div>
       <div class="section-middle">
-          <p>BACK CATALOG</p>
+          <p>Say Yes to Pink</p>
       </div>
       <div class="section-right">
-      <div class="section-right">
-            <div class="shop-section-right-caption">
-                        <a href="/riddle#land">
-              <p>You might get some ideas!!</p>
-                        </a>
-            </div>
       </div>
 
-      </div>
     </div>
     <div class="shop-container">
       <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Peruse unavailable artwork.</p>
+      <p>Artwork of <a href="/cg-projects#juice-drop">Juice Drop</a></p>
       </div>
         <div class="shop-regular">
-        <div class = "shop-flex-container" style="height: 540px;">
+        <div class = "shop-flex-container" style="height: 500px;">
           {% for post in site.posts %}
           {% if post.type == "background" or post.type == "prop" %}
-          {% if post.sold-out == "True" %}
+          {% if post.tags contains "juice-drop" %}
                 <div class="shop-regular-holder">
                   <a href="{{ post.permalink }}#land">
                     <div class='shop-regular-labeled-image'>
@@ -85,6 +72,49 @@ layout: null
                     </div>
                   </a>
                   <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">status: {{post.status}}</div>
+                          </div>
+                {% endif %}
+          {% endif %}
+          {% endfor %}
+          <!--  if  site.posts.size | module: 2  != 0 
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
+          </div>
+           endif  -->
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="shop-page-section-1" id="sewer-issue">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>Is This Rome?</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Artwork of <a href="/cg-projects#sewer-issue">Sewer Issue</a></p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.type == "background" or post.type == "prop" %}
+          {% if post.tags contains "sewer-issue" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">status: {{post.status}}</div>
                           </div>
                 {% endif %}
           {% endif %}
@@ -102,29 +132,94 @@ layout: null
     </div>
     </div>
 
-  <div class="page-section-2">
-        <div class="misc">
-      <!-- <div class="skills">
-        <div class="section">
-          <div class="section-left"></div>
-          <div class="small-section-middle">
-            <a href="drawing.html">
-              <p>DRAWINGS</p>
-            </a>
+    <div class="shop-page-section-1" id="christmas-rose">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>Go for Deranged</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Artwork of <a href="/cg-projects#christmas-rose">Christmas Rose</a></p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.type == "background" or post.type == "prop" or post.type == "concept" %}
+          {% if post.tags contains "christmas-rose" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">status: {{post.status}}</div>
+                          </div>
+                {% endif %}
+          {% endif %}
+          {% endfor %}
+          <!--  if  site.posts.size | module: 2  != 0 
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
           </div>
-          <div class="section-right"></div>
+           endif  -->
+
         </div>
-        <div class="d">
-          <a href="drawing.html">
-            <div class="d-holder">
-              <img alt="a drawing of a statue" src="/img/drawings/converted_files/drawing_cover02.jpg">
-            </div>
-          </a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="shop-page-section-1" id="repository">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>Stay Fused</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Artwork of <a href="/sideshow#welcome">Bugmuthur's Repository</a></p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.type == "background" or post.type == "prop" or post.type == "concept" %}
+          {% if post.tags contains "repository" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">status: {{post.status}}</div>
+                          </div>
+                {% endif %}
+          {% endif %}
+          {% endfor %}
+          <!--  if  site.posts.size | module: 2  != 0 
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
+          </div>
+           endif  -->
+
         </div>
-        <div class = "bottom-content">
-          <div class="bottom"></div>
-        </div>
-      </div> -->
+    </div>
+    </div>
+    </div>
+
+    <div class="page-section-2">
+        <div class="misc">
       <div class="buttons">
         <div class="about">
           <a class="button" href="/rates.html#art">
@@ -134,5 +229,39 @@ layout: null
       </div>
     </div>
   </div>
+
+    <!-- <div class="shop-page-section-1" id="sketcbook">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>Concepts</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Gathered concept art and sketches</a></p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.type == "concept" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">status: {{post.status}}</div>
+                          </div>
+          {% endif %}
+          {% endfor %}
+
+        </div>
+    </div>
+    </div>
+    </div> -->
 </div>
 {% include footer.html %}

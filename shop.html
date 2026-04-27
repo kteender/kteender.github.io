@@ -32,7 +32,7 @@ layout: null
       </div>
       {% if available == "True" %}
         <div class="shop-regular">
-        <div class = "shop-flex-container">
+        <div class = "shop-flex-container" style="height: 440px;"">
           {% for post in site.posts %}
           {% if post.type == "background" or post.type == "prop" or post.type == "concept" %}
           {% if post.sold-out == "False" %}
@@ -78,56 +78,6 @@ layout: null
     </div>
     </div>
 
-      <div class="shop-page-section-1" id="merch">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-          <p>STICKERS</p>
-      </div>
-      <div class="section-right">
-            <div class="shop-section-right-caption">
-                        <a href="/sideshow#land">
-              <p>sideshow? what sideshow?</p>
-                        </a>
-            </div>
-      </div>
-    </div>
-    <div class="shop-container">
-      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Show the world that you're IN on the sideshow.</p>
-      </div>
-        <div class="shop-regular">
-        <div class = "shop-flex-container">
-          {% for post in site.posts %}
-                {% if post.type == "sticker" and post.sold-out != "True" %}
-                <div class="shop-regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='shop-regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                    </div>
-                  </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">${{post.price}}0</div>
-                  <button class="snipcart-add-item add-button"
-                  data-item-id="{{ post.id }}"
-                  data-item-url="{{ post.shoplink}}"
-                  data-item-price="{{ post.price | money }}"
-                  data-item-description= "{{ post.description }}"
-                  data-item-image="{{ post.cover-image }}"
-                  data-item-name="{{ post.shortname }}"
-                  data-item-max-quantity="{{ post.max-quantity }}">
-                  Add to cart
-                </button>
-                </div>
-                {% endif %}
-          {% endfor %}
-        </div>
-        </div>
-    </div>
-    </div>
-    <div style="display: flex; justify-content: space-around; width: 100%;">
-        <button class="snipcart-checkout view-cart-button">Cart & Check Out</button>
-    </div>
   <div class="page-section-2">
         <div class="misc">
       <!-- <div class="skills">
@@ -160,12 +110,67 @@ layout: null
       </div>
       <div class="buttons">
         <div class="about">
-          <a class="button" href="/catalog.html#preview">
+          <a class="button" href="/catalog.html#land">
             <p>CATALOG</p>
           </a> 
         </div>
       </div>
     </div>
   </div>
+
+      <div class="shop-page-section-1" id="merch">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>STICKERS</p>
+      </div>
+      <div class="section-right">
+            <div class="shop-section-right-caption">
+                        <a href="/sideshow#land">
+              <p>sideshow? what sideshow?</p>
+                        </a>
+            </div>
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Show the world that you're IN on the sideshow.</p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 440px;">
+          {% for post in site.posts %}
+                {% if post.type == "sticker" and post.sold-out != "True" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">${{post.price}}0</div>
+                  <button class="snipcart-add-item add-button"
+                  data-item-id="{{ post.id }}"
+                  data-item-url="{{ post.shoplink}}"
+                  data-item-price="{{ post.price | money }}"
+                  data-item-description= "{{ post.description }}"
+                  data-item-image="{{ post.cover-image }}"
+                  data-item-name="{{ post.shortname }}"
+                  data-item-max-quantity="{{ post.max-quantity }}">
+                  Add to cart
+                </button>
+                </div>
+                {% endif %}
+          {% endfor %}
+        </div>
+        </div>
+    </div>
+    </div>
+  <div class="page-section-2">
+        <div class="misc">
+    <div style="display: flex; justify-content: space-around; width: 100%; padding: 4%;">
+        <button class="snipcart-checkout view-cart-button">Cart & Check Out</button>
+    </div>
+    </div>
+    </div>
 </div>
 {% include footer.html %}
