@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Capsule"
-shortname: "Capsule Background"
+shortname: "Capsule"
 id: "capsule-background"
 layout: listing
 tags: 

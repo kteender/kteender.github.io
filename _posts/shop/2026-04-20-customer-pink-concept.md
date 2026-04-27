@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/customer_pink_concept/cover_image.jpg"
 type: concept
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/customer-pink-concept.html"
 description:  "Final selection for customer dance outfit colors"
 permalink: /shop/customer-pink-concept/
@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "8 inch x 10 inch"
 listing-dir: "/assets/shop/customer_pink_concept/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg"
-status: preview
+status: sold
 ---
 Concept art for Juice Drop customer. 

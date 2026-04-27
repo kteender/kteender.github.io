@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/juice_token_prop/cover_image.jpg"
 type: prop
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/juice-token-prop.html"
 description:  "Rack em up!"
 permalink: /shop/juice-token-prop/
@@ -21,6 +21,6 @@ dimensions: "8 inch x 12 inch"
 listing-dir: "/assets/shop/juice_token_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame02.jpg,frame01.jpg,frame03.jpg"
-status: preview
+status: sold
 ---
 Prop drawing used in Juice Drop. Original drawing! Only one in existence.

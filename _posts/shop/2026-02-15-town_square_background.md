@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Town Square"
-shortname: "Town Square Background"
+shortname: "Town Square"
 layout: listing
 id: "town-square-background"
 tags: 

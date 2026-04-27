@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Rose Sprouting Prop"
-shortname: "Rose Sprouting Drawing"
+title: "KTCG Art | Rose Sprouting"
+shortname: "Rose Sprouting"
 layout: listing
 id: "rose-sprouting-prop"
 tags: 

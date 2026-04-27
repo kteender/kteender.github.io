@@ -5,11 +5,11 @@ layout: listing
 id: "juice-box-concept"
 tags: 
   - "drawing"
-  - "concept"
+  - "prop"
   - "juice-drop"
 cover-image: "/assets/shop/juice_box_concept/cover_image.jpg"
-type: concept
-sold-out: "P"
+type: prop
+sold-out: "True"
 uri: "/shop/microphone-prop.html"
 description:  "Concept exploration for a juice box"
 permalink: /shop/juice_box_concept/
@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "6 inch x 8 inch"
 listing-dir: "/assets/shop/juice_box_concept/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
-status: preview
+status: sold
 ---
 Concept exploration for the juicebox in Juice Drop. Original drawing!

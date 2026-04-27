@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Chimney Slide Prop"
-shortname: "Chimney Slide Drawing"
+title: "KTCG Art | Chimney Slide"
+shortname: "Chimney Slide"
 layout: listing
 id: "chimney-slide-prop"
 tags: 

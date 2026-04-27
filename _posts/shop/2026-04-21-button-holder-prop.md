@@ -8,8 +8,8 @@ tags:
   - "prop"
   - "juice-drop"
 cover-image: "/assets/shop/button_holder_prop/cover_image.jpg"
-type: concept
-sold-out: "P"
+type: prop
+sold-out: "True"
 uri: "/shop/button-holder-prop.html"
 description:  "Reused for all buttons! Work smarter not harder."
 permalink: /shop/button_holder_prop/
@@ -21,6 +21,6 @@ dimensions: "5 inch x 7 inch"
 listing-dir: "/assets/shop/button_holder_prop/"
 listing-images: "listing01.jpg,listing02.jpg"
 frame-images: "frame01.jpg"
-status: preview
+status: sold
 ---
 Button holder used for all the buttons in Juice Drop. Original drawing! Only one in existence.

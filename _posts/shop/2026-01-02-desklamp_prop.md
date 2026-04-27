@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Desklamp"
-shortname: "Desklamp Drawing"
+shortname: "Desklamp"
 layout: listing
 id: "desklamp-prop"
 tags: 

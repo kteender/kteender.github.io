@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Spirit of Reason Prop"
-shortname: "Spirit of Reason Drawing"
+title: "KTCG Art | Spirit of Reason"
+shortname: "Spirit of Reason"
 id: "spirit-of-reason-prop"
 layout: listing
 tags: 

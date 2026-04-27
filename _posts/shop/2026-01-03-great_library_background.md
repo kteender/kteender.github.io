@@ -1,7 +1,7 @@
 ---
 title: "KTCG Art | The Great Library"
 layout: listing
-shortname: "The Great Library Background"
+shortname: "The Great Library"
 id: "great-library-background"
 tags: 
   - "drawing"

@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/straw_prop/cover_image.jpg"
 type: prop
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/straw-prop.html"
 description:  "An essential tool for any juice aficionado."
 permalink: /shop/straw-prop/
@@ -21,6 +21,6 @@ dimensions: "5 inch x 7 inch"
 listing-dir: "/assets/shop/straw_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame02.jpg,frame01.jpg"
-status: preview
+status: sold
 ---
 Prop drawing used in Juice Drop. Original drawing! Only one in existence.

@@ -1,13 +1,12 @@
 ---
 title: "KTCG Art | Repository High View"
-shortname: "Repository High View Background"
+shortname: "Repository High View"
 id: "repository-high-view-background"
 layout: listing
 tags: 
   - "drawing"
   - "background"
   - "repository"
-  - "sewer-issue"
 cover-image: "/assets/shop/repository_high_view_background/cover_image.jpg"
 type: background
 sold-out: "True"

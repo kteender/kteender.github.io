@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/cashier_blue_concept/cover_image.jpg"
 type: concept
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/cashier-blue-concept.html"
 description:  "Final concept for Juice Drop cashier"
 permalink: /shop/cashier-blue-concept/
@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "8 inch x 10 inch"
 listing-dir: "/assets/shop/cashier_blue_concept/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
-status: preview
+status: sold
 ---
 Concept art for Juice Drop cashier. Please note slight wear mark at top of page.

@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Streetlamp Prop"
-shortname: "Streetlamp Drawing"
+title: "KTCG Art | Streetlamp"
+shortname: "Streetlamp"
 layout: listing
 id: "streetlamp-prop"
 tags: 

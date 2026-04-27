@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/cash_register_prop/cover_image.jpg"
 type: prop
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/cash-register-prop.html"
 description:  "For tallying up dance points!"
 permalink: /shop/cash_register_prop/
@@ -21,6 +21,6 @@ dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/cash_register_prop/"
 listing-images: "cover_image.jpg"
 frame-images: "frame01.jpg,frame02.jpg"
-status: preview
+status: sold
 ---
 Prop drawing used in Juice Drop. Original drawing! Only one in existence.

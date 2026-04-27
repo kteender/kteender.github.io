@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Desk Angel"
-shortname: "Desk Angel Drawing"
+shortname: "Desk Angel"
 layout: listing
 id: "deskangel-prop"
 tags: 

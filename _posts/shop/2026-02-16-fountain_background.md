@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Fountain"
-shortname: "Fountain Background"
+shortname: "Fountain"
 layout: listing
 id: "fountain-background"
 tags: 

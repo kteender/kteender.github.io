@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/squeeze_button_prop/cover_image.jpg"
 type: prop
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/squeeze-button-prop.html"
 description:  "'And SQUEEZE'"
 permalink: /shop/squeeze-button-prop/
@@ -21,6 +21,6 @@ dimensions: "5 inch x 7 inch"
 listing-dir: "/assets/shop/squeeze_button_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg"
-status: preview
+status: sold
 ---
 Original drawing used in Juice Drop production! Only one in existence.

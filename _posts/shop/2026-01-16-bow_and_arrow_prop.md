@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Bow and Arrow Prop"
-shortname: "Bow and Arrow Drawing"
+title: "KTCG Art | Bow and Arrow"
+shortname: "Bow and Arrow"
 layout: listing
 id: "bow-and-arrow-prop"
 tags: 

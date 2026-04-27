@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Mistletoe Prop"
-shortname: "Mistletoe Drawing"
+title: "KTCG Art | Mistletoe"
+shortname: "Mistletoe"
 layout: listing
 id: "mistletoe-prop"
 tags: 

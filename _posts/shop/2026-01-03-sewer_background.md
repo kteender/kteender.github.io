@@ -1,7 +1,7 @@
 ---
 title: "KTCG Art | Sewer"
 layout: listing
-shortname: "Sewer Background"
+shortname: "Sewer"
 id: "sewer-background"
 tags: 
   - "drawing"

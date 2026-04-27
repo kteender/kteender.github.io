@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Sewer Front"
-shortname: "Sewer Front Background"
+shortname: "Sewer Front"
 id: "sewer-front-background"
 layout: listing
 tags: 

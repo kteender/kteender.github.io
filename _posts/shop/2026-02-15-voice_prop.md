@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Voice Prop"
-shortname: "Voice Drawing"
+title: "KTCG Art | Voice"
+shortname: "Voice"
 layout: listing
 id: "voice-prop"
 tags: 

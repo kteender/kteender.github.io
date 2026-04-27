@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Stairs Prop"
-shortname: "Stairs Drawing"
+title: "KTCG Art | Stairs"
+shortname: "Stairs"
 layout: listing
 id: "stairs-prop"
 tags: 

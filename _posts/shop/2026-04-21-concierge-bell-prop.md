@@ -8,8 +8,8 @@ tags:
   - "prop"
   - "juice-drop"
 cover-image: "/assets/shop/concierge_bell_prop/cover_image.jpg"
-type: concept
-sold-out: "P"
+type: prop
+sold-out: "True"
 uri: "/shop/concierge-bell-prop.html"
 description:  "DING"
 permalink: /shop/concierge-bell-prop/
@@ -21,6 +21,6 @@ dimensions: "4 inch x 6 inch"
 listing-dir: "/assets/shop/concierge_bell_prop/"
 listing-images: "listing01.jpg"
 frame-images: ""
-status: preview
+status: sold
 ---
 Original drawing! Originally drawn for use when the customer summons the shopkeeper, but was not used in the final animation -- this image is its only form. 

@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Repository"
-shortname: "Repository Background"
+shortname: "Repository"
 layout: listing
 id: "repository-background"
 tags: 

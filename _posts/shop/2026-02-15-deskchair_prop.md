@@ -1,6 +1,6 @@
 ---
 title: "KTCG Art | Deskchair"
-shortname: "Deskchair Drawing"
+shortname: "Deskchair"
 layout: listing
 id: "deskchair-prop"
 tags: 

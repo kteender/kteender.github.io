@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Dead Heart Rose Prop"
-shortname: "Dead Heart Rose Drawing"
+title: "KTCG Art | Dead Heart Rose"
+shortname: "Dead Heart Rose"
 layout: listing
 id: "dead-heart-rose-prop"
 tags: 

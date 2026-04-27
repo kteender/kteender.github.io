@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Heart Rose Prop"
-shortname: "Heart Rose Drawing"
+title: "KTCG Art | Heart Rose"
+shortname: "Heart Rose"
 layout: listing
 id: "heart-rose-prop"
 tags: 

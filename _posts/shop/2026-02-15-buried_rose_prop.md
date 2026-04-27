@@ -1,6 +1,6 @@
 ---
-title: "KTCG Art | Buried Rose Prop"
-shortname: "Buried Rose Drawing"
+title: "KTCG Art | Buried Rose"
+shortname: "Buried Rose"
 layout: listing
 id: "buried-rose-prop"
 tags: 

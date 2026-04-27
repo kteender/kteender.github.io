@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/customer_green_concept/cover_image.jpg"
 type: concept
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/customer-green-concept.html"
 description:  "Final selection for customer dance outfit style"
 permalink: /shop/customer-green-concept/
@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "8 inch x 10 inch"
 listing-dir: "/assets/shop/customer_green_concept/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg,listing03.jpg,listing04.jpg"
-status: preview
+status: sold
 ---
 Concept art for Juice Drop customer. Please note slight wear mark at top of page.

@@ -9,7 +9,7 @@ tags:
   - "juice-drop"
 cover-image: "/assets/shop/intercom_prop/cover_image.jpg"
 type: prop
-sold-out: "P"
+sold-out: "True"
 uri: "/shop/intercom-prop.html"
 description:  "WOAH!"
 permalink: /shop/intercom-prop/
@@ -21,6 +21,6 @@ dimensions: "5 inch x 7 inch"
 listing-dir: "/assets/shop/intercom_prop/"
 listing-images: "listing01.jpg,listing02.jpg"
 frame-images: "frame01.jpg"
-status: preview
+status: sold
 ---
 The intercom the cashier uses to communicate with the customer in Juice Drop. Original drawing! Only one in existence.
