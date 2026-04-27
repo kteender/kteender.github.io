@@ -138,15 +138,21 @@
 }
 
 .shop-section-right-caption:hover {
-  background-color: lime;
-  /* border-width: 8px;
-  border-style: double;
-  border-color: black; */
+  /* background-color: lime;
   outline-offset: 3px;
   outline-width: 6px;
   outline-style: double;
   font-family: 'Share Tech Mono', Arial, sans-serif;
-  color: black;
+  color: black; */
+  background-color: lime;
+  /* border-width: 8px;
+  border-style: double;
+  border-color: black; */
+  outline-offset: -6px;
+  outline-width: 6px;
+  outline-style: double;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
 
 .shop-section-right-caption p:hover {
