@@ -27,6 +27,12 @@ In this post, I will provide a general overview of my animation pipeline. This p
     </iframe>
 </div>
 
+The major pipeline phases you see in the video are Storyboards, Previs, Animation, and Polish. I go into more depth below about additional steps.
+
+<div class='captioned-image'>
+    <img alt="a storyboard" src='img/2026-04-11-juice-drop-breakdown/intro_breakdown_thumbnail.jpg' style='max-width:max-content;'>
+</div>
+
 **Storyboards**: I do not always storyboard animated sequences, but *Juice Drop* was a perfect candidate for storyboards.
 
 <div class='captioned-image'>
