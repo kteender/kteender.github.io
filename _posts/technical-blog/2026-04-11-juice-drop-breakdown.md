@@ -12,7 +12,7 @@ show-date: T
 type: blog
 featured: T
 uri: "/2025/04/11/juice-drop-breakdown.html"
-description: A writeup of using the getattr and setattr builtin functions when creating custom Autodesk Maya nodes using Python.
+description: Pipeline breakdown for an animated music video
 permalink: juice-drop-breakdown
 show-message: T
 message: Do you think computers are magic? Don't miss my cybernetic sideshow!!
