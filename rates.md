@@ -18,6 +18,8 @@ Below are the rates for artwork:
 
 I sell <a href="/shop#art">production artwork</a>.
 
+For additional fees, I am happy to perform photo editing, graphic design, web design, and/or video editing for your project.
+
 <div id="animation"></div>
 ## Animation Services
 Below are the rates per-character:
