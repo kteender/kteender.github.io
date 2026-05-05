@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/sewer_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/sewer-concept.html"
 description:  "Sewer as depicted in Sewer Issue pamphlet"
 permalink: /shop/sewer_concept/

@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/stamp_prop/cover_image.jpg"
 type: prop
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/contract_prop.html"
 description:  It's a stamp from the city prefect!
 permalink: /shop/stamp_prop/

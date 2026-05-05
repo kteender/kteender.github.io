@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/contract_prop/cover_image.jpg"
 type: prop
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/contract_prop.html"
 description:  Sanctified!
 permalink: /shop/contract_prop/

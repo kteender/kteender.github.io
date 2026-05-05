@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/protest_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/protest-concept.html"
 description:  "Neck down!"
 permalink: /shop/protest_concept/

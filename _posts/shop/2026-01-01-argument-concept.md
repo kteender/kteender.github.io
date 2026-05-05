@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/argument_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/argument-concept.html"
 description:  "A competitive bidding process!!"
 permalink: /shop/argument_concept/

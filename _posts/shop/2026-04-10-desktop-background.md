@@ -9,7 +9,7 @@ tags:
   - "repository"
 cover-image: "/assets/shop/desktop_sewer_issue_background/cover_image.jpg"
 type: background
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/juice-shop-background.html"
 description:  "Bugmuthur's desk with Sewer Issue"
 permalink: /shop/desktop_sewer_issue_background/

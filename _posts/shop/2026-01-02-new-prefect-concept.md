@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/new_prefect_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/new-prefect-concept.html"
 description:  "Veni! Vidi! Vici! Bibbity! Bobbity! Boo!"
 permalink: /shop/new_prefect_concept/

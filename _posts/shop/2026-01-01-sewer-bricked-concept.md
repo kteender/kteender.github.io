@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/sewer_bricked_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/sewer-bricked-concept.html"
 description:  "Sewer bricked up as depicted in Sewer Issue pamphlet"
 permalink: /shop/sewer_bricked_concept/

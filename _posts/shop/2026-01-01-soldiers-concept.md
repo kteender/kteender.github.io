@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/soldiers_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/soldiers-concept.html"
 description:  "Removal from the sewer"
 permalink: /shop/soldiers_concept/

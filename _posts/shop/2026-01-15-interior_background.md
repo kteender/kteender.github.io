@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/sewer_interior_background/cover_image.jpg"
 type: background
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/sewer_interior_background.html"
 description: Grandmother Drainpipe's home. Used during birth scene.
 permalink: /shop/sewer_interior_background/

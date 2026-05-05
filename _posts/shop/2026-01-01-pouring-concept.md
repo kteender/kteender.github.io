@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/pouring_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/pouring-concept.html"
 description:  "Finally the whole crew of guys can get to work."
 permalink: /shop/pouring_concept/

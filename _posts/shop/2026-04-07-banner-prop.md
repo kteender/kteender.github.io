@@ -9,7 +9,7 @@ tags:
   - "repository"
 cover-image: "/assets/shop/banner_prop/cover_image.jpg"
 type: prop
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/banner_prop.html"
 description:  "Digital! Corporeal! Divine!"
 permalink: /shop/banner-prop/

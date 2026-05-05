@@ -9,7 +9,7 @@ tags:
   - "repository"
 cover-image: "/assets/shop/corporeal_acts_prop/cover_image.jpg"
 type: prop
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/corporeal_acts_prop.html"
 description:  "My amazing corporeal form!"
 permalink: /shop/corporeal-acts-prop/

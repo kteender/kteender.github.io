@@ -9,7 +9,7 @@ tags:
   - "christmas-rose"
 cover-image: "/assets/shop/front_door_prop/cover_image.jpg"
 type: prop
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/front_door_prop.html"
 description:  "'I try the front door, but I can't turn the lock?!'"
 permalink: /shop/front_door_prop/

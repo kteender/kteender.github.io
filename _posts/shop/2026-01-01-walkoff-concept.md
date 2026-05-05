@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/walkoff_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/walkoff-concept.html"
 description:  "After a few days of continuous pouring, the workers walked off the job."
 permalink: /shop/walkoff_concept/

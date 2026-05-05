@@ -9,7 +9,7 @@ tags:
   - "repository"
 cover-image: "/assets/shop/sideshow_tent_background/cover_image.jpg"
 type: background
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/sideshow-tent-background.html"
 description:  "Come one, come all to Bugmuthur's Repository!"
 permalink: /shop/sideshow-tent-background/

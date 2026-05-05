@@ -9,7 +9,7 @@ tags:
   - "repository"
 cover-image: "/assets/shop/digital_acts_prop/cover_image.jpg"
 type: prop
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/digital_acts_prop.html"
 description:  "My enigmatic digital form!"
 permalink: /shop/digital-acts-prop/

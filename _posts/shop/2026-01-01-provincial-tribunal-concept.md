@@ -9,7 +9,7 @@ tags:
   - "sewer-issue"
 cover-image: "/assets/shop/provincial_tribunal_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/provincial-tribunal-concept.html"
 description:  "In the process of issuing a citywide freeze on all sanitation contracts"
 permalink: /shop/provincial_tribunal_concept/
