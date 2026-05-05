@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/new_prefect_concept/"
 listing-images: "cover_image.jpg,listing01.jpg,listing02.jpg,listing03.jpg"
-status: available
+status: sold
 ---
 The new prefect depicted in the Sewer Issue pamphlet.

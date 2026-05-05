@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/provincial_tribunal_concept/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
-status: available
+status: sold
 ---
 Provincial tribunal depicted in Sewer Issue pamphlet.

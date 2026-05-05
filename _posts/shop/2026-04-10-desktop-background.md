@@ -21,6 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/desktop_sewer_issue_background/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,listing04.jpg"
 frame-images: "frame01.jpg,frame02.jpg"
-status: available
+status: sold
 ---
 The copy of Sewer Issue that Bugumuthur received. Original drawing! Only one in existence. Comes with handwritten note about the Sewer Issue pamphlet.

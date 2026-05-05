@@ -21,6 +21,6 @@ dimensions: "7 inch x 5 inch"
 listing-dir: "/assets/shop/banner_prop/"
 listing-images: "listing01.jpg,listing02.jpg"
 frame-images: "frame01.jpg"
-status: available
+status: sold
 ---
 It's a cybernetic sideshow! Original drawing. Only one in existence.

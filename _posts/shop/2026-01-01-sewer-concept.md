@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/puer_mingens_concept/"
 listing-images: "cover_image.jpg,listing01.jpg"
-status: available
+status: sold
 ---
 Sewer depecited in opening shot of Sewer Issue.

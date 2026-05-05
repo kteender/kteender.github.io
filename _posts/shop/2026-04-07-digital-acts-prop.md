@@ -21,6 +21,6 @@ dimensions: "5 inch x 7 inch"
 listing-dir: "/assets/shop/digital_acts_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg"
-status: available
+status: sold
 ---
 Banners advertising digital acts. Original drawing! Only one in existence.

@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "8 inch x 10 inch"
 listing-dir: "/assets/shop/front_door_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,listing04.jpg"
-status: available
+status: sold
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence!
