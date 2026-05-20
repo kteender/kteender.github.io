@@ -19,7 +19,7 @@ I have fine art training and specialize in the following technical areas:
 - digital avatar creation
 - animation tool development
 
-To promote my animation studio, I do tech-augmented fortune-telling. Fortune-telling has a rich history as interactive entertainment. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
+To promote my animation studio, I do tech-augmented fortune-telling. In addition to its modern use as a tool for reflection, fortune-telling has a rich history as interactive entertainment. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
 I'm in L.A. I come from somewhere around Champaign, Illinois. Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
 <!-- 
