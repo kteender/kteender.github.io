@@ -4,25 +4,29 @@ description: Hi-Tech Palm Reading
 permalink: booking
 layout: info
 ---
-
-<div class="captioned-image">
-    <img alt="high-tech palm readings" src="/assets/readings/visualizer.jpg" />
+<div id="land"></div>
+<div style="display: flex; flex-wrap: wrap; justify-contents:space-around; align-items:center">
+    <div class="captioned-image" style="min-width: 200pt">
+        <img alt="event palm reader" src="/assets/readings/booking-image.jpg" />
+    </div>
+    <div style="min-width: 200pt; flex-grow:1">
+        <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/4eb4eb45c2769d4aae876bb80d662ef0?embedded=1"></div>
+    </div>
 </div>
+<p style="text-align:center">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/">Instagram</a>.</p>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
 
-To book, email me at <a href="mailto:indigo@ktcg.art?subject=book Indigo">indigo@ktcg.art</a>. Please include the following information in your email:
-- Event date
-- Event type
-- Event location
-- Start/end time you would like read
-- Number of guests to you would like me to read
-- Whether your event is hosted (your guests receive readings for free) or non-hosted (your guests pay for their own readings)
-- Any additional details
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
 
-Quotes start at $145 for two hours. An initial deposit and letter-of-agreement is required.
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
 
-Please see some event action shots below. You can find additional images on <a href = "https://www.instagram.com/bugmuthur/">Instagram</a>.
-
-<div class="captioned-image">
-    <img alt="indigo coiyle digital medium doing a palm reading" src="/assets/readings/event_images.jpg" />
-</div>
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
 
