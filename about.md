@@ -14,9 +14,9 @@ I was a previs artist and technical director on *Avatar: The Way of Water* and *
 
 My toolset includes Maya, Motionbuilder, the Adobe Suite, Python, TouchDesigner, HTML/CSS, and git. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions. I have traditional fine art training.
 
-I create original artwork, animated films, and animation software plugins. I do tech-augmented fortune-telling under the stage name Indigo Coiyle. Fortune-telling has a rich history as interactive entertainment and is a valuable tool for self-reflection. 
+I create original artwork, animated films, and animation software plugins. I do tech-augmented palmistry under the stage name Indigo Coiyle.
 
-The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals. 
+Fortune-telling has a rich history as interactive entertainment and is a valuable tool for self-reflection. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
 My offstage name is Katie. I'm in L.A. I come from somewhere around Champaign, Illinois. Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
 <!-- 
