@@ -9,7 +9,7 @@ layout: info
     <img alt="high-tech palm readings" src="/assets/readings/visualizer.jpg" />
 </div>
 
-To book, email me at <a href="mailto:kt@ktcg.art?subject=book Indigo">indigo@ktcg.art</a>. Please include the following information in your email:
+To book, email me at <a href="mailto:indigo@ktcg.art?subject=book Indigo">indigo@ktcg.art</a>. Please include the following information in your email:
 - Event date
 - Event type
 - Event location
