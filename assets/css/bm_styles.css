@@ -225,7 +225,7 @@
   padding: 2%;
 }
 
-.bm-button {
+.bm-button, .bm-riddle-button {
   font-family: 'Share Tech Mono', Helvetica, monospace;
   box-sizing: border-box;
   background-color: #1d1d1d;
@@ -251,6 +251,13 @@
   color: black
 }
 
+.bm-riddle-button {
+  background-color: #1d1d1d;
+  color: lime;
+  outline-offset: -12px;
+  outline-width: 0px;
+}
+
 .bm-button:hover {
   background-color: black;
   outline-offset: -12px;
@@ -259,6 +266,11 @@
   text-decoration: underline;
   text-decoration-style: double;
   color: lime;
+}
+
+.bm-riddle-button:hover {
+  background-color: lime;
+  color: black;
 }
 
 .bm-acts{
