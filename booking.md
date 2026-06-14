@@ -5,7 +5,11 @@ permalink: booking
 layout: info
 ---
 
-I would love to bring high-tech palm readings to your event! To book, email me at <a href="mailto:kt@ktcg.art?subject=book Indigo">indigo@ktcg.art</a>. Please include the following information in your email:
+<div class="captioned-image">
+    <img alt="high-tech palm readings" src="/assets/readings/visualizer.jpg" />
+</div>
+
+To book, email me at <a href="mailto:kt@ktcg.art?subject=book Indigo">indigo@ktcg.art</a>. Please include the following information in your email:
 - Event date
 - Event type
 - Event location
@@ -16,7 +20,7 @@ I would love to bring high-tech palm readings to your event! To book, email me a
 
 Quotes start at $145 for two hours. An initial deposit and letter-of-agreement is required.
 
-Please see some event action-shots below. You can find additional images on <a href = "https://www.instagram.com/bugmuthur/">Instagram</a>.
+Please see some event action shots below. You can find additional images on <a href = "https://www.instagram.com/bugmuthur/">Instagram</a>.
 
 <div class="captioned-image">
     <img alt="indigo coiyle digital medium doing a palm reading" src="/assets/readings/event_images.jpg" />
