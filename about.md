@@ -14,7 +14,7 @@ I was a previs artist and technical director on *Avatar: The Way of Water* and *
 
 My toolset includes Maya, Motionbuilder, the Adobe Suite, Python, TouchDesigner, HTML/CSS, and git. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions. I have traditional fine art training.
 
-I create original artwork, animated films, and animation software plugins. I do tech-augmented palmistry under the stage name Indigo Coiyle.
+I create original artwork, animated films, and animation software plugins. I do tech-augmented palmistry under the stage name Indigo Coiyle. The name is derived from the title of Douglas Hofstadter's book on identity *I Am a Strange Loop*.
 
 Fortune-telling has a rich history as interactive entertainment and is a valuable tool for self-reflection. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
