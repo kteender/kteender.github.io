@@ -18,6 +18,6 @@ I create original artwork, animated films, and animation software plugins. I do 
 
 Fortune-telling has a rich history as interactive entertainment and is a valuable tool for self-reflection. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
-My offstage name is Katie. I'm in L.A. I come from somewhere around Champaign, Illinois. Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
+My offstage name is Katie. I'm in Los Angeles. I come from somewhere around Champaign, Illinois. Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
 <!-- 
 I designed and coded this website. It is powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted by <a href="http://pages.github.com/">Github Pages</a>. -->
