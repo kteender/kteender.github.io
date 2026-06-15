@@ -4,9 +4,13 @@ description: Hi-Tech Palm Reading
 permalink: booking
 layout: info
 ---
-<div id="land"></div>
-<div style="display: flex; flex-wrap: wrap; justify-contents:space-around; align-items:center">
-    <div class="captioned-image" style="min-width: 200pt">
+
+<div id="land" style="text-align:center">
+<h1>BOOK HIGH-TECH PALM READINGS</h1>
+<p></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-contents:space-around; align-items:flex-start">
+    <div class="captioned-image" style="min-width: 200pt; margin-top:0">
         <img alt="event palm reader" src="/assets/readings/booking-image.jpg" />
     </div>
     <div style="min-width: 200pt; flex-grow:1">

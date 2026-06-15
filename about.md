@@ -4,7 +4,9 @@ title: About
 description: I'm a CG technical director and artist in Los Angeles. 
 permalink: about
 ---
-# ABOUT
+<div id="land" style="text-align:center">
+<h1>ABOUT</h1>
+</div>
 
 I create animated films and do tech-augmented fortune telling. In executing these activities, I code animation tools.
 
