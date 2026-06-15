@@ -44,4 +44,4 @@ An idea has multiple routes by which it can be visually communicated.  I am happ
 
 <div id="tech"></div>
 ## Technical Expertise
-I have professional experience as a team member in virtual production pipelines, game engine workflows, and on film sets. I am skilled in Maya, Motionbuilder, Unity3D, Blender, Python, Shotgrid, git, the Adobe Suite, TouchDesigner, HTML/CSS, 3D content creation, video production, and freehand drawing. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
+I have professional experience as a team member in virtual production pipelines, game engine workflows, and on film sets. I specialize in animation tool development. I am skilled in Maya, Motionbuilder, Unity3D, Blender, Python, Shotgrid, git, the Adobe Suite, TouchDesigner, HTML/CSS, 3D content creation, video production, and freehand drawing. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
