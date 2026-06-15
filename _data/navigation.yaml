@@ -7,9 +7,9 @@
 # - name: STATIC
 #   link: /drawing.html
 #   permalink: /drawing
-- name: SHOP
-  link: /shop
-  permalink: /shop
+- name: FORTUNE TELLER
+  link: /booking.html
+  permalink: /booking
 - name: SIDESHOW
   link: /sideshow.html
   permalink: /sideshow
