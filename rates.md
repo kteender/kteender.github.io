@@ -9,6 +9,11 @@ permalink: rates
 
 For an estimate, tool development inquiries, or my day rate contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
 
+<div id="events"></div>
+## Fortune Teller 
+
+Here for high-tech palm readings? Visit Indigo's <a href="/booking.html">booking page!</a>
+
 <div id="art"></div>
 ## Art Services
 Below are the rates for artwork:
@@ -40,8 +45,3 @@ Basic sound design and royalty-free music is included. Alternatively, if you hav
 I execute character animation entirely in-house using a proprietary, 2.5D computer graphics software plugin that I wrote myself.
 
 An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. 
-
-<div id="events"></div>
-## Fortune Teller 
-
-Interested in high-tech palm readings? Visit Indigo's <a href="/booking.html">booking page!</a>
