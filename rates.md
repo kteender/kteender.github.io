@@ -5,10 +5,6 @@ description: KTCG Art pricing
 permalink: rates
 ---
 <div id="land"></div>
-# RATES
-
-For an estimate, tool development inquiries, or my day rate contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
-
 <div id="events"></div>
 ## Fortune Teller 
 
@@ -23,7 +19,7 @@ Below are the rates for artwork:
 
 I sell <a href="/shop#art">production artwork</a>.
 
-For additional fees, I am happy to perform photo editing, graphic design, web design, and/or video editing for your project.
+For additional fees, I am happy to perform photo editing, graphic design, web design, and/or video editing for your project. For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
 
 <div id="animation"></div>
 ## Animation Services
@@ -44,4 +40,8 @@ Basic sound design and royalty-free music is included. Alternatively, if you hav
 
 I execute character animation entirely in-house using a proprietary, 2.5D computer graphics software plugin that I wrote myself.
 
-An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. 
+An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
+
+<div id="tech"></div>
+## Technical Expertise
+I have professional experience as a team member in virtual production pipelines, game engine workflows, and on film sets. I am skilled in Maya, Motionbuilder, Unity3D, Blender, Python, Shotgrid, git, the Adobe Suite, TouchDesigner, HTML/CSS, 3D content creation, video production, and freehand drawing. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
