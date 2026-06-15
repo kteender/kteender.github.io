@@ -13,9 +13,9 @@
 - name: SIDESHOW
   link: /sideshow.html
   permalink: /sideshow
-- name: BLOG
-  link: /blog.html
-  permalink: /technical-blog
+- name: ABOUT
+  link: /about.html
+  permalink: /about
 # - name: RATES
 #   link: /pricing.html
 #   permalink: /pricing
