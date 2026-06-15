@@ -6,13 +6,13 @@ permalink: about
 ---
 # ABOUT
 
-I'm an animator and computer graphics pipeline developer. I create original artwork, animated films, and animation software. I do tech-augmented palmistry under the stage name Indigo Coiyle. The name is derived from the title of Douglas Hofstadter's book on identity *I Am a Strange Loop*. My offstage name is Katie.
+I create original artwork, animated films, and animation software. I do tech-augmented palmistry under the stage name Indigo Coiyle. My offstage name is Katie.
 
 I was a previs artist and technical director on *Avatar: The Way of Water* and *Avatar: Fire and Ash*. Prior to that, I worked as an animation designer for the Carnegie Mellon University Robotics Institute.
 
 <!-- I am behind-the-curtain for <a href="https://bugmuthur.net">Bugmuthur</a>, a project comprised of animated web series <em>Bugmuthur's Story Box</em> and real-world experiences with high-tech medium Indigo Coiyle. If you would like to keep up with the project, you can follow Bugmuthur on <a href="https://www.instagram.com/bugmuthur/">Instagram</a>, <a href="https://www.youtube.com/@bugmuthur">YouTube</a>, and/or <a href="https://www.tiktok.com/@bugmuthur">TikTok</a>. -->
 
-My toolset includes Maya, Motionbuilder, the Adobe Suite, Python, TouchDesigner, HTML/CSS, and git. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions. I have traditional fine art training.
+My toolset includes Maya, Motionbuilder, the Adobe Suite, Python, TouchDesigner, HTML/CSS, freehand drawing, and git. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions.
 
 Fortune-telling has a rich history as interactive entertainment and is a valuable tool for self-reflection. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
