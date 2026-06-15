@@ -5,10 +5,32 @@ description: KTCG Art pricing
 permalink: rates
 ---
 <div id="land"></div>
+
+# RATES & SKILLS
+
 <div id="events"></div>
 ## Fortune Teller 
 
 Here for high-tech palm readings? Visit Indigo's <a href="/booking.html">booking page!</a>
+
+<div id="tech"></div>
+## Technical Expertise
+I specialize in animation tool development. Watch my <a href="/cg-projects#reels">reel here</a>. I am a skilled user of the following packages:
+- Maya (UI + API)
+- Motionbuilder (UI + API)
+- Blender (UI + API)
+- TouchDesigner (UI + API)
+- Shotgrid (UI + API)
+- Photoshop (UI)
+- Premiere Pro (UI)
+- After Effects (UI + expressions)
+- Unity3D (UI)
+
+*(UI stands for User Interface, API stands for Application Programming Interface)*
+
+I code using Python, HTML/CSS, and git.
+
+I have professional experience as a team member in virtual production pipelines, game engine workflows, and on film sets. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
 
 <div id="art"></div>
 ## Art Services
@@ -41,7 +63,3 @@ Basic sound design and royalty-free music is included. Alternatively, if you hav
 I execute character animation entirely in-house using a proprietary, 2.5D computer graphics software plugin that I wrote myself.
 
 An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
-
-<div id="tech"></div>
-## Technical Expertise
-I have professional experience as a team member in virtual production pipelines, game engine workflows, and on film sets. I specialize in animation tool development. I am skilled in Maya, Motionbuilder, Unity3D, Blender, Python, Shotgrid, git, the Adobe Suite, TouchDesigner, HTML/CSS, 3D content creation, video production, and freehand drawing. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
