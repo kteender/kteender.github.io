@@ -13,7 +13,7 @@ I was a previs artist and technical director on *Avatar: The Way of Water* and *
 
 I am skilled in Maya, Motionbuilder, the Adobe Suite, Python, TouchDesigner, HTML/CSS, freehand drawing, and git. I have worked as an artist and developer in virtual production and game engine workflows, using both out-of-the box functionality and properietary extensions.
 
-Fortune-telling has a rich history as interactive entertainment. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.  Palmistry is my preferred divination method. Palms are an excellent framework through which to access intuitive insight.
+Fortune-telling has a rich history as interactive entertainment. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals. Palmistry is my preferred divination method. Palms are an excellent framework through which to access intuitive insight.
 
 When fortune telling, I use a stage name: Indigo Coiyle. My offstage name is Katie. I'm in Los Angeles. I come from somewhere around Champaign, Illinois. Request my CV or to get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
 <!-- 
