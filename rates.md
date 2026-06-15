@@ -30,7 +30,7 @@ I specialize in animation tool development. Watch my <a href="/cg-projects#reels
 
 I code using Python, HTML/CSS, and git.
 
-I have professional experience as a team member in virtual production pipelines, game engine workflows, and on film sets. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
+I have professional experience as a team member in virtual production and game engine pipelines. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
 
 <div id="art"></div>
 ## Art Services
