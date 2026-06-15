@@ -6,7 +6,7 @@ permalink: about
 ---
 # ABOUT
 
-I create original artwork, animated films, and animation software. I do tech-augmented palmistry under the stage name Indigo Coiyle. My offstage name is Katie.
+I create original artwork, animated films, and animation software. I do tech-augmented fortune telling under the stage name Indigo Coiyle. My offstage name is Katie.
 
 I was a previs artist and technical director on *Avatar: The Way of Water* and *Avatar: Fire and Ash*. Prior to that, I worked as an animation designer for the Carnegie Mellon University Robotics Institute.
 
