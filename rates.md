@@ -34,14 +34,12 @@ I have professional experience as a team member in virtual production and game e
 
 <div id="art"></div>
 ## Commissions
-Below are the rates for artwork:
+Rates for <a href="/catalog#land">artwork</a>:
 - Artwork revision rounds (concept prep and pencil sketch): $105 per round, flat rate
 - Greyscale artwork (digital or ink): starts at $195
 - Colored artwork (digital or ink): starts at $240
 
-I sell <a href="/shop#art">production artwork</a>.
-
-Below are the rates for animation:
+Rates for <a href="/cg-projects#reels">animation:
 - Custom reusable cartoon body: $280, flat rate
 - Custom reusable cartoon face: $450, flat rate
 - <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>  - starts at $540
@@ -49,9 +47,7 @@ Below are the rates for animation:
 - <a href="https://youtu.be/Se0dHhJN5Q4">dialogue animation</a> - starts at $1250
 - <a href="https://youtu.be/Hr_6SxVXKus">action animation</a> - starts at $3285
 
-Basic sound design and royalty-free music is included. Alternatively, if you have music or voiceover/dialogue, I will animate to it. 
-
-I execute character animation entirely in-house using a proprietary, 2.5D computer graphics software plugin that I wrote myself. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. 
+Basic sound design and royalty-free music is included. Alternatively, if you have music or voiceover/dialogue, I will animate to it. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. 
 
 An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget.
 
