@@ -33,7 +33,7 @@ I code using Python, HTML/CSS, and git.
 I have professional experience as a team member in virtual production and game engine pipelines. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
 
 <div id="art"></div>
-## Art Services
+## Art and Animation Commissions
 Below are the rates for artwork:
 - Artwork revision rounds (concept prep and pencil sketch): $105 per round, flat rate
 - Greyscale artwork (digital or ink): starts at $195
