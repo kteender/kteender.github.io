@@ -1,6 +1,6 @@
 ---
 layout: info
-title: Rates
+title: KTCG.Art | Rates & Skills
 description: KTCG Art pricing
 permalink: rates
 ---
@@ -11,11 +11,11 @@ permalink: rates
 <div id="events"></div>
 ## Fortune Teller 
 
-Here for high-tech palm readings? Visit Indigo's <a href="/booking.html">booking page!</a>
+Here for high-tech palm readings? Visit Indigo's <a href="/booking#land">booking page!</a>
 
 <div id="tech"></div>
 ## Technical Expertise
-I specialize in <a href="/techical-blog#land">animation tool development</a>. I am a skilled user of the following packages:
+I specialize in <a href="/technical-blog#land">animation tool development</a>. I am a skilled user of the following packages:
 - Maya (UI + API)
 - Motionbuilder (UI + API)
 - Blender (UI + API)
