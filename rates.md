@@ -15,7 +15,7 @@ Here for high-tech palm readings? Visit Indigo's <a href="/booking.html">booking
 
 <div id="tech"></div>
 ## Technical Expertise
-I specialize in animation tool development. Watch my <a href="/cg-projects#reels">reel here</a>. I am a skilled user of the following packages:
+I specialize in <a href="/techical-blog#land">animation tool development</a>. I am a skilled user of the following packages:
 - Maya (UI + API)
 - Motionbuilder (UI + API)
 - Blender (UI + API)
