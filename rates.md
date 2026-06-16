@@ -41,16 +41,10 @@ Below are the rates for artwork:
 
 I sell <a href="/shop#art">production artwork</a>.
 
-For additional fees, I am happy to perform photo editing, graphic design, web design, and/or video editing for your project. For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
-
-<div id="animation"></div>
-## Animation Services
-Below are the rates per-character:
+Below are the rates for animation:
 - Custom cartoon body: $280, flat rate
 - Custom cartoon face: $450, flat rate
 - Re-use existing character: $30, flat rate
-
-My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Below are the rates for animation:
 - motion graphics - starts at $265
 - talking-head animation - starts at $285
 - <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>  - starts at $540
@@ -58,8 +52,8 @@ My primary factor in determining an estimate for animation is the complexity of 
 - <a href="https://youtu.be/Se0dHhJN5Q4">dialogue animation</a> - starts at $1250
 - <a href="https://youtu.be/Hr_6SxVXKus">action animation</a> - starts at $3285
 
-Basic sound design and royalty-free music is included. Alternatively, if you have music, voiceover, and/or dialogue, I will animate to it. For additional fees, I am happy to help you create or source voiceover and/or dialogue for your project.
+Basic sound design and royalty-free music is included. Alternatively, if you have music, voiceover, and/or dialogue, I will animate to it. For additional fees, I can perform photo editing, graphic design, web design, and/or video editing on your project. I can also help you source voices.
 
-I execute character animation entirely in-house using a proprietary, 2.5D computer graphics software plugin that I wrote myself.
+I execute character animation entirely in-house using a proprietary, 2.5D computer graphics software plugin that I wrote myself. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. 
 
 An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
