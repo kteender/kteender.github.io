@@ -17,7 +17,7 @@ layout: info
         <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/4eb4eb45c2769d4aae876bb80d662ef0?embedded=1"></div>
     </div>
 </div>
-<p style="text-align:center">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/">Instagram</a>.</p>
+<p style="text-align:center">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/">Instagram</a>. At this time, I do not offer private or remote readings.</p>
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
 
