@@ -1,0 +1,51 @@
+---
+title: KTCG.ART | BOOK INDIGO
+description: Hi-Tech Palm Reading
+permalink: booking
+layout: null
+---
+{% include header.html %}
+{% include title-bar.html %}
+<div class="bm-background">
+  <div class="bm-page-content">
+    <div class="bm-page" style="border-width: 10px 10px 10px 10px;">
+        <div class="bm-subtitle" id="land">
+            <h1 style="color:#c9ccc7;">Book HIGH-TECH PALM READINGS for your event!</h1>
+        </div>
+        <div class="bm-acts" id="materials">
+            <div class="bm-act-holder" id="story">
+                <div style="padding:0px">
+                    <iframe src="https://www.youtube.com/embed/fVQ6cWhvhsE" style="width: 100%;aspect-ratio: 9/16;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="captioned-image" style="min-width: 200pt; margin-top:0">
+                    <img alt="event palm reader" src="/assets/readings/booking-image.jpg" />
+                </div>
+            </div>
+            <div class="bm-act-holder" id="form">
+                <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/4eb4eb45c2769d4aae876bb80d662ef0?embedded=1"></div>
+            </div>
+        </div>
+        <p style="text-align:center; color:white">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/" style="color: lime !important">Instagram</a>. At this time, I do not offer private or remote readings.</p>
+    </div>
+    
+
+  </div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
+
+{% include footer.html %}
