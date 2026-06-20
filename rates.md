@@ -1,7 +1,7 @@
 ---
 layout: info
 title: KTCG.Art | Rates & Skills
-description: KTCG Art pricing
+description: A hiring page for an animator
 permalink: rates
 ---
 <div id="land"></div>
