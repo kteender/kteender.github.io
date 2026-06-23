@@ -20,6 +20,6 @@ max-quantity: 1
 dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/rose_sprouting_prop/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg"
-status: on hold
+status: sold
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence! Comes with handwritten note about drawing's use in production and sketch the drawing was based on.
