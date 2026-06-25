@@ -17,6 +17,6 @@ Telling fortunes and telling animated stories are similar practices. Divination 
 
 I read palms under the stage name Indigo Coiyle. My offstage name is Katie. I'm in Los Angeles. I come from somewhere around Champaign, Illinois. 
 
-Get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>.
+Get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. I am on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>.
 <!-- 
 I designed and coded this website. It is powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted by <a href="http://pages.github.com/">Github Pages</a>. -->
