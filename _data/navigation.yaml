@@ -10,17 +10,18 @@
 - name: FORTUNE TELLER
   link: /booking.html
   permalink: /booking
+- name: SHOP
+  link: /shop.html
+  permalink: /shop
 - name: SIDESHOW
   link: /sideshow.html
   permalink: /sideshow
-- name: ABOUT
-  link: /about.html
-  permalink: /about
+# - name: ABOUT
+#   link: /about.html
+#   permalink: /about
 # - name: RATES
 #   link: /pricing.html
 #   permalink: /pricing
-# - name: REELS
-#   link: /reels.html
 # - name: LOVED LIST
 #   link: /loved-list.html
 #   permalink: /loved-list
