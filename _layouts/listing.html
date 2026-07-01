@@ -59,16 +59,15 @@
                   data-item-description= "{{ page.description }}"
                   data-item-image="{{ page.cover-image }}"
                   data-item-name="{{ page.shortname }}"
+                  data-item-custom1-name="{{ page.custom1-name }}"
+                  data-item-custom1-options="{{ page.custom1-options }}"
                   data-item-max-quantity="{{ page.max-quantity }}">
                   Add to cart
                 </button>
+                <button class="snipcart-checkout view-cart-button" style="font-size: 1.2em;"">View Cart</button>
                 </div>
-                <p>Stickers and drawings ship via USPS for $7</p> 
+                <p>Artwork ships via USPS for $12. I pack and ship orders myself.</p> 
                 <p>At this time, shipping only available to addresses located within the states and territories of the USA. If you are located outside the USA and would like to place an order, email <a href="mailto:contact@ktcg.art?subject=International order">contact@ktcg.art</a>.</p>
-                <div style="font-size: 1em; display: flex; justify-content: space-around;">
-                    <button class="snipcart-checkout view-cart-button" style="font-size: 1.2em;">
-                        Cart & Check Out</button>
-                </div>
                 <p>All sales final. If you are unsatisfied with your purchase or if it arrives damaged, email <a href="mailto:contact@ktcg.art?subject=Order issue">contact@ktcg.art</a>.</p>
                 {% endif %}
                 <div class="listing-image-container">
@@ -84,6 +83,17 @@
             <!-- </div> -->
 
         </div>
+  <div class="page-section-2">
+        <div class="misc">
+      <div class="buttons">
+        <div class="about">
+          <a class="button" href="/shop.html#art">
+            <p>BACK TO SHOP</p>
+          </a> 
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% include footer.html %}

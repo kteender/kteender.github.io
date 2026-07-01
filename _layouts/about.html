@@ -2,7 +2,7 @@
 {% include title-bar.html %}
 
 <div class="content-holder" style="margin-top: 0px;" id="land">
-    <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
+    <!-- <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
         <div class="post-header" style="justify-content: center; width: 100%;">
             <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
                 <div class="banner">
@@ -10,13 +10,28 @@
                 </div>
             </a>
         </div>
-    </div>
-    <div class="content">
+    </div> -->
+    <div class="content" style="display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; background-color: #c9ccc7; border: 0px;">
+    <div style="flex-basis: 60%; flex-grow: 1; min-width: 300px;">
+        <div class="post-header" style="justify-content: center; width: 100%;">
+            <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
+                <div class="banner">
+                    <p>Pay no attention to the lady behind the curtain! Look at my SIDESHOW!!</p>
+                </div>
+            </a>
+        </div>
+      <div style="padding: 3%;  background-color: white; border-width: 1px 0px 0px 0px; border-color: black; border-style: solid;">
                 <h1>{{ page.shortname }}</h1>
                 {% if page.show-date == "T" %}
                     <h4>{{ page.date | date_to_string }}</h4>
                 {% endif %}
-    {{ content }}
+            {{ content }}
+      </div>
+    </div>
+    <div class='captioned-image' style="flex-basis: 35%; padding: 2%; flex-grow: 1; background-color: white;border-width: 0px 0px 1px 0px; border-color: black; border-style: solid;">
+    <img alt="katie tender" src='/img/about.jpg' style='max-width:max-content;' >
+    <p>In this photo I'm holding the <br>Academy Award in Visual Effects<br> won by <em>Avatar: Fire and Ash</em>.</p>
+</div>
     </div>
   <div class="page-section-2">
         <div class="misc">
