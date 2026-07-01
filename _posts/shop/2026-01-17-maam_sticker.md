@@ -7,8 +7,8 @@ tags:
   - "maam"
   - "sticker"
 cover-image: "/assets/shop/maam_sticker/cover_image.jpg"
-type: sticker
-sold-out: "False"
+type: merch
+sold-out: "True"
 uri: "/shop/maam_sticker.html"
 description:  Superintendant from SEWER ISSUE
 permalink: /shop/maam_sticker/

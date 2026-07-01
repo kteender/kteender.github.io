@@ -7,8 +7,8 @@ tags:
   - "icon"
   - "sticker"
 cover-image: "/assets/shop/icon_clear_sticker/cover_image.jpg"
-type: sticker
-sold-out: "False"
+type: merch
+sold-out: "True"
 uri: "/shop/icon_clear_sticker.html"
 description:  A transparent sticker of Bugmuthur's icon
 permalink: /shop/icon_clear_sticker/

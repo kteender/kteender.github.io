@@ -7,8 +7,8 @@ tags:
   - "bugmuthur"
   - "sticker"
 cover-image: "/assets/shop/bugmuthur_clear_sticker/cover_image.jpg"
-type: sticker
-sold-out: "False"
+type: merch
+sold-out: "True"
 uri: "/shop/bugmuthur_clear_sticker.html"
 description: Bugmuthur in Santa outfit from Christmas Rose.
 permalink: /shop/bugmuthur_clear_sticker/

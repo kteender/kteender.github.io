@@ -7,8 +7,8 @@ tags:
   - "icon"
   - "sticker"
 cover-image: "/assets/shop/icon_tiny_sticker/cover_image.jpg"
-type: sticker
-sold-out: "False"
+type: merch
+sold-out: "True"
 uri: "/shop/icon_tiny_sticker.html"
 description:  A small sticker of Bugmuthur's icon.
 permalink: /shop/icon_tiny_sticker/

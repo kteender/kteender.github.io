@@ -7,8 +7,8 @@ tags:
   - "face"
   - "sticker"
 cover-image: "/assets/shop/face_sticker/cover_image.jpg"
-type: sticker
-sold-out: "False"
+type: merch
+sold-out: "True"
 uri: "/shop/face_sticker.html"
 description:  The Face of Bugmuthur!
 permalink: /shop/face_sticker/

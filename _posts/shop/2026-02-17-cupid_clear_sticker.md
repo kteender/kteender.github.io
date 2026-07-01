@@ -7,8 +7,8 @@ tags:
   - "cupid"
   - "sticker"
 cover-image: "/assets/shop/cupid_clear_sticker/cover_image.jpg"
-type: sticker
-sold-out: "False"
+type: merch
+sold-out: "True"
 uri: "/shop/cupid_clear_sticker.html"
 description: Venus' son!
 permalink: /shop/cupid_clear_sticker/

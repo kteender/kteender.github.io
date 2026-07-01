@@ -8,7 +8,7 @@ tags:
   - "prop"
   - "sewer-issue"
 cover-image: "/assets/shop/bow_and_arrow_prop/cover_image.jpg"
-type: prop
+type: merch
 sold-out: "True"
 uri: "/shop/bow_and_arrow_prop.html"
 description:  Cupid drainbaby's bow and arrow.
