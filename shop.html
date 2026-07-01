@@ -7,11 +7,11 @@ layout: null
 {% include header.html %}
 {% include title-bar.html %}
 <div class="page-content">
-    <div class="shop-page-section-1" id="art">
+    <!-- <div class="shop-page-section-1" id="art">
     <div class="section">
       <div class="section-left"></div>
       <div class="section-middle">
-          <p>STORY BOX STORE</p>
+          <p>ORIGINALS</p>
       </div>
       <div class="section-right"></div>
     </div>
@@ -25,14 +25,14 @@ layout: null
           {% endif %}
       {% endfor %}
       <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Purchase original animation production artwork.</p>
+      <p>Purchase original production artwork and drawings.</p>
       {% if available == "False" %}
         <p>Currently sold out. Check out the <a href="/catalog.html#preview">catalog</a>.</p>
       {% endif %}
       </div>
       {% if available == "True" %}
         <div class="shop-regular">
-        <div class = "shop-flex-container" style="height: 440px;"">
+        <div class = "shop-flex-container" style="height: 440px;">
           {% for post in site.posts %}
           {% if post.type == "background" or post.type == "prop" or post.type == "concept" %}
           {% if post.sold-out == "False" %}
@@ -40,13 +40,6 @@ layout: null
                   <a href="{{ post.permalink }}#land">
                     <div class='shop-regular-labeled-image'>
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                        <!-- <div class = "text">  
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>  s
-                          <h3 >{{ post.shortname }}</h3>
-                          <div class = "dummy"></div>
-                        </div> -->
                     </div>
                   </a>
                   <div class="product-name">{{post.shortname}}</div>
@@ -58,6 +51,8 @@ layout: null
                   data-item-description= "{{ post.description }}"
                   data-item-image="{{ post.cover-image }}"
                   data-item-name="{{ post.shortname }}"
+                  data-item-custom1-name="{{ post.custom1-name }}"
+                  data-item-custom1-options="{{ post.custom1-options }}"
                   data-item-max-quantity="{{ post.max-quantity }}">
                   Add to cart
                 </button>
@@ -65,49 +60,77 @@ layout: null
                 {% endif %}
           {% endif %}
           {% endfor %}
-          <!--  if  site.posts.size | module: 2  != 0 
+           if  site.posts.size | module: 2  != 0 
           <div class="regular-holder-dummy">
               <div class='regular-labeled-image'>
                 <img src="/img/dummy.png" />
               </div>
           </div>
-           endif  -->
+           endif 
         </div>
         </div>
               {% endif %}
     </div>
-    </div>
+    </div> -->
 
+      <div class="shop-page-section-1" id="land">
+    <div class="shopfront">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>ART SHOP</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Purchase original drawings, prints, and production art.</p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 720px;">
+          {% for post in site.posts %}
+                {% if post.type != "blog" and post.sold-out != "True" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">${{post.price}}0</div>
+                  <button class="snipcart-add-item add-button"
+                  data-item-id="{{ post.id }}"
+                  data-item-url="{{ post.shoplink}}"
+                  data-item-price="{{ post.price | money }}"
+                  data-item-description= "{{ post.description }}"
+                  data-item-image="{{ post.cover-image }}"
+                  data-item-name="{{ post.shortname }}"
+                  data-item-custom1-name="{{ post.custom1-name }}"
+                  data-item-custom1-options="{{ post.custom1-options }}"
+                  data-item-max-quantity="{{ post.max-quantity }}">
+                  Add to cart
+                </button>
+                </div>
+                {% endif %}
+          {% endfor %}
+        </div>
+        </div>
+    </div>
+    </div>
+        <div class="shop-vertical-container">
+    {% include embed-souvenir-button.html %}
+      </div>
+    </div>
+  <!-- <div class="page-section-2">
+        <div class="misc">
+    <div style="display: flex; justify-content: space-around; width: 100%; padding: 4%;">
+        <button class="snipcart-checkout view-cart-button">Cart & Check Out</button>
+    </div>
+    </div>
+    </div> -->
   <div class="page-section-2">
         <div class="misc">
-      <!-- <div class="skills">
-        <div class="section">
-          <div class="section-left"></div>
-          <div class="small-section-middle">
-            <a href="drawing.html">
-              <p>DRAWINGS</p>
-            </a>
-          </div>
-          <div class="section-right"></div>
-        </div>
-        <div class="d">
-          <a href="drawing.html">
-            <div class="d-holder">
-              <img alt="a drawing of a statue" src="/img/drawings/converted_files/drawing_cover02.jpg">
-            </div>
-          </a>
-        </div>
-        <div class = "bottom-content">
-          <div class="bottom"></div>
-        </div>
-      </div> -->
-      <!-- <div class="buttons">
-        <div class="about">
-          <a class="button" href="/rates.html#art">
-            <p>COMMISSION</p>
-          </a> 
-        </div> -->
-      <!-- </div> -->
       <div class="buttons">
         <div class="about">
           <a class="button" href="/catalog.html#land">
@@ -117,60 +140,5 @@ layout: null
       </div>
     </div>
   </div>
-
-      <div class="shop-page-section-1" id="merch">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-          <p>STICKERS</p>
-      </div>
-      <div class="section-right">
-            <div class="shop-section-right-caption">
-                        <a href="/sideshow#land">
-              <p>sideshow? what sideshow?</p>
-                        </a>
-            </div>
-      </div>
-    </div>
-    <div class="shop-container">
-      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Get a souvenir from the sideshow.</p>
-      </div>
-        <div class="shop-regular">
-        <div class = "shop-flex-container" style="height: 440px;">
-          {% for post in site.posts %}
-                {% if post.type == "sticker" and post.sold-out != "True" %}
-                <div class="shop-regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='shop-regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                    </div>
-                  </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">${{post.price}}0</div>
-                  <button class="snipcart-add-item add-button"
-                  data-item-id="{{ post.id }}"
-                  data-item-url="{{ post.shoplink}}"
-                  data-item-price="{{ post.price | money }}"
-                  data-item-description= "{{ post.description }}"
-                  data-item-image="{{ post.cover-image }}"
-                  data-item-name="{{ post.shortname }}"
-                  data-item-max-quantity="{{ post.max-quantity }}">
-                  Add to cart
-                </button>
-                </div>
-                {% endif %}
-          {% endfor %}
-        </div>
-        </div>
-    </div>
-    </div>
-  <div class="page-section-2">
-        <div class="misc">
-    <div style="display: flex; justify-content: space-around; width: 100%; padding: 4%;">
-        <button class="snipcart-checkout view-cart-button">Cart & Check Out</button>
-    </div>
-    </div>
-    </div>
 </div>
 {% include footer.html %}
