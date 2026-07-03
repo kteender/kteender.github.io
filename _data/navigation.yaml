@@ -1,15 +1,15 @@
 - name: HOME
   link: /
   permalink: /
+- name: FORTUNE TELLER
+  link: /booking.html
+  permalink: /booking
 - name: REEL
   link: /animations.html
   permalink: /cg-projects
 # - name: STATIC
 #   link: /drawing.html
 #   permalink: /drawing
-- name: FORTUNE TELLER
-  link: /booking.html
-  permalink: /booking
 - name: SHOP
   link: /shop.html
   permalink: /shop
