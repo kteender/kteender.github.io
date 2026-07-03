@@ -16,6 +16,6 @@ I read palms under the stage name Indigo Coiyle. My offstage name is Katie. I am
 
 I'm in Los Angeles. I come from somewhere around Champaign, Illinois. Get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a> or on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>. 
 
-I designed and coded this site myself. It is powered by Jekyll and hosted by Github Pages. I use Snipcart for e-commerce integration and Stripe for secure payment processing.
+I designed and coded this site myself.
 <!-- 
 I designed and coded this website. It is powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted by <a href="http://pages.github.com/">Github Pages</a>. -->
