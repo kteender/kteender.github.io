@@ -6,6 +6,7 @@ layout: null
 ---
 {% include header.html %}
 {% include title-bar.html %}
+{% include navigation-bar.html %}
 <div class="page-content">
   <br>
   <!-- <a href="/bugmuthurs_repository/" style="text-decoration-color: black; text-decoration-style: double;">
@@ -17,7 +18,7 @@ layout: null
     <div class="vertical-container">
     {% include embed-sideshow-button.html %}
       </div>
-    <div class="reel">
+    <div class="reel" id="reel">
       <div class="section">
         <div class="section-left"></div>
         <div class="section-middle" style="min-width:100pt">
@@ -54,13 +55,6 @@ layout: null
         <div class="misc">
       <div class="buttons">
         <div class="about">
-          <a class="button" href="shop.html#art">
-            <p>SHOP</p>
-          </a> 
-        </div>
-      </div>
-      <div class="buttons">
-        <div class="about">
           <a class="button" href="rates.html#land">
             <p>HIRE</p>
           </a> 
@@ -76,6 +70,45 @@ layout: null
     </div>
   </div>
   <div class="projects-container">
+
+    <div class="animation">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle">
+          <a href="cg-projects#land">
+            <p>ANIMATIONS</p>
+          </a>
+        </div>
+        <div class="section-right"></div>
+      </div>
+      <div class = "animation-container">
+        {% for item in site.data.animations %}
+          {% if item.id != "reels" %}
+          <div class = "animation-holder">
+            <a href="/cg-projects#{{ item.id }}">
+            <div class = "animation-labeled-image">
+              <img alt="the cover images for an animation project" src="{{ item.cover-image }}">
+              <div class="animation-text">
+                <h3>{{ item.name }}</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+        {% assign remainder = site.data.animations.size | modulo: 2 %}
+        {% if remainder != 1 %}
+        <div class="animation-holder">
+            <div class='animation-labeled-image'  style="background-image: url('/assets/css/style_img/bg_seamless_dither.png'); background-size: 2.5em; filter: invert();">
+              <img src="/img/dummy_hd.png" />
+            </div>
+        </div>
+        {% endif %}
+      </div>
+      <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div>
+    </div>
 
   <div class="technical-blog">
     <div class="section">
@@ -158,44 +191,19 @@ layout: null
     </div>
   </div>
 
-    <div class="animation">
-      <div class="section">
-        <div class="section-left"></div>
-        <div class="section-middle">
-          <a href="cg-projects#land">
-            <p>ANIMATION</p>
-          </a>
+  <div class="page-section-2">
+        <div class="misc">
+      <div class="buttons">
+        <div class="about">
+          <a class="button" href="shop.html#art">
+            <p>SHOP</p>
+          </a> 
         </div>
-        <div class="section-right"></div>
-      </div>
-      <div class = "animation-container">
-        {% for item in site.data.animations %}
-          {% if item.id != "reels" %}
-          <div class = "animation-holder">
-            <a href="/cg-projects#{{ item.id }}">
-            <div class = "animation-labeled-image">
-              <img alt="the cover images for an animation project" src="{{ item.cover-image }}">
-              <div class="animation-text">
-                <h3>{{ item.name }}</h3>
-              </div>
-            </div>
-            </a>
-          </div>
-          {% endif %}
-        {% endfor %}
-        {% assign remainder = site.data.animations.size | modulo: 2 %}
-        {% if remainder != 1 %}
-        <div class="animation-holder">
-            <div class='animation-labeled-image'  style="background-image: url('/assets/css/style_img/bg_seamless_dither.png'); background-size: 2.5em; filter: invert();">
-              <img src="/img/dummy_hd.png" />
-            </div>
-        </div>
-        {% endif %}
-      </div>
-      <div class = "bottom-content">
-        <div class="bottom"></div>
       </div>
     </div>
+  </div>
+
+
 </div>
 </div>
 </div>

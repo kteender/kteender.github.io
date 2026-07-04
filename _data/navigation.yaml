@@ -1,12 +1,12 @@
-- name: HOME
-  link: /
-  permalink: /
+# - name: HOME
+#   link: /
+#   permalink: /
 - name: FORTUNE TELLER
   link: /booking.html
   permalink: /booking
-- name: REEL
-  link: /animations.html
-  permalink: /cg-projects
+- name: ANIMATION
+  link: /
+  permalink: /
 # - name: STATIC
 #   link: /drawing.html
 #   permalink: /drawing

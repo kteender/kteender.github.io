@@ -158,7 +158,7 @@
 .container .btn {
   font-family:Share Tech Mono, Helvetica, monospace;
   position: absolute;
-  top: 22%;
+  top: 25%;
   left: 40%;
   max-width: 30%;
   transform: translate(-50%, -50%); /* Centers the button accurately */

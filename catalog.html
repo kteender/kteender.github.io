@@ -6,46 +6,8 @@ layout: null
 ---
 {% include header.html %}
 {% include title-bar.html %}
+{% include navigation-bar.html %}
 <div class="page-content" id="land">
-    <!-- <div class="shop-page-section-1" id="preview">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-          <p>UPCOMING</p>
-      </div>
-      <div class="section-right">
-      <div class="section-right">
-      </div>
-
-      </div>
-    </div>
-    <div class="shop-container">
-      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Preview a selection of the artwork in the next shop release.</p>
-      </div>
-        <div class="shop-regular">
-        <div class = "shop-flex-container" style="height: 540px;">
-          {% for post in site.posts %}
-          {% if post.type == "background" or post.type == "prop"  or post.type == "concept" %}
-          {% if post.sold-out == "P" %}
-                <div class="shop-regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='shop-regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                    </div>
-                  </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">${{post.price}}0</div>
-                          </div>
-                {% endif %}
-          {% endif %}
-          {% endfor %}
-
-        </div>
-    </div>
-    </div>
-    </div> -->
-
     <div class="shop-page-section-1" id="juice-drop">
     <div class="section">
       <div class="section-left"></div>

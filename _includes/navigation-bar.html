@@ -1,0 +1,49 @@
+<body style="margin:0; background-color: #c9ccc7;">
+        
+        <div class = "post-bg">
+        <div class="navi">
+            <div class="navi-buttons-holder">
+                <!-- {% for item in site.data.navigation %}
+                <a href="{{ item.link }}"class="navi-buttons">{{ item.name }}</a>
+                {% endfor %} -->
+                {% include navigation.html %}
+            </div>
+        </div>
+        <div class="topnav">
+            <a href="" class="active"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <div style="height:1em"></div>
+                <!-- <a href="/" style="height: 2em;
+                line-height: 2em;">HOME</a> -->
+                <a href="/booking" style="height: 2em;
+                line-height: 2em;">FORTUNE TELLER</a>
+                <a href="/#reel" style="height: 2em;
+                line-height: 2em;">ANIMATION</a>
+                <a href="/shop" style="height: 2em;
+                line-height: 2em;">SHOP</a>
+                <a href="/sideshow" style="height: 2em;
+                line-height: 2em;">SIDESHOW</a>
+                <!-- <a href="/reels.html" style="height: 2em;
+                line-height: 2em;">REELS</a> -->
+                <!-- <a href="/loved-list" style="height: 2em;
+                line-height: 2em;">LOVED LIST</a> -->
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <!-- <i class="fa fa-bars" style="text-align: center;"></i> -->
+            </a>
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              } 
+            </script>
+          </div>
+        <!-- <div class = "bottom-content">
+            <div class="bottom"></div>
+          </div> -->
