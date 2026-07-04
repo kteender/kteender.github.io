@@ -9,10 +9,10 @@
 
 /* Clip text element */
 .clip-text {
-  font-size: 10em;
+  font-size: 7em;
   font-weight: bold;
   font-family: 'Archivo Black';
-  letter-spacing: -12px;
+  letter-spacing: -10px;
   text-align: center;
   /* Color fallback */
   color: #fff;
