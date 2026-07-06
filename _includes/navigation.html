@@ -2,6 +2,16 @@
   <a href="{{ item.permalink }}" 
   {% if item.name == 'ANIMATION' and page.url == "/" %}
     class="navi-buttons-current"
+  {% elsif item.name == 'SHOP' and page.layout == "listing" %}
+    class="navi-buttons-current"
+  {% elsif item.name == 'SHOP' and page.url contains "catalog" %}
+    class="navi-buttons-current"
+  {% elsif item.name == 'ANIMATION' and page.layout == "post" %}
+    class="navi-buttons-current"
+  {% elsif item.name == 'ANIMATION' and page.url contains "cg-projects" %}
+    class="navi-buttons-current"
+  {% elsif item.name == 'ANIMATION' and page.url contains "technical-blog" %}
+    class="navi-buttons-current"
   {% elsif page.url != "/" and item.permalink contains page.url %}
     class="navi-buttons-current"
   {% else %}
