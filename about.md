@@ -8,13 +8,11 @@ type: about
 <div id="land" style="text-align:center">
 </div>
 
-I create animated films and do tech-augmented fortune telling.
+I am a computer-generated media artist. I am an expert in CG software use, extension, and tool development. I create animated films and do tech-augmented fortune telling.
 
-Telling fortunes and telling animated stories are similar practices. Divination techniques are skills that a reader uses to access her intuitive vision; her power comes from articulating that vision in an immersive, empathic, and entertaining manner. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
+I approach animation and divination in exactly the same way. With both, the goal is to communicate strong internal visions. The visions come effortlessly. Communicating their power requires entertainment skill. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
-I read palms under the stage name Indigo Coiyle. My offstage name is Katie. I am an expert in CG software extension and tool development. 
-
-I'm in Los Angeles. I come from somewhere around Champaign, Illinois. Get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a> or on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>. 
+I tell fortunes under the stage name Indigo Coiyle. My offstage name is Katie. I'm in Los Angeles. I come from somewhere around Champaign, Illinois. Get in touch with me via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a> or on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>. 
 
 I designed and coded this site myself.
 <!-- 
