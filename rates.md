@@ -40,7 +40,7 @@ I have professional experience as a team member in virtual production and game e
 - Greyscale artwork (digital or ink): starts at $195
 - Colored artwork (digital or ink): starts at $240 -->
 
-My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some different types of animation at varying complexity levels:
+My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some different types of animation I do, at varying complexity levels:
 - <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>
 - <a href="https://youtu.be/bdLR8P7IjsE">vignette animation</a>
 - <a href="https://youtu.be/Se0dHhJN5Q4">dialogue animation</a>
