@@ -34,12 +34,19 @@ I have professional experience as a team member in virtual production and game e
 
 <div id="art"></div>
 ## Commissions
-Rates for <a href="/catalog#land">artwork</a>:
-- Artwork revision rounds (concept prep and pencil sketch): $105 per round, flat rate
-- Greyscale artwork (digital or ink): starts at $195
-- Colored artwork (digital or ink): starts at $240
+<a href="/catalog#land">Artwork</a> commissions start at $295. <a href="/catalog#land">Animation</a> commissions start at $540.
 
-Rates for <a href="/cg-projects#reels">animation:
+<!-- - Artwork revision rounds (concept prep and pencil sketch): $105 per round, flat rate
+- Greyscale artwork (digital or ink): starts at $195
+- Colored artwork (digital or ink): starts at $240 -->
+
+My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some different types of animation at varying complexity levels:
+- <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>
+- <a href="https://youtu.be/bdLR8P7IjsE">vignette animation</a>
+- <a href="https://youtu.be/Se0dHhJN5Q4">dialogue animation</a>
+- <a href="https://youtu.be/Hr_6SxVXKus">action animation</a>
+
+<!-- Rates for <a href="/cg-projects#reels">animation:
 - Custom reusable cartoon body: $280, flat rate
 - Custom reusable cartoon face: $450, flat rate
 - <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>  - starts at $540
@@ -49,6 +56,6 @@ Rates for <a href="/cg-projects#reels">animation:
 
 Basic sound design and royalty-free music is included. Alternatively, if you have music or voiceover/dialogue, I will animate to it. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. 
 
-An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget.
+An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. -->
 
-For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
+For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. If you have something unique in mind, don't hesistate to contact me! 
