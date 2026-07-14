@@ -22,4 +22,4 @@ custom1-name: "Design option"
 custom1-options: "Cupid Clear|Cupid Holo|Ma'am Matte White|Trio (get-one-free)[+5.00]"
 status: in stock
 ---
-Clear means printed on transparent plastic. Matte or gloss means there will be paper visible around the edges of the designn. Multiple designs available -- you will be able to select the design in the cart. Hit 'Add to Cart' then select from the dropdown.
+Clear means printed on transparent plastic. Matte or gloss means there will be paper visible around the edges of the design. Multiple designs available -- you will be able to select the design in the cart. Hit 'Add to Cart' then select from the dropdown.
