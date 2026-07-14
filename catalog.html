@@ -180,6 +180,47 @@ layout: null
     </div>
     </div>
 
+<div class="shop-page-section-1" id="repository">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>Drawing is Thinking</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Sketches, concepts, and studies.</p>
+      </div>
+        <div class="shop-regular">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.tags contains "sketch" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">{{post.shortname}}</div>
+                  <div class="product-name">status: {{post.status}}</div>
+                          </div>
+          {% endif %}
+          {% endfor %}
+          <!--  if  site.posts.size | module: 2  != 0 
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
+          </div>
+           endif  -->
+
+        </div>
+    </div>
+    </div>
+    </div>
+
     <div class="page-section-2">
         <div class="misc">
       <div class="buttons">
