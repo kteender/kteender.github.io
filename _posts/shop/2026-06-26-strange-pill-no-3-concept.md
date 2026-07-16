@@ -7,9 +7,10 @@ tags:
   - "drawing"
   - "concept"
   - "strange-pills"
+  - "sketch"
 cover-image: "/assets/shop/strange_pill_no_3_concept/cover_image.jpg"
 type: concept
-sold-out: "False"
+sold-out: "True"
 uri: "/shop/strange-pill-no-3-concept.html"
 description:  "Marker concept art for next short"
 permalink: /shop/strange-pill-no-3-concept/
@@ -20,6 +21,6 @@ max-quantity: 1
 dimensions: "8 inch x 8 inch"
 listing-dir: "/assets/shop/strange_pill_no_3_concept/"
 listing-images: "cover_image.jpg,listing01.jpg,listing02.jpg"
-status: available
+status: on hold
 ---
 Concept art for next short film. Original drawing!
