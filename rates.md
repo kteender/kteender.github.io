@@ -34,7 +34,7 @@ I have professional experience as a team member in virtual production and game e
 
 <div id="art"></div>
 ## Commissions
-<a href="/catalog#land">Artwork</a> commissions start at $295. <a href="/catalog#land">Animation</a> commissions start at $540.
+<a href="/catalog#land">Artwork</a> commissions start at $295. <a href="/cg-projects#reels">Animation</a> commissions start at $540.
 
 <!-- - Artwork revision rounds (concept prep and pencil sketch): $105 per round, flat rate
 - Greyscale artwork (digital or ink): starts at $195
