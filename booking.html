@@ -39,9 +39,14 @@ layout: null
             </div>
         </div>
     </div>
+        <p style="text-align:center; color:white">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/" style="color: lime !important">Instagram</a>.</p>
+
     <div class="bm-subtitle">
-        <p style="text-align:center; color:white">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/" style="color: lime !important">Instagram</a>.<br>Upcoming: 7/31 <a href="https://www.eventbrite.com/o/club-decades-presents-33433911507" style="color: lime !important">Club Decades</a>, 8/5 <a href="https://www.eventbrite.com/e/thee-mike-b-live-at-jungle-hollywood-tickets-1995065575843" style="color: lime !important">Techno Night Market</a>, 8/9 <a href="https://nohomarketla.com" style="color: lime !important">NoHo Market</a>.</p>
-        <!-- <p style="text-align:center; color:white">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/" style="color: lime !important">Instagram</a>.</p> -->
+        <h2 style="text-align:center; color:white">Upcoming public readings:</h2></div>
+    <div class="bm-subtitle">        <!-- <p>Divination belongs in public life. Upcoming public events:</p> -->
+        {% for item in site.data.upcoming %}
+        <p style="text-align:center; color:white">{{ item.date }}: <a href={{item.link}} style="color: lime !important">{{ item.name }}</a></p>
+        {% endfor %}
     </div>
         <div class="bm-page-section-2">
             <div class="bm-misc" id="shop">
