@@ -133,10 +133,11 @@
 
 .bm-subtitle h3 {
   text-align: center;
-  color: black;
-  font-size: 1.5em;
-  text-decoration: underline;
-  text-decoration-style: double;
+  background-color: black;
+  font-size: 1.2em;
+  font-family: 'Share Tech Mono', Arial, sans-serif;
+  /* text-decoration: underline;
+  text-decoration-style: double; */
 }
 
 .bm-ad {
