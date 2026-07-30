@@ -40,15 +40,6 @@ layout: null
         </div>
     </div>
         <p style="text-align:center; color:white">View additional images and videos on <a href="https://www.instagram.com/bugmuthur/" style="color: lime !important">Instagram</a>.</p>
-
-    <div class="bm-subtitle">
-        <h2 style="text-align:center; color:white">Upcoming Public Events:</h2>
-    </div>
-    <div class="bm-subtitle" style="display: flex; align-items: flex-start;">        <!-- <p>Divination belongs in public life. Upcoming public events:</p> -->
-        {% for item in site.data.upcoming %}
-        <h3 style="text-align:center; color:white; padding:3%">{{ item.date }}:<br><a href={{item.link}} style="color: lime !important">{{ item.name }}</a></h3>
-        {% endfor %}
-    </div>
         <div class="bm-page-section-2">
             <div class="bm-misc" id="shop">
         <div class="bm-buttons">
@@ -63,7 +54,15 @@ layout: null
         </div>
         </div>
         </div>
-    <div class="bm-subtitle">    </div>
+    <div class="bm-subtitle">
+        <h2 style="text-align:center; color:white">Purchase a Reading at Upcoming Public Events:</h2>
+    </div>
+    <div class="bm-subtitle" style="display: flex; align-items: flex-start;">        <!-- <p>Divination belongs in public life. Upcoming public events:</p> -->
+        {% for item in site.data.upcoming %}
+        <h3 style="text-align:center; color:white; padding:3%">{{ item.date }}:<br><a href={{item.link}} style="color: lime !important">{{ item.name }}</a></h3>
+        {% endfor %}
+    </div>
+    <div class="bm-subtitle"><br></div>
     <!-- <div class="bm-subtitle">
         <p style="text-align:center; color:white">High-tech palm readings combine live, immersive art with intuitive entertainment. Indigo Coiyle reads clients in a variety of environments (company, market, nightlife). She began studying palmistry in 2023 and custom-built her live visualizer. Contact via <a href="mailto:indigo@ktcg.art" style="color: lime !important">indigo@ktcg.art</a>.</p>
     </div> -->
