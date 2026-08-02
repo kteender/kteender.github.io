@@ -30,7 +30,7 @@ I specialize in <a href="/technical-blog#land">animation tool development</a>. I
 
 I code using Python, HTML/CSS, and git.
 
-I have professional experience as a team member in virtual production and game engine pipelines. Request my CV via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. 
+I have professional experience as a team member in virtual production and game engine pipelines. Request my CV via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. 
 
 <div id="art"></div>
 ## Commissions
@@ -58,4 +58,4 @@ Basic sound design and royalty-free music is included. Alternatively, if you hav
 
 An idea has multiple routes by which it can be visually communicated.  I am happy to chat with you to find methods to visually communicate your idea that are in your budget. -->
 
-For a quote, contact me at <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">kt@ktcg.art</a>. If you have something unique in mind, don't hesistate to contact me! 
+For a quote, contact me at <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. If you have something unique in mind, don't hesistate to contact me! 
