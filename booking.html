@@ -57,9 +57,9 @@ layout: null
         <p style="text-align:center; color:white">You can also submit booking inquiries by emailing <a href="mailto:indigo@ktcg.art?subject=booking inquiry" style="color: lime !important">indigo@ktcg.art</a>.</p>
 
     <div class="bm-subtitle">
-        <h2 style="text-align:center; color:white">Upcoming Public Events:</h2>
+        <h2 style="text-align:center; color:white">Upcoming Vendor Events:</h2>
     </div>
-    <div class="bm-subtitle" style="display: flex; align-items: flex-start;">        <!-- <p>Divination belongs in public life. Upcoming public events:</p> -->
+    <div class="bm-subtitle" style="display: flex; align-items: flex-start; flex-wrap: wrap;">        <!-- <p>Divination belongs in public life. Upcoming public events:</p> -->
         {% for item in site.data.upcoming %}
         <h3 style="text-align:center; color:white; padding:3%">{{ item.date }}:<br><a href={{item.link}} style="color: lime !important">{{ item.name }}</a></h3>
         {% endfor %}
