@@ -1,6 +1,6 @@
 {% for item in site.data.navigation %}
   <a href="{{ item.permalink }}" 
-  {% if item.name == 'ANIMATION' and page.url == "/" %}
+  {% if item.name == 'HOME' and page.url == "/" %}
     class="navi-buttons-current"
   {% elsif item.name == 'SHOP' and page.layout == "listing" %}
     class="navi-buttons-current"
