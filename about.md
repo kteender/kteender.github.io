@@ -12,7 +12,7 @@ I am a computer-generated media artist. I am an expert in CG software use, exten
 
 I approach animation and divination in exactly the same way. With both, the goal is to communicate strong internal visions. The visions come effortlessly. Communicating their power requires entertainment skill. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
-I'm in Los Angeles. I come from Champaign, Illinois. Get in touch via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. 
+I'm in Los Angeles. I come from Champaign, Illinois. Get in touch via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. I'm on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>. 
 
 I designed and coded this site myself.
 <!-- 
