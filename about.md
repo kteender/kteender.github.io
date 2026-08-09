@@ -10,10 +10,10 @@ type: about
 
 I am a computer-generated media artist. I am an expert in CG software use, extension, and tool development. I create animated films and do tech-augmented fortune telling.
 
-I approach animation and divination in exactly the same way. With both, the goal is to communicate strong internal visions. The visions come effortlessly. Communicating their power requires entertainment skill. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
+I approach animation and divination in exactly the same way. With both, I use technical systems to communicate strong internal visions. The visions come effortlessly; transmitting their strength requires entertainment skill. The history of American animation overlaps substantially with fortune-telling in the context of vaudeville and traveling carnivals.
 
-I'm in Los Angeles. I come from Champaign, Illinois. Get in touch via <a href="mailto:kt@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. I'm on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>. 
+Indigo Coyle is a stage name. I picked it when I began offering an intuitive entertainment service. The name is inspired by the title of Douglas Hofstadter's text on recursion and conciousness, *I Am a Strange Loop*. In contexts where my service is relevant, I go by Indigo.
 
-I designed and coded this site myself.
+I'm based in Los Angeles. Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. I'm on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>. I designed and coded this site myself.
 <!-- 
 I designed and coded this website. It is powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted by <a href="http://pages.github.com/">Github Pages</a>. -->

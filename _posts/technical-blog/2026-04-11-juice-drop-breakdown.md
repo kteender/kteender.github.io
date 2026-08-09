@@ -10,7 +10,7 @@ cover-image: "/img/2026-04-11-juice-drop-breakdown/cover-image.jpg"
 cover-big: "/img/2026-04-11-juice-drop-breakdown/cover-big.jpg"
 show-date: T
 type: blog
-featured: T
+featured: F
 uri: "/2025/04/11/juice-drop-breakdown.html"
 description: Pipeline breakdown for an animated music video
 permalink: juice-drop-breakdown

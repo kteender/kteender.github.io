@@ -11,7 +11,7 @@ permalink: rates
 <div id="events"></div>
 ## Fortune Teller 
 
-Here for high-tech palm readings? Visit Indigo's <a href="/booking#land">booking page!</a>
+Here for high-tech palm readings? Visit my <a href="/booking#land">booking page!</a>
 
 <div id="tech"></div>
 ## Technical Expertise

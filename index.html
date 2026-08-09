@@ -15,43 +15,42 @@ layout: null
   </div>
   </a> -->
   <div class="page-section-2">
-    <div class="vertical-container">
+    <div class="vertical-container" style="flex-basis: 50%;">
     {% include embed-sideshow-button.html %}
       </div>
-    <div class="reel" id="reel">
+    <div class="vertical-container" style="flex-basis: 45%; margin: 0;">
+    {% include embed-bugmuthur-button.html %}
+      </div>
+    <!-- <div class="reel" id="sideshow" style="flex-basis: 35%;">
       <div class="section">
         <div class="section-left"></div>
         <div class="section-middle" style="min-width:100pt">
-          <a href="cg-projects#reels">
-            <p>REEL</p>
+          <a href="sideshow.html">
+            <p style="font-size: 0.8em; text-align: center;">see my SIDESHOW!!</p>
           </a>
         </div>
         <div class="dither-section-right">
             <div class="section-right-caption">
-                        <a href="cg-projects#reel-breakdown">
-              <p>BREAKDOWN</p>
-                        </a>
+                <a href="shop">
+                  <p>shop</p>
+                </a>
             </div>
           </a>
         </div>
       </div>
       <div class = "reel-container">
-        <iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-      </iframe>
-      <!-- <div class="reel-caption">
-        <a href="cg-projects#reel">
-        <p style="text-align: center; padding: 0%; margin: 0%; text">breakdown</p>
-        </a>
-      </div> -->
+      <a href="sideshow.html">
+      <img src="/img/sideshow-image.jpg" style="width: 100%;aspect-ratio: 4/3;">
+      </a>
       </div>
       
       <div class = "bottom-content">
         <div class="bottom"></div>
       </div>
-    </div>
+    </div> -->
 
   </div>
-  <div class="page-section-2">
+  <!-- <div class="page-section-2">
         <div class="misc">
       <div class="buttons">
         <div class="about">
@@ -75,60 +74,62 @@ layout: null
         </div>
       </div>
     </div>
-  </div>
-  <div class="projects-container">
+  </div> -->
+  <div class="projects-container" style="justify-content: space-between;">
 
-    <!-- <div class="animation">
+   <div class="animation" style="flex-basis: 55%; margin: auto; align-items: space-evenly">
+    <div class="reel" id="reel">
       <div class="section">
         <div class="section-left"></div>
-        <div class="section-middle">
-          <a href="cg-projects#land">
-            <p>ANIMATIONS</p>
+        <div class="section-middle" style="min-width:100pt">
+          <a href="cg-projects#reels">
+            <p>REEL</p>
           </a>
         </div>
-        <div class="section-right"></div>
-      </div>
-      <div class = "animation-container">
-        {% for item in site.data.animations %}
-          {% if item.id != "reels" %}
-          <div class = "animation-holder">
-            <a href="/cg-projects#{{ item.id }}">
-            <div class = "animation-labeled-image">
-              <img alt="the cover images for an animation project" src="{{ item.cover-image }}">
-              <div class="animation-text">
-                <h3>{{ item.name }}</h3>
-              </div>
+        <div class="dither-section-right">
+            <div class="section-right-caption">
+                        <a href="cg-projects#reel-breakdown">
+              <p>breakdown</p>
+                        </a>
             </div>
-            </a>
-          </div>
-          {% endif %}
-        {% endfor %}
-        {% assign remainder = site.data.animations.size | modulo: 2 %}
-        {% if remainder != 1 %}
-        <div class="animation-holder">
-            <div class='animation-labeled-image'  style="background-image: url('/assets/css/style_img/bg_seamless_dither.png'); background-size: 2.5em; filter: invert();">
-              <img src="/img/dummy_hd.png" />
-            </div>
+          </a>
         </div>
-        {% endif %}
       </div>
+      <div class = "reel-container">
+        <iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+      </iframe>
+      </div>
+      
       <div class = "bottom-content">
         <div class="bottom"></div>
       </div>
-    </div> -->
+    </div>
+      <div class="buttons">
+        <!-- <div class="about">
+          <a class="button" href="rates.html#land" style="max-width: 40%; margin: auto;">
+            <p>HIRE</p>
+          </a> 
+        </div> -->
+        <div class="about">
+          <a class="button" href="about.html#land" style="max-width: 40%; margin: auto; ">
+            <p>ABOUT</p>
+          </a> 
+        </div>
+      </div>
+    </div>
 
-  <div class="technical-blog">
+  <div class="technical-blog" style="flex-basis: 40%; margin: 2%;">
     <div class="section">
       <div class="section-left"></div>
       <div class="section-middle">
         <a href="technical-blog.html#land">
-          <p>TECH BLOG</p>
+          <p>BLOG</p>
         </a>
       </div>
       <div class="section-right"></div>
     </div>
     <div class="blog-container">
-        <div class = "featured">
+        <!-- <div class = "featured">
           <div class = "featured-container">
               {% for post in site.posts %}
                 {% if post.featured == "T" %}
@@ -153,7 +154,7 @@ layout: null
                 {% endif %}
               {% endfor %}
           </div>
-        </div>
+        </div> -->
         <div class="regular">
         <div class = "flex-container">
           {% for post in site.posts %}
