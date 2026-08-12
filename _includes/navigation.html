@@ -2,9 +2,9 @@
   <a href="{{ item.permalink }}" 
   {% if item.name == 'HOME' and page.url == "/" %}
     class="navi-buttons-current"
-  {% elsif item.name == 'SHOP' and page.layout == "listing" %}
+  {% elsif item.name == 'ART' and page.layout == "listing" %}
     class="navi-buttons-current"
-  {% elsif item.name == 'SHOP' and page.url contains "catalog" %}
+  {% elsif item.name == 'ART' and page.url contains "catalog" %}
     class="navi-buttons-current"
   {% elsif item.name == 'ANIMATION' and page.layout == "post" %}
     class="navi-buttons-current"

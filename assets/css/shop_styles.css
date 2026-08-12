@@ -220,8 +220,8 @@
   font-family:Share Tech Mono, Helvetica, monospace;
   position: absolute;
   top: 25%;
-  left: 50%;
-  max-width: 30%;
+  left: 20%;
+  max-width: 50%;
   transform: translate(60%, 10%); /* Centers the button accurately */
   
   /* Additional Styling */
@@ -254,5 +254,34 @@
   outline-width: 6px;
   outline-style: double;
   text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.dummy-btn {
+  font-family:Share Tech Mono, Helvetica, monospace;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  max-width: 45%;
+  transform: translate(-50%, -50%); /* Centers the button accurately */
+  
+  /* Additional Styling */
+  padding: 2%;
+  font-size: small;
+  background-color: #cccccc;
+  color:black;
+  border: none;
+  cursor: pointer;
+
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+
+  outline-offset: -3px;
+  outline-width: 3px;
+  outline-style: double;
+  
+  text-decoration-color: black;
   text-decoration-style: double;
 }
