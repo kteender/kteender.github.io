@@ -3,11 +3,11 @@ layout: info
 title: KTCG.Art | Rates & Skills
 description: A hiring page for an animator
 layout: hire
-permalink: rates
+permalink: skills
 ---
 <div id="land"></div>
 
-# RATES & SKILLS
+# SKILLS
 
 <div id="events"></div>
 ## Fortune Teller 
