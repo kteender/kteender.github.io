@@ -222,8 +222,8 @@
   outline-offset: -6px;
   outline-width: 6px;
   outline-style: double;
-  text-decoration: underline;
-  text-decoration-style: double;
+  /* text-decoration: underline;
+  text-decoration-style: double; */
 }
 
 .vertical-container {

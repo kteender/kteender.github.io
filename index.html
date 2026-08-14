@@ -75,144 +75,23 @@ layout: null
       </div>
     </div>
   </div> -->
-  <div class="projects-container" style="justify-content: space-between;">
-
-   <div class="animation" style="flex-basis: 55%; margin: auto; align-items: space-evenly">
-    <div class="reel" id="reel">
-      <div class="section">
-        <div class="section-left"></div>
-        <div class="section-middle" style="min-width:100pt">
-          <a href="cg-projects#reels">
-            <p>REEL</p>
-          </a>
-        </div>
-        <div class="dither-section-right">
-            <div class="section-right-caption">
-                        <a href="cg-projects#reel-breakdown">
-              <p>breakdown</p>
-                        </a>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class = "reel-container">
-        <iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-      </iframe>
-      </div>
-      
-      <div class = "bottom-content">
-        <div class="bottom"></div>
-      </div>
-    </div>
+  <div class="page-section-2">
+        <div class="misc">
       <div class="buttons">
-        <!-- <div class="about">
-          <a class="button" href="rates.html#land" style="max-width: 40%; margin: auto;">
-            <p>HIRE</p>
-          </a> 
-        </div> -->
         <div class="about">
-          <a class="button" href="about.html#land" style="max-width: 40%; margin: auto; ">
+          <a class="button" href="/about">
             <p>ABOUT</p>
           </a> 
         </div>
       </div>
-    </div>
-
-  <div class="technical-blog" style="flex-basis: 40%; margin: 2%;">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-        <a href="technical-blog.html#land">
-          <p>BLOG</p>
-        </a>
-      </div>
-      <div class="section-right"></div>
-    </div>
-    <div class="blog-container">
-        <!-- <div class = "featured">
-          <div class = "featured-container">
-              {% for post in site.posts %}
-                {% if post.featured == "T" %}
-                  <div class="featured-post">
-                    <a href="{{ post.permalink }}#land">
-                      <div class="featured-post-labeled-image">
-                        <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                        <div class="text">
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>  
-                          <h2>{{ post.shortname}}</h2>
-                          <div class = "dummy"></div>
-                          <p>{{ post.date | date: "%B %-d %Y" }}</p>
-                        </div>
-                      </div>
-                    </a>
-                    <div class="featured-preview">
-                      <p>{{ post.excerpt|lstrip }}</p>
-                    </div>
-                  </div>
-                {% endif %}
-              {% endfor %}
-          </div>
-        </div> -->
-        <div class="regular">
-        <div class = "flex-container">
-          {% for post in site.posts %}
-            {% if post.featured == "F" %}
-              {% if post.type == "blog" %}
-                <div class="regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                        <div class = "text">  
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>  
-                          <h3 >{{ post.shortname }}</h3>
-                          <div class = "dummy"></div>
-                          <h1>{{ post.date | date: "%B %-d %Y" }}</h1>
-                        </div>
-                    </div>
-                  </a>
-                  <div class="preview">
-                    <p>{{ post.excerpt }}</p> 
-                  </div>
-                </div>
-              {% endif %} 
-            {% endif %}
-          {% endfor %}
-          {% assign remainder = site.posts.size | modulo: 2 %}
-          {% if remainder != 0 %}
-          <div class="regular-holder-dummy">
-              <div class='regular-labeled-image'>
-                <img src="/img/dummy.png" />
-              </div>
-          </div>
-          {% endif %}
-        </div>
-        </div>
-    </div>
-
-
-    <div class = "bottom-content">
-      <div class="bottom"></div>
-    </div>
-  </div>
-
-  <!-- <div class="page-section-2">
-        <div class="misc">
       <div class="buttons">
         <div class="about">
-          <a class="button" href="shop.html#art">
-            <p>SHOP</p>
+          <a class="button" href="/rates" id="reel">
+            <p>TECHNICAL</p>
           </a> 
         </div>
       </div>
     </div>
-  </div> -->
-
-
-</div>
-</div>
+  </div>
 </div>
 {% include footer.html %}
