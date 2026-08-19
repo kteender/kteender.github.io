@@ -20,5 +20,6 @@ dimensions: "4 inch x 6 inch"
 listing-dir: "/assets/shop/strange_pills_greeting_cards/"
 listing-images: "cover_image.jpg,listing02.jpg,listing03.jpg,listing04.jpg,listing01.jpg"
 status: available
+sitemap: false
 ---
 Risograph printed greeting cards. Pack of three. Each card comes with a black envelope. Abstractions on the cards are prints of concept art from the next animated short film!

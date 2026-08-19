@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/cash_register_prop/"
 listing-images: "cover_image.jpg"
 frame-images: "frame01.jpg,frame02.jpg"
 status: sold
+sitemap: false
 ---
 Prop drawing used in Juice Drop. Original drawing! Only one in existence.

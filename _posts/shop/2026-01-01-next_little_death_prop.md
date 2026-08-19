@@ -21,5 +21,6 @@ dimensions: "8 inch x 12 inch"
 listing-dir: "/assets/shop/next_little_death_prop/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existance. Comes with handwritten note about drawing's use in production and sketch the drawing was based on.

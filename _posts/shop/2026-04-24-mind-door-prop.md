@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/mind_door_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,listing04.jpg"
 frame-images: "frame01.jpg,frame02.jpg"
 status: sold
+sitemap: false
 ---
 The door to the squeeze chamber in Juice Drop. Comes with handwritten note about drawing's use in production and a sketch. Original drawing! Only one in existence.

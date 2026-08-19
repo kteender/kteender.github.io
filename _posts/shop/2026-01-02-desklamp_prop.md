@@ -21,5 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/desklamp_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,listing04.jpg"
 status: sold
+sitemap: false
 ---
 Original prop from Bugmuthur's Repository. Original drawing, only one in existance. Comes with handwritten note about drawing's use in production and sketch the drawing was based on.

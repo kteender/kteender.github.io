@@ -24,5 +24,6 @@ show-message: "T"
 message: "Fly, my pretties! Fly!"
 message-r: "T"
 status: sold
+sitemap: false
 ---
 Original prop from Bugmuthur's Repository. Original drawing, only one in existance. Comes with handwritten note about drawing's use in production and sketch the drawing was based on.

@@ -21,5 +21,6 @@ dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/walkoff_concept/"
 listing-images: "cover_image.jpg,listing01.jpg"
 status: sold
+sitemap: false
 ---
 Worksite walkoff depicted in Sewer Issue pamphlet.

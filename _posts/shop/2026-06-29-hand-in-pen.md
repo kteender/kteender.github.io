@@ -21,5 +21,6 @@ dimensions: "4 inch x 6 inch"
 listing-dir: "/assets/shop/hand_in_pen/"
 listing-images: "listing02.jpg,cover_image.jpg,listing01.jpg,"
 status: sold
+sitemap: false
 ---
 Hand sketch. The original drawing for the palmistry prints. Drawn by a professional palm reader.

@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/sideshow_tent_background/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg,frame02.jpg,frame03.jpg"
 status: sold
+sitemap: false
 ---
 The exterior of Bugmuthur's Repository. Original drawing! Only one in existence. Comes with sketch drawing was based on and handwritten note about drawing's inspiration.

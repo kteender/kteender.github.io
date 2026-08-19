@@ -24,5 +24,6 @@ show-message: T
 message: If I only had a Heart Rose Drawing!
 message-r: T
 status: sold
+sitemap: false
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence!

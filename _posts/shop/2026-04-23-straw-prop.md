@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/straw_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame02.jpg,frame01.jpg"
 status: sold
+sitemap: false
 ---
 Prop drawing used in Juice Drop. Original drawing! Only one in existence.

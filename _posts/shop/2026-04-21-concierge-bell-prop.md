@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/concierge_bell_prop/"
 listing-images: "listing01.jpg"
 frame-images: ""
 status: sold
+sitemap: false
 ---
 Original drawing! Originally drawn for use when the customer summons the shopkeeper, but was not used in the final animation -- this image is its only form. 

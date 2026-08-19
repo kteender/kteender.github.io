@@ -24,5 +24,6 @@ show-message: T
 message: My! Look at all those BRICKS!
 message-r: T
 status: sold
+sitemap: false
 ---
 Original background used in SEWER ISSUE. Only one in existence. Straight-on variant of Grandmother Drainpipe's sewer. Comes with handwritten note about drawing's use in production.

@@ -24,5 +24,6 @@ show-message: T
 message: There's no place like a home!
 message-r: T
 status: sold
+sitemap: false
 ---
 Original background used in SEWER ISSUE. Only one in existence. Grandmother Drainpipe's home. Comes with handwritten note about drawing's use in production and sketch drawing was based on.

@@ -21,5 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/shop_concept/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 status: sold
+sitemap: false
 ---
 Concept art for Juice Drop shop interior. Original drawing!

@@ -21,5 +21,6 @@ dimensions: "8 inch x 8 inch"
 listing-dir: "/assets/shop/strange_pill_no_4_concept/"
 listing-images: "cover_image.jpg,listing01.jpg,listing02.jpg"
 status: available
+sitemap: false
 ---
 Concept art for next short film. Original drawing!

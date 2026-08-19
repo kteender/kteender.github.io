@@ -21,5 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/bow_and_arrow_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,listing04.jpg"
 status: sold
+sitemap: false
 ---
 Original prop used in SEWER ISSUE. Original drawing, only one in existence. Comes with handwritten note about drawing's use in production (sneak peek: "Texas Switch") and the sketch drawing was based on. The arrowhead is the stamp of the city prefect, the fletching is Bugmuthur's icon, and the bow is the sewer.

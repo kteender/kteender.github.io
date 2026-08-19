@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/intercom_prop/"
 listing-images: "listing01.jpg,listing02.jpg"
 frame-images: "frame01.jpg"
 status: sold
+sitemap: false
 ---
 The intercom the cashier uses to communicate with the customer in Juice Drop. Original drawing! Only one in existence.

@@ -20,5 +20,6 @@ dimensions: "1.5 inch x 3.5 inch"
 listing-dir: "/assets/shop/bugmuthur_clear_sticker/"
 listing-images: "listing01.jpg"
 status: in stock
+sitemap: false
 ---
 Printed on clear sticker paper. Bugmuthur's digital form in special Christmas attire.

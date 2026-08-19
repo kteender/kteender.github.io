@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/dance_chamber_background/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg,frame02.jpg"
 status: sold
+sitemap: false
 ---
 Background used in Juice Drop. Original drawing! Comes with a sketch that the drawing was based on. Only one in existence.

@@ -21,5 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/sewer_inside_background/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Original background used in SEWER ISSUE. Only one in existence. Grandmother Drainpipe's sewer from her point-of-view. Comes with handwritten note about drawing's use in production and sketch drawing was based on.

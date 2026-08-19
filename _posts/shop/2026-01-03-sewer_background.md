@@ -21,5 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/sewer_background/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg,listing03.jpg,listing04.jpg,listing05.jpg"
 status: sold
+sitemap: false
 ---
 Original background used in SEWER ISSUE. Only one in existence. 3/4 variant of Grandmother Drainpipe's sewer. The most often used background in the animation. Comes with handwritten note about drawing's use in production.

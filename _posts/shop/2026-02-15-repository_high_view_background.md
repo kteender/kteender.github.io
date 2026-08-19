@@ -24,5 +24,6 @@ show-message: T
 message: This is where I keep my big green face.
 message-r: T
 status: sold
+sitemap: false
 ---
 Original background, very rarely shown in full-view. Used extensively as texture in composites. Only one in existence. Comes with handwritten note about drawing's use in production.

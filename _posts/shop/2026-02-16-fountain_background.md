@@ -21,5 +21,6 @@ dimensions: "8 inch x 12 inch"
 listing-dir: "/assets/shop/fountain_background/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Background for the cupid drainbaby and puer mingens drainbaby. Only one in existence. 

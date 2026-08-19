@@ -21,5 +21,6 @@ dimensions: "9 inch x 24 inch (Two 9x12 drawings)"
 listing-dir: "/assets/shop/town_square_background/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,listing04.jpg,listing05.jpg,listing06.jpg,listing07.jpg"
 status: sold
+sitemap: false
 ---
 Original background used in SEWER ISSUE. Only one in existence. Two-panel background consisting of two 9x12 drawings. Main background in middle section of short

@@ -25,5 +25,6 @@ show-message: "T"
 message: "'The dirt path turned into a brick road and then a marble boulevard. And at the end of the boulevard was...'"
 message-r: "T"
 status: sold
+sitemap: false
 ---
 Original background. Only one in existence. Comes with handwritten note about drawing's use in production and the sketch drawing was based on.

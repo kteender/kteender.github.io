@@ -21,5 +21,6 @@ dimensions: "6 inch x 8 inch"
 listing-dir: "/assets/shop/juice_box_concept/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 status: sold
+sitemap: false
 ---
 Concept exploration for the juicebox in Juice Drop. Original drawing!

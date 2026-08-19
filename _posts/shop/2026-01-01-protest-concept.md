@@ -21,5 +21,6 @@ dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/protest_concept/"
 listing-images: "cover_image.jpg,listing01.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Picket depcited in Sewer Issue pamphlet.

@@ -21,5 +21,6 @@ dimensions: "5 inch x 5 inch"
 listing-dir: "/assets/shop/sewer_bricked_concept/"
 listing-images: "cover_image.jpg,listing01.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Sewer bricked up, depcited on last page of Sewer Issue pamphlet. Not in Bugmuthur's Sewer Issue though!

@@ -21,5 +21,6 @@ dimensions: "8 inch x 12 inch"
 listing-dir: "/assets/shop/streetlamp_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg,cover_image.jpg"
 status: sold
+sitemap: false
 ---
 Original prop NOT USED in SEWER ISSUE. Drawn for the short, but does not appear. Only drawing I made that I did not end up using. This drawing is its only form!

@@ -20,5 +20,6 @@ dimensions: "2.5 inch x 3 inch"
 listing-dir: "/assets/shop/cupid_holo_sticker/"
 listing-images: "listing01.jpg"
 status: in stock
+sitemap: false
 ---
 Printed on holographic sticker paper. The cupid drainbaby from SEWER ISSUE.

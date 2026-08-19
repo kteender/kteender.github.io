@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/shopkeeper_bell_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg"
 status: sold
+sitemap: false
 ---
 Bell that summons the juice purveyor! Original drawing! Only one in existence. Comes with sketch the drawing is based on. Please note non-standard artwork size.

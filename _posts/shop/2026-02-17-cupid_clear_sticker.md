@@ -20,5 +20,6 @@ dimensions: "2 inch x 3 inch"
 listing-dir: "/assets/shop/cupid_clear_sticker/"
 listing-images: "listing01.jpg"
 status: in stock
+sitemap: false
 ---
 Printed on clear sticker paper. The cupid drainbaby from SEWER ISSUE.

@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/abstract_juice_background/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg,frame02.jpg"
 status: sold
+sitemap: false
 ---
 Abstractions used in compositing in Juice Drop. Comes with handwritten note about abstraction in animation. Original drawing! Only one in existence.

@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/microphone_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 frame-images: "frame01.jpg"
 status: sold
+sitemap: false
 ---
 Micorphone used by cashier to speak via intercom. Original drawing! Only one in existence. Comes with sketch the drawing is based on. Please note non-standard artwork size.

@@ -24,5 +24,6 @@ show-message: T
 message: Attractive to the eye! Soothing to the smell!
 message-r: T
 status: sold
+sitemap: false
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence!

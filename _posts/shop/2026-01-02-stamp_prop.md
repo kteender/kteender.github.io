@@ -22,5 +22,6 @@ listing-dir: "/assets/shop/stamp_prop/"
 listing-images: "listing01.jpg,listing02.jpg"
 frame-images: "frame02.jpg"
 status: sold
+sitemap: false
 ---
 Original prop used in Sewer Issue. Original drawing, only one in existence. Please note non-standard artwork size.

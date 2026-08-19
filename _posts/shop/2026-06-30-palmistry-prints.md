@@ -22,5 +22,6 @@ listing-images: "cover_image.jpg,listing08.jpg,listing02.jpg,listing03.jpg,listi
 custom1-name: "Color option"
 custom1-options: "Blue/Pink|Blue/Lilac|Blue/Brown|Black/Cream|Blue/Cream|Blue/White"
 status: available
+sitemap: false
 ---
 Risograph print. Multiple color options available -- you will be able to select the color option in the cart. Hit 'Add to Cart' then select from the dropdown.

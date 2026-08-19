@@ -21,5 +21,6 @@ dimensions: "5 inch x 7 inch"
 listing-dir: "/assets/shop/dead_heart_rose_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 status: sold
+sitemap: false
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence!

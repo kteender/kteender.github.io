@@ -22,5 +22,6 @@ dimensions: "8 inch x 10 inch"
 listing-dir: "/assets/shop/cashier_green_concept/"
 listing-images: "listing01.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Concept art for Juice Drop cashier. 

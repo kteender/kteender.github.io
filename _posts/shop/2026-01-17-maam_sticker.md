@@ -20,5 +20,6 @@ dimensions: "4 inch x 3.25 inch"
 listing-dir: "/assets/shop/maam_sticker/"
 listing-images: "listing01.jpg"
 status: in stock
+sitemap: false
 ---
 Printed on matte sticker paper. 

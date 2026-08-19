@@ -21,5 +21,6 @@ dimensions: "8 inch x 10 inch"
 listing-dir: "/assets/shop/strikes_twelve_prop/"
 listing-images: "listing01.jpg,listing02.jpg,listing03.jpg"
 status: retained
+sitemap: false
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence!

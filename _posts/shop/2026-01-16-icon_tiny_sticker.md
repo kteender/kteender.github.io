@@ -20,5 +20,6 @@ dimensions: "1 inch x 1 inch"
 listing-dir: "/assets/shop/icon_tiny_sticker/"
 listing-images: "cover_image.jpg"
 status: in stock
+sitemap: false
 ---
 Printed on matte sticker paper. Must-have for all buglets.

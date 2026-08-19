@@ -21,5 +21,6 @@ dimensions: "9 inch x 12 inch"
 listing-dir: "/assets/shop/voice_prop/"
 listing-images: "listing01.jpg,cover_image.jpg,listing02.jpg"
 status: sold
+sitemap: false
 ---
 Original prop used in Christmas Rose. Original drawing, only one in existence!

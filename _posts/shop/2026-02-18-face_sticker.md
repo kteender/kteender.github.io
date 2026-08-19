@@ -20,5 +20,6 @@ dimensions: "2 inch x 2 inch"
 listing-dir: "/assets/shop/face_sticker/"
 listing-images: "listing01.jpg"
 status: in stock
+sitemap: false
 ---
 Printed on matte sticker paper. A sticker of Bugmuthur's face. Stay fused!
