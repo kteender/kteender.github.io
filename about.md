@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: ABOUT
 description: I'm a CG technical director and artist in Los Angeles. 
 permalink: about
 type: about
