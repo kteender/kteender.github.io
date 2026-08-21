@@ -7,14 +7,9 @@ permalink: skills
 ---
 <div id="land"></div>
 
-<!-- # SKILLS -->
 
-<!-- ## Fortune Teller 
+For high-tech palm readings visit my <a href="/booking#land">booking page.</a>
 
-<!-- Here for high-tech palm readings? Visit my <a href="/booking#land">booking page!</a> -->
-
-<!-- <div id="tech"></div> -->
-<!-- ## Technical Expertise -->
 I specialize in <a href="/technical-blog#land">animation tool development</a>. I am a skilled user of the following packages:
 - Maya (UI + API)
 - Motionbuilder (UI + API)
