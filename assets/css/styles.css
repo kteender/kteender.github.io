@@ -591,6 +591,18 @@
   background-size: 2.5em; */
 }
 
+.section-right-caption:hover {
+  background-color: lime;
+  /* border-width: 8px;
+  border-style: double;
+  border-color: black; */
+  outline-offset: -2px;
+  outline-width: 2px;
+  outline-style: double;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
 .section-right-caption p{
   font-family: 'Tourney', Helvetica, monospace;
   font-size: 1.2em;
