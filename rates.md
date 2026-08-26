@@ -17,6 +17,7 @@ I specialize in <a href="/technical-blog#land">animation tool development</a>. I
 - TouchDesigner (UI + API)
 - Shotgrid (UI + API)
 - Photoshop (UI)
+- Illustrator (UI)
 - Premiere Pro (UI)
 - After Effects (UI + expressions)
 - Unity3D (UI)
