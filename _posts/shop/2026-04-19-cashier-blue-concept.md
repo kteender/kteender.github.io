@@ -5,9 +5,7 @@ layout: listing
 id: "cashier-blue-concept"
 tags: 
   - "drawing"
-  - "concept"
   - "juice-drop"
-  - "sketch"
 cover-image: "/assets/shop/cashier_blue_concept/cover_image.jpg"
 type: concept
 sold-out: "True"

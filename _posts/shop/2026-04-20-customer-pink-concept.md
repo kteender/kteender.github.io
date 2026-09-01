@@ -5,9 +5,7 @@ layout: listing
 id: "customer-pink-concept"
 tags: 
   - "drawing"
-  - "concept"
   - "juice-drop"
-  - "sketch"
 cover-image: "/assets/shop/customer_pink_concept/cover_image.jpg"
 type: concept
 sold-out: "True"

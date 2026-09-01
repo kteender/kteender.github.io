@@ -8,7 +8,7 @@ tags:
   - "concept"
   - "strange-pills"
   - "sketch"
-cover-image: "/assets/shop/strange_pill_no_3_concept/cover_image.jpg"
+cover-image: "/assets/shop/strange_pill_no_3_concept/listing01.jpg"
 type: concept
 sold-out: "True"
 uri: "/shop/strange-pill-no-3-concept.html"
