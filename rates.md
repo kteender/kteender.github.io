@@ -6,10 +6,9 @@ layout: hire
 permalink: skills
 ---
 <div id="land"></div>
+Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
 
-
-For high-tech palm readings visit my <a href="/booking#land">booking page.</a>
-
+## Technical
 I specialize in <a href="/technical-blog#land">animation tool development</a>. I am a skilled user of the following packages:
 - Maya (UI + API)
 - Motionbuilder (UI + API)
@@ -28,6 +27,7 @@ I code using Python, HTML/CSS, and git.
 
 I have professional experience as a team member in virtual production and game engine pipelines.
 
+## Art
 <div id="art"></div>
 <a href="/shop#juice-drop">Artwork</a> commissions start at $295. <a href="/cg-projects#reels">Animation</a> commissions start at $540. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some different types of animation I do, at varying complexity levels:
 - <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>
@@ -35,7 +35,8 @@ I have professional experience as a team member in virtual production and game e
 - <a href="https://youtu.be/Se0dHhJN5Q4">dialogue animation</a>
 - <a href="https://youtu.be/Hr_6SxVXKus">action animation</a>
 
-Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>. 
+## Event Entertainment
+For high-tech palm readings visit my <a href="/booking#land">booking page</a>.
 
 <!-- Rates for <a href="/cg-projects#reels">animation:
 - Custom reusable cartoon body: $280, flat rate
