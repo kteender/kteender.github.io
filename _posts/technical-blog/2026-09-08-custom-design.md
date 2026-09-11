@@ -17,14 +17,15 @@ message: Indigo is the corporeal form!!
 ---
 I recently completed a design for a custom vehicle decal. I wrote this post to give an overview of my design process.
 
+**Brief**
+Client lives in an area where the roads get very slick in the winter. He wanted a way to tally up the number of vehicles he has rescued from the ditch. He wanted the tally to evoke a WWII-era fighter nose art.
+
 <!--break-->
 
 <div class='captioned-image'>
-    <img alt="a greyscale design" src='img/2026-09-08-decal-design/cover-big.jpg' style='max-width:50%;'>
+    <img alt="a greyscale design" src='img/2026-09-08-decal-design/packaging.jpg' style='max-width:max-content;'>
+    <p>Packaged decal ready to ship. You can see the tally icons for rescues. My client drives a pickup. The tally is based on my own hatchback vehicle.</p>
 </div>
-
-**Brief**
-Client lives in an area where the roads get very slick in the winter. He wanted a way to tally up the number of vehicles he has rescued from the ditch. He wanted the tally to evoke a WWII-era fighter nose art.
 
 **Concept**
 After reviewing a lot of WWII-era fighter plane nose art, I noticed that the planes tended to have a catchy name. I came up with 'Tow Angel', a play on 'snow angel that fit the winter theme of this project. Iperformed concept exploration on lightboard in greyscale. 
@@ -64,9 +65,9 @@ For this project, I handled finding a print vendor as well. I converted the grap
 
 I then picked up the printed decals and mailed them to the client.
 <div class='captioned-image'>
-    <img alt="a greyscale design" src='img/2026-09-08-decal-design/packaging.jpg' style='max-width:max-content;'>
+    <img alt="a greyscale design" src='img/2026-09-08-decal-design/cover-big.jpg' style='max-width:50%;'>
+    <p>The final design</p>
 </div>
-
 **Conclusion**
 This was a fun project with a lot of creative flexibility that allowed me to flex many of my professional skills -- creative ideation, hand-drawn artwork, vectorization, and multi-party communication. If you would like a graphic design estimate, email me at <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
 
