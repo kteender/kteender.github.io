@@ -8,26 +8,26 @@ permalink: skills
 <div id="land"></div>
 Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
 
-## Technical
-I specialize in <a href="/technical-blog#land">animation tool development</a>. I am a skilled user of the following packages:
-- Maya (UI + API)
-- Motionbuilder (UI + API)
-- Blender (UI + API)
-- TouchDesigner (UI + API)
+## Existing Pipelines
+I am immediately productive in the following packages:
+- Maya (expert-level UI + API)
+- Motionbuilder (expert-level UI + API)
 - Shotgrid (UI + API)
 - Photoshop (UI)
-- Illustrator (UI)
 - Premiere Pro (UI)
 - After Effects (UI + expressions)
+- Illustrator (UI)
+- TouchDesigner (UI + API)
+- Blender (UI + API)
 - Unity3D (UI)
 
 *(UI stands for User Interface, API stands for Application Programming Interface)*
 
-I code using Python, HTML/CSS, and git.
+I code using Python, HTML/CSS, and git. I specialize in <a href="/technical-blog#land">animation tool development</a>. 
 
 I have professional experience as a team member in virtual production and game engine pipelines.
 
-## Art
+## Commissions
 <div id="art"></div>
 <a href="/shop#juice-drop">Artwork</a> commissions start at $295. <a href="/cg-projects#reels">Animation</a> commissions start at $540. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some different types of animation I do, at varying complexity levels:
 - <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>
