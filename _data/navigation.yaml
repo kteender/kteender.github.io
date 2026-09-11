@@ -13,9 +13,9 @@
 - name: ANIMATION
   link: /sideshow.html
   permalink: /sideshow
-# - name: SHOP
-#   link: /shop.html
-#   permalink: /shop
+- name: HIRE
+  link: /skills.html
+  permalink: /skills
 # - name: RATES
 #   link: /pricing.html
 #   permalink: /pricing

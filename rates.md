@@ -8,6 +8,12 @@ permalink: skills
 <div id="land"></div>
 Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
 
+## Commissions
+<div id="art"></div>
+Art/design commissions start at $295. Animation commissions start at $540. 
+
+My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds.
+
 ## Existing Pipelines
 I am immediately productive in the following packages:
 - Maya (expert-level UI + API)
@@ -27,15 +33,7 @@ I code using Python, HTML/CSS, and git. I specialize in <a href="/technical-blog
 
 I have professional experience as a team member in virtual production and game engine pipelines.
 
-## Commissions
-<div id="art"></div>
-<a href="/shop#juice-drop">Artwork</a> commissions start at $295. <a href="/cg-projects#reels">Animation</a> commissions start at $540. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some different types of animation I do, at varying complexity levels:
-- <a href="https://youtube.com/shorts/ZnRyvwhpaTc">monologue animation</a>
-- <a href="https://youtu.be/bdLR8P7IjsE">vignette animation</a>
-- <a href="https://youtu.be/Se0dHhJN5Q4">dialogue animation</a>
-- <a href="https://youtu.be/Hr_6SxVXKus">action animation</a>
-
-## Event Entertainment
+## Bookings
 For high-tech palm readings visit my <a href="/booking#land">booking page</a>.
 
 <!-- Rates for <a href="/cg-projects#reels">animation:
