@@ -29,7 +29,7 @@ I am immediately productive in the following packages:
 
 *(UI stands for User Interface, API stands for Application Programming Interface)*
 
-I code using Python, HTML/CSS, and git. I specialize in pipeline scripting and animation tooldev. 
+I code using Python, HTML/CSS, and git. I specialize in animation pipeline scripting. 
 
 I have professional experience as a team member in virtual production and game engine pipelines.
 
