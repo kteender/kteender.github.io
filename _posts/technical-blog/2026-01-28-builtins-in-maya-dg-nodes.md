@@ -14,7 +14,7 @@ featured: F
 uri: "/2025/01/28/maya-node-getattr-setattr.html"
 description: A writeup of using the getattr and setattr builtin functions when creating custom Autodesk Maya nodes using Python.
 permalink: maya-node-getattr-setattr
-show-message: T
+show-message: F
 message: We're fused with the DAG at my cybernetic sideshow!
 ---
 The purpose of this post is to give Maya Python developers an example of using `getattr` and `setattr` to set class attributes when writing a custom <a href="https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_Dependency_graph_plug_ins_Attributes_html">dependency graph plugin</a>. This technique allows programmers to take advantage of Python language features with minimal changes to the standard Maya dependency graph node programming syntax laid out by Autodesk. This post includes:

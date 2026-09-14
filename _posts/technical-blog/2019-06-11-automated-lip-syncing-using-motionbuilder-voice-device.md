@@ -19,7 +19,7 @@ featured: F
 uri: "/2019/06/11/automated-lip-syncing-using-motionbuilder-voice-device.html"
 description:  MoBu's voice device is a powerful tool to quickly get lots of lip-sync animation if you are a little familiar with MoBu and pretty familiar with Maya.
 permalink: /2019/06/11/automated-lip-syncing-using-motionbuilder-voice-device/
-show-message: T
+show-message: F
 message: CYBERNETIC SIDESHOW! CYBERNETIC SIDESHOW! CYBERNETIC SIDESHOW!
 ---
 

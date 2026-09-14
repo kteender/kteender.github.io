@@ -19,7 +19,7 @@ featured: F
 uri: "/2023/06/03/site-breakdown.html"
 description: An overview of using Jekyll and Github pages to build a website
 permalink: using-jekyll-and-github-pages-to-create-a-custom-website
-show-message: T
+show-message: F
 message: I've really jazzed up this site with some ads for my SIDESHOW!
 ---
 

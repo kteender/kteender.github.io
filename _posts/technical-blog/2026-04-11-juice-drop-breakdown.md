@@ -14,7 +14,7 @@ featured: F
 uri: "/2025/04/11/juice-drop-breakdown.html"
 description: Pipeline breakdown for an animated music video
 permalink: juice-drop-breakdown
-show-message: T
+show-message: F
 message: Do you think computers are magic? Don't miss my cybernetic sideshow!!
 ---
 In this post, I will provide a general overview of my animation pipeline. This post uses production materials from <a href="cg-projects#juice-drop">*Juice Drop*</a>, a music video I recently animated. I used this same pipeline on <a href="cg-projects#sewer-issue">*Sewer Issue*</a>, my short last year. Watch the below video to see how I put together the opening 10 seconds of *Juice Drop*, and read the post for additional information!

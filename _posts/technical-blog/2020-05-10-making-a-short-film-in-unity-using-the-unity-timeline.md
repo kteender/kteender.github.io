@@ -10,7 +10,7 @@ featured: F
 uri: "/2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline.html"
 description: An overview of how I used Unity engine to create an animated short.
 permalink: /2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline/
-show-message: T
+show-message: F
 message: Do you see deus in the machina? Check out my cybernetic sideshow!
 ---
 Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. 
