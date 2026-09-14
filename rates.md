@@ -1,6 +1,6 @@
 ---
 layout: info
-title: KTCG.Art | Hiring Information
+title: Hiring Information | KTCG Art
 description: A hiring page for an animator
 layout: hire
 permalink: skills
