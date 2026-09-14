@@ -16,7 +16,7 @@ permalink: /2026/09/14/thermal-printer/
 show-message: F
 message: Want to see just how high-tech I get? Check out my sideshow!
 ---
-At the end of a high-tech palm reading, I give the sitter a souvenir printouts. The printout has a black-and-white image of their hand with the live visuals overlaid. I accumulate these printouts from reading palms all over the place -- art walks, nightclubs, corporate events, house parties, and more! This post details some technical information about the printouts.
+At the end of a high-tech palm reading, I give the sitter a souvenir printout. The printout has a black-and-white image of their hand with the live visuals overlaid. I accumulate these printouts from reading palms all over the place -- art walks, nightclubs, corporate events, house parties, and more! This post details some technical information about the printouts.
 
 <!--break-->
 
@@ -45,7 +45,7 @@ My printer has drivers for MacOS and Windows, but not Raspbian, which is a fork 
     <p>My printer and my Raspberry Pi 5</p>
 </div>
 
-I use a virtual environment for all of my high-tech palm reader code. It was very simple to install usb and escpos with pip3. To locate my printer, I use the **escpos.Usb** class. Instantiating a Usb object requires the following information
+I use a virtual environment for all of my high-tech palm reader code. It was very simple to install usb and escpos libraries with pip3. To locate my printer, I use the **escpos.Usb** class. Instantiating a Usb object requires the following information
 - Vendor ID
 - Product ID
 - Out endpoint
@@ -57,7 +57,7 @@ The vendor and product ID can be found using <a href="https://linux.die.net/man/
 
 The vendor and product ID are **0x0416** and **0x5011** respectively.
 
-To find an out endpoint, I ran lsusb again, this time in verbose mode with the optional flag -v. I looked for my device, and then **Device Descriptor > Configuration Descriptor > Interface Descriptor > Endpoint Descriptor > bEndpointAddress**. I saw that the endpoint was 0x01. I should note that the endpoints actually differ between my two printers. The other one is 0x03. I labeled each so that if I ever have to hot-swap, I know what endpoint to change in my code.
+To find an out endpoint, I ran lsusb again, this time in verbose mode with the optional flag -v. I looked for my device, and then **Device Descriptor > Configuration Descriptor > Interface Descriptor > Endpoint Descriptor > bEndpointAddress**. I saw that the endpoint was 0x01. I should note that the endpoints actually differ between my two printers. The other one is 0x03. I labeled each so that if I ever have to hot-swap at an event, I know what endpoint to change in my code.
 
 <div class='captioned-image'>
     <img alt="NetumScan 8360 USB 80mm Thermal Receipt Printer and Raspberry Pi 5" src='/img/2026-09-14-thermal-printer/labeled_printers.jpg' style='max-width:max-content;'>
