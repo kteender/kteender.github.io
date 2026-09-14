@@ -16,7 +16,7 @@ permalink: /2026/09/14/thermal-printer/
 show-message: T
 message: Want to see just how high-tech I get? Check out my sideshow!
 ---
-At the end of a high-tech palm reading, I give the sitter a souvenir printouts. The printout has an image of the live visualizer. I accumulate these printouts from reading palms all over the place -- warehouse raves, corporate events, house parties, and nightclubs! This post details some technical information about the printouts.
+At the end of a high-tech palm reading, I give the sitter a souvenir printouts. The printout has a black-and-white image of their hand with live visualizers overlaid. I accumulate these printouts from reading palms all over the place -- warehouse raves, corporate events, house parties, and nightclubs! This post details some technical information about the printouts.
 
 <!--break-->
 
