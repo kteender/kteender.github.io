@@ -11,10 +11,10 @@ show-date: T
 type: blog
 featured: F
 uri: "/2026/09/14/thermal-printer.html"
-description:  MoBu's voice device is a powerful tool to quickly get lots of lip-sync animation if you are a little familiar with MoBu and pretty familiar with Maya.
+description:  Using Python, Usb, ESCPOS to control a NetumScan receipt printer from a raspberry Pi.
 permalink: /2026/09/14/thermal-printer/
-show-message: F
-message: CYBERNETIC SIDESHOW! CYBERNETIC SIDESHOW! CYBERNETIC SIDESHOW!
+show-message: T
+message: Want to see just how high-tech I get? Check out my sideshow!
 ---
 At the end of a high-tech palm reading, I give the sitter a souvenir printouts. The printout has an image of the live visualizer. I accumulate these printouts from reading palms all over the place -- warehouse raves, corporate events, house parties, and nightclubs! This post details some technical information about the printouts.
 
