@@ -13,7 +13,11 @@ permalink: /2020/05/10/making-a-short-film-in-unity-using-the-unity-timeline/
 show-message: T
 message: Do you see deus in the machina? Check out my cybernetic sideshow!
 ---
-Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow. There's also a link to the completed film and the Unity packages I used at various points in the pipeline.
+Hello! I recently completed production on 8-minute 3D animated short, which I made using Unity. In this post, I'll be breaking down my workflow, from character modeling to final render. I'll also be evaluating the merits and limitations of using Unity in this way. 
+
+<!--break-->
+
+This is probably going to be a chonky post, so below is my list of content, so you can scroll to whichever section interests you, or read the whole thing if you want to get a picture of the overall workflow. There's also a link to the completed film and the Unity packages I used at various points in the pipeline.
 
 1. Pre-Unity work
 2. Importing Assets
@@ -29,8 +33,6 @@ Hello! I recently completed production on 8-minute 3D animated short, which I ma
 Packages Used: Unity Recorder, Unity Timeline, Post-Processing v2, Cinemachine, [Toon Standard](https://github.com/Flafla2/Toon-Standard), [Post-Processing Utilities](https://github.com/keijiro/PostProcessingUtilities)
 
 Software Used (visuals): Maya, Motionbuilder, Photoshop, After Effects, Premiere Pro, Unity
-
-<!--break-->
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/412594397?h=cd22fa78ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Youth Group 4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -274,7 +276,7 @@ I found that Unity's renderer produces a lot more visual artifacts than, for exa
 
 My goal with this project was to use a more iterative approach to creating 3D animation for students and independent artists. I feel that, unless you have access to a render farm, the "traditional" way of making 3D animation is incredibly restrictive. I hated biting my fingernails, waiting for renders, and I hated not having time to revise a shot because I couldn't afford to render it again. For this project, in particular, having a dynamic camera was really important, and those camera movements require a lot of revision. I obviously still could do movements like that in Maya, but it's hard to figure out if a shot is working unless you see the final render.
 
-Furthermore, I noticed that a lot of 3D animations, particularly student 3D animations, tend to look very same-ey. I think this comes from popular design choices (see: sausage mouth), but also from a standardization of our techniques and of the aesthetics we deem impressive. In a super commercialized art form, both the techniques and the aesthetics are set by the big studios (Pixar, Disney, Dreamworks). I'm not trying to shit on this aesthetic or the people who use it but I think students and independents trying to emulate the work and workflows of a multi-million dollar company with dozens of artists working on each shot creates a lot of short films that look like bad Pixar, instead of good something-else. And I think it creates a lot of unnecessary stress for people who spend 30 minutes/frame rendering because they feel like their cartoon character's skin needs subsurface scattering in order for their film to be taken seriously.
+Furthermore, I noticed that a lot of 3D animations, particularly student 3D animations, tend to look very same-ey. I think this comes from popular design choices and a standardization of our techniques and of the aesthetics we deem impressive. In a super commercialized art form, both the techniques and the aesthetics are set by the big studios (Pixar, Disney, Dreamworks). I think students and independents trying to emulate the work and workflows of a multi-million dollar company with dozens of artists working on each shot creates a lot of short films that look like bad Pixar, instead of good something-else. And I think it creates a lot of unnecessary stress for people who spend 30 minutes/frame rendering because they feel like their cartoon character's skin needs subsurface scattering in order for their film to be taken seriously.
 
 Also, I'm in no way an expert in computer graphics, but from what I can tell, real-time rendering is the direction in which the animation industry is moving. We're just now getting real-time path-tracing in game engines, and Unity's Timeline tool is only a couple years old. I know I'm not the first person to make an animation like this, and I think, in the future, we're going too see more films made with workflows like this one.
 

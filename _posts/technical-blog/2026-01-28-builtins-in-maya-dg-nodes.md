@@ -1,6 +1,6 @@
 ---
-title: "KTCG.ART | Modifying standard Maya dependency graph node programming syntax to use getattr and setattr Builtins"
-shortname: "getattr, settattr, and compound attributes in  Maya dependency graph nodes"
+title: "KTCG.ART | Modifying Standard Maya Dependency Graph Node Programming Syntax to use getattr and setattr Builtins"
+shortname: "getattr, settattr, and Compound Attributes in  Maya Dependency Graph Nodes"
 date: "2026-01-28"
 tags: 
   - "maya"
@@ -23,8 +23,9 @@ The purpose of this post is to give Maya Python developers an example of using `
 - A node development test loop
 - Start-to-finish walkthrough of setting up and testing a node, with completed code
 
-I use this technique in several nodes that are part of my custom animation pipeline. In my pipeline, the node attribute names are defined by an external configuration. Taking advantage of the builtins allows easier implementation of object-oriented programming patterns. For instance, you could pass node classes to a builder method. Finally, using the builtins with a compound attribute allows a low-impact solution to creating attributes with unknown names. 
 <!--break-->
+
+I use this technique in several nodes that are part of my custom animation pipeline. In my pipeline, the node attribute names are defined by an external configuration. Taking advantage of the builtins allows easier implementation of object-oriented programming patterns. For instance, you could pass node classes to a builder method. Finally, using the builtins with a compound attribute allows a low-impact solution to creating attributes with unknown names. 
 
 **GOAL**: I will replicate my animation pipeline's use case with a simple example node that
 - Has a compound attribute with five children attributes

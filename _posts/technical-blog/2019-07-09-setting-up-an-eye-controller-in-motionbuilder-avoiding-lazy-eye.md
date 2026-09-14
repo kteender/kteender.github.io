@@ -25,11 +25,11 @@ permalink: /2019/07/08/setting-up-an-eye-controller-in-motionbuilder-avoiding-la
 
 An eye controller that allows you to manipulate the character's look-at point is a bog-standard feature of any rig:
 
-If I'm just doing one or two shots, I'll do my body/face mocap re-targeting in Motionbuilder, bake it, send it to Maya, and set up my eye controller in Maya. However, for work recently, I was re-targeting a huge number of shots to the same rig, and I didn't want to have to set up an eye control for every single shot. (Also doing all the animation in MoBu and then just the eyes in Maya mars an otherwise beautifully flowing pipeline. Yick).
-
-So, I decided to make an eye controller in the characterization file so that every re-target would have the eye controller on the rig. (Side note: by "characterization file," I mean the file with the character in a t-pose, with the skeleton defined, the floor defined (if applicable), character extensions added, etc -- basically, the file that is all ready for mocap).
+If I'm just doing one or two shots, I'll do my body/face mocap re-targeting in Motionbuilder, bake it, send it to Maya, and set up my eye controller in Maya. However, for work recently, I was re-targeting a huge number of shots to the same rig, and I didn't want to have to set up an eye control for every single shot.
 
 <!--break-->
+
+So, I decided to make an eye controller in the characterization file so that every re-target would have the eye controller on the rig. (Side note: by "characterization file," I mean the file with the character in a t-pose, with the skeleton defined, the floor defined (if applicable), character extensions added, etc -- basically, the file that is all ready for mocap).
 
 In this post, I'm going to go through two different methods for making an eye controller in Motionbuilder -- aim constraints and chain IKs -- and discuss which one I prefer and why. I wanted to make this post because the Internet abounds with various Maya tutorials, and often, I find myself extending techniques from Maya into Motionbuilder. However, this is an instance where the typical Maya way of doing things _does not_ work well, and there's a better method for Motionbuilder.
 

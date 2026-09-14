@@ -26,9 +26,9 @@ permalink: /2021/04/18/incorporating-motion-capture-into-a-short-film-workflow/
 </html>
 Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">that covers the Unity workflow itself</a>, and watch the film itself <a href="/animations.html/#youth-group-4">on my animations page</a>.
 
-**Purpose**: This post is designed for students or independent artists considering using motion capture for animated filmmaking, and would like an example of how I approached the process. For the sake of length, I will not be going into tutorial-level detail on the different MotionBuilder/Maya tools referred to, but I will post link to technical information as it comes up, and you can always leave questions in the comments section.
-
 <!--break-->
+
+**Purpose**: This post is designed for students or independent artists considering using motion capture for animated filmmaking, and would like an example of how I approached the process. For the sake of length, I will not be going into tutorial-level detail on the different MotionBuilder/Maya tools referred to, but I will post link to technical information as it comes up, and you can always leave questions in the comments section.
 
 <div class="captioned-image">
     <video controls autoplay loop muted preload="none">

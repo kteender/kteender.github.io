@@ -25,9 +25,9 @@ message: I've really jazzed up this site with some ads for my SIDESHOW!
 
 This is the first post I've made since I moved my portfolio and blog over to ktcg.art, so I thought it would be fun to make a post about that entire process. It's a litte outside the tech art scope of my site. But, I can imagine other artist-developers being curious about how they can make a site like this themselves. This site is hosted on GitHub pages and built by Jekyll.
 
-I won't go into tutorial-level detail about how to do everything. The idea of this post is to give someone new to web-development a holistic picture of how they could put a site like mine together. 
-
 <!--break-->
+
+I won't go into tutorial-level detail about how to do everything. The idea of this post is to give someone new to web-development a holistic picture of how they could put a site like mine together. 
 
 **Should I Do It?**: Building a site yourself (instead of using a drag-and-drop website builder like SquareSpace) is a pretty big project. It's not *super hard* but it is time-consuming, especially if you're new to web-development. I wouldn't recommend it unless you have good reasons. Here were mine, in order of importance:
 - My old setup was an Adobe Portfolio site and a Wordpress blog that linked back-and-forth to each other. It was clunky and not-visually unified. I needed to consolodate those two sites. Which brings me to my next reason...
