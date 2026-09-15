@@ -38,13 +38,13 @@
 
 .presents-text {
   padding: 1%;
-  font-family: Archivo Black, Helvetica, monospace;
+  font-family: Tourney, Helvetica, monospace;
   font-size: 1.2em;
   background-color: black;
-  color: #444244;
+  color: #ccc9cc;
   text-decoration: underline;
   text-decoration-style: double;
-  text-decoration-color: #333233;
+  text-decoration-color: #696669;
 }
 
  @media screen and (max-width: 600px) {
