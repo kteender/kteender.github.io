@@ -1,6 +1,6 @@
 ---
 title: "KTCG.ART | Using Python to Do Thermal Printer Printouts"
-shortname: "Fortune Printouts with Python"
+shortname: "Fortune Printouts with Python and ESC/POS"
 date: "2026-09-14"
 tags: 
   - "thermal-printer"
