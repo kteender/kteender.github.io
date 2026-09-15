@@ -6,14 +6,6 @@ layout: hire
 permalink: skills
 ---
 <div id="land"></div>
-I have professional experience as a team member in virtual production and game engine pipelines. I specialize in animation pipeline scripting. Many of the shots in my reel were created using my own custom Maya plugins.
-
-<div>
-<iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="margin: auto;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-</iframe>
-<p style="text-align:center"><a href="cg-projects#reel-breakdown">reel breakdown</a></p>
-</div>
-
 I am immediately productive in the following packages:
 - **Maya** (expert-level UI + API), **Blender** (UI + API)
 - **Motionbuilder** (expert-level UI + API)
