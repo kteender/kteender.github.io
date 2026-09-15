@@ -4,49 +4,26 @@
 
 
 <div class="page-content">
-    <div class="projects-container" style="justify-content: space-between;">
+    <div class="projects-container" style="justify-content: space-around;">
 
-   <div class="animation" style="flex-basis: 55%; margin: auto; align-items: space-evenly; padding-top: 3%;">
-    <div class="reel" id="reel">
-      <div class="section">
-        <div class="section-left"></div>
-        <div class="section-middle" style="min-width:100pt">
-          <a href="cg-projects#reels">
-            <p>REEL</p>
-          </a>
-        </div>
-        <div class="dither-section-right">
-            <div class="section-right-caption">
-                        <a href="cg-projects#reel-breakdown">
-              <p>breakdown</p>
-                        </a>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class = "reel-container">
-        <iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-      </iframe>
-      </div>
-      
-      <div class = "bottom-content">
-        <div class="bottom"></div>
-      </div>
-    </div>
-    </div>
-
-  <div class="technical-blog" style="flex-basis: 40%; margin: 2%;">
+  <div class="technical-blog" style="flex-basis: 50%; margin: 5%;">
     <div class="section">
       <div class="section-left"></div>
       <div class="section-middle">
         <a href="technical-blog.html#land">
-          <p>BLOG</p>
+          <p>WRITEUPS</p>
         </a>
       </div>
-      <div class="section-right"></div>
+      <div class="section-right">
+                    <!-- <div class="section-right-caption">
+                        <a href="technical-blog.html#land">
+              <p>all</p>
+                        </a>
+            </div> -->
+      </div>
     </div>
     <div class="blog-container">
-        <!-- <div class = "featured">
+        <div class = "featured">
           <div class = "featured-container">
               {% for post in site.posts %}
                 {% if post.featured == "T" %}
@@ -71,7 +48,7 @@
                 {% endif %}
               {% endfor %}
           </div>
-        </div> -->
+        </div>
         <div class="regular">
         <div class = "flex-container">
           {% for post in site.posts %}
@@ -116,6 +93,27 @@
     </div>
   </div>
 
+   <div class="animation" style="flex-basis: 40%; margin: auto; align-items: space-evenly; padding-top: 3%; min-width: 400px;">
+    <div class="reel" id="reel" style="margin: 5%;">
+      <!-- <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle" style="min-width:100pt">
+            <p>SKILLS</p>
+        </div>
+        <div class="dither-section-right">
+          </a>
+        </div>
+      </div> -->
+      <div class = "reel-container" style="padding: 4%; border-width: 1px 1px 1px 1px; margin: 5%;">
+      {{ content }}
+      </div>
+      
+      <!-- <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div> -->
+    </div>
+    </div>
+
   <!-- <div class="page-section-2">
         <div class="misc">
       <div class="buttons">
@@ -131,16 +129,7 @@
 
 </div>
 </div>
-<div class="content-holder" style="margin-top: 0px;" id="land">
-    <!-- <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
-        <div class="post-header" style="justify-content: center; width: 100%;">
-            <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
-                <div class="banner">
-                    <p>Pay no attention to the lady behind the curtain! Look at my SIDESHOW!!</p>
-                </div>
-            </a>
-        </div>
-    </div> -->
+<!-- <div class="content-holder" style="margin-top: 0px;" id="land">
     <div class="content" style="display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; background-color: #c9ccc7; border: 0px;">
     <div style="flex-basis: 60%; flex-grow: 1; min-width: 300px;">
       <div style="padding: 3%;  background-color: white; border-width: 1px 1px 1px 1px; border-color: black; border-style: solid;">
@@ -152,7 +141,7 @@
       </div>
     </div>
     </div>
-</div>
+</div> -->
 </div>
 
 {% include footer.html %}

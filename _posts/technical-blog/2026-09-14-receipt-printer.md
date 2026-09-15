@@ -9,7 +9,7 @@ cover-image: "img/2026-09-14-thermal-printer/cover-image.jpeg"
 cover-big: "img/2026-09-14-thermal-printer/cover-big.jpeg"
 show-date: T
 type: blog
-featured: F
+featured: T
 uri: "/2026/09/14/thermal-printer.html"
 description:  Using Python, Usb, ESCPOS to control a NetumScan receipt printer from a raspberry Pi.
 permalink: /2026/09/14/thermal-printer/

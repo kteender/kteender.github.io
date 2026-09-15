@@ -6,35 +6,36 @@ layout: hire
 permalink: skills
 ---
 <div id="land"></div>
-Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
+I have professional experience as a team member in virtual production and game engine pipelines. I specialize in animation pipeline scripting. Many of the shots in my reel were created using my own custom Maya plugins.
 
-## Existing Pipelines
+<div>
+<iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="margin: auto;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+</iframe>
+<p style="text-align:center"><a href="cg-projects#reel-breakdown">reel breakdown</a></p>
+</div>
+
 I am immediately productive in the following packages:
-- Maya (expert-level UI + API)
-- Motionbuilder (expert-level UI + API)
-- Shotgrid (UI + API)
-- Photoshop (UI)
-- Premiere Pro (UI)
-- After Effects (UI + expressions)
-- Illustrator (UI)
-- TouchDesigner (UI + API)
-- Blender (UI + API)
-- Unity3D (UI)
+- **Maya** (expert-level UI + API), **Blender** (UI + API)
+- **Motionbuilder** (expert-level UI + API)
+- **Shotgrid** (UI + API), **Python**, **HTML/CSS**, **git**
+- **Photoshop**, **Premiere Pro**, **After Effects**, **Illustrator**
+- **TouchDesigner** (UI + API), **Unity3D** (UI)
 
 *(UI stands for User Interface, API stands for Application Programming Interface)*
 
-I code using Python, HTML/CSS, and git. I specialize in animation pipeline scripting. 
+Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
 
-I have professional experience as a team member in virtual production and game engine pipelines.
-
-## Commissions
+<!-- ## Commissions
 <div id="art"></div>
 Art/design commissions start at $295. Animation commissions start at $540. 
 
-My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds.
+My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. Here are some examples of animation, from least to most complex:
+- vignette animation
+- dialogue animation
+- action animation
 
 ## Bookings
-For high-tech palm readings visit my <a href="/booking#land">booking page</a>.
+For high-tech palm readings visit my <a href="/booking#land">booking page</a>. -->
 
 <!-- Rates for <a href="/cg-projects#reels">animation:
 - Custom reusable cartoon body: $280, flat rate
