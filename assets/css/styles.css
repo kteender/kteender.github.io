@@ -12,7 +12,7 @@
   font-size: 7em;
   font-weight: bold;
   font-family: 'Archivo Black';
-  letter-spacing: -10px;
+  letter-spacing: -7px;
   text-align: center;
   /* Color fallback */
   color: #fff;
@@ -36,11 +36,25 @@
   padding: 0;
 }
 
- @media screen and (max-width: 480px) {
+.presents-text {
+  padding: 1%;
+  font-family: Archivo Black, Helvetica, monospace;
+  font-size: 1.2em;
+  background-color: black;
+  color: #787678;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: #787678;
+}
+
+ @media screen and (max-width: 600px) {
   .clip-text {
-    font-size: 4em;
-    letter-spacing: -6px;
+    font-size: 3.0em;
+    letter-spacing: -3px;
     margin: 0;
+  }
+  .presents-text {
+    font-size: .8em;
   }
 } 
 
