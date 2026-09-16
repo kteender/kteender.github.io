@@ -6,7 +6,7 @@ layout: hire
 permalink: skills
 ---
 <div id="land"></div>
-I am immediately productive in the following packages:
+I know the following packages:
 - **Maya** (expert-level UI + API), **Blender** (UI + API)
 - **Motionbuilder** (expert-level UI + API)
 - **Shotgrid** (UI + API), **Python**, **HTML/CSS**, **git**
