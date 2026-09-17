@@ -9,9 +9,9 @@
 
 /* Clip text element */
 .clip-text {
-  font-size: 7em;
+  font-size: 8em;
   font-weight: bold;
-  font-family: 'Archivo Black';
+  font-family: 'Share Tech Mono';
   letter-spacing: -7px;
   text-align: center;
   /* Color fallback */
