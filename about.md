@@ -8,4 +8,4 @@ type: about
 <div id="land" style="text-align:center">
 </div>
 
-I'm based in LA. I grew up in central Illinois. I graduated from Carnegie Mellon University with a BFA in Art and a minor in Animation and Special Effects. See more on <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn</a>.
+I grew up in central Illinois. I graduated from Carnegie Mellon University with a BFA in Art and a minor in Animation and Special Effects. I worked for four years on the _Avatar_ sequels previs team. I live in LA. 
