@@ -84,7 +84,7 @@
 }
 
 .clip-text_one {
-  background-image: url('style_img/text_dither04.png');
+  background-image: url('style_img/text_dither03.png');
   /* background-image: url('style_img/curtain_seamless.jpg'); */
   background-size: 35px;
   background-repeat: repeat-x;
@@ -107,7 +107,7 @@
     background-color: #c9ccc7;
     background-color: #629969;
     background-color: black;
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
