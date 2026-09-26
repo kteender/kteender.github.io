@@ -7,7 +7,7 @@
 # - name: STATIC
 #   link: /drawing.html
 #   permalink: /drawing
-- name: ANIMATION
+- name: ANIMATED
   link: /sideshow.html
   permalink: /sideshow
 - name: HOME
