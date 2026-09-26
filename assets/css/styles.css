@@ -11,8 +11,8 @@
 .clip-text {
   font-size: 8em;
   font-weight: bold;
-  font-family: 'Share Tech Mono';
-  letter-spacing: -7px;
+  font-family: 'Archivo Black';
+  letter-spacing: -9px;
   text-align: center;
   /* Color fallback */
   color: #fff;
@@ -84,31 +84,37 @@
 }
 
 .clip-text_one {
-  background-image: url('style_img/text_dither02.png');
+  background-image: url('style_img/text_dither04.png');
+  /* background-image: url('style_img/curtain_seamless.jpg'); */
   background-size: 35px;
   background-repeat: repeat-x;
 }
 
 .header-bg{
   padding: 0;
-  padding-bottom: 1%;
   padding-top: 1%;
+  background-color: #808f72;
+  background-image: url('style_img/curtain_seamless.jpg');
 }
 
 .header-container{
-    /*background-image: url('style_img/bg_seamless_dither.png');
-    background-size: cover;
-    background-size: 40px;
-    filter: invert();*/
+    background-size: 50%;
+    background-repeat: repeat-x;
     background-color:#D2D2E3;
     /* background-color: #c8f2b6;
     background-color: #99cc99; */
     background-color: #cccccc;
     background-color: #c9ccc7;
-    max-width: 100%;
+    background-color: #629969;
+    background-color: black;
+    max-width: 80%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    outline-style: double;
+    outline-width: 15px;
+    outline-color: black;
 }
 
 .container {
