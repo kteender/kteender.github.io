@@ -13,10 +13,6 @@ I know the following packages:
 - **Photoshop**, **Premiere Pro**, **After Effects**, **Illustrator**
 - **TouchDesigner** (UI + API), **Unity3D** (UI)
 
-*(UI stands for User Interface, API stands for Application Programming Interface)*
-
-Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
-
 <!-- ## Commissions
 <div id="art"></div>
 Art/design commissions start at $295. Animation commissions start at $540. 

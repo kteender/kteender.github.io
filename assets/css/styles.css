@@ -94,7 +94,7 @@
   padding: 0;
   padding-top: 1%;
   background-color: #808f72;
-  background-image: url('style_img/curtain_seamless.jpg');
+  background-image: url('style_img/mixed_media_seamless.jpg');
 }
 
 .header-container{
@@ -759,7 +759,7 @@
   flex-basis: 50%;
   flex-grow: 1;
   height: 540px;
-  min-width: 300px;
+  min-width: 200px;
   /*background-image: url(mockup_images/featured_bg.png);*/
   padding: 0px;
   margin: 0;

@@ -67,7 +67,7 @@ layout: null
         <div class="bm-subtitle">
                 <h2 style="text-align:center; color:white" id="printout">Fortune Printouts:</h2>
             </div>
-                <p style="text-align:center; color:white">At the end of the reading, I give the sitter a souvenir printout of the image on the visualizer. The message at the top is customizable.</p>
+                <p style="text-align:center; color:white">At the end of the reading, I give the sitter a souvenir printout of the image on the visualizer. The message at the top is customizable. Read a blog post below about the technical side of the printouts.</p>
 
         <div class="bm-acts" id="materials" style="margin-bottom: 0;">
             <div class="bm-act-holder">
@@ -76,9 +76,36 @@ layout: null
                 </div>
             </div>
             <div class="bm-act-holder">
-                <div class="captioned-image" style="min-width: 200pt; margin-top:0;">
-                    <img alt="event palm reader" src="/assets/tech/printouts_02.jpg" />
+            <div class="technical-blog" style="background-color: black; margin: 0;">
+                <div class="blog-container" style="border-width: 1px; background-color: black;">
+                    <div class = "featured" style="background-color: black;">
+                    <div class = "featured-container" style="background-color: black;">
+                        {% for post in site.posts %}
+                            {% if post.permalink == "/2026/09/14/thermal-printer/" %}
+                            <div class="featured-post">
+                                <a href="{{ post.permalink }}#land">
+                                <div class="featured-post-labeled-image">
+                                    <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                                    <div class="text">
+                                    <div class = "dummy"></div>
+                                    <div class = "dummy"></div>
+                                    <div class = "dummy"></div>  
+                                    <h2>{{ post.shortname}}</h2>
+                                    <div class = "dummy"></div>
+                                    <p>{{ post.date | date: "%B %-d %Y" }}</p>
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="featured-preview">
+                                <p>{{ post.excerpt|lstrip }}</p>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    </div>
                 </div>
+            </div>
             </div>
             </div>
     <div class="bm-subtitle"><br></div>

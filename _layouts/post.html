@@ -4,25 +4,15 @@
 
 <div class="content-holder" style="margin-top: 0px;" id="land">
     <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
-        {% if page.show-message == "T" %}
         <div class="post-header">
             <div class="post-title">
             </div>
-            {% if page.message-r == "T" %}
-                <a href="/riddle#land" style="text-decoration-color: black; text-decoration-style: double;">
+                <a href="/technical-blog" style="text-decoration-color: black; text-decoration-style: double;">
                     <div class="banner">
-                        <p>{{ page.message }}</p>
+                        <p>all tech blog posts</p>
                     </div>
                 </a>
-            {% else %}
-                <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
-                    <div class="banner">
-                        <p>{{ page.message }}</p>
-                    </div>
-                </a>
-            {% endif %}
         </div>
-        {% endif %}
     </div>
     <div class="content">
                 <h1>{{ page.shortname }}</h1>

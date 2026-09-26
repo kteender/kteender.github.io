@@ -82,114 +82,79 @@ layout: null
             <a class="button" href="/shop">
                 <p>ART SHOP</p>
             </a> 
-            <a class="button" href="/skills">
-                <p>TECH SKILLS</p>
-            </a> 
         </div>
         </div>
     </div>
-    <!-- <div class="bm-title"  id="land">
-      <img alt="bugmuthur's icon" src="/assets/css/style_img/banner.png" />
-    </div>
-    <div class="bm-page">
-      <div class="bm-subtitle">
-    <h1>The One-Woman CG Pipeline!!</h1>
-     </div>
-    <div class="bm-acts" id="readings">
-        <div class="bm-act-holder">
-            <div class="bm-section">
-                <div class="bm-section-left"></div>
-                <div class="bm-section-middle">
-                    <p style="font-size: 0.9em;">ANIMATION PIPELINE</p>
-                </div>
-                <div class="bm-section-right"></div>
-            </div>
-            <div class="bm-readings-container">
-                <div class="bm-readings-top-section">
-                    <p>A <a href="juice-drop-breakdown#land" style="color: white !important">normal</a> technical breakdown.</p>
-                </div>
-                <div style="padding:0px">
-                    <iframe src="https://www.youtube.com/embed/47k9z3wbGbk?si=t2P6Dgb_7BDWHKDj" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </div>
-        <div class="bm-act-holder">
-            <div class="bm-section">
-                <div class="bm-section-left"></div>
-                <div class="bm-section-middle">
-                    <p style="font-size: 0.9em;">HOSTESS WELCOME</p>
-                </div>
-                <div class="bm-section-right"></div>
-            </div>
-            <div class="bm-readings-container">
-                <div class="bm-readings-top-section">
-                    <p>An <a href="https://www.youtube.com/embed/hTVkrvMCeVM?si=tEp1U41pi-qXO6HP" style="color: white !important">abnormal</a> technical breakdown.</p>
-                </div>
-                <div style="padding:0px">
-                    <iframe src="https://www.youtube.com/embed/20iRht6mZ1Y?si=dSsH-kHG4giK7VD5" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </div>
-        <div class="bm-act-holder" id="tech">
-            <div class="bm-section">
-                <div class="bm-section-left"></div>
-                <div class="bm-section-middle">
-                    <p style="font-size: 0.9em;">MAGIC CODES</p>
-                </div>
-                <div class="bm-section-right"></div>
-            </div>
-            <div class="bm-readings-container">
-                <div class="bm-readings-top-section">
-                    <p>A <a href="maya-node-getattr-setattr#land" style="color: white;">peek at my technique</a> to fuse with the DAG!</p>
-                </div>
-                <div class="bm-readings-image">
-                    <a href="maya-node-getattr-setattr#land" style="color: white;">
-                        <img alt="blog-post-screenshot" src="/assets/tech/dag-nodes.jpg" />
+
+    <div class="projects-container" style="justify-content: space-around;" id="tech">
+
+  <div class="technical-blog" style="flex-basis: 50%; margin: 5%;">
+    <div class="blog-container" style="border-width: 1px;">
+        <div class = "featured">
+          <div class = "featured-container">
+              {% for post in site.posts %}
+                {% if post.permalink == "juice-drop-breakdown" %}
+                  <div class="featured-post">
+                    <a href="{{ post.permalink }}#land">
+                      <div class="featured-post-labeled-image">
+                        <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                        <div class="text">
+                          <div class = "dummy"></div>
+                          <div class = "dummy"></div>
+                          <div class = "dummy"></div>  
+                          <h2>{{ post.shortname}}</h2>
+                          <div class = "dummy"></div>
+                          <p>{{ post.date | date: "%B %-d %Y" }}</p>
+                        </div>
+                      </div>
                     </a>
-                </div>
-            </div>
+                    <div class="featured-preview">
+                      <p>{{ post.excerpt|lstrip }}</p>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
         </div>
-        <div class="bm-act-holder" id="riddle">
-            <div class="bm-section">
-                <div class="bm-section-left"></div>
-                <div class="bm-section-middle">
-                    <p style="font-size: 0.9em;">WIN A PRIZE!</p>
-                </div>
-                <div class="bm-section-right"></div>
-            </div>
-            <div class="bm-readings-container">
-                <div class="bm-readings-top-section">
-                    <p>I take two bytes. Who am I? <a href="mailto:riddle@ktcg.art?subject=Riddle guess" style="color: white !important;">Submit a guess!</a></p>
-                </div>
-                <div class="bm-readings-image">
-                    <a href="mailto:riddle@ktcg.art?subject=Riddle guess" style="color: white !important;">
-                        <img alt="riddle" src="/assets/riddle/riddle.jpg" />
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-      <div class="bm-socials-container">
-    <a href="https://www.youtube.com/@bugmuthur">
-    <img alt="youtube" src="/assets/icons/yt.png" />
-    </a>
     </div>
-  </div> -->
-    <div class="page-section-2" style="margin-left: 3%; margin-right: 3%; margin-bottom: 5%; padding: 0;">
-    <div style="max-width: 800px;">
+    <div class = "bottom-content">
+      <div class="bottom"></div>
+    </div>
+  </div>
+
+   <div class="animation" style="flex-basis: 40%; margin: auto; align-items: space-evenly; padding: 0; padding-top: 3%; padding-bottom: 3%; min-width: 400px;">
+    <div class="reel">
       <div class="section">
         <div class="section-left"></div>
-        <div class="section-middle" style="min-width:100pt; background-color: white;">
-            <p style="color:black">HIRE</p>
+        <div class="section-middle" style="min-width:100pt;">
+            <p>HIRE</p>
         </div>
         <div class="dither-section-right">
+            <!-- <div class="section-right-caption">
+                        <a href="sideshow#reel">
+              <p>reel</p>
+                        </a>
+            </div> -->
+          </a>
         </div>
       </div>
-      <div style="background-color: white; color: black; border-width: 0px 1px 1px 1px; border-color: black; border-style: solid;">
-        <p style="margin: 0; padding: 5%; text-align: center;">Animation commissions start at $540. My primary factor in determining an estimate for animation is the complexity of the sequential storytelling in the project, not the number of seconds. For some examples at varying complexity levels, see <a href="https://youtube.com/playlist?list=PLetRrpophewQ&si=4QuDSZnJKotPl3W9">this playlist</a>.<br><br>Static art and design commissions start at $295.<br><br>Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.</p>
+      <div class = "reel-container" style="border-width: 0px 1px 1px 1px; padding: 5%;">
+      <p style="text-align: center;">I specialize in animation pipeline scripting. Many of the shots in my reel were created using my own custom Maya plugins.</p>
+        <!-- <iframe src="https://www.youtube.com/embed/QRKwyPqZ1YA?si=A3SKXHj7RdtACnSo" style="width: 100%;aspect-ratio: 16/9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+      </iframe> -->
+      <p>{{ content }}</p>
+    <p style="margin: 0;">Animation commissions start at $540. For some examples at varying complexity levels, see <a href="https://youtube.com/playlist?list=PLetRrpophewQ&si=4QuDSZnJKotPl3W9">this playlist</a>.<br><br>Static art and design commissions start at $295.<br><br>Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.</p>
+
       </div>
+      
+      <!-- <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div> -->
+    </div>
+      
+      <!-- <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div> -->
     </div>
     </div>
     <div class="projects-container" style="justify-content: space-between;">
