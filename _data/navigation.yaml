@@ -1,9 +1,6 @@
 # - name: HOME
 #   link: /
 #   permalink: /
-- name: HOME
-  link: /
-  permalink: /
 - name: FORTUNE TELLER
   link: /booking.html
   permalink: /booking
@@ -13,6 +10,9 @@
 - name: ANIMATION
   link: /sideshow.html
   permalink: /sideshow
+- name: HOME
+  link: /
+  permalink: /
 # - name: TECH
 #   link: /skills.html
 #   permalink: /skills
