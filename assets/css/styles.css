@@ -47,6 +47,13 @@
   text-decoration-color: #696669;
 }
 
+.clip-text_one {
+  background-image: url('style_img/text_dither03.png');
+  /* background-image: url('style_img/curtain_seamless.jpg'); */
+  background-size: 35px;
+  background-repeat: repeat-x;
+}
+
  @media screen and (max-width: 600px) {
   .clip-text {
     font-size: 3.0em;
@@ -55,6 +62,9 @@
   }
   .presents-text {
     font-size: .8em;
+  }
+  .clip-text_one{
+    background-size: 0.25em;
   }
 } 
 
@@ -81,13 +91,6 @@
     font-size: 1em !important;
     background-color: #04AA6D;
   } */
-}
-
-.clip-text_one {
-  background-image: url('style_img/text_dither03.png');
-  /* background-image: url('style_img/curtain_seamless.jpg'); */
-  background-size: 35px;
-  background-repeat: repeat-x;
 }
 
 .header-bg{
