@@ -4,15 +4,15 @@
 - name: FORTUNE TELLER
   link: /booking.html
   permalink: /booking
+- name: HOME
+  link: /
+  permalink: /
 # - name: STATIC
 #   link: /drawing.html
 #   permalink: /drawing
 - name: ANIMATED
   link: /sideshow.html
   permalink: /sideshow
-- name: HOME
-  link: /
-  permalink: /
 # - name: TECH
 #   link: /skills.html
 #   permalink: /skills
