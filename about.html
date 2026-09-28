@@ -1,0 +1,40 @@
+---
+permalink: about
+layout: null
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Redirecting to Another page in HTML</title>
+  <!-- Redirecting to another page using meta tag -->
+  <meta http-equiv="refresh" content="2; url =https://ktcg.art#about" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content= "{{ page.description }}" >
+    <meta property="og:image" content="/assets/css/style_img/preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <title> {{ page.title }}</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/bm_styles.css">
+    <link rel="stylesheet" href="/assets/css/shop_styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudSflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+
+{% include title-bar.html %}
+{% include navigation-bar.html %}
+
+<body>
+    <div class="page-section-2">
+  <p>Redirecting to About section of homepage.<br><br><strong>Note:</strong> If your browser supports Refresh, you'll be
+    redirected, in 2 seconds. If not, navigate to Home.
+  </p>
+  </div>
+</body>
+
+{% include footer.html %}
+
+</html>
