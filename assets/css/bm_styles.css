@@ -607,7 +607,9 @@
 
 .product-name {
   color: black;
-  display: block;
+  display: flex;
+  text-align: center;
+  align-items: space-around;
 }
 
 .bm-socials-container {

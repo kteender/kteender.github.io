@@ -98,8 +98,16 @@ layout: null
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                     </div>
                   </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">${{post.price}}0</div>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                      <p style="margin: auto;">
+                        ${{post.price}}0
+                      </p>
+                  </div>
                   <!-- <button class="snipcart-add-item add-button"
                   data-item-id="{{ post.id }}"
                   data-item-url="{{ post.shoplink}}"
@@ -167,9 +175,19 @@ layout: null
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                     </div>
                   </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">status: {{post.status}}</div>
-                          </div>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
+                      </div>
                 {% endif %}
           {% endif %}
           {% endfor %}
@@ -211,8 +229,18 @@ layout: null
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                     </div>
                   </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">status: {{post.status}}</div>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
                           </div>
                 {% endif %}
           {% endif %}
@@ -256,8 +284,22 @@ layout: null
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                     </div>
                   </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">status: {{post.status}}</div>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% elsif post.status == "retained" %}
+                      <p style="background-color: lightgrey; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
                           </div>
                 {% endif %}
           {% endif %}
@@ -301,8 +343,22 @@ layout: null
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                     </div>
                   </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">status: {{post.status}}</div>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% elsif post.status == "retained" %}
+                      <p style="background-color: lightgrey; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
                           </div>
                 {% endif %}
           {% endif %}
@@ -345,8 +401,22 @@ layout: null
                       <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
                     </div>
                   </a>
-                  <div class="product-name">{{post.shortname}}</div>
-                  <div class="product-name">status: {{post.status}}</div>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% elsif post.status == "retained" %}
+                      <p style="background-color: lightgrey; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
                           </div>
           {% endif %}
           {% endfor %}
