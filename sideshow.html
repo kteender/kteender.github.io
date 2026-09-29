@@ -93,8 +93,24 @@ layout: null
     <div class="projects-container" style="justify-content: space-around;" id="tech">
 
   <div class="technical-blog" style="flex-basis: 50%; margin-right: 5%;">
-    <div class="blog-container" style="border-width: 1px;">
-        <div class = "featured">
+    <div class="blog-container" style="border: none">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle" style="min-width:100pt; background-color: black;">
+          <a href="technical-blog">
+            <p style="color:white">TRICKS</p>
+          </a>
+        </div>
+        <div class="dither-section-right">
+            <div class="section-right-caption">
+                        <a href="technical-blog">
+              <p>all posts</p>
+                        </a>
+            </div>
+          </a>
+        </div>
+      </div>
+        <div class = "featured" style="border-width: 0px 1px 1px 1px; border-color: black; background-color: black;">
           <div class = "featured-container">
               {% for post in site.posts %}
                 {% if post.permalink == "juice-drop-breakdown" %}
@@ -112,7 +128,7 @@ layout: null
                         </div>
                       </div>
                     </a>
-                    <div class="featured-preview">
+                    <div class="featured-preview" style="font-family: 'Ubuntu', Arial, monospace;">
                       <p>{{ post.excerpt|lstrip }}</p>
                     </div>
                   </div>
