@@ -196,6 +196,24 @@
   color:black;
 }
 
+.button-plain {
+  font-family: Tourney, Helvetica, monospace;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 1px 1px 1px;
+  background-color: white;
+  min-width: 150pt;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.625em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-decoration: none !important;
+  color:black;
+}
+
 .button:hover {
   background-color: lime;
   /* border-width: 8px;
