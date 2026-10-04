@@ -4,7 +4,6 @@ shortname: "Decal Design"
 layout: listing
 id: "tow-angel"
 tags: 
-  - "design"
 cover-image: "/assets/designs/tow_angel/cover_image.jpg"
 type: design
 sold-out: "True"

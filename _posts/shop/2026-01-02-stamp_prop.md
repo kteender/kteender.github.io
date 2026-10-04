@@ -8,7 +8,7 @@ tags:
   - "prop"
   - "sewer-issue"
 cover-image: "/assets/shop/stamp_prop/cover_image.jpg"
-type: prop
+type: concept
 sold-out: "True"
 uri: "/shop/contract_prop.html"
 description:  It's a stamp from the city prefect!

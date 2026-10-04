@@ -175,7 +175,7 @@ layout: null
       <p>Static promos and graphics.</p>
       </div>
         <div class="shop-regular" style="padding: 3%;">
-        <div class = "shop-flex-container" style="height: 500px;">
+        <div class = "shop-flex-container">
           {% for post in site.posts %}
           {% if post.type != "blog" %}
           {% if post.tags contains "design" %}
@@ -216,9 +216,71 @@ layout: null
       <div class="bottom"></div>
     </div>
     </div>
-            <div class="buttons">
+            <!-- <div class="buttons">
             <a class="button" href="/catalog">
                 <p>ART CATALOG</p>
+            </a> 
+        </div> -->
+        </div>
+    </div>
+
+<div class="shop-page-section-1" style="display: flex; flex-wrap: columns;">
+            <div class="misc">
+    <div class="shopfront">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>FEATURED</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Artwork of Sewer Issue</p>
+      </div>
+        <div class="shop-regular" style="padding: 3%;">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.type == "background" or post.type == "prop" %}
+          {% if post.tags contains "sewer-issue" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
+                          </div>
+                {% endif %}
+          {% endif %}
+          {% endfor %}
+          <!--  if  site.posts.size | module: 2  != 0 
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
+          </div>
+           endif  -->
+
+        </div>
+    </div>
+    </div>
+    </div>
+            <div class="buttons">
+            <a class="button" href="/catalog">
+                <p>ALL ART</p>
             </a> 
         </div>
         </div>

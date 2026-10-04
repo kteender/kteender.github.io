@@ -8,7 +8,7 @@ tags:
   - "prop"
   - "sewer-issue"
 cover-image: "/assets/shop/contract_prop/cover_image.jpg"
-type: prop
+type: concept
 sold-out: "True"
 uri: "/shop/contract_prop.html"
 description:  Sanctified!
