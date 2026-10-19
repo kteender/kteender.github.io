@@ -86,6 +86,9 @@
   .clip-text_one{
     background-size: .75em;
   }
+  .clip-text-diff{
+    font-size: 1.1em;
+  }
 
 } 
 
