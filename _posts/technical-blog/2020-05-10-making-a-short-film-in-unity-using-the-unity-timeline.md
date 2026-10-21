@@ -291,4 +291,4 @@ Okay, now I'll talk about some cons. This workflow is definitely not super intui
 For me, the pros were worth the cons.
 
 **Conclusion**  
-Thanks for taking the time to read this! In the future, I might do a blog post about the animation process on this project, since that's a whole different bag of worms. If you have any questions, please drop them in the comments, or DM me on Instagram (@kteender).
+Thanks for taking the time to read this! In the future, I might do a blog post about the animation process on this project, since that's a whole different bag of worms. If you have any questions, please contact me via the email link in the site footer.
