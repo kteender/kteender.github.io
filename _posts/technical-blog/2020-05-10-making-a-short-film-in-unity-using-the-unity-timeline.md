@@ -34,6 +34,11 @@ Packages Used: Unity Recorder, Unity Timeline, Post-Processing v2, Cinemachine, 
 
 Software Used (visuals): Maya, Motionbuilder, Photoshop, After Effects, Premiere Pro, Unity
 
+<div class='captioned-image'>
+    <img src='/img/2020-05-10-unity-short/cover_big.png' style='max-width:100%;'>
+    <p>Left to right, top to bottom: My Unity editor window, the character properties, the Unity sequencing tool, the final render. The film takes place in a church basement.</p>
+</div>
+
 **Pre-Unity**: This should be review for anybody who has imported a custom character for Unity before. Each character asset that I imported contained the following:
 
 - character mesh that was modeled/UV'd/textured/rigged in Maya. For details on how to rig a character that will work in Unity, please read [my post on the subject.](https://ktcg.art.blog/2019/07/25/character-setup-for-unity-rigging-animation-and-importing-considerations/) Please note that Unity does NOT support smooth mesh preview, so if you want smooth meshes, you need to perform a smoothing operation before you export the FBX.
