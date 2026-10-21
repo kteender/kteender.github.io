@@ -64,7 +64,7 @@ In the Materials tab, you should Extract Materials.
 
 **Cel Shading:**
 
-This section is just a plug. I used Adrian Biagioli's [Toon Standard Shader](https://github.com/Flafla2/Toon-Standard) for the cel shading. It's a pimped-out toon shader -- you can define a custom lighting ramp, use specular dabs (like an alpha mask over the specularity), and enable energy conservation.
+I used Adrian Biagioli's [Toon Standard Shader](https://github.com/Flafla2/Toon-Standard) for the cel shading. It's a customizable toon shader -- you can define a custom lighting ramp, use specular dabs (like an alpha mask over the specularity), and enable energy conservation.
 
 Also, he's working on making it run on the Scriptable Render Pipeline, so that there can be physically based attributes (e.g. reflections) that work with the cel shading. Super cool -- definitely keep it in mind if you need a toon shader in the future.
 
@@ -274,11 +274,9 @@ I found that Unity's renderer produces a lot more visual artifacts than, for exa
 
 **Evaluation**
 
-My goal with this project was to use a more iterative approach to creating 3D animation for students and independent artists. I feel that, unless you have access to a render farm, the "traditional" way of making 3D animation is incredibly restrictive. I hated biting my fingernails, waiting for renders, and I hated not having time to revise a shot because I couldn't afford to render it again. For this project, in particular, having a dynamic camera was really important, and those camera movements require a lot of revision. I obviously still could do movements like that in Maya, but it's hard to figure out if a shot is working unless you see the final render.
+My goal with this project was to use a more iterative approach to creating 3D animation for students and independent artists. For this project, in particular, having a dynamic camera was really important, and those camera movements require a lot of revision. I obviously still could do movements like that in Maya, but it's hard to figure out if a shot is working unless you see the final render.
 
-Furthermore, I noticed that a lot of 3D animations, particularly student 3D animations, tend to look very same-ey. I think this comes from popular design choices and a standardization of our techniques and of the aesthetics we deem impressive. In a super commercialized art form, both the techniques and the aesthetics are set by the big studios (Pixar, Disney, Dreamworks). I think students and independents trying to emulate the work and workflows of a multi-million dollar company with dozens of artists working on each shot creates a lot of short films that look like bad Pixar, instead of good something-else. And I think it creates a lot of unnecessary stress for people who spend 30 minutes/frame rendering because they feel like their cartoon character's skin needs subsurface scattering in order for their film to be taken seriously.
-
-Also, I'm in no way an expert in computer graphics, but from what I can tell, real-time rendering is the direction in which the animation industry is moving. We're just now getting real-time path-tracing in game engines, and Unity's Timeline tool is only a couple years old. I know I'm not the first person to make an animation like this, and I think, in the future, we're going too see more films made with workflows like this one.
+I think real-time rendering is the direction in which the animation industry is moving. We're just now getting real-time path-tracing in game engines, and Unity's Timeline tool is only a couple years old. I know I'm not the first person to make an animation like this, and I think, in the future, we're going too see more films made with workflows like this one.
 
 Okay, now I'll talk about some cons. This workflow is definitely not super intuitive. There's a lot of extra importing and setting-up that goes into getting the timeline working. Additionally -- and this is a big one -- there are some limitations to what you can achieve artistically with Unity:
 
@@ -287,7 +285,7 @@ Okay, now I'll talk about some cons. This workflow is definitely not super intui
 3. Simulations are less robust
 4. You have to work hard to overcome a "gamey" aesthetic
 
-For me, I was making a super-stylized cartoon with flat shading, so points 2 and 3 didn't matter that much to me. I was using motion capture for the animation, which requires a similar type of rig to Unity, so it didn't matter that I couldn't get super stylized animation. Point 4 is tough, but can be overcome with smart use of Post-Processing. These are all things to consider when deciding whether or not this workflow would work for your project.
+For me, the pros were worth the cons.
 
 **Conclusion**  
 Thanks for taking the time to read this! In the future, I might do a blog post about the animation process on this project, since that's a whole different bag of worms. If you have any questions, please drop them in the comments, or DM me on Instagram (@kteender).
