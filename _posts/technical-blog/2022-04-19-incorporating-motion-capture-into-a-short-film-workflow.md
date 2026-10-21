@@ -24,7 +24,7 @@ permalink: /2021/04/18/incorporating-motion-capture-into-a-short-film-workflow/
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
 </html>
-Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">that covers the Unity workflow itself</a>, and watch the film itself <a href="/animations.html/#youth-group-4">on my animations page</a>.
+Hello! This is the second workflow breakdown for my thesis film. It will concern the motion capture animation process. Check out the first post about using Unity to make a short film <a href="{% link _posts/technical-blog/2020-05-10-making-a-short-film-in-unity-using-the-unity-timeline.md %}">that covers the Unity workflow itself.
 
 <!--break-->
 
