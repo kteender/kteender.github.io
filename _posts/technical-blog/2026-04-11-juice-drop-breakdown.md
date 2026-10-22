@@ -108,4 +108,4 @@ Animation depends on the requirements of each shot, but can include:
 
 **Closing Thoughts**: After completing a project, I take some time to write down my pain points and determine if any were painful enough to warrant code updates. Hindsight often reveals that issues I assumed were technical priorities were, in fact, complete nonissues during production. For this reason, I try to animate as soon as my pipeline code changes are minimum-viable functional.
 
-If you would like a <a href="/rates#animation">price estimate</a> for cartoon animation, I would love to hear from you. I am looking for clients! 
+If you would like to chat about an animated project, contact using link in footer.
