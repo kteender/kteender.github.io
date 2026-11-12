@@ -1,0 +1,23 @@
+{% include header.html %}
+<div class="content-holder" style="margin-top: 0px;" id="land">
+    <div class="content" style="background-color: transparent; padding: 0px; margin: auto; border: 0px;">
+        <div class="post-header">
+            <div class="post-title">
+            </div>
+        </div>
+    </div>
+    <div class="content" style="text-align: left; margin: auto;">
+                <h1>{{ page.shortname }}</h1>
+                {% if page.show-date == "T" %}
+                    <h4>{{ page.date | date_to_string }}</h4>
+                {% endif %}
+    {{ content }}
+    </div>
+</div>
+                <div id="footer" style="background-color:black; margin-top: 0; padding: 1%;">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
