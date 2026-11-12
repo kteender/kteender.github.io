@@ -1,0 +1,125 @@
+---
+title: DESIGN
+description: KTCG art design work
+permalink: design
+layout: null
+sitemap: false
+---
+
+{% include header.html %}
+{% include title-bar.html %}
+{% include navigation-bar.html %}
+
+
+<div class="page-content">
+    <div class="projects-container" style="justify-content: space-around;">
+
+  <div class="technical-blog" style="flex-basis: 50%; margin: 5%;">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+        <a href="technical-blog.html#land">
+          <p>WRITEUP</p>
+        </a>
+      </div>
+      <div class="section-right">
+                    <div class="section-right-caption">
+                        <a href="technical-blog.html#land">
+              <p>all</p>
+                        </a>
+            </div>
+      </div>
+    </div>
+    <div class="blog-container">
+        <div class = "featured">
+          <div class = "featured-container">
+              {% for post in site.posts %}
+                {% if post.permalink == "custom-decal-design" %}
+                  <div class="featured-post">
+                    <a href="{{ post.permalink }}#land">
+                      <div class="featured-post-labeled-image">
+                        <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                        <div class="text">
+                          <div class = "dummy"></div>
+                          <div class = "dummy"></div>
+                          <div class = "dummy"></div>  
+                          <h2>{{ post.shortname}}</h2>
+                          <div class = "dummy"></div>
+                          <p>{{ post.date | date: "%B %-d %Y" }}</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="featured-preview">
+                      <p>{{ post.excerpt|lstrip }}</p>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
+        </div>
+    </div>
+
+
+    <div class = "bottom-content">
+      <div class="bottom"></div>
+    </div>
+  </div>
+
+   <div class="animation" style="flex-basis: 40%; margin: auto; align-items: space-evenly; padding: 0; padding-top: 3%; padding-bottom: 3%; min-width: 400px;">
+    <div class="reel" id="reel">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle" style="min-width:100pt;">
+            <p>SKILLS</p>
+        </div>
+        <div class="dither-section-right">
+            <!-- <div class="section-right-caption">
+                        <a href="sideshow#reel">
+              <p>reel</p>
+                        </a>
+            </div> -->
+          </a>
+        </div>
+      </div>
+      <div class = "reel-container" style="border-width: 0px 1px 1px 1px; padding: 5%;">
+      <p style="text-align: center;">
+          I know the following design tools:
+          <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Premiere Pro</li>
+          <li>After Effects</li>
+          <li>HTML/CSS</li>
+          <li>Python</li>
+          <li>Maya</li>
+          <li>Blender</li>
+          </ul>
+      </p>
+      <p>I do extensive freehand drawing as part of my animation practice. View my <a href=shop>illustration work here</a>.</p>
+    </div>
+      
+      <!-- <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div> -->
+    </div>
+    </div>
+
+
+</div>
+</div>
+<!-- <div class="content-holder" style="margin-top: 0px;" id="land">
+    <div class="content" style="display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; background-color: #c9ccc7; border: 0px;">
+    <div style="flex-basis: 60%; flex-grow: 1; min-width: 300px;">
+      <div style="padding: 3%;  background-color: white; border-width: 1px 1px 1px 1px; border-color: black; border-style: solid;">
+                <h1>{{ page.shortname }}</h1>
+                {% if page.show-date == "T" %}
+                    <h4>{{ page.date | date_to_string }}</h4>
+                {% endif %}
+            {{ content }}
+      </div>
+    </div>
+    </div>
+</div> -->
+</div>
+
+{% include footer.html %}

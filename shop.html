@@ -1,271 +1,43 @@
 ---
-title: SHOP
-description: Online shop for production artwork and merch
 permalink: shop
 layout: null
 ---
-{% include header.html %}
-{% include title-bar.html %}
-{% include navigation-bar.html %}
-<div class="page-content">
+<!DOCTYPE html>
+<html>
 
-      <div class="shop-page-section-1" id="land">
-    <div class="shopfront">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-          <p>FOR SALE</p>
-      </div>
-      <div class="section-right">
-      </div>
-    </div>
-    <div class="shop-container">
-      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Purchase animated shorts and original art.</p>
-      </div>
-        <div class="shop-regular" style="padding: 3%;">
-        <div class = "shop-flex-container" style="height: 720px; background-color: whitesmoke;">
-          {% for post in site.posts %}
-                {% if post.type != "blog" and post.sold-out != "True" %}
-                <div class="shop-regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='shop-regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                    </div>
-                  </a>
-                  <div class="product-name">
-                    <p style="margin: auto;">
-                      {{post.shortname}}
-                    </p>
-                  </div>
-                  <div class="product-name">
-                      <p style="margin: auto;">
-                        ${{post.price}}0
-                      </p>
-                  </div>
-                  <!-- <button class="snipcart-add-item add-button"
-                  data-item-id="{{ post.id }}"
-                  data-item-url="{{ post.shoplink}}"
-                  data-item-price="{{ post.price | money }}"
-                  data-item-description= "{{ post.description }}"
-                  data-item-image="{{ post.cover-image }}"
-                  data-item-name="{{ post.shortname }}"
-                  data-item-custom1-name="{{ post.custom1-name }}"
-                  data-item-custom1-options="{{ post.custom1-options }}"
-                  data-item-max-quantity="{{ post.max-quantity }}">
-                  Add to cart
-                </button> -->
-                </div>
-                {% endif %}
-          {% endfor %}
-        </div>
-        </div>
-    </div>
-    </div>
-        <div class="shop-vertical-container">
-    {% include embed-souvenir-button.html %}
-      </div>
+<head>
+  <title>Redirecting to Design portfolio</title>
+  <!-- Redirecting to another page using meta tag -->
+  <meta http-equiv="refresh" content="2; url =https://ktcg.art/design-portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content= "{{ page.description }}" >
+    <meta property="og:image" content="/assets/css/style_img/preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <title> {{ page.title }}</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/bm_styles.css">
+    <link rel="stylesheet" href="/assets/css/shop_styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudSflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
 
-    </div>
-  <div class="shop-page-section-1" style="justify-content: space-around; align-items: flex-start;" id="hire">
-   <div class="animation" style="flex-basis: 40%; margin: auto; align-items: space-evenly; padding: 0; padding-top: 3%; padding-bottom: 3%; min-width: 400px;">
-    <div class="reel" id="reel">
-      <div class="section">
-        <div class="section-left"></div>
-        <div class="section-middle" style="min-width:100pt;">
-            <p>HIRE</p>
-        </div>
-        <div class="dither-section-right">
-            <!-- <div class="section-right-caption">
-                        <a href="sideshow#reel">
-              <p>reel</p>
-                        </a>
-            </div> -->
-          </a>
-        </div>
-      </div>
-      <div class = "reel-container" style="border-width: 0px 1px 1px 1px; padding: 5%;">
-      <p style="text-align: center;">
-          I use the following art/design tools:
-          <ul>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>Premiere Pro</li>
-          <li>After Effects</li>
-          <li>Procreate</li>
-          <li>Maya</li>
-          <li>Blender</li>
-          <li>DSLR photography</li>
-          <li>Freehand drawing</li>
-          </ul>
-          I coded this site myself using HTML/CSS.  For motion work, <a href="/sideshow#reel">view reel</a>.<br><br>Static art and design commissions start at $295. Get in touch via <a href="mailto:contact@ktcg.art?subject=contact from KTCG ART">contact@ktcg.art</a>.
-      </p>
-    </div>
-      
-      <!-- <div class = "bottom-content">
-        <div class="bottom"></div>
-      </div> -->
-    </div>
-    </div>
-  <div class="technical-blog" style="flex-basis: 50%; margin: 5%;" id="tech">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-        <a href="technical-blog.html#land">
-          <p>TOOLBOX</p>
-        </a>
-      </div>
-      <div class="section-right">
-                    <div class="section-right-caption">
-                        <a href="technical-blog.html#land">
-              <p>all</p>
-                        </a>
-            </div>
-      </div>
-    </div>
-    <div class="blog-container">
-        <div class = "featured">
-          <div class = "featured-container">
-              {% for post in site.posts %}
-                {% if post.permalink == "custom-decal-design" %}
-                  <div class="featured-post">
-                    <a href="/{{ post.permalink }}#land">
-                      <div class="featured-post-labeled-image">
-                        <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                        <div class="text">
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>
-                          <div class = "dummy"></div>  
-                          <h2>{{ post.shortname}}</h2>
-                          <div class = "dummy"></div>
-                          <p>{{ post.date | date: "%B %-d %Y" }}</p>
-                        </div>
-                      </div>
-                    </a>
-                    <div class="featured-preview">
-                      <p>{{ post.excerpt|lstrip }}</p>
-                    </div>
-                  </div>
-                {% endif %}
-              {% endfor %}
-          </div>
-        </div>
-    </div>
-
-
-    <div class = "bottom-content">
-      <div class="bottom"></div>
-    </div>
+<body>
+    <div class="page-section-2">
+  <p>Redirecting to Design portfolio.<br><br><strong>Note:</strong> If your browser supports Refresh, you'll be
+    redirected, in 2 seconds. If not, navigate to https://ktcg.art/design-portfolio.
+  </p>
   </div>
-    </div>
-<div class="shop-page-section-1" style="display: flex; flex-wrap: columns;">
-            <div class="misc">
-    <div class="shopfront">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-          <p>DESIGNS</p>
-      </div>
-      <div class="section-right">
-      </div>
+</body>
 
-    </div>
-    <div class="shop-container" style="flex-basis: 80%;">
-      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Static promos and graphics.</p>
-      </div>
-        <div class="shop-regular" style="padding: 3%;">
-        <div class = "shop-flex-container">
-          {% for post in site.posts %}
-          {% if post.type != "blog" %}
-          {% if post.tags contains "design" %}
-                <div class="shop-regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='shop-regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                    </div>
-                  </a>
-                  <div class="product-name">
-                    <p style="margin: auto;">
-                      {{post.shortname}}
-                    </p>
-                  </div>
-                      </div>
-                {% endif %}
-          {% endif %}
-          {% endfor %}
+                <div id="footer" style="background-color:black; margin-top: 0; padding: 1%;">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
 
-        </div>
-    </div>
-    </div>
-    <div class = "bottom-content">
-      <div class="bottom"></div>
-    </div>
-    </div>
-        </div>
-    </div>
-
-<div class="shop-page-section-1" style="display: flex; flex-wrap: columns;">
-            <div class="misc">
-    <div class="shopfront">
-    <div class="section">
-      <div class="section-left"></div>
-      <div class="section-middle">
-          <p>FEATURED</p>
-      </div>
-      <div class="section-right">
-      </div>
-    </div>
-    <div class="shop-container">
-      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
-      <p>Artwork of Sewer Issue</p>
-      </div>
-        <div class="shop-regular" style="padding: 3%;">
-        <div class = "shop-flex-container" style="height: 500px;">
-          {% for post in site.posts %}
-          {% if post.type == "background" or post.type == "prop" %}
-          {% if post.tags contains "sewer-issue" %}
-                <div class="shop-regular-holder">
-                  <a href="{{ post.permalink }}#land">
-                    <div class='shop-regular-labeled-image'>
-                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
-                    </div>
-                  </a>
-                  <div class="product-name">
-                    <p style="margin: auto;">
-                      {{post.shortname}}
-                    </p>
-                  </div>
-                  <div class="product-name">
-                    {% if post.status == "sold" %}
-                      <p style="background-color: pink; margin: auto;">
-                        status: {{post.status}}
-                      </p>
-                    {% endif %}
-                  </div>
-                          </div>
-                {% endif %}
-          {% endif %}
-          {% endfor %}
-          <!--  if  site.posts.size | module: 2  != 0 
-          <div class="regular-holder-dummy">
-              <div class='regular-labeled-image'>
-                <img src="/img/dummy.png" />
-              </div>
-          </div>
-           endif  -->
-
-        </div>
-    </div>
-    </div>
-    </div>
-            <div class="buttons">
-            <a class="button" href="/catalog">
-                <p>ALL ART</p>
-            </a> 
-        </div>
-        </div>
-    </div>
-
-</div>
-{% include footer.html %}
+</html>

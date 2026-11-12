@@ -1,0 +1,245 @@
+---
+title: CARTOONS
+description: bugmuthur's story box
+permalink: cartoons
+layout: null
+---
+{% include header.html %}
+{% include title-bar.html %}
+{% include navigation-bar.html %}
+
+<div class="bm-background">
+  <div class="bm-page-content">
+    <div class="projects-container" style="justify-content: space-between;">
+    </div>
+
+    <div class="page-section-2" style="display: flex; align-items: flex-start; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; max-width: 900px;">
+    </div>
+        <div class="page-section-2">
+            <div class="misc">
+
+                   <div class="animation" style="flex-basis: 65%; margin-left: 0; align-items: space-evenly; padding-top: 1%;">
+    <div class="reel" id="reel" style="margin-right: 0;">
+      <div class="section">
+        <div class="section-left"></div>
+        <div class="section-middle" style="min-width:100pt; background-color: black;">
+          <a href="cg-projects#reels">
+            <p style="color:white">WELCOME</p>
+          </a>
+        </div>
+        <div class="dither-section-right">
+            <!-- <div class="section-right-caption">
+                        <a href="cg-projects#reel-breakdown">
+              <p>breakdown</p>
+                        </a>
+            </div> -->
+          </a>
+        </div>
+      </div>
+      <div class = "reel-container" style="background-color: black;">
+        <iframe src="https://www.youtube.com/embed/k6bGNXJ4TjQ?si=iL2WIAM-J-Fnc_Q-" style="width: 100%;aspect-ratio: 4/3;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+      </iframe>
+      </div>
+      
+      <div class = "bottom-content">
+        <div class="bottom"></div>
+      </div>
+    </div>
+    </div>
+
+    <div class="projects-container" style="justify-content: space-between; display: flex;">
+
+    <div class="animation" id="animations" style="margin: auto; flex-basis: 45%; background-color: #c9ccc7; flex-grow: 1;">
+        <div class="bm-act-holder" id="sponsor" style="outline: none;">
+            <div class="section">
+                <div class="section-left" style="background-color: #c9ccc7;"></div>
+                <div class="section-middle" style="min-width:100pt; background-color: black;">
+                    <p style="color:white">NEWS</p>
+                </div>
+                <div class="dither-section-right" style="background-color: #c9ccc7">
+                    <!-- <div class="section-right-caption">
+                                <a href="cg-projects#juice-drop">
+                    <p>all</p>
+                                </a>
+                    </div> -->
+                </a>
+                </div>
+            </div>
+            <div class="bm-readings-container" style="border-style: none;">
+                <div class="bm-readings-top-section">
+                    <p style="color:#c9ccc7;">Juice Drop screened with Silverlake Shorts on October 2, 2026.</p>
+                </div>
+                <div style="padding:0px">
+              <div class="captioned-image">
+                          <img src="/img/juice-drop-silverlake-shorts.jpg" style="margin: auto">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+    </div>
+
+    <div class="projects-container" style="justify-content: space-between; display: flex;">
+
+    <div class="animation" id="animations" style="margin: auto; flex-basis: 15%; background-color: #c9ccc7; flex-grow: 0; flex-shrink: 1;">
+        <div class="bm-act-holder" id="sponsor" style="outline: none;">
+            <div class="bm-readings-container" style="border-style: none;">
+                <div class="bm-readings-top-section">
+                    <p style="color:#c9ccc7;">SEWER ISSUE (TEASER) - A woman lives in a drain!</p>
+                </div>
+                <div style="padding:0px">
+                    <iframe src="https://www.youtube.com/embed/KBeJDeXiqVo?si=Hmuotw0HIF8SwKOt" style="width: 100%;aspect-ratio: 9/16;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="animation" id="animations" style="margin: auto; flex-basis: 15%; background-color: #c9ccc7; flex-grow: 0; flex-shrink: 1;">
+        <div class="bm-act-holder" id="sponsor" style="outline: none;">
+            <div class="bm-readings-container" style="border-style: none;">
+                <div class="bm-readings-top-section">
+                    <p style="color:#c9ccc7;">CHRISTMAS ROSE (TEASER) - A Yuletime love poem!</p>
+                </div>
+                <div style="padding:0px">
+                    <iframe src="https://www.youtube.com/embed/8Td5lqVqGP4" style="width: 100%;aspect-ratio: 9/16;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+      <div class="shop-page-section-1" id="land">
+    <div class="shopfront">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>SHOP</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Purchase animated shorts and original art.</p>
+      </div>
+        <div class="shop-regular" style="padding: 3%;">
+        <div class = "shop-flex-container" style="height: 720px; background-color: whitesmoke;">
+          {% for post in site.posts %}
+                {% if post.type != "blog" and post.sold-out != "True" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                      <p style="margin: auto;">
+                        ${{post.price}}0
+                      </p>
+                  </div>
+                  <!-- <button class="snipcart-add-item add-button"
+                  data-item-id="{{ post.id }}"
+                  data-item-url="{{ post.shoplink}}"
+                  data-item-price="{{ post.price | money }}"
+                  data-item-description= "{{ post.description }}"
+                  data-item-image="{{ post.cover-image }}"
+                  data-item-name="{{ post.shortname }}"
+                  data-item-custom1-name="{{ post.custom1-name }}"
+                  data-item-custom1-options="{{ post.custom1-options }}"
+                  data-item-max-quantity="{{ post.max-quantity }}">
+                  Add to cart
+                </button> -->
+                </div>
+                {% endif %}
+          {% endfor %}
+        </div>
+        </div>
+    </div>
+    </div>
+        <div class="shop-vertical-container">
+    {% include embed-souvenir-button.html %}
+      </div>
+
+    </div>
+<div class="shop-page-section-1" style="display: flex; flex-wrap: columns;">
+            <div class="misc">
+    <div class="shopfront">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p>FEATURED</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>Artwork of Sewer Issue</p>
+      </div>
+        <div class="shop-regular" style="padding: 3%;">
+        <div class = "shop-flex-container" style="height: 500px;">
+          {% for post in site.posts %}
+          {% if post.type == "background" or post.type == "prop" %}
+          {% if post.tags contains "sewer-issue" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                    {% if post.status == "sold" %}
+                      <p style="background-color: pink; margin: auto;">
+                        status: {{post.status}}
+                      </p>
+                    {% endif %}
+                  </div>
+                          </div>
+                {% endif %}
+          {% endif %}
+          {% endfor %}
+          <!--  if  site.posts.size | module: 2  != 0 
+          <div class="regular-holder-dummy">
+              <div class='regular-labeled-image'>
+                <img src="/img/dummy.png" />
+              </div>
+          </div>
+           endif  -->
+
+        </div>
+    </div>
+    </div>
+    </div>
+            <div class="buttons">
+            <a class="button" href="/catalog">
+                <p>ALL ART</p>
+            </a> 
+        </div>
+        </div>
+    </div>
+      <!-- <div class="page-section-2">
+        <div class="misc">
+        <div class="buttons">
+            <a class="button" href="/cg-projects#juice-drop">
+                <p>ALL</p>
+            </a> 
+        </div>
+    </div>
+    </div> -->
+</div>
+</div>
+
+{% include footer.html %}

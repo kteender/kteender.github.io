@@ -2,7 +2,6 @@
 title: "TD Portfolio"
 shortname: "3D Technical Director Portfolio"
 layout: portfolio
-id: "tow-angel"
 tags: 
 uri: "/td-portfolio.html"
 description:  "TD"
