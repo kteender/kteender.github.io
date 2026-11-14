@@ -15,4 +15,4 @@ Many of the shots in my reel were created using my own custom mocap pipeline. To
 
 ### <a href="https://ktcg.art/maya-node-getattr-setattr#land">Animation software plugin code breakdown</a>
 
-### <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn Profile/a>
+### <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn Profile</a>
