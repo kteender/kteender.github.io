@@ -11,10 +11,10 @@ sitemap: false
 Many of the shots in my reel were created using my own custom mocap pipeline. To learn more about my TD capabilities, check out the two blog posts below the reel.
 ### <a href="https://ktcg.art/cg-projects#reels">Reel and reel breakdown</a>
 
-### <a href="https://ktcg.art/juice-drop-breakdown#land">Writeup of a custom 2.5D mocap pipeline</a>
+### <a href="https://ktcg.art/juice-drop-breakdown#land">Writeup of a custom 2.5D mocap pipeline using Rokoko (motion capture), Maya (3D software), Premiere Pro (non-linear editing), and hand-drawing</a>
 
-### <a href="https://ktcg.art/creating-solid-outlines-in-blender#land">Writeup of a Blender (3D software) technique to create toon style</a>
+### <a href="https://ktcg.art/creating-solid-outlines-in-blender#land">Writeup of a technique to create toon style in Blender (3D software)</a>
 
-### <a href="https://ktcg.art/maya-node-getattr-setattr#land">Maya (3D software) plugin code breakdown</a>
+### <a href="https://ktcg.art/maya-node-getattr-setattr#land">Step-by-setp plugin code breakdown for Maya (3D software)</a>
 
 ### <a href="https://www.linkedin.com/in/katie-t-a5075a156/">LinkedIn profile</a>
