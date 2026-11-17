@@ -8,7 +8,7 @@ description:  "TD"
 permalink: /td-portfolio
 sitemap: false
 ---
-Many of the shots in my reel were created using my own custom mocap pipeline. To learn more about my TD capabilities, check out these blog posts.
+To learn more about my pipline development capabilities, check out these blog posts.
 
 ### <a href="https://ktcg.art/juice-drop-breakdown#land">Overview of a mocap-driven cartoon pipeline</a>
 
