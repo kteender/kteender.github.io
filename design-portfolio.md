@@ -16,6 +16,8 @@ Some of my capabilities as a designer
 
 ### <a href="https://ktcg.art/designs/fire_brochure/#land">Brochure design</a>
 
+### <a href="https://ktcg.art/cg-projects#ccus">Scientific animation</a>
+
 ### <a href="https://ktcg.art/custom-decal-design#land">Writeup of a commissioned decal design</a>
 
 ### <a href="https://ktcg.art/designs/short_film_posters/#land">Poster designs</a>
