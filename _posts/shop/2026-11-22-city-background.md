@@ -14,7 +14,7 @@ uri: "/shop/city-background.html"
 description:  "'A great old city!'"
 permalink: /shop/city-background/
 shoplink : /shop/city-background
-media: india ink on watercolor paper
+media: india ink, marker, and pen on watercolor paper
 price: 340.0
 max-quantity: 1
 dimensions: "22 inch x 22 inch"
