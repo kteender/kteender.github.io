@@ -1,6 +1,6 @@
 ---
 title: "KTCG.ART | Using Jekyll and GitHub Pages to create a Custom Website"
-shortname: "How I Made this Site"
+shortname: "Website Mockup and Backend"
 date: "2023-06-03"
 tags: 
   - "device"
@@ -32,7 +32,7 @@ I won't go into tutorial-level detail about how to do everything. The idea of th
 **Should I Do It?**: Building a site yourself (instead of using a drag-and-drop website builder like SquareSpace) is a pretty big project. It's not *super hard* but it is time-consuming, especially if you're new to web-development. I wouldn't recommend it unless you have good reasons. Here were mine, in order of importance:
 - My old setup was an Adobe Portfolio site and a Wordpress blog that linked back-and-forth to each other. It was clunky and not-visually unified. I needed to consolodate those two sites. Which brings me to my next reason...
 - I need my site to serve as both a blog and portfolio. Drag-and-drop builders tend not to have very elegant ways to display both blog-post content (usually a feed) and project-based content (usually a grid).
-- I felt a custom site with a unique look is nice to have for somebody who is going for a "creative-coder" niche (like myself). I certainly don't think the site will get me any jobs on its own, but in my opininon the site itself contributes to my portfolio.
+- I felt a custom site with a unique look is nice to have for somebody who is going for a "creative-coder" niche (like myself). 
 - I was sick of paying for my Adobe Creative Cloud account just to keep Adobe Portfolio
 - I was sick of paying Wordpress to keep 'Doctors Swear By This One Weird Trick' ads off my blog. 
 
@@ -148,7 +148,6 @@ As you know, when you commit as push changes, GitHub will try to use Jekyll to b
 DNS changes can take up to a day to propograte. 
 
 **Wrap-Up**: That's it! There's always improvements I could make to the site. At the time of this post, I still need to get Google Analytics set up, some of my images take a long time to load, I'm not in love with how the text gets cut off on the post previews, etc. But I'm calling it shippable! 
-
  
 
 

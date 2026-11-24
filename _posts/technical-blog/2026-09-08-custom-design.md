@@ -14,6 +14,7 @@ description: Custom decal design
 permalink: custom-decal-design
 show-message: F
 message: Indigo is the corporeal form!!
+price: 7.0
 ---
 I recently completed a design for a custom vehicle decal. I wrote this post to give an overview of my design process.
 

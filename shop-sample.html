@@ -1,0 +1,83 @@
+---
+title: Work Samples
+description: work samples
+permalink: shop-sample
+layout: null
+---
+{% include header.html %}
+
+<div class="bm-background" style="background-color: white;">
+    
+  <div class="bm-page-content" style="padding-top: 2%;">
+
+
+      <div class="shop-page-section-1" id="shop">
+    <div class="shopfront">
+    <div class="section">
+      <div class="section-left"></div>
+      <div class="section-middle">
+          <p style="font-family: 'Archivo Black', Arial, sans-serif;">Work Sample Shop</p>
+      </div>
+      <div class="section-right">
+      </div>
+    </div>
+    <div class="shop-container">
+      <div  style="padding: 1%; padding-top: 1%; font-size: 1.1em;">
+      <p>This page contains a simple ecommerce setup. I write all the HTML/CSS for my website myself. It is a static site generated using Jekyll. For logic, I use Shopify's Liquid template language. For ecommerce, I use a plugin called Snipcart. I have used this solution in "real life" to sell my artwork. The entire site (hosting and ecommerce integration) costs me $20 per month plus the yearly domain renewal.<br><br>In this example for your recruitment team, each item is a work sample.</p>
+      </div>
+        <div class="shop-regular" style="padding: 3%;">
+        <div class = "shop-flex-container" style="height: 720px; background-color: whitesmoke;">
+          {% for post in site.posts %}
+                {% if post.tags contains "recruit" %}
+                <div class="shop-regular-holder">
+                  <a href="{{ post.permalink }}#land">
+                    <div class='shop-regular-labeled-image'>
+                      <img alt="square screenshot for blog post" src="{{ post.cover-image }}" />
+                    </div>
+                  </a>
+                  <div class="product-name">
+                    <p style="margin: auto;">
+                      {{post.shortname}}
+                    </p>
+                  </div>
+                  <div class="product-name">
+                      <p style="margin: auto;">
+                        ${{post.price}}0
+                      </p>
+                  </div>
+                  <button class="snipcart-add-item add-button"
+                  data-item-id="{{ post.id }}"
+                  data-item-url="{{ post.shoplink}}"
+                  data-item-price="{{ post.price | money }}"
+                  data-item-description= "{{ post.description }}"
+                  data-item-image="{{ post.cover-image }}"
+                  data-item-name="{{ post.shortname }}"
+                  data-item-custom1-name="{{ post.custom1-name }}"
+                  data-item-custom1-options="{{ post.custom1-options }}"
+                  data-item-max-quantity="{{ post.max-quantity }}">
+                  Add to cart
+                </button>
+                </div>
+                {% endif %}
+          {% endfor %}
+        </div>
+        <button class="snipcart-checkout view-cart-button" style="font-size: 1.2em; margin: 4%;">View Cart</button>
+        </div>
+    </div>
+    </div>
+
+    </div>
+      <!-- <div class="page-section-2">
+        <div class="misc">
+        <div class="buttons">
+            <a class="button" href="/cg-projects#juice-drop">
+                <p>ALL</p>
+            </a> 
+        </div>
+    </div>
+    </div> -->
+</div>
+</div>
+
+{% include footer-basic.html %}
+
