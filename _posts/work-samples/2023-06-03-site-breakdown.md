@@ -24,7 +24,7 @@ sold-out: "False"
 sitemap: false
 ---
 
-<em>**Update October 2026**: I wrote this post in June 2023. In the three years since, the content hosted at my domain has changed dramatically as my professional work evolved! The underlying structure remains the same. I am so glad I invested the time in setting up a flexible custom site early in my career.</em>
+<em>**Update October 2026**: I wrote this post in June 2023. In the three years since, the content hosted at my domain has changed as my professional work evolved! The underlying structure remains the same.</em>
 
 <!--break-->
 
@@ -34,15 +34,14 @@ The idea of this post is to give someone new to web-development a holistic pictu
 - My old setup was an Adobe Portfolio site and a Wordpress blog that linked back-and-forth to each other. It was clunky and not-visually unified. I needed to consolodate those two sites. Which brings me to my next reason...
 - I need my site to serve as both a blog and portfolio. Drag-and-drop builders tend not to have very elegant ways to display both blog-post content (usually a feed) and project-based content (usually a grid).
 - I felt a custom site with a unique look is nice to have for somebody who is going for a "creative-coder" niche (like myself). 
-- I was sick of paying for my Adobe Creative Cloud account just to keep Adobe Portfolio
-- I was sick of paying Wordpress to keep 'Doctors Swear By This One Weird Trick' ads off my blog. 
+- I did not want to have to pay Adobe and Wordpress to generate my site.
 
 <div class="captioned-image">
     <img src='\img\2023-06-03-site-breakdown\\converted_files\old-sites_converted.jpeg' style="max-width:100%;">
     <p>My old sites side-by-side. As you can see, it's clunky.</p>
 </div>
 
-**Time-Frame**: The project took me five months, from buying the domain name to having a site that I felt comfortable showing off. During these 5 months, I worked on it for ~10 hours a week. I had barely touched HTML and CSS before starting this project, which definately contributed to the time commitment. 
+**Time-Frame**: The project took me five months in my free time, from buying the domain name to having a site that I felt comfortable showing off. My HTML and CSS skills improved!
 
 I already knew Git, which you need for this process. So, keep in mind that if you've never used it, it'll slow you down initially. That said, the way to learn Git is to just go use it on a project. I think this would've be a great project to learn Git on.
 
