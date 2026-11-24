@@ -1,6 +1,6 @@
 ---
 title: "KTCG.ART | Using Jekyll and GitHub Pages to create a Custom Website"
-shortname: "Website Mockup and Backend"
+shortname: "Website Build"
 date: "2023-06-03"
 tags: 
   - "recruit"
