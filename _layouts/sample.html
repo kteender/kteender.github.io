@@ -1,0 +1,89 @@
+{% include header.html %}
+
+<div class="content-holder" style="margin-top: 0px;">
+    <div class="content" style="background-color: transparent; padding: 1%; margin: auto; border: 0px; padding-bottom: 0px;" id="land">
+        {% if page.show-message == "T" %}
+        <div class="post-header">
+            <div class="post-title">
+            </div>
+            {% if page.message-r == "T" %}
+                <a href="/about#riddle" style="text-decoration-color: black; text-decoration-style: double;">
+                    <div class="banner">
+                        <p>{{ page.message }}</p>
+                    </div>
+                </a>
+            {% else %}
+                <a href="/sideshow#land" style="text-decoration-color: black; text-decoration-style: double;">
+                    <div class="banner">
+                        <p>{{ page.message }}</p>
+                    </div>
+                </a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+
+        <div class="content">
+            <!-- <div class="content"> -->
+                <h1 style="font-family: 'Archivo Black', Arial, sans-serif;">{{ page.shortname }}</h1>
+                {% if page.sold-out != "True" %}
+                    <h2 style="text-align: left;">${{ page.price }}0</h2>
+                {% else %}
+                    <h2 style="text-align: left;">{{ page.status }}</h2>
+                {% endif %}
+                <h3>{{ page.media }}</h3>
+                <h3>{{ page.dimensions }}</h3>
+                <p>{{ page.content }}</p>
+                {% assign images = page.listing-images | split:"," %}
+                {% if images.size > 0 %}
+                <p>On mobile, scroll right for images.</p>
+                <div class="listing-image-container">
+                    {% for member in images %}
+                        {% assign filename = page.listing-dir  | append: member %}
+                        <div class="listing-image-holder">
+                        <img alt="square screenshot for blog post" src="{{ filename }}"/>
+                        </div>
+
+                    {% endfor %}
+                                </div>
+                {% endif %}
+
+
+                {% if page.type == "background" or page.type == "prop"%}
+                <p>Backgrounds and props are hand-drawn as part of an animation production pipeline.</p>
+                {% endif %}
+                 {% if page.sold-out == "False" %}
+                <div style="font-size: 1em; display: flex; justify-content: space-around;">
+                  <button class="snipcart-add-item add-button" style="font-size: 1.2em;"
+                  data-item-id="{{ page.id }}"
+                  data-item-url="{{ page.shoplink}}"
+                  data-item-price="{{ page.price }}"
+                  data-item-description= "{{ page.description }}"
+                  data-item-image="{{ page.cover-image }}"
+                  data-item-name="{{ page.shortname }}"
+                  data-item-custom1-name="{{ page.custom1-name }}"
+                  data-item-custom1-options="{{ page.custom1-options }}"
+                  data-item-max-quantity="{{ page.max-quantity }}">
+                  Add to cart
+                </button>
+                <button class="snipcart-checkout view-cart-button" style="font-size: 1.2em;"">View Cart</button>
+                </div>
+                {% endif %}
+                </div>
+            <!-- </div> -->
+
+        </div>
+  <div class="page-section-2">
+        <div class="misc">
+      <div class="buttons">
+        <div class="about">
+          <a class="button" href="/worksamples01" style="font-family: 'Archivo Black', Arial, sans-serif; font-size: 1.2em;">
+            <p>BACK TO SHOP</p>
+          </a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer-basic.html %}
