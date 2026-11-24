@@ -24,7 +24,7 @@ status: available
 sold-out: "False"
 sitemap: false
 ---
-In this post, I will provide a general overview of my animation pipeline. This post uses production materials from <a href="cg-projects#juice-drop">*Juice Drop*</a>, a music video I recently animated. I used this same pipeline on <a href="cg-projects#sewer-issue">*Sewer Issue*</a>, my short last year. Watch the below video to see how I put together the opening 10 seconds of *Juice Drop*, and read the post for additional information!
+In this post, I will provide a general overview of my animation pipeline. This post uses production materials from <a href="cg-projects#juice-drop">*Juice Drop*</a>, a music video I recently animated. Watch the below video to see how I put together the opening 10 seconds of *Juice Drop*, and read the post for additional information!
 
 <!--break-->
 

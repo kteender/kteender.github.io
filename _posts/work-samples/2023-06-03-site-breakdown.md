@@ -24,11 +24,11 @@ sold-out: "False"
 sitemap: false
 ---
 
-This is the first post I've made since I moved my portfolio and blog over to ktcg.art, so I thought it would be fun to make a post about that entire process. It's a litte outside the tech art scope of my site. But, I can imagine other artist-developers being curious about how they can make a site like this themselves. This site is hosted on GitHub pages and built by Jekyll.
+<em>**Update October 2026**: I wrote this post in June 2023. In the three years since, the content hosted at my domain has changed dramatically as my professional work evolved! The underlying structure remains the same. I am so glad I invested the time in setting up a flexible custom site early in my career.</em>
 
 <!--break-->
 
-I won't go into tutorial-level detail about how to do everything. The idea of this post is to give someone new to web-development a holistic picture of how they could put a site like mine together. 
+The idea of this post is to give someone new to web-development a holistic picture of how they could put a site like mine together. 
 
 **Should I Do It?**: Building a site yourself (instead of using a drag-and-drop website builder like SquareSpace) is a pretty big project. It's not *super hard* but it is time-consuming, especially if you're new to web-development. I wouldn't recommend it unless you have good reasons. Here were mine, in order of importance:
 - My old setup was an Adobe Portfolio site and a Wordpress blog that linked back-and-forth to each other. It was clunky and not-visually unified. I needed to consolodate those two sites. Which brings me to my next reason...
@@ -50,7 +50,6 @@ I already knew Git, which you need for this process. So, keep in mind that if yo
 
 <div class="captioned-image">
     <img src='\img\2023-06-03-site-breakdown\\converted_files\repo_converted.jpeg' style="max-width:100%;">
-    <p>I know </p>
 </div>
 
 One you have your domain name, forget about it until the end of the post. You can wait to do this step until the very end, but it's the most fun one, so do it first! Plus, once you have the domain name, it incentivizes you to actually make the site. 
