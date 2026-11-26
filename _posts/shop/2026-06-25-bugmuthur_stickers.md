@@ -23,4 +23,4 @@ custom1-options: "Monologue Gloss|Christmas Clear|Face|Icon Clear|Quartet (get-t
 status: in stock
 sitemap: false
 ---
-Clear means printed on transparent plastic. Matte or gloss means there will be paper visible around the edges of the design. Multiple designs available -- you will be able to select the design in the cart. Hit 'Add to Cart' then select from the dropdown.
+Clear means printed on transparent plastic. Matte or gloss means there will be paper visible around the edges of the design. Mix and match available with any stickers in the shop! Buy two get one free. Just let me know the ones you want.
