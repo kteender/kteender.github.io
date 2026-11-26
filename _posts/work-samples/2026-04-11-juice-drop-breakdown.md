@@ -10,7 +10,7 @@ tags:
 cover-image: "/assets/samples/mocap-pipeline/cover-image.jpg"
 cover-big: "/img/2026-04-11-juice-drop-breakdown/cover-big.jpg"
 show-date: T
-type: blog
+type: sample
 featured: F
 uri: "/2025/04/11/juice-drop-breakdown-sample.html"
 description: Pipeline breakdown for an animated music video

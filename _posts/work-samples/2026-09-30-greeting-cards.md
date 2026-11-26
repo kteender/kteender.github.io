@@ -6,7 +6,7 @@ id: "greeting-cards"
 tags: 
   - "recruit"
 cover-image: "/assets/shop/strange_pills_greeting_cards/cover_image.jpg"
-type: merch
+type: sample
 sold-out: "False"
 uri: "/samples/strange-pills-cards.html"
 description:  "A three pack of greeting cards"
