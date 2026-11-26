@@ -123,7 +123,7 @@ layout: null
         <div class="shop-regular" style="padding: 3%;">
         <div class = "shop-flex-container" style="height: 720px; background-color: whitesmoke;">
           {% for post in site.posts %}
-                {% if post.type != "blog" and post.sold-out != "True" %}
+                {% if post.type != "blog" and post.type != "sample" and post.sold-out != "True" %}
                 <div class="shop-regular-holder">
                   <a href="{{ post.permalink }}#land">
                     <div class='shop-regular-labeled-image'>
