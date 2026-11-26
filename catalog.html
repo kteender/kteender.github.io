@@ -98,6 +98,10 @@ layout: null
                       <p style="background-color: pink; margin: auto;">
                         status: {{post.status}}
                       </p>
+                    {% elsif post.status == "available" %}
+                      <p style="background-color: lightgreen; margin: auto;">
+                        status: {{post.status}}
+                      </p>
                     {% endif %}
                   </div>
                           </div>
